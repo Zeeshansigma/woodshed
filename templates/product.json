@@ -1,1 +1,245 @@
-{"sections":{"breadcrumbs":{"type":"product__breadcrumb","disabled":true,"settings":{"width":"standard","padding_top":20,"padding_bottom":20,"css_class":"","custom_css":""}},"main":{"type":"product__main","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{"display_savings":true}},"form":{"type":"form","settings":{"show_payment_button":true,"show_gift_card_recipient_form":false}},"description":{"type":"description","settings":{}},"c98d9bc6-521f-48b0-8cbd-4d0e23b522ba":{"type":"text","settings":{"text":"<p>‎ <\/p>"}},"d2469888-07dc-4f53-aa56-ffc70988097e":{"type":"text","settings":{"text":"<p><\/p><p><strong>SEE MORE FROM<\/strong><\/p>"}},"0695501d-251b-4404-b384-614e1022d2d0":{"type":"vendor","settings":{}},"299700ca-3c69-47ea-9675-9c222c83cd05":{"type":"share","settings":{}}},"block_order":["title","price","form","description","c98d9bc6-521f-48b0-8cbd-4d0e23b522ba","d2469888-07dc-4f53-aa56-ffc70988097e","0695501d-251b-4404-b384-614e1022d2d0","299700ca-3c69-47ea-9675-9c222c83cd05"],"settings":{"product_images_position":"left","set_product_height":false,"product_height":500,"video_looping":false,"gallery_arrows":true,"enable_zoom":false,"enable_product_lightbox":false,"slideshow_speed":0,"slideshow_transition":"slide","display_thumbnails":true,"thumbnail_position":"bottom-thumbnails","enable_thumbnail_slider":true,"width":"standard","padding_top":20,"padding_bottom":20,"animation":"none","css_class":"","custom_css":""}},"9f6a6000-1a4d-489b-a459-c040e8ee42b4":{"type":"index__rich-text","settings":{"title":"FREE HOLIDAY SHIPPING","heading_font":"open_sans_n4","heading_alignment":"center","heading_size":30,"text":"<p><strong>ON U.S. ORDERS OF $65+ UNTIL 11:59 PM E.T., DECEMBER 18, 2023.<\/strong><\/p>","text_font":"open_sans_n4","text_alignment":"center","text_size":17,"columns":1,"button_label":"","button_link":"","button_style":"button--primary","button_alignment":"center","heading_color":"#ffffff","text_color":"#ffffff","background":"#1f989e","gradient":"rgba(0,0,0,0)","gradient_rotation":180,"width":"wide","padding_top":0,"padding_bottom":0,"padding_left":0,"padding_right":0,"animation":"none","mobile_title":"","mobile_text":"","mobile_alignment":"none","padding_top_mobile":20,"padding_bottom_mobile":0,"css_class":"","custom_css":""}},"524d66ac-2873-451d-b663-f590fa843328":{"type":"index__rich-text","settings":{"title":"WHEN YOU SHOP, GOOD THINGS HAPPEN","heading_font":"raleway_n7","heading_alignment":"center","heading_size":28,"text":"","text_font":"open_sans_n4","text_alignment":"left","text_size":14,"columns":2,"button_label":"","button_link":"","button_style":"button--primary","button_alignment":"center","heading_color":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","background":"#ffffff","gradient":"#ffffff","gradient_rotation":180,"width":"wide","padding_top":0,"padding_bottom":0,"padding_left":0,"padding_right":0,"animation":"none","mobile_title":"","mobile_text":"","mobile_alignment":"none","padding_top_mobile":20,"padding_bottom_mobile":0,"css_class":"","custom_css":""}},"66050ff4-ea1f-4774-981d-1c95ed9acf8c":{"type":"index__when-you-shop","blocks":{"template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/makers.png","section_heading":"You support<br>our makers","icon":"shopify:\/\/shop_images\/Hammers.svg","section_body":"And help keep Appalachian crafts alive."}},"template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/writers.png","section_heading":"You Support<br>Our Writers","icon":"shopify:\/\/shop_images\/Quill.svg","section_body":"So we can all enjoy their powerful stories."}},"template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/pexels-photo-12797726_1_1.png","section_heading":"You<br>save trees","icon":"shopify:\/\/shop_images\/Layer_1.svg","section_body":"Because we ship products in gently reused boxes."}}},"block_order":["template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1","template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2","template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3"],"settings":{"section-heading":""}},"recommendations":{"type":"product__recommendations","settings":{"show_product_recommendations":true,"product_recommendations_style":"slider","product_recommendations_heading":"OH, THESE ARE REAL NICE","products_per":4,"recommended_products_limit":10,"align_height":true,"collection_height":290,"width":"wide","padding_top":20,"padding_bottom":20,"animation":"none","padding_top_mobile":20,"padding_bottom_mobile":20,"css_class":"","custom_css":""}}},"order":["breadcrumbs","main","9f6a6000-1a4d-489b-a459-c040e8ee42b4","524d66ac-2873-451d-b663-f590fa843328","66050ff4-ea1f-4774-981d-1c95ed9acf8c","recommendations"]}
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "product__breadcrumb",
+      "disabled": true,
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "product__main",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "c98d9bc6-521f-48b0-8cbd-4d0e23b522ba": {
+          "type": "text",
+          "settings": {
+            "text": "<p>‎ <\/p>"
+          }
+        },
+        "d2469888-07dc-4f53-aa56-ffc70988097e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p><strong>SEE MORE FROM<\/strong><\/p>"
+          }
+        },
+        "0695501d-251b-4404-b384-614e1022d2d0": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "299700ca-3c69-47ea-9675-9c222c83cd05": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "form",
+        "description",
+        "c98d9bc6-521f-48b0-8cbd-4d0e23b522ba",
+        "d2469888-07dc-4f53-aa56-ffc70988097e",
+        "0695501d-251b-4404-b384-614e1022d2d0",
+        "299700ca-3c69-47ea-9675-9c222c83cd05"
+      ],
+      "settings": {
+        "product_images_position": "left",
+        "set_product_height": false,
+        "product_height": 500,
+        "video_looping": false,
+        "gallery_arrows": true,
+        "enable_zoom": false,
+        "enable_product_lightbox": false,
+        "slideshow_speed": 0,
+        "slideshow_transition": "slide",
+        "display_thumbnails": true,
+        "thumbnail_position": "bottom-thumbnails",
+        "enable_thumbnail_slider": true,
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "9f6a6000-1a4d-489b-a459-c040e8ee42b4": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "FREE HOLIDAY SHIPPING",
+        "heading_font": "open_sans_n4",
+        "heading_alignment": "center",
+        "heading_size": 30,
+        "text": "<p><strong>ON U.S. ORDERS OF $65+ UNTIL 11:59 PM E.T., DECEMBER 18, 2023.<\/strong><\/p>",
+        "text_font": "open_sans_n4",
+        "text_alignment": "center",
+        "text_size": 17,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "button--primary",
+        "button_alignment": "center",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "background": "#1f989e",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "mobile_title": "",
+        "mobile_text": "",
+        "mobile_alignment": "none",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "524d66ac-2873-451d-b663-f590fa843328": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "WHEN YOU SHOP, GOOD THINGS HAPPEN",
+        "heading_font": "raleway_n7",
+        "heading_alignment": "center",
+        "heading_size": 28,
+        "text": "",
+        "text_font": "open_sans_n4",
+        "text_alignment": "left",
+        "text_size": 14,
+        "columns": 2,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "button--primary",
+        "button_alignment": "center",
+        "heading_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "#ffffff",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "mobile_title": "",
+        "mobile_text": "",
+        "mobile_alignment": "none",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "66050ff4-ea1f-4774-981d-1c95ed9acf8c": {
+      "type": "index__when-you-shop",
+      "blocks": {
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/makers.png",
+            "section_heading": "You support<br>our makers",
+            "icon": "shopify:\/\/shop_images\/Hammers.svg",
+            "section_body": "And help keep Appalachian crafts alive."
+          }
+        },
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/writers.png",
+            "section_heading": "You Support<br>Our Writers",
+            "icon": "shopify:\/\/shop_images\/Quill.svg",
+            "section_body": "So we can all enjoy their powerful stories."
+          }
+        },
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-photo-12797726_1_1.png",
+            "section_heading": "You<br>save trees",
+            "icon": "shopify:\/\/shop_images\/Layer_1.svg",
+            "section_body": "Because we ship products in gently reused boxes."
+          }
+        }
+      },
+      "block_order": [
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1",
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2",
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3"
+      ],
+      "settings": {
+        "section-heading": ""
+      }
+    },
+    "recommendations": {
+      "type": "product__recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "OH, THESE ARE REAL NICE",
+        "products_per": 4,
+        "recommended_products_limit": 10,
+        "align_height": true,
+        "collection_height": 290,
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "8af241ac-11a3-48e6-9ee9-c8ea8157cfdb": {
+      "type": "visit-custom",
+      "settings": {
+        "title_main": "YOU'RE GOING TO LOVE ROANOKE, VA.",
+        "main_bg_visit": "shopify:\/\/shop_images\/Group_33827.png",
+        "main-rich-text": "<p>Our award-winning shop is a great starting point for your visit. It has all the products from our website plus hundreds more, including many from craftspeople in the Roanoke Valley.<br\/><br\/>We're inside a market called <strong>Crafteria at 16 Church Ave, SW Roanoke, VA, 24011.<br\/><br\/><\/strong>In this midcentury building — which was originally a cafeteria — you'll also find Little Green Hive Coffee and Tea, Vintage Vault Records and Pop Collectibles, and Roanoke's only Puerto Rican eatery Delicias Boricuas. And that's just the start. Here's are some of our favorite places around our charming hometown.<\/p>",
+        "main_visit": "shopify:\/\/shop_images\/Downtoqwn_Roanoke_2048x2048_2.png"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "9f6a6000-1a4d-489b-a459-c040e8ee42b4",
+    "524d66ac-2873-451d-b663-f590fa843328",
+    "66050ff4-ea1f-4774-981d-1c95ed9acf8c",
+    "recommendations",
+    "8af241ac-11a3-48e6-9ee9-c8ea8157cfdb"
+  ]
+}
