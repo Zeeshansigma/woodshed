@@ -1,0 +1,123 @@
+{% if related_products == true %}
+  {% assign hover_enabled = block.settings.show_related_products_title_on_hover %}
+{% else %}
+  {% assign hover_enabled = settings.thumbnail_hover_enabled %}
+{% endif %}
+
+{% if type == 'block' %}
+  {% assign object = block %}
+{% else %}
+  {% assign object = section %}
+{% endif %}
+
+{% assign secondaryImage = product.media[1] %}
+
+{% assign collection_handles = product.collections | map: 'handle' %}
+{% if product.featured_media.preview_image.alt contains 'youtube' or image.alt contains 'vimeo' %}
+  {% assign alt_text = product.title %}
+{% else %}
+  {% assign alt_text = product.featured_media.preview_image.alt %}
+{% endif %}
+
+{% if type == 'block' %}
+  {% assign image_crop = block.settings.image_crop %}
+{% else %}
+  {% assign image_crop = section.settings.image_crop %}
+{% endif %}
+
+{% if align_height == true %}
+  {% style %}
+    .shopify-model-viewer-ui model-viewer {
+      --progress-bar-height: 2px;
+      --progress-bar-color: {{ settings.regular_color }};
+    }
+  {% endstyle %}
+{% endif %}
+
+<div
+  class="
+    {%
+      render 'column-width',
+      value: products_per_row
+    %}
+    medium-down--one-half
+    {% if mobile_products_per_row == '1' %}
+      small-down--one-whole
+    {% else %}
+      small-down--one-half
+    {% endif %}
+    column
+    {% if settings.enable_quickshop %}
+      quick-shop--true
+      quick-shop--closed
+      product-{{ product.id }} js-product_section
+    {% endif %}
+    {% if settings.stickers_enabled %}
+      has-thumbnail-sticker
+    {% endif %}
+    {% if product.media[1] != blank and settings.show_secondary_image == true %}
+      has-secondary-image-swap
+    {% endif %}
+    thumbnail
+    product__thumbnail
+    product__grid-item
+    thumbnail__hover-overlay--{{ hover_enabled }}
+    has-padding-bottom
+  "
+  {% if section.settings.pagination_type != 'basic_pagination' %}
+    data-load-more--grid-item
+  {% endif %}
+>
+  <div class="product-wrap">
+    <div>
+      <a class="image_wrap" href="{{ product.url | within: collection }}">
+        <div class="product-image__wrapper">
+          <img alt="{{ alt_text | escape }}" src="{{ product.featured_media.preview_image | img_url: '500x' }}">
+          {% if hover_enabled or settings.enable_quickshop %}
+            <div class="thumbnail-overlay__container">
+              <a class="hidden-product-link" href="{{ product.url | within: collection }}">
+                {{- product.title | escape -}}
+              </a>
+
+              {% if settings.enable_quickshop %}
+                {%
+                  render 'product-thumbnail__quick-shop-button',
+                  product: product,
+                %}
+              {% endif %}
+             
+            </div>
+          {% endif %}
+        </div>
+      </a> 
+      <div class="card-text">
+        <a href="{{ product.url | within: collection }}"><h5>{{ product.title }}</h5></a>
+        
+        <span class="product-thumbnail__price price {% if product.compare_at_price_max > product.price %}sale{% endif %}">
+          {% if product.price_varies and product.price_min > 0 %}
+            <small>
+              <em>{{ 'products.general.from' | t }}</em>
+            </small>
+          {% endif %}
+          {% if product.price_min > 0 %}
+            <span class="money">
+              {% render 'price-element', price: product.price_min %}
+            </span>
+          {% else %}
+            {{ settings.free_price_text }}
+          {% endif %}
+          {% if product.compare_at_price > product.price %}
+            <span class="product-thumbnail__was-price compare-at-price">
+              <span class="money">
+                {%
+                  render 'price-element',
+                  price: product.compare_at_price,
+                %}
+              </span>
+            </span>
+          {% endif %}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

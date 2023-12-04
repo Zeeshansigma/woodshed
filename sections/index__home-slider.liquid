@@ -1,0 +1,118 @@
+{% comment %}
+  ** Home Slider **
+{% endcomment %}
+
+{% stylesheet %}
+  @media (max-width: 1360px) and (min-width: 641px) {
+  }
+
+  @media (max-width: 640px) {
+  }
+{% endstylesheet %}
+
+<section class="section is-width-wide home_slider_section">
+  <div class="home_slider_container">
+    <div class="swiper_home_slider">
+      <div class="swiper-wrapper">
+        {%- for block in section.blocks -%}
+          <div class="swiper-slide">
+            <div class="home_slide">
+              <div class="left_text">
+                <div class="text_inner">
+                  <h4>{{ block.settings.slide_titlet }}</h4>
+                  <h1>{{ block.settings.slide_titlem }}</h1>
+                  <p>{{ block.settings.slide_text }}</p>
+                  <a href="{{ block.settings.slide_btn_url }}">{{ block.settings.slide_btn_text }}</a>
+                </div>
+              </div>
+              <div class="right_image">
+                <img
+                  src="{{  block.settings.slide_img | image_url: width: 533}}"
+                  alt="{{ block.settings.slide_titlem }} image"
+                >
+              </div>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+      <div class="swiper_buttons">
+        <div class="home_slider_prev">
+          <img src="{{ 'icon-left.svg' | asset_url }}">
+        </div>
+        <div class="home_slider_next">
+          <img src="{{ 'icon-right.svg' | asset_url }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Home Slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "Slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Slide Image",
+          "id": "slide_img"
+        },
+        {
+          "type": "text",
+          "label": "Title Top",
+          "id": "slide_titlet"
+        },
+        {
+          "type": "text",
+          "label": "Title Main",
+          "id": "slide_titlem"
+        },
+        {
+          "type": "text",
+          "label": "Description",
+          "id": "slide_text"
+        },
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "slide_btn_text"
+        },
+        {
+          "type": "url",
+          "label": "Button URL",
+          "id": "slide_btn_url"
+        }
+      ]
+    } 
+  ],
+  "presets": [
+    {
+      "name": "Home Slider",
+      "category": "Image"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["*"]
+  }
+}
+{% endschema %}
+
+{% javascript %}
+
+  const swiperHome = new Swiper('.swiper_home_slider', {
+    direction: 'horizontal',
+    loop: false,
+    freeMode: false,
+    spaceBetween: 60,
+    slidesPerView: 1,
+    navigation: {
+      nextEl: '.home_slider_next',
+      prevEl: '.home_slider_prev',
+      disabledClass: 'swiper-button-disabled',
+    }
+  });
+{% endjavascript %}

@@ -1,0 +1,217 @@
+{% comment %}
+** Press **
+{% endcomment %}
+
+{% liquid
+  assign id = section.id
+
+ 
+
+%}
+
+
+{% style %}
+  #shopify-section-{{ id }} {
+   
+
+  }
+
+  .page_header_custom{
+    overflow: hidden;
+    width: 100%;
+    min-height: 250px;
+    background: url('{{ 'pagebgsecond.webp' | asset_url }}');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 5px solid #C1A058;
+    position: relative;
+  }
+  .page_header_custom h1{
+    color: white;
+    font-size: 3.2rem;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  .page_header_custom h2{
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .desktext{
+    display: block;
+  }
+
+  .mobtext{
+    display: none;
+  }
+  .page_header_custom .left1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 372px;
+  }
+  .page_header_custom .left2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 225px;
+  }
+
+  .page_header_custom .right1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: 100%;
+    z-index: 1;
+  }
+  .page_header_custom .right2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+  }
+   @media only screen and (min-width: 799px) and (max-width: 1170px) {
+     .page_header_custom h1{
+        font-size: 2.2rem;
+      }
+      .page_header_custom h2{
+        font-size: 1rem;
+      }
+     .page_header_custom{
+        min-height: 200px;
+     }
+     .page_header_custom .left1{
+        width: 310px;
+      }
+      .page_header_custom .left2{
+        width: 180px;
+      }
+    
+      .page_header_custom .right2{
+        width: 360px;
+      }
+   }
+  
+  @media only screen and (max-width: 798px) {
+    .page_header_custom{
+        border-top: 5px solid #C1A058;
+        min-height: 156px;
+        background: url('{{ 'backgm.webp' | asset_url }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+    .page_header_custom h1{
+        font-size: 2.2rem;
+    }
+    .page_header_custom h2{
+      font-size: 1rem;
+      width: 70%;
+    }
+
+    .desktext{
+      display: none;
+    }
+  
+    .mobtext{
+      display: block;
+    }
+
+    .page_header_custom .left1{
+      width: 105px;
+    }
+    .page_header_custom .left2{
+      width: 120px;
+    }
+
+    .page_header_custom .right1{
+      right: -20%;
+    }
+    .page_header_custom .right2{
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 490px){
+    .page_header_custom .left1{
+      width: 145px;
+    }
+    .page_header_custom .left2{
+      width: 120px;
+    }
+
+    .page_header_custom .right1{
+      right: -30%;
+    }
+    .page_header_custom .right2{
+      width: 230px;
+    }
+  }
+
+
+ 
+{% endstyle %}
+
+
+<section class="page_header_custom">
+  <img class="left1" src="{{ 'left1.svg' | asset_url }}" />
+  <img class="left2" src="{{ 'left2.svg' | asset_url }}" />
+  <img class="right1" src="{{ 'right1.svg' | asset_url }}" />
+  <img class="right2" src="{{ 'right2.svg' | asset_url }}" />
+   
+ <h1 {% if section.settings.page_header_mob != blank %} class="desktext" {% endif %}>{{ section.settings.page_header }}</h1>
+  <h1  class="mobtext">{{ section.settings.page_header_mob }}</h1>
+  {% if section.settings.page_second != blank %}
+    <h2>{{  section.settings.page_second }}</h2>
+  {% endif %}
+</section>
+
+{% comment %}JavaScript{% endcomment %}
+
+{% schema %}
+  {
+    "name": "Page Header",
+    "settings": [     
+      {
+        "type": "text",
+        "id": "page_header",
+        "label": "Page Heading"
+      },
+      {
+        "type": "text",
+        "id": "page_header_mob",
+        "label": "Page Heading Mobile",
+        "info": "If left blank, desktop text will show"
+      },
+      {
+        "type": "text",
+        "id": "page_second",
+        "label": "Page Text"
+      }
+    ],
+    
+    "presets": [{
+      "name": "Page Header",
+      "category": "Store information",
+      "settings": {}
+
+    }],
+    "disabled_on": {
+      "groups": [
+        "*"
+      ]
+    }
+  }
+{% endschema %}

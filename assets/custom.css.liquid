@@ -1,0 +1,164 @@
+/* Heading Fonts */ 
+{% if settings.heading__font_custom != blank %}
+  {%- liquid
+    assign heading_filename = settings.heading__font_custom | split: '.' | first
+    assign heading_format = settings.heading__font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ heading_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.heading__font_custom | file_url }}) format("{{ heading_format }}");
+    font-style: normal;
+  }
+
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "{{ heading_filename | capitalize | replace: '-', ' ' }}", {{ settings.heading__font.fallback_families }} !important;
+  }
+{% endif %}
+
+
+/* Body Font */
+{% if settings.regular__font_custom != blank %}
+  {%- liquid 
+    assign body_filename = settings.regular__font_custom | split: '.' | first
+    assign body_format = settings.regular__font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ body_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.regular__font_custom | file_url }}) format("{{ body_format }}");
+    font-style: normal;
+  }
+  body { 
+    font-family: "{{ body_filename | capitalize | replace: '-', ' ' }}", {{ settings.regular__font.fallback_families }} !important;
+  }
+{% endif %}
+
+/* Logo Font */
+{% if settings.logo__font_custom != blank %}
+  {%- liquid 
+    assign logo_filename = settings.logo__font_custom | split: '.' | first
+    assign logo_format = settings.logo__font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ logo_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.logo__font_custom | file_url }}) format("{{ logo_format }}");
+    font-style: normal;
+  }
+  .footer__block.block__logo .footer__heading, 
+  .header__logo-text,
+  .password-page .password-title,
+  .footer__block.block__logo .footer__heading  { 
+    font-family: "{{ logo_filename | capitalize | replace: '-', ' ' }}", {{ settings.logo__font.fallback_families }} !important;
+  }
+{% endif %}
+
+/* Nav Fonts */ 
+{% if settings.nav__font_custom != blank %}
+  {%- liquid 
+    assign nav_filename = settings.nav__font_custom | split: '.' | first
+    assign nav_format = settings.nav__font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ nav_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.nav__font_custom | file_url }}) format("{{ nav_format }}");
+    font-style: normal;
+  } 
+  .disclosure__toggle { 
+    font-family: "{{ nav_filename | capitalize | replace: '-', ' ' }}", {{ settings.nav__font.fallback_families }} !important;
+  }
+{% endif %}
+
+/* Nav Fonts */ 
+{% if settings.button__font_custom != blank %}
+  {%- liquid 
+    assign button_filename = settings.button__font_custom | split: '.' | first
+    assign button_format = settings.button__font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ button_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.button__font_custom | file_url }}) format("{{ button_format }}");
+  }
+  .button,.purchase-details .purchase-details__spb--true .shopify-payment-button .shopify-payment-button__button--unbranded {
+    font-family: "{{ nav_filename | capitalize | replace: '-', ' ' }}", {{ settings.nav__font.fallback_families }} !important;
+  }
+{% endif %}
+
+/* Preheadings */
+{% if settings.preheading_font_custom != blank %}
+  {%- liquid 
+    assign preheading_filename = settings.preheading_font_custom | split: '.' | first
+    assign preheading_format = settings.preheading_font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ preheading_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.preheading_font_custom | file_url }}) format("{{ preheading_format }}");
+    font-style: normal;
+  }
+  .heading-section__preheading { 
+    font-family: "{{ preheading_filename | capitalize | replace: '-', ' ' }}", {{ settings.preheading_font.fallback_families }} !important;
+  }
+{% endif %}
+
+/* Subheadings */
+{% if settings.subheading_font_custom != blank %}
+  {%- liquid 
+    assign subheading_filename = settings.subheading_font_custom | split: '.' | first
+    assign subheading_format = settings.subheading_font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ subheading_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.subheading.font_custom | file_url }}) format("{{ subheading_format }}");
+    font-style: normal;
+  }
+  .heading-section__subheading { 
+    font-family: "{{ subheading_filename | capitalize | replace: '-', ' ' }}", {{ settings.subheading_font.fallback_families }} !important;
+  }
+{% endif %}
+
+
+/* Banner Headings */ 
+{% if settings.banner_heading__font_custom != blank %}
+  {%- liquid 
+    assign banner_heading_filename = settings.banner_heading__font_custom | split: '.' | first
+    assign banner_heading_format = settings.banner_heading__font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ banner_heading_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.banner_heading__font_custom | file_url }}) format("{{ banner_heading_format }}");
+    font-style: normal;
+  }
+  .slideshow-classic__banner h2.title, 
+  .banner__heading { 
+    font-family: "{{ banner_heading_filename | capitalize | replace: '-', ' ' }}", {{ settings.banner_heading__font.fallback_families }} !important;
+    font-style: normal;
+  }
+{% endif %}
+
+/* Banner Text */ 
+{% if settings.banner_text__font_custom != blank %}
+  {%- liquid 
+    assign banner_text_filename = settings.banner_text__font_custom | split: '.' | first
+    assign banner_text_format = settings.banner_text__font_custom | split: '.' | last 
+  -%}
+  @font-face {
+    font-family: "{{ banner_text_filename | capitalize | replace: '-', ' ' }}";
+    src: url({{ settings.banner_text__font_custom | file_url }}) format("{{ banner_text_format }}");
+    font-style: normal;
+  }
+   
+  .banner__subheading,
+  .block__image-with-overlay .pretext,
+  .block__image-with-overlay .subtitle,
+  .image-with-text-overlay .pretext,
+  .image-with-text-overlay .subtitle,
+  .image-slideshow .pretext,
+  .image-slideshow .subtitle { 
+    font-family: "{{ banner_text_filename | capitalize | replace: '-', ' ' }}", {{ settings.banner_text__font.fallback_families }} !important;
+    font-style: normal;
+  }
+{% endif %}
+
+
+.studioengine .is-box .is-container,
+.studioeditor .is-box .is-container {
+   margin-top: 0px !important;
+}

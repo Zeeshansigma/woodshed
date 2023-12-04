@@ -1,0 +1,184 @@
+{% comment %}
+  ** Maker of the Month **
+{% endcomment %}
+
+
+ 
+<section class="section is-width-wide maker_section">
+  <div class="maker_heading text-align-center">
+    <h2>{{ section.settings.section_heading }}</h2>
+  </div>
+  <div class="maker_grid">
+    <div class="left_item">
+      <img
+        src="{{  section.settings.left_image | image_url: width: 800}}"
+        alt="{{ section.settings.section_heading }} image"
+        class="makerimg"
+      >
+      <h3>
+        {{ section.settings.maker_name }}
+      </h3>
+      <p>
+        {{ section.settings.maker_desc }}
+      </p>
+      <a href="{{ section.settings.maker_link_url }}">
+        {{- section.settings.maker_link_text }}
+        <img class="arrowimg" src="{{ 'icon-right.svg' | asset_url }}"
+      ></a>
+    </div>
+    <div class="right_item">
+      <div class="maker_products desk">
+        {%- for block in section.blocks -%}
+          <div class="maker_product">
+            <a href="{{block.settings.prod_url}}">
+              <img src="{{  block.settings.prod_img | image_url: width: 533}}">
+            </a>
+            <a href="{{block.settings.prod_url}}">
+              <h4>{{ block.settings.prod_title }}</h4>
+            </a>
+            <p>{{ block.settings.prod_price }}</p>
+          </div>
+        {%- endfor -%}
+      </div>
+      <div class="maker_products maker_slider recommended-new mob">
+        <div class="swiper-wrapper">
+          {%- for block in section.blocks -%}
+            <div class="swiper-slide ">
+              <div>
+                <a href="{{block.settings.prod_url}}">
+                  <img alt="{{ block.settings.prod_title }} image" src="{{  block.settings.prod_img | image_url: width: 533}}">
+                </a>
+                <div class="card-text">
+                  <h5>{{ block.settings.prod_title }}</h5>
+                  <span class="product-thumbnail__price price">
+                    <span class="money">{{ block.settings.prod_price }}</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+        <!-- scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Maker of the Month",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Section Heading",
+      "id": "section_heading"
+    },
+    {
+      "type": "image_picker",
+      "label": "Maker Image",
+      "id": "left_image"
+    },
+    {
+      "type": "text",
+      "label": "Maker Name",
+      "id": "maker_name"
+    },
+    {
+      "type": "text",
+      "label": "Maker Description",
+      "id": "maker_desc"
+    },
+    {
+      "type": "text",
+      "label": "Link Text",
+      "id": "maker_link_text"
+    },
+    {
+      "type": "url",
+      "label": "Button URL ",
+      "id": "maker_link_url"
+    }
+  ],
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "type": "Product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "prod_img"
+        },
+        {
+          "type": "text",
+          "label": "Title",
+          "id": "prod_title"
+        },
+
+        {
+          "type": "text",
+          "label": "Price",
+          "id": "prod_price"
+        },
+        {
+          "type": "url",
+          "label": "URL",
+          "id": "prod_url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Maker of the Month",
+      "category": "Image" 
+    }
+  ],
+  "disabled_on": {
+    "groups": ["*"]
+  }
+}
+{% endschema %}
+
+{% javascript %}
+  var $swiperSelector = $('.maker_slider');
+
+  $swiperSelector.each(function (index) {
+    var $this = $(this);
+    $this.addClass('swiper-slider-' + index);
+
+    var dragSize = $this.data('drag-size') ? $this.data('drag-size') : 200;
+    var freeMode = $this.data('free-mode') ? $this.data('free-mode') : false;
+    var loop = $this.data('loop') ? $this.data('loop') : false;
+    var slidesDesktop = $this.data('slides-desktop') ? $this.data('slides-desktop') : 4;
+    var slidesTablet = $this.data('slides-tablet') ? $this.data('slides-tablet') : 4;
+    var slidesMobile = $this.data('slides-mobile') ? $this.data('slides-mobile') : 1.5;
+    var spaceBetween = $this.data('space-between') ? $this.data('space-between') : 15;
+
+    var swiper = new Swiper('.swiper-slider-' + index, {
+      direction: 'horizontal',
+      loop: loop,
+      freeMode: freeMode,
+      spaceBetween: spaceBetween,
+      breakpoints: {
+        1920: {
+          slidesPerView: slidesDesktop,
+        },
+        992: {
+          slidesPerView: slidesTablet,
+        },
+        320: {
+          slidesPerView: slidesMobile,
+        },
+      },
+      navigation: false,
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true,
+        dragSize: dragSize,
+      },
+    });
+  });
+{% endjavascript %}

@@ -1,0 +1,2072 @@
+@font-face {
+  font-family: "Mr Eaves Mod OT";
+  font-weight: 400;
+  src: url("//woodshed.life/cdn/shop/files/Mr_Eaves_Mod_OT.woff?v=2052350376522000554") format("woff");
+}
+@font-face {
+  font-family: "Mr Eaves Mod OT Heavy";
+  font-weight: 800;
+  src: url("//woodshed.life/cdn/shop/files/Mr_Eaves_XL_Mod_OT_Heavy.woff?v=16423722109837810591") format("woff");
+}
+@font-face {
+  font-family: "Mr Eaves San OT";
+  font-weight: 400;
+  src: url("//woodshed.life/cdn/shop/files/Mr_Eaves_San_OT.woff?v=8139944967160539876") format("woff");
+}
+
+body,html {
+  color: #1F4A50;
+  font-size: 18px;
+}
+.disclosure__toggle {
+  font-family: Mr Eaves Mod OT !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Mreavessanot bold' !important;  
+}
+
+.header,
+  .top-bar, 
+  .mobile-header, 
+  .mobile__currency-dropdown select{
+      font-family: Mreavessanot bold !important;
+  }
+.one-whole{
+  margin: 0 auto;
+}
+
+header#header {
+  border-bottom: 5px solid #C1A058;
+}
+
+.navbar-dropdown.navbar-dropdown--below-parent.is-vertical {
+  border: 3px solid #C1A058;
+}
+
+/* sticky image prod page */
+body.product .product-gallery {
+  position: sticky;
+  top: 90px;
+}
+
+.share-btn .button {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 0;
+  color: #1e989e !important;
+}
+.share-btn .button:hover {
+  background: transparent !important;
+  color: #c1a057 !important;
+}
+.vendor, .product-text{
+  text-transform: uppercase;
+  font-family: Mr Eaves Mod OT;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+}
+
+.selector-wrapper label{
+  font-family: Mr Eaves Mod OT;
+  font-weight: bold;
+  color: #1F4A50;
+  font-size: 1.25rem;
+}
+.selector-wrapper select{
+  font-family: Mr Eaves Mod OT;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1F989E;
+  font-size: 1.25rem;
+}
+/* End */
+
+/* When You Shop */
+.when-you-shop {
+  padding: 0 22px;
+  margin-bottom: 30px;
+}
+.when-you-shop-parent {
+  display: flex;
+  gap: 22px;
+  position: relative;
+}
+
+.when-you-shop-single {
+  flex: 1;
+  position: relative;
+
+}
+.when-you-shop-single .image-part {
+  z-index: 0;
+  position: relative;
+  text-align: center;
+}
+.when-you-shop-single .image-part img {
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.when-you-shop-single .text-part {
+  width: 50%;
+  border: 3px solid #FFF;
+  background: #C1A058;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  text-align: center;
+  padding: 16px;
+  min-height: 325px;
+  margin: -230px auto 0;
+  z-index: 1;
+  position: relative;
+}
+.when-you-shop-single .text-part h4 {
+  color: #FFF;
+  font-family: "Mr Eaves Mod OT Heavy" !important;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.when-you-shop-single .text-part img {
+  max-height: 60px;
+  width: 100%;
+}
+
+.when-you-shop-single .text-part p {
+  color: #FFF;
+  font-family: Verdana Pro, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media(min-width: 1310px) and (max-width: 1500px) {
+
+  .when-you-shop-single .text-part {
+    min-height: 270px;
+    margin: -200px auto 0;
+  }
+  .when-you-shop-single .image-part img {
+    height: 480px;
+  }
+  .when-you-shop-single .text-part h4 {
+    font-size: 24px;
+  }
+  .when-you-shop-single .text-part img {
+    max-height: 60px;
+  }
+    
+  .when-you-shop-single .text-part p {
+    font-size: 17px;
+  }
+}
+@media(min-width: 1140px) and (max-width: 1309px) {
+
+  .when-you-shop-single .text-part {
+    width: 55%;
+    min-height: 250px;
+    margin: -200px auto 0;
+  }
+  .when-you-shop-single .image-part img {
+    height: 420px;
+  }
+  .when-you-shop-single .text-part h4 {
+    font-size: 22px;
+  }
+  .when-you-shop-single .text-part img {
+    max-height: 50px;
+  }
+    
+  .when-you-shop-single .text-part p {
+    font-size: 16px;
+  }
+}
+
+@media(min-width: 1025px) and (max-width: 1139px) {
+
+  .when-you-shop-single .text-part {
+    width: 60%;
+    min-height: 230px;
+    margin: -200px auto 0;
+  }
+  .when-you-shop-single .image-part img {
+    height: 420px;
+  }
+  .when-you-shop-single .text-part h4 {
+    font-size: 20px;
+  }
+  .when-you-shop-single .text-part img {
+    max-height: 40px;
+  }
+    
+  .when-you-shop-single .text-part p {
+    font-size: 16px;
+  }
+}
+
+@media(min-width: 700px) and (max-width: 1024px) {
+  .when-you-shop-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .when-you-shop-parent .when-you-shop-single {
+    flex-basis: 48%;
+    width: 48%;
+    
+  }
+  .when-you-shop-parent .when-you-shop-single:nth-last-child(1){
+    flex: unset;
+  }
+
+  .when-you-shop-single .text-part {
+    width: 60%;
+    min-height: 230px;
+    max-width: 250px;
+    margin: -200px auto 0;
+  }
+  .when-you-shop-single .image-part img {
+    height: 420px;
+  }
+  .when-you-shop-single .text-part h4 {
+    font-size: 20px;
+  }
+  .when-you-shop-single .text-part img {
+    max-height: 40px;
+  }
+    
+  .when-you-shop-single .text-part p {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 699px) {
+  .when-you-shop-parent {
+    flex-wrap: wrap;
+  }
+  .when-you-shop {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .when-you-shop-parent .when-you-shop-single {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .when-you-shop-single .text-part {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* End When You Shop */
+
+/* maker of the month */
+.maker_section {
+  margin: 40px 0;
+}
+.maker_heading {
+  margin-bottom: 40px;
+}
+.maker_heading h2 {
+  color: #1f989e;
+  text-align: center;
+  font-family: 'Mr Eaves Mod OT';
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.45px;
+  text-transform: uppercase;
+}
+.maker_grid {
+  display: flex;
+  gap: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.maker_grid > * {
+  flex: 1;
+}
+.maker_grid a {
+  text-decoration: none;
+  display: block;
+}
+
+.maker_grid .left_item img.makerimg {
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.maker_grid .left_item{
+  display: flex;
+  flex-direction: column;
+}
+.maker_grid .left_item h3 {
+  margin: 0;
+  margin-bottom: 15px;
+  color: #1f4a50;
+  font-family: 'Mr Eaves Mod OT';
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.maker_grid .left_item p {
+  margin: 0;
+  margin-bottom: 22px;
+  color: #1f4a50;
+  font-family: Verdana Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.maker_grid .left_item a {
+  color: #1f989e;
+  font-family: 'Mr Eaves San OT Heavy';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.maker_grid .left_item a img.arrowimg {
+  margin-left: 15px;
+  width: 28px;
+  margin-bottom: -4px;
+}
+
+.maker_grid .maker_products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 30px 50px;
+}
+
+.maker_grid .maker_products .maker_product {
+}
+.maker_grid .maker_products .maker_product img {
+  width: 100%;
+  height: 100%;
+  max-height: 310px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+.maker_grid .maker_products .maker_product h4 {
+  margin: 0;
+  color: #1f4a50;
+  font-family: Mr Eaves Mod OT;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+.maker_grid .maker_products .maker_product p {
+  margin: 0px;
+  color: #1f4a50;
+  font-family: 'Mr Eaves Mod OT';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.maker_products.desk {
+  display: grid;
+}
+.maker_products.mob {
+  display: none;
+}
+
+.maker_slider {
+  padding-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+@media (min-width: 1200px) and (max-width: 1360px)  {
+  .maker_grid{
+    gap: 30px;
+  }
+  .maker_grid .left_item img.makerimg{
+    max-height: 400px;
+  }
+  .maker_grid .left_item h3{
+    font-size: 50px;
+  }
+  .maker_grid .left_item p{
+    font-size: 18px;
+  }
+  .maker_grid .left_item a{
+    font-size: 20px;
+  }
+  .maker_grid .maker_products{
+    gap: 20px 30px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1199px)  {
+  .maker_grid{
+    gap: 30px;
+  }
+  
+  .maker_grid .left_item img.makerimg{
+    max-height: 400px;
+  }
+  .maker_grid .left_item h3{
+    font-size: 40px;
+  }
+  .maker_grid .left_item p{
+    font-size: 16px;
+  }
+  .maker_grid .left_item a{
+    font-size: 18px;
+  }
+  .maker_grid .maker_products{
+    gap: 20px 30px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1024px)  {
+ .maker_grid{
+    gap: 20px;
+  }
+  
+  .maker_grid .left_item img.makerimg{
+    max-height: 400px;
+  }
+  .maker_grid .left_item h3{
+    font-size: 40px;
+  }
+  .maker_grid .left_item p{
+    font-size: 15px;
+  }
+  .maker_grid .left_item a{
+    font-size: 16px;
+  }
+  .maker_grid .maker_products{
+    gap: 20px 20px;
+  }
+  .maker_grid .left_item a img.arrowimg{
+    margin-bottom: -7px;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .maker_heading h2 {
+    font-size: 24px;
+  }
+
+  .maker_grid {
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-wrap: wrap;
+  }
+  .maker_grid > * {
+    flex-basis: 100%;
+  }
+
+  .maker_grid .left_item img.makerimg {
+    max-height: 300px;
+  }
+  .maker_grid .left_item h3 {
+    font-size: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .maker_grid .left_item p {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .maker_grid .left_item a {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    display: block;
+  }
+  .maker_grid .left_item a img.arrowimg{
+    margin: 0;
+    position: absolute;
+    right: 5px;
+    top: calc(50% - 11.4px);
+  }
+
+  .maker_grid .right_item{
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-basis: 100%;
+    width: 100%;
+  } 
+ 
+  .maker_grid .maker_products.mob {
+    display: block;
+    padding-left: 15px;
+  }
+  .maker_grid .maker_products.desk{display: none;}
+   .maker_grid .maker_products img{
+     max-width: unset;
+   }
+  
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+  .maker_grid .left_item img.makerimg{
+    max-height: 65vh;
+  }
+
+}
+@media (min-width: 701px) and (max-width: 800px){
+  .maker_grid{
+    gap: 30px;
+  }
+}
+
+
+/* maker of the month  END*/
+
+/* New slider */
+
+.slider, .sliderr {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+@media(min-width: 1150px) and (max-width: 1400px){
+  .slider, .sliderr{
+    max-width: 950px;
+  }
+}
+@media(min-width: 992px) and (max-width: 1149px){
+  .slider, .sliderr{
+    max-width: 750px;
+  }
+}
+
+
+.swiper-container {
+  padding-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-scrollbar {
+  background: #D7D9DA;
+}
+.swiper-scrollbar-drag {
+  background: #1F4A50 !important;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar {
+  border-radius: 0 !important;
+  height: 5px;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-wrapper img {
+  width: 100%;
+}
+.recommended-new .swiper-slide h5 {
+  font-family: 'Mr Eaves Mod OT';
+  text-transform: none;
+  font-weight: 700;
+}
+.recommended-new .swiper-slide h5,
+.recommended-new .swiper-slide .price {
+  color: #1F4A50;
+}
+
+
+.swiper-button-disabled {
+  opacity: .35;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+
+.image-swiper-button-prev,
+.swiper-rtl .image-swiper-button-next {
+  left: 50px;
+  right: auto;
+}
+
+.image-swiper-button-next,
+.swiper-rtl .image-swiper-button-prev {
+  right: 50px;
+  left: auto;
+}
+
+.image-swiper-button-next,
+.image-swiper-button-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: 50px;
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+@media(max-width: 991px) {
+  .image-swiper-button-prev,
+  .image-swiper-button-next {
+    display: none;
+  }
+}
+
+.recommended-new .swiper-slide .card-text {
+  margin-top: 15px;
+}
+
+.recommended-new .swiper-slide .card-text h5 {
+  line-height: normal;
+  font-size: 20px;
+}
+.recommended-new .swiper-slide .card-text .price {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+
+/* End New slider */
+
+/* buy now btn */
+.purchase-details__buttons .action_button.action_button--secondary {
+  background-color: #d9531e;
+  border-color: #d9531e;
+  color: white;
+}
+
+span.select {
+  display: block;
+  width: 100%;
+}
+span.select:after {
+  color: #1e989e;
+}
+
+span.select select {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #1e989e;
+  color: #1e989e;
+}
+/* end */
+
+/* footer */
+.footer_new > .footer__content.has-background {
+  background: url('//woodshed.life/cdn/shop/t/25/assets/Footer.webp?v=50838299496219440301701431312');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+.footer_new .footer__credits {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer_new .footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_new .footer-items {
+  display: flex;
+  justify-content: start;
+  gap: 100px;
+}
+.footer_new .footer-item.logo {
+  display: flex;
+  align-items: end;
+}
+.footer_new .footer-item.logo img {
+  max-width: 200px;
+  width: 100%;
+}
+
+.footer_new .footer-item.menu ul {
+  display: flex;
+  gap: 24px;
+}
+.footer_new .footer-item.menu ul li {
+
+      font-family: Mr Eaves Mod OT;
+    font-weight: normal;
+    
+  font-size: 24px;
+}
+.footer_new .footer-item.menu ul li a:hover{
+  color: #C1A058;
+}
+
+.footer_new .footer-item.follow {
+  margin-left: auto;
+  text-align: right;
+}
+
+.footer_new .footer-item.follow h6 {
+  color: white;
+  font-family: Mreavessanot bold, sans-serif !important;
+  font-size: 24px;
+  margin-bottom: 7px;
+}
+
+.footer_new .footer-item.follow .social-icons {
+  justify-content: end;
+}
+
+
+@media(min-width: 801px){
+  .footer_new > .footer__content.has-background{
+    padding-top: 120px;
+    padding-bottom: 10px;
+  }
+
+  .footer_new .footer-item.follow, .footer_new .footer-item.menu{
+    margin-top: -60px;
+  }
+}
+
+@media(min-width: 1025px) and (max-width: 1170px){
+  .footer_new .footer-item.logo img{
+    max-width: 160px;
+  }
+  .footer_new .footer-item.follow h6{
+    font-size: 20px;
+  }
+  .footer_new .footer-item.menu ul li{
+    font-size: 20px;
+  }
+}
+@media(min-width: 950px) and (max-width: 1024px){
+  .footer_new .footer-items{
+    gap: 50px;
+  }
+  .footer_new > .footer__content.has-background{
+    padding-top: 120px;
+    padding-bottom: 10px;
+  }
+  .footer_new .footer-item.logo img{
+    max-width: 120px;
+  }
+  .footer_new .footer-item.follow h6{
+    font-size: 20px;
+  }
+  .footer_new .footer-item.menu ul li{
+    font-size: 20px;
+  }
+}
+@media(min-width: 801px) and (max-width: 949px){
+  .footer_new > .footer__content.has-background{
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+  .footer_new .footer-item.logo img{
+    max-width: 115px;
+  }
+  .footer_new .footer-item.follow h6{
+    font-size: 18px;
+  }
+  .footer_new .footer-item.menu ul li{
+    font-size: 18px;
+  }
+}
+
+
+
+@media(max-width: 800px) {
+  .footer_new .footer-items {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer_new > .footer__content.has-background {
+    background: url('//woodshed.life/cdn/shop/t/25/assets/FooterMob.webp?v=28812789298850625111701431312');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+ 
+  .footer_new .footer-item.menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer_new .footer-item.logo {
+    order: 2;
+  }
+
+  .footer_new .footer-item.follow {
+    margin-top: 70px;
+    order: 1;
+    text-align: center;
+    margin-left: 0;
+  }
+  .footer_new .footer-item.follow .social-icons {
+    justify-content: center;
+  }
+  .footer_new .footer__credits{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* end */
+
+.featured-collection__title, .recommended-products__title{
+  margin-bottom: 30px;
+}
+
+.product-wrap .thumbnail-overlay__container{
+  background: unset !important;
+}
+.product-wrap .quick_shop.button--secondary{
+  background: #d9531e !important;
+  color: #fff !important;
+  border-color: #d9531e !important;
+}
+
+/* newsletter */
+.newsletter-section{
+  position: relative;
+}
+.newsletter-section .news_svg{
+  position: absolute;
+}
+.newsletter-section .news_svg.desktop{
+  left: calc(50% - 22px);
+  top: 0;
+  z-index: 4;
+}
+
+.newsletter-section .news_svg.desktop{
+  display: inline-block;
+}
+.newsletter-section .news_svg.mob{
+  display: none;
+  z-index: 4;
+}
+
+.newsletter-section .news_svg.mob.left{
+  bottom: -35.3px;
+  left: 0;
+  transform: rotate(270deg);
+  width: 69px;
+  height: auto;
+}
+.newsletter-section .news_svg.mob.right{
+  bottom:  -35.3px;
+  right: 0;
+  transform: rotate(90deg);
+  width: 69px;
+  height: auto;
+}
+
+@media(max-width: 798px){
+  .newsletter-section .news_svg.desktop{
+    display: none;
+  }
+  .newsletter-section .news_svg.mob{
+    display: inline-block;
+  }
+}
+
+.newsletter-section .btn{
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+  background: #C1A058;
+  color: white;
+  text-decoration: none;
+
+  width: 152px;
+  padding: 16px 0px;
+
+  font-family: Mr Eaves Mod OT;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media(max-width: 640px){
+  .newsletter-section .btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+  }
+}
+
+.newsletter__heading{
+  font-size: 58px;
+  font-family: "Mr Eaves Mod OT Heavy" !important;
+}
+.xtrabold{
+  font-family: "Mr Eaves Mod OT Heavy" !important; 
+}
+.newsletter__subheading{
+    font-size: 24px;
+    font-family: Mreavessanot bold, sans-serif;
+    font-weight: 400;
+}
+
+.newsletter-form .button--primary{
+  background: #C1A058;
+  color: white;
+  border: none;
+}
+.newsletter-form input{
+  border: none;
+}
+
+.newsletter__subheading{
+  font-family: Mr Eaves Mod OT;
+  font-weight: 400;
+}
+
+.popup__newsletter input{
+  border: 1px solid #b5b5b5;
+}
+@media (max-width: 1024px){
+  .newsletter__heading{
+    font-size: 45px;
+  }
+  .newsletter__subheading{
+    font-size: 20px;
+  }
+  .newsletter-form > .field.is-stretched-width{
+    flex: unset;
+    width: 100%;
+  }
+  .newsletter-form > .field.is-default-width{
+    max-width: 200px;
+  }
+}
+
+
+
+@media (max-width: 480px){
+  .newsletter__wrapper{
+    padding: 10px 0;
+  }
+}
+/* end */
+
+/* contact form */
+.contact-form__heading{
+  font-size: 1.45em !important;
+}
+
+.container.contact-form{
+  gap: 50px;
+  flex-wrap: nowrap;
+}
+
+.contact-form__social .icon{
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+
+.container.contact-form .column.notblock{
+  background: url('//woodshed.life/cdn/shop/t/25/assets/backg.webp?v=42846262708215138711701431312');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container.contact-form .column.notblock h1{
+  color: white;
+  line-height: 1em ;
+  margin: 0;
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.contact-form .contact-form__form{
+  padding: 24px;
+  margin-top: 24px;
+}
+.custom-contact-form__block .label{
+  font-family: Mr Eaves Mod OT;
+  text-transform: uppercase;
+}
+.contact-form .contact-form__form button{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.contact-form .contact-form__form button {
+  background-color: #C1A058;
+  border-color: #C1A058;
+  color: white;
+  font-size: 20px;
+}
+.contact-form__form input, .contact-form__form textarea{
+  border: none;
+}
+
+.show_when_wide{
+    display: none;
+  }
+
+@media (min-width: 1025px){
+ 
+  .show_when_wide{
+    display: block;
+  }
+  .contact-form__form{
+    position: relative;
+  }
+  .contact-form__form:after{
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='36' viewBox='0 0 30 36' fill='none'%3E%3Cpath d='M30 18L0 35.3205L0 0.679491L30 18Z' fill='%231F989E'/%3E%3C/svg%3E");
+    position: absolute;
+    right: -30px;
+    top: 30px;
+  }
+
+}
+@media(max-width: 1024px){
+   .container.contact-form .column.notblock h1{
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  .shopify-section.contact-section > section{
+    width: 100%;
+  }
+  .container.contact-form{
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .container.contact-form .column{
+    order: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 20px);
+  }
+  .container.contact-form .column.notblock{
+    order: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 156px;
+    background: url('//woodshed.life/cdn/shop/t/25/assets/backgm.webp?v=92488116203116070451701431312');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top: 5px solid #C1A058;
+    border-bottom: 5px solid #C1A058;
+  }
+}
+
+@media(min-width: 799px) and (max-width: 1024px){
+  .container.contact-form .column.notblock{
+    border-top: 0;
+  }
+}
+
+
+
+/* end */
+
+
+/* press */
+
+.press-item{
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 38px;
+  background: url('//woodshed.life/cdn/shop/t/25/assets/pressbg.webp?v=35152272062857851421701431312');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-left: 5px solid #C1A058;
+  border-right: 5px solid #C1A058;
+  gap: 50px;
+  min-height: 220px;
+}
+.press-item .vectormb{
+  display: none;
+}
+.press-item .logo_part{
+  flex-basis: 40%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.press-item .logo_part img{
+  max-width: 320px;
+  width: 100%;
+  max-height: 140px;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.press-item .text_part{
+  flex-basis: 60%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: start;
+}
+
+.press-item .text_part h2{
+  max-width: 65%;
+  width: 100%;
+  color: #1F989E;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.press-item .text_part p{
+  max-width: 65%;
+  width: 100%;
+  color: #1F4A50;
+  font-family: Verdana Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.press-item .text_part a.btn{
+  display: inline-block;
+  padding: 16px;
+  align-items: center;
+  background: #C1A058;
+  color: white;
+  text-decoration: none;
+  font-family: Mr Eaves Mod OT;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.press-parent .press-page{
+  margin: 0;
+  max-height: 1810px;
+  overflow: hidden;
+  transition: max-height 0.6s ease; 
+}
+.press-parent .press-page.expanded{
+  max-height: 10000px;
+}
+.press-parent .view_more{
+  padding: 40px 0;
+  width: 100%;
+}
+.press-parent .view_more_press{
+  padding: 8px 16px;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #BBB2A3;
+  color: #1F989E;
+  font-family: Mr Eaves Mod OT;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 798px) {
+  .press-parent .press-page{    
+    max-height: 1790px;  
+  }
+  .press-parent .view_more{
+    padding: 24px 0;
+  }
+  .press-item{
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: url('//woodshed.life/cdn/shop/t/25/assets/pressbgm.webp?5661');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 5px solid #C1A058;
+    gap: 20px;
+  }
+  .press-item .vectormb{
+    display: flex;
+  }
+  .press-item .vectormb.posleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .press-item .vectormb.posright{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .press-item .logo_part{
+    flex-basis: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .press-item .logo_part img{
+    max-width: 256px;
+    width: 100%;
+    max-height: 122px;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  .press-item .text_part{
+    flex-basis: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .press-item .text_part h2{
+    max-width: 90%;
+    width: 100%;
+    color: #1F989E;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  .press-item .text_part p{
+    max-width: 90%;
+    width: 100%;
+    color: #1F4A50;
+    font-family: Verdana Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+/* end*/
+
+/* about */
+.image-with-text__image-column{
+  position: relative;
+}
+.image-with-text__image-column .image_caption_text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 8px;
+  font-family: Verdana Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+  background: #C1A058;
+  text-align: center;
+}
+
+.image-with-text__image-column .image_caption_text.mobtxt{
+  padding: 8px 30px;
+}
+.image-with-text__image-column .image_caption_text:empty {
+  display: none;
+}
+.image-with-text__wrapper .button.button--primary {  
+  width: unset;
+  font-size: 16px;
+  padding: 16px;
+  color: white;
+  background: #C1A058;
+  border: #C1A058;
+}
+
+.image_caption_text.desktxt{
+    display: block;
+  width: 100%;
+  }
+  .image_caption_text.mobtxt{
+    display: none;
+    width: 100%;
+  }
+
+@media (max-width: 798px) {
+  .image-with-text__image-column .image_caption_text{
+    font-size: 15px;
+  }
+  .image_caption_text.desktxt{
+    display: none;
+  }
+  .image_caption_text.mobtxt{
+    display: block;
+  }
+}
+/* end */
+
+/* visit */
+.tabs-container{
+  width: 100%;
+  padding: 15px 30px;
+  border: 1px solid #BBB2A3;
+}
+.visit-tabs .tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.visit-tabs .tabs h3 {
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+  color: #1F969E;
+  font-size: 29px;
+}
+.visit-tabs .tab-content {
+  background-color: #ffffff;
+  padding: 50px 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.visit-tabs .tab-content > div {
+  display: none;
+}
+.visit-tabs .tab-content .active {
+  display: block;
+}
+.visit-tabs .tabs .active {
+  color: #C1A058;
+}
+
+
+.visit-tabs .tab-content a{
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-right: 36px;
+}
+.visit-tabs .tab-content a:after{
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='28' viewBox='0 0 34 28' fill='none'%3E%3Cpath d='M28 10L24 14L28 18' stroke='%2348969C' stroke-linecap='round'/%3E%3Cpath d='M24 22L32 14L24 6' stroke='%231F4A50' stroke-width='2'/%3E%3Cpath d='M0 14L24 14' stroke='%2348969C'/%3E%3C/svg%3E");
+  
+  position: absolute;
+  right: -10px;
+  top: calc(50% - 15px);
+}
+
+@media (max-width: 798px) {
+  .tabs-container{
+    padding: 0;
+    border: none;
+    border-top: 1px solid #BBB2A3;
+    border-bottom: 1px solid #BBB2A3;
+  }
+  .visit-tabs .tabs {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 16px;
+    justify-content: start;
+    padding: 15px 20px;
+  }
+ 
+  .visit-tabs .tabs h3 {
+    font-size: 20px;
+    display: flex;
+    min-width: max-content;
+  }
+  .visit-tabs .tab-content {
+    padding: 30px 20px;
+  }
+  .visit-section{
+    width: 100%;
+  }
+  .visit-tabs .tab-content a{
+    
+  }
+}
+/* end */
+
+@media(max-width: 798px){
+  .imgtxtimg .image-with-text__image-column{
+    height: 188px;
+  }
+  .image-with-text__wrapper .button.button--primary{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px !important;
+  }
+  .makesmallerheading h2{
+    font-size: 20px;
+  }
+  .imgtxtimg .image-with-text__text, .imgtxtimg2 .image-with-text__text{
+    font-size: 16px;
+  }
+  .imgtxtimg .image-with-text__text-column, .imgtxtimg2 .image-with-text__text-column{
+    padding: 0 15px !important;
+  }
+}
+
+
+
+@media (max-width: 1100px){
+  .alexmarksect .medium-down--one-whole:nth-of-type(n+1){
+         width: 100%;
+      margin-right: 0;
+      margin-left: 0; 
+  }
+
+  .alexmarksect .image-with-text__text-column{
+    order: 1;
+  }
+  .alexmarksect .image-with-text__image-column{
+    order: -1;
+  }
+}
+
+/* blog */
+.blog-card .image-element__wrap, .blog-card .image-element__wrap img{
+  height: unset;
+}
+
+#template-article-zeno .image-element__wrap, #template-article .image-element__wrap{
+  height: unset;
+}
+.paginate a.pagination-button__load-more.button.button--primary{
+  color: #1F989E;
+  font-family: Mr Eaves Mod OT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: none;
+  border-color: #1F989E;
+}
+.paginate a.pagination-button__load-more.button.button--primary:hover{
+  color: #fff;
+}
+
+.blog-card__read-more.buttons{
+  display: none;
+}
+@media (min-width: 1025px){
+  .blog-card__image, .blog-card__image *{
+    height: 360px 
+  }
+  .blog-card__image img{
+    height: 100%;
+    max-height: 360px;
+    object-fit: cover;
+  }
+}
+/* end */
+
+.product-wrap a{
+  width: 100%;
+  display: block;
+  height: 100%;
+  /*min-height: 365px; */
+}
+.product-wrap a img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.featured_blog {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: calc(100% - 20px);
+}
+
+.featured_blog .blog_cont {
+  display: flex;
+  border: 1px solid #BBB2A3;
+  width: 100%;
+}
+
+.featured_blog .blog_cont .image_area {
+  width: 70%;
+}
+.featured_blog .blog_cont .image_area a {
+  display: block;
+  height: 100%;
+}
+.featured_blog .blog_cont .image_area a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.featured_blog .blog_cont .text_area {
+  width: 30%;
+  padding: 26px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.featured_blog .blog_cont .text_area .categ_name {
+  color: #1F4A50;
+  font-family: Mr Eaves Mod OT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.featured_blog .blog_cont .text_area a {
+  text-decoration: none;
+}
+.featured_blog .blog_cont .text_area .title {
+  color: #1F989E;
+  font-family: Mr Eaves Mod OT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.featured_blog .blog_cont .text_area .excerpt {
+  color: #1F4A50;
+  font-family: Verdana Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-height: 14em;
+}
+.featured_blog .blog_cont .text_area .read_more {
+  color: #1F989E;
+  font-family: Mr Eaves San OT Heavy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: self-end;
+  margin-top: auto;
+}
+.featured_blog .blog_cont .text_area .read_more img {
+  padding: 16px;
+  border: 1px solid #BBB2A3;
+}
+@media only screen and (max-width: 1024px) {
+
+  .featured_blog .blog_cont {
+    flex-wrap: wrap;
+  }
+
+  .featured_blog .blog_cont .image_area {
+    width: 100%;
+  }
+
+  .featured_blog .blog_cont .text_area {
+    width: 100%;
+  }
+
+  .featured_blog .blog_cont .text_area .excerpt {
+    max-height: 6em;
+  }
+
+}
+
+.excerpt{
+  overflow: hidden;
+  position: relative;
+}
+.excerpt .shogun-root{
+  display: none;
+}
+.hiddenbloglink{
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 3em;
+  color: transparent;
+  cursor: pointer !important;
+  z-index: 1;
+}
+.hiddenbloglink:hover{
+  color: transparent;
+  cursor: pointer;
+}
+
+/* Home slider */
+
+  .home_slider_section{
+    padding: 30px 20px;
+    background: url(//woodshed.life/cdn/shop/t/25/assets/Hero.svg?v=131232948044475773311701431312);
+    background-size: cover;
+    background-position: top center;
+    border-bottom: 5px solid #C1A058;
+  }
+  .home_slider_section .home_slider_container{
+    overflow: hidden;
+  }
+
+  .home_slider_section .home_slide {
+    display: flex;
+    position: relative;
+  }
+
+  .swiper_home_slider{
+    position: relative;
+  }
+
+  .swiper_home_slider .swiper_buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10px;
+  }
+  .swiper_home_slider .swiper_buttons img{
+    padding: 6px;
+    background: white;
+  }
+  .home_slider_section .home_slide .left_text {
+    width: 65%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home_slider_section .home_slide .left_text .text_inner{
+    width: 100%;
+    max-width: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .home_slider_section .home_slide .left_text h4 {
+    color: #1f4a50;
+    text-align: center;
+    font-family: Mr Eaves Mod OT;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+  .home_slider_section .home_slide .left_text h1 {
+    color: #1f4a50;
+    text-align: center;
+    font-family: "Mr Eaves San OT Heavy" !important;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    letter-spacing: -2px;
+  }
+  .home_slider_section .home_slide .left_text p {
+    color: #1f4a50;
+    text-align: center;
+    font-family: Mr Eaves Mod OT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+  .home_slider_section .home_slide .left_text a {
+    color: #fff;
+    font-family: Mr Eaves Mod OT;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #c1a058;
+    padding: 16px;
+    margin-top: 10px;
+  }
+  .home_slider_section .home_slide .right_image {
+    width: 35%;
+    display: flex;
+    justify-content: end;
+  }
+  .home_slider_section .home_slide .right_image img{
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    max-height: 450px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border: 5px solid #C1A058;
+    
+  }
+
+ 
+      
+  @media (max-width: 1360px) and (min-width: 1135px) {
+    .home_slider_section .home_slide .right_image img{
+      max-width: 350px;
+      max-height: 350px;
+    }
+
+     .home_slider_section .home_slide .left_text h4 {
+        font-size: 24px;
+      }
+      .home_slider_section .home_slide .left_text h1 {
+        font-size: 42px;
+      }
+      .home_slider_section .home_slide .left_text p {
+        font-size: 18px;
+      }
+  }
+
+  @media (max-width: 1134px) and (min-width: 911px) {
+    
+
+    .home_slider_section .home_slide{
+      justify-content: space-between;
+    }
+    .home_slider_section .home_slide .left_text .text_inner{
+      gap: 30px;
+    }
+   
+    .home_slider_section .home_slide .left_text {
+      width: 60%;
+    }
+  
+    .home_slider_section .home_slide .right_image {
+      width: 40%;
+      text-align: right;
+    }
+     .home_slider_section .home_slide .left_text h4 {
+      font-size: 24px;
+    }
+    .home_slider_section .home_slide .left_text h1 {
+      font-size: 42px;
+    }
+    .home_slider_section .home_slide .left_text p {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 1019px) and (max-width: 1134px){
+    .home_slider_section .home_slide .right_image img{
+      max-width: 330px;
+      max-height: 330px;
+    }
+    .swiper_home_slider .swiper_buttons img{
+      width: 45px;
+    }
+  }
+  @media (min-width: 911px) and (max-width: 1018px){
+    .home_slider_section .home_slide .right_image img{
+      max-width: 250px;
+      max-height: 250px;
+    }
+    .home_slider_section .home_slide .left_text .text_inner{
+      gap: 10px;
+    }
+  }
+
+  @media (max-width: 910px) {
+    .home_slider_section{
+      padding: 20px 0px;
+      background: url(//woodshed.life/cdn/shop/t/25/assets/HeroM.svg?v=50057062994032411611701431312);
+      background-position: top center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .home_slider_section .home_slide {
+      flex-wrap: wrap;
+    }
+    .home_slider_section .home_slide .left_text{
+      padding-left: 20px; 
+      padding-right: 20px;
+      width: 100%;
+      padding-bottom: 50px;
+      padding-top: 60px;
+    }
+    .home_slider_section .home_slide .left_text .text_inner{
+        max-width: 380px;
+    }
+    .home_slider_section .home_slide .left_text {
+      width: 100%;
+    }
+    .home_slider_section .home_slide .right_image {
+      width: 100%;
+    }
+    .home_slider_section .home_slide .right_image img{
+      height: unset;
+      max-height: unset;
+      max-width: unset;
+      width: 100%;
+      aspect-ratio: unset;
+      object-fit: contain;
+      box-sizing: border-box;
+    }
+    .swiper_home_slider .swiper_buttons{
+      margin-top: -90px;
+      margin-bottom: 30px;
+      z-index: 1;
+      position: relative;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .home_slider_section .home_slide .left_text h4 {
+      font-size: 24px;
+    }
+    .home_slider_section .home_slide .left_text h1 {
+      font-size: 42px;
+    }
+    .home_slider_section .home_slide .left_text p {
+      font-size: 18px;
+    }
+  }
+
+  /* end */
+
+  .featured-article--link{
+  font-family: "Mr Eaves Mod OT";
+}
+
+.blog_categ_name{
+  color: #1F4A50;
+  font-family: Mr Eaves Mod OT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.thumbnail__price, .price, .card-text h5{
+  font-family: Mr Eaves Mod OT;
+  color: #1F4A50;
+  font-size: 20px /** 3 **/;
+}
+
+/* Shop page */
+.faceted-active-filters .button{
+  font-family: Mr Eaves Mod OT;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #D7D9DA !important;
+  width: 100%;
+}
+.faceted-active-filters .faceted-active-filters__remove-filter{
+  justify-content: space-between;
+  color: #1F4A50 !important;
+}
+.faceted-active-filters .faceted-active-filters__remove-filter:hover{
+  color: white !important;
+}
+
+.faceted-active-filters .faceted-active-filters__remove-filter .close_btn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #BBB2A3;
+  font-weight: 400;
+  text-transform: none;
+}
+.sidebar-block__heading{
+  font-family: Mr Eaves Mod OT;
+  
+}
+
+.faceted-filter-form .block__faceted-filtering{
+  border: 1px solid #D7D9DA;
+  padding-bottom: calc(.375em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(.375em - 1px);
+  font-family: Mr Eaves Mod OT;
+}
+.faceted-filter-form .block__faceted-filtering .faceted-filter-group-display__list-item-label-text{
+  font-size: 18px;
+}
+
+.collection__tag-filter.select{
+  display: none;
+}
+.collection__sort-by-filter.select select{
+  color: #8D8368;
+  border-color: #8D8368;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.collection__title.title{
+  color: #1F4A50;
+  font-family: Mr Eaves Mod OT;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.product-wrap > div a.image_wrap  img{
+  border: 1px solid #8D8368;
+}
+
+.collection-matrix .product-wrap > div a.image_wrap  img{
+  aspect-ratio: 1;
+}
+    
+@media(min-width: 799px){
+  .collection__content{
+    flex-wrap: nowrap;
+  }
+  .collection__content .sidebar-section, .collection__content .collection__main{
+    margin-left: 20px; 
+    margin-right: 20px;
+  }
+
+  .collection__sort-by-filter.select select{
+    margin-right: 10px;
+  }
+  .collection__title.title{
+    margin-left: 10px;
+  }
+}
+/* end */
+
+/* promotions banner  */
+.featured-promotions__title{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Mr Eaves San OT" !important;
+  font-size: 24px;
+}
+.featured-promotions__title .promo_arrow{
+  margin-top: -5px;
+}
+/* end */
+
+
+.card-content.blog-card__content:after{
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='28' viewBox='0 0 34 28' fill='none'%3E%3Cpath d='M28 10L24 14L28 18' stroke='%2348969C' stroke-linecap='round'/%3E%3Cpath d='M24 22L32 14L24 6' stroke='%231F4A50' stroke-width='2'/%3E%3Cpath d='M0 14L24 14' stroke='%2348969C'/%3E%3C/svg%3E");
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+/* Mobile nav */
+#mobile-header .mobile-header__logo {
+  z-index: 40 !important;
+}
+
+.mobile-menu__toggle-icon.is-active+.mobile-menu{
+  left: 0;
+  top: 0;
+  transition: top .5s;
+  
+}
+.mobile-menu{
+  padding-top: 85px;
+  top: -81vh;
+  left: 0;
+  height: 100%;
+  min-height:80vh;
+  border: 5px solid #C1A058;
+  transition: top .3s ease-in-out;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.mobile-menu__submenu{
+  font-size: 20px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.mobile-menu__submenu .mobile-menu__submenu-list-item:nth-child(1){
+  border-top: 3px solid #C1A058;
+}
+
+.mobile-menu__submenu .mobile-menu__submenu-list-item:nth-last-child(1){
+  border-bottom: 3px solid #C1A058;
+}
+
+.mobile-header__open-menu, .mobile-header__close-menu{
+  margin-bottom: -9px;
+  color: #1f989e;
+}
+
+/* end */
+
+/* static pages, shipping, refunds, etc */
+#template- {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#template- h1{
+  color: #1f989e;
+  text-align: center;
+  font-family: 'Mr Eaves Mod OT';
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.45px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 640px){
+  #template- {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #template- h1{
+    font-size: 24px;
+  }
+}
+/* end */
+
+/* Remove margin bottoms */
+.content p:not(:last-child), .content dl:not(:last-child), .content ol:not(:last-child), .content ul:not(:last-child), .content blockquote:not(:last-child), .content pre:not(:last-child), .content table:not(:last-child), .shopify-policy__body p:not(:last-child), .shopify-policy__body dl:not(:last-child), .shopify-policy__body ol:not(:last-child), .shopify-policy__body ul:not(:last-child), .shopify-policy__body blockquote:not(:last-child), .shopify-policy__body pre:not(:last-child), .shopify-policy__body table:not(:last-child){
+  margin-bottom: 0;
+}
+/* end */

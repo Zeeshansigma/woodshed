@@ -1,0 +1,149 @@
+{% comment %}
+** Press **
+{% endcomment %}
+
+{% liquid
+  assign id = section.id
+%}
+
+{% style %}
+  #shopify-section-{{ id }} {
+   
+
+  }
+  #shopify-section-{{ id }} {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+
+    {% if width == 'wide' %}
+      width: 100%;
+    {% endif %}
+
+  }
+
+  .desktext{
+    display: block;
+  }
+
+  .mobtext{
+    display: none;
+  }
+  @media only screen and (max-width: 798px) {
+    .page_visit_content{
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 16px;
+    }
+    .page_visit_content .xtrabold{
+      font-size: 20px;
+    }
+
+     #shopify-section-{{ id }} {
+      padding: {{ section.settings.padding_top_mobile }}px 0 {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    .desktext{
+      display: none;
+    }
+  
+    .mobtext{
+      display: block;
+    }
+  }
+ 
+{% endstyle %}
+
+<section
+  class="
+    section
+    page_visit_content
+    is-width-standard
+  "
+  
+>
+  <div
+    class="
+      container
+      content
+      tabs-{{ section.id }}
+    "
+  >
+    <div {% if section.settings.page_header_mob != blank %} class="desktext" {% endif %}>{{ section.settings.page_header }}</div>
+    <div  class="mobtext">{{ section.settings.page_header_mob }}</div>  
+  </div>
+</section>
+
+{% comment %}JavaScript{% endcomment %}
+
+{% schema %}
+  {
+    "name": "Visit Content",
+    "settings": [     
+      {
+        "type": "html",
+        "id": "page_header",
+        "label": "Desktop Text"
+      },
+      {
+        "type": "html",
+        "id": "page_header_mob",
+        "label": "Mobile Text",
+        "info": "If left blank, desktop text will show"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Top spacing",
+        "default": 40,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Bottom spacing",
+        "default": 40,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },      
+   
+      {
+        "type": "header",
+        "content": "Mobile layout"
+      },
+      {
+        "type": "range",
+        "id": "padding_top_mobile",
+        "label": "Mobile top spacing",
+        "min": 0,
+        "max": 80,
+        "default": 40,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom_mobile",
+        "label": "Mobile bottom spacing",
+        "min": 0,
+        "max": 80,
+        "default": 40,
+        "unit": "px"
+      }
+      
+    ],
+    
+    "presets": [{
+      "name": "Visit Content",
+      "category": "Store information",
+      "settings": {}
+
+    }],
+    "disabled_on": {
+      "groups": [
+        "*"
+      ]
+    }
+  }
+{% endschema %}

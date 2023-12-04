@@ -1,0 +1,262 @@
+{% comment %}
+** Press **
+{% endcomment %}
+
+{% liquid
+  assign id = section.id
+
+  # Layout
+  assign width = section.settings.width
+
+%}
+
+
+{% style %}
+  #shopify-section-{{ id }} {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+
+    {% if width == 'wide' %}
+      width: 100%;
+    {% endif %}
+
+  }
+
+  .press-page{
+    gap: {{ section.settings.space_desktop }}px;
+  }
+
+  @media only screen and (max-width: 798px) {
+    #shopify-section-{{ id }} {
+      padding: {{ section.settings.padding_top_mobile }}px 0 {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    .press-page{
+      gap: {{ section.settings.space_mobile }}px;
+    }
+  }
+
+  {%
+    render 'css-loop',
+    css: section_css,
+    id: id,
+  %}
+
+  {%
+    render 'css-loop',
+    css: section.settings.custom_css,
+    id: id,
+  %}
+{% endstyle %}
+
+
+<section
+  class="
+    press-parent
+    section
+    {{ section.settings.css_class }}
+    is-width-{{ width }}
+  "
+  
+>
+  <div
+    class="
+      container
+      content
+      press-page
+     press-rmview
+    "
+  >
+
+  {% for block in section.blocks %}
+    <div class="press-item">
+      <div class="vectormb posleft">
+        <img src="{{ 'vcleft.svg' | asset_url }}" />
+      </div>
+      <div class="vectormb posright">
+        <img src="{{ 'vcright.svg' | asset_url }}" />
+      </div>
+      <div class="logo_part">
+        <img src="{{ block.settings.logo | image_url }}" />
+      </div>  
+      <div class="text_part">
+        <h2> {{ block.settings.press_heading }}</h2>
+        {% if block.settings.press_ins %}
+          <p> {{ block.settings.press_ins }}</p>
+        {% endif %}        
+        <a class="btn" href="{{ block.settings.press_btnurl }}" target="_blank"> {{ block.settings.press_btntxt }}</a>
+      </div>
+    </div>
+  {% endfor %}
+ 
+  </div>
+  <div class="text-center view_more">
+      <a id="rmBtn" class="view_more_press">View More</a>
+  </div>
+</section>
+
+{% comment %}JavaScript{% endcomment %}
+
+{% schema %}
+  {
+    "name": "Press",
+    "class": "press-section",
+    "max_blocks": 99,
+    "settings": [     
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wide",
+        "options": [
+          {
+            "value": "standard",
+            "label": "Standard"
+          },
+          {
+            "value": "wide",
+            "label": "Wide"
+          }
+        ],
+        "default": "standard"
+      },           
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Top spacing",
+        "default": 40,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Bottom spacing",
+        "default": 40,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },      
+   
+      {
+        "type": "header",
+        "content": "Mobile layout"
+      },
+      {
+        "type": "range",
+        "id": "padding_top_mobile",
+        "label": "Mobile top spacing",
+        "min": 0,
+        "max": 80,
+        "default": 40,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom_mobile",
+        "label": "Mobile bottom spacing",
+        "min": 0,
+        "max": 80,
+        "default": 40,
+        "unit": "px"
+      },
+      {
+        "type": "header",
+        "content": "Space Between"
+      },
+      {
+        "type": "range",
+        "id": "space_desktop",
+        "label": "Desktop",
+        "min": 0,
+        "max": 80,
+        "default": 40,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "space_mobile",
+        "label": "Mobile",
+        "min": 0,
+        "max": 80,
+        "default": 40,
+        "unit": "px"
+      },
+      {
+        "type": "header",
+        "content": "Advanced"
+      },
+      {
+        "type": "text",
+        "id": "css_class",
+        "label": "CSS Class"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_css",
+        "label": "Custom CSS"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "press",
+        "name": "Press Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+          },
+          {
+            "type": "text",
+            "label": "Heading",
+            "id": "press_heading"
+          },
+          {
+            "type": "text",
+            "label": "Instructions",
+            "id": "press_ins"
+          },
+          {
+            "type": "text",
+            "label": "Button Text",
+            "id": "press_btntxt"
+          },
+          {
+            "type": "url",
+            "label": "Button Link",
+            "id": "press_btnurl"
+          }
+        ]
+
+    }
+    ],
+    "presets": [{
+      "name": "Press page",
+      "category": "Store information",
+      "settings": {}
+
+    }],
+    "disabled_on": {
+      "groups": [
+        "*"
+      ]
+    }
+  }
+{% endschema %}
+
+
+{% javascript %}
+  const rmBtn = document.getElementById('rmBtn');
+  const rmViewBox = document.getElementsByClassName('press-rmview')[0];
+  function toggleContent() {
+    
+      rmViewBox.classList.toggle('expanded');
+      if (rmViewBox.classList.contains('expanded')) {
+          rmBtn.textContent = 'View Less';
+      } else {
+          rmBtn.textContent = 'View More';
+      }
+  }
+  rmBtn.addEventListener('click', toggleContent);
+{% endjavascript %}

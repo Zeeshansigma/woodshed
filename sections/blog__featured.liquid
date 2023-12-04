@@ -1,0 +1,159 @@
+{% comment %}
+  ** Featured Blog **
+{% endcomment %}
+
+{% liquid
+  assign id = section.id
+%}
+
+{% style %}
+  #shopify-section-{{ id }} {
+
+
+  }
+
+  .featured_blog{
+    margin-top: 30px;
+  }
+
+  .featured_blog .blog_cont{
+    display: flex;
+    border: 1px solid #BBB2A3;
+  }
+
+  .featured_blog .blog_cont .image_area{
+    width: 70%;
+  }
+  .featured_blog .blog_cont .image_area a{
+    display: block;
+    height: 100%;
+  }
+  .featured_blog .blog_cont .image_area a img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .featured_blog .blog_cont .text_area{
+    width: 30%;
+    padding: 26px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .featured_blog .blog_cont .text_area .categ_name{
+    color: #1F4A50;
+    font-family: Mr Eaves Mod OT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .featured_blog .blog_cont .text_area a{
+    text-decoration: none;
+  }
+  .featured_blog .blog_cont .text_area .title{
+    color: #1F989E;
+    font-family: Mr Eaves Mod OT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .featured_blog .blog_cont .text_area .excerpt{
+    color: #1F4A50;
+    font-family: Verdana Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-height: 14em;
+  }
+  .featured_blog .blog_cont .text_area .read_more{
+    color: #1F989E;
+    font-family: Mr Eaves San OT Heavy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: self-end;
+    margin-top: auto;
+  }
+  .featured_blog .blog_cont .text_area .read_more img{
+    padding: 16px;
+    border: 1px solid #BBB2A3;
+  }
+  @media only screen and (max-width: 1024px) {
+
+  .featured_blog .blog_cont{
+    flex-wrap: wrap;
+  }
+
+  .featured_blog .blog_cont .image_area{
+    width: 100%;
+  }
+
+  .featured_blog .blog_cont .text_area{
+    width: 100%;
+  }
+
+  .featured_blog .blog_cont .text_area .excerpt{
+    max-height: 6em;
+  }
+
+  }
+{% endstyle %}
+
+<section class="section is-width-wide container featured_blog">
+  {% for article in blog.articles %}
+    {% if article.tags contains 'featured' %}
+      <div class="columns blog_cont">
+        <div class="image_area">
+          <a href="{{ article.url }}">
+            <img src="{{ article.image | img_url: '1000x' }}" alt="image">
+          </a>
+        </div>
+        <div class="text_area">
+          <p class="categ_name">{{ blog.title }}</p>
+          <a href="{{ article.url }}">
+            <h2 class="title">{{ article.title }}</h2>
+          </a>
+          {% assign postexcerpt = article.excerpt | size %} 
+          {% if postexcerpt > 150 %}
+            {% assign excerptlength = 'lg' %}
+          {% elsif postexcerpt <= 150 %}
+            {% assign excerptlength = 'sm' %}
+          {% endif %}
+          <div class="excerpt excerpt-length-{{ excerptlength }} has-margin-bottom">{{ article.excerpt }} <span class="truncation-fade"></span></div>
+          <a class="read_more" href="{{ article.url }}">Read More <img src="{{ 'icon-right.svg' | asset_url }}"></a>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Featured Blog",
+  "settings": [],
+
+  "presets": [
+    {
+      "name": "Featured Blog",
+      "category": "Store information",
+      "settings": {}
+    }
+  ],
+  "disabled_on": {
+    "groups": ["*"]
+  }
+}
+{% endschema %}

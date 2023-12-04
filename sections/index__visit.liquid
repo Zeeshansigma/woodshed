@@ -1,0 +1,223 @@
+{% comment %}
+** Visit Tabs **
+{% endcomment %}
+
+{% liquid
+  assign id = section.id
+
+  # Layout
+  assign width = section.settings.width
+
+%}
+
+
+{% style %}
+  #shopify-section-{{ id }} {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+
+    {% if width == 'wide' %}
+      width: 100%;
+    {% endif %}
+
+  }
+
+
+  @media only screen and (max-width: 798px) {
+    #shopify-section-{{ id }} {
+      padding: {{ section.settings.padding_top_mobile }}px 0 {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+  }
+
+  {%
+    render 'css-loop',
+    css: section_css,
+    id: id,
+  %}
+
+  {%
+    render 'css-loop',
+    css: section.settings.custom_css,
+    id: id,
+  %}
+{% endstyle %}
+
+
+<section
+  class="
+    section
+    visit-section
+    {{ section.settings.css_class }}
+    is-width-{{ width }}
+  "
+  
+>
+  <div
+    class="
+      container
+      content
+      visit-tabs
+      tabs-{{ section.id }}
+    "
+  >
+
+  <div class="tabs-container">
+    <div class="tabs">
+      {% for block in section.blocks %}
+        {% if forloop.index == 1 %}
+          <h3 class="active">{{ block.settings.tab_heading}}</h3>
+        {% else %}
+        <h3>{{ block.settings.tab_heading}}</h3>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  
+
+  <div class="tab-content">
+    {% for block in section.blocks %}
+      {% if forloop.index == 1 %}
+        <div class="active">{{ block.settings.tab_text}}</div>
+      {% else %}
+        <div>{{ block.settings.tab_text}}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+ 
+  </div>
+</section>
+
+{% comment %}JavaScript{% endcomment %}
+<script>
+  let tabs = document.querySelectorAll(".tabs-{{ section.id }} .tabs h3");
+  let tabContents = document.querySelectorAll(".tabs-{{ section.id }} .tab-content div");
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+      tabContents.forEach((content) => {
+        content.classList.remove("active");
+      });
+      tabs.forEach((tab) => {
+        tab.classList.remove("active");
+      });
+      tabContents[index].classList.add("active");
+      tabs[index].classList.add("active");
+    });
+  });
+
+</script>
+
+{% schema %}
+  {
+    "name": "Visit Tabs",
+    "class": "visit-section",
+    "max_blocks": 99,
+    "settings": [     
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wide",
+        "options": [
+          {
+            "value": "standard",
+            "label": "Standard"
+          },
+          {
+            "value": "wide",
+            "label": "Wide"
+          }
+        ],
+        "default": "standard"
+      },           
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Top spacing",
+        "default": 40,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Bottom spacing",
+        "default": 40,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },      
+   
+      {
+        "type": "header",
+        "content": "Mobile layout"
+      },
+      {
+        "type": "range",
+        "id": "padding_top_mobile",
+        "label": "Mobile top spacing",
+        "min": 0,
+        "max": 80,
+        "default": 40,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom_mobile",
+        "label": "Mobile bottom spacing",
+        "min": 0,
+        "max": 80,
+        "default": 40,
+        "unit": "px"
+      },
+      
+      {
+        "type": "header",
+        "content": "Advanced"
+      },
+      {
+        "type": "text",
+        "id": "css_class",
+        "label": "CSS Class"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_css",
+        "label": "Custom CSS"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "visit",
+        "name": "Tab",
+        "settings": [
+          {
+            "type": "text",
+            "label": "Tab Heading",
+            "id": "tab_heading"
+          },
+          {
+            "type": "richtext",
+            "id": "tab_text",
+            "label": "Text",
+            "default": "<p>Add text here</p>"
+          }
+        ]
+
+    }
+    ],
+    "presets": [{
+      "name": "Visit Tabs",
+      "category": "Store information",
+      "settings": {}
+
+    }],
+    "disabled_on": {
+      "groups": [
+        "*"
+      ]
+    }
+  }
+{% endschema %}

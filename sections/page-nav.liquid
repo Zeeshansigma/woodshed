@@ -1,0 +1,92 @@
+{% comment %}
+  ** Page Nav **
+{% endcomment %}
+
+{% liquid
+  assign id = section.id
+%}
+
+{% style %}
+  #shopify-section-{{ id }} {
+
+
+  }
+
+  .page_nav .column{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #BBB2A3;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .page_nav .column a{
+    display: inline-block;
+    color: #1F989E;
+    font-family: Mr Eaves Mod OT;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .page_nav .column a.is-active{
+    color: #C79E49;
+  }
+
+  @media only screen and (max-width: 798px) {
+    .page_nav .column{
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      gap: 16px;
+      justify-content: start;
+      padding: 15px 20px;
+      margin: 0;
+    }
+
+    .page_nav .column a{
+      font-size: 18px;
+      min-width: max-content;
+    }
+  }
+
+  
+{% endstyle %}
+
+<section class="section is-width-wide page_nav">
+  <div class="container">
+    <div class="column has-no-side-gutter">
+      {% for link in section.settings.page_menu.links %}
+        <a class=" {% if link.active %}is-active{% endif %}" href="{{ link.url }}">
+          {{ link.title }}
+        </a>
+      {% endfor %}
+    </div>
+  </div> 
+</section>
+
+{% schema %}
+{
+  "name": "Page Navigation",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "page_menu",
+      "label": "Menu"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Page Navigation",
+      "category": "Store information",
+      "settings": {}
+    }
+  ],
+  "disabled_on": {
+    "groups": ["*"]
+  }
+}
+{% endschema %}

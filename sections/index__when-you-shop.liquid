@@ -1,0 +1,76 @@
+{% comment %}
+** When You Shop **
+{% endcomment %}
+
+<section class="when-you-shop">
+ <div class="when-you-shop-parent">
+   {%- for block in section.blocks -%}
+     <div class="when-you-shop-single">
+       <div class="image-part">
+         <img src="{{  block.settings.image | image_url: width: 1024}}" >
+       </div>
+       <div class="text-part">
+         <h4 >{{ block.settings.section_heading }}</h4>
+         <img src="{{  block.settings.icon | image_url: width: 300}}" >
+         <p >{{ block.settings.section_body }}</p>
+       </div>
+     </div>
+   {%- endfor -%}
+ </div>
+ 
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "When You Shop",
+    "max_blocks": 3,
+    "settings": [
+       {
+        "type": "text",
+        "label": "section heading",
+        "id": "section-heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "html",
+            "label": "Heading Text",
+            "id": "section_heading"
+          },
+          {
+            "type": "image_picker",
+            "label": "Icon",
+            "id": "icon"
+          },
+          {
+            "type": "text",
+            "label": "Lower Text",
+            "id": "section_body"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "When You Shop",
+        "category": "Image"
+      }
+    ],
+    "disabled_on": {
+      "groups": [
+        "*"
+      ]
+    }
+  }
+{% endschema %}

@@ -1,0 +1,89 @@
+{%- comment -%}
+    pagination_type: section.settings.pagination_type
+    blog_author: section.settings.blog_author,
+    blog_date: section.settings.blog_date
+{%- endcomment -%}
+
+<div class="search__item container has-padding-bottom" {% if pagination_type != 'basic_pagination' %}data-load-more--grid-item{% endif %}>
+  {%- assign featured_image = false -%}
+
+  {% if item.object_type == 'article' and item.featured_media.preview_image %}
+    {%- assign featured_image = true -%}
+    <div class="one-fourth column search-result__image-container small-down--one-whole">
+      <a href="{{ item.url }}" title="{{ item.title | escape }}">
+        {% render 'image-element',
+                image: item.featured_media.preview_image,
+                alt: item.featured_media.preview_image.alt
+        %}
+      </a>
+    </div>
+  {% elsif item.featured_image %}
+    {%- assign featured_image = true -%}
+    <div class="one-fourth column search-result__image-container small-down--one-whole">
+      <a href="{{ item.url }}" title="{{ item.title | escape }}">
+        {% render 'image-element',
+                image: item.featured_image,
+                alt: item.featured_image.alt
+        %}
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="search-result__description {% if featured_image %}three-fourths{% else %}one-whole{% endif %} small-down--one-whole column">
+    <h3 class="search-result__title">
+      <a href="{{ item.url }}" title="{{ item.title | escape }}">{{ item.title }}</a>
+    </h3>
+
+    {% if item.price %}
+      <div class="info has-padding-top">
+        <span class="price {% if item.compare_at_price_max > item.price %}sale{% endif %}">
+          {% if item.available %}
+            {% if item.price_varies and item.price_min > 0 %}
+              <small><em>{{ 'products.general.from' | t }}</em></small>
+            {% endif %}
+            {% if item.price_min > 0 %}
+              <span class="money">
+                {% render 'price-element', price: item.price_min %}
+              </span>
+            {% else %}
+              {{ settings.free_price_text }}
+            {% endif %}
+            {% if item.compare_at_price_max > item.price %}
+              <span class="compare-at-price">
+                <span class="money">
+                  {% render 'price-element', price: item.compare_at_price_max %}
+                </span>
+              </span>
+            {% endif %}
+          {% else %}
+            <span class="sold-out">{{ 'products.product.sold_out' | t }}</span>
+          {% endif %}
+        </span>
+      </div>
+    {% endif %}
+
+    <div class="has-padding-top">
+      {% if item.object_type == 'article' %}
+        <div class="blog_meta">
+          {% if sblog_author %}
+            <p>{{ 'blogs.article.by_author' | t: author: item.author }}</p>
+          {% endif %}
+
+          {% if blog_date %}
+            <p>{{ item.published_at | date: format: "month_day_year" }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if item.object_type == 'page' %}
+        {% if item.excerpt %}
+          <div class="excerpt">{{ item.excerpt | strip_html | truncate: 500 }}</div>
+        {% else %}
+          <p>
+            {{ item.content | strip_html | truncatewords: 40 | highlight: search.terms | replace: 'Description', '' | replace: 'Specs', '' | replace: 'Shipping', '' | replace: 'Size', '' }}
+          </p>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</div>

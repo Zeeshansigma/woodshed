@@ -1,0 +1,127 @@
+{% comment %}
+----------------
+Product Slider New
+Optional values
+product_recommendations: <boolean>
+{% endcomment %}
+
+{% liquid
+  # Check for related products and increase limit by one (to offset the currently selected product that is removed from the product loop)
+
+  if related_products == true
+    assign limit = limit | plus: 0
+    assign loop_limit = limit | plus: 1
+    assign hover_enabled = block.settings.show_related_products_title_on_hover
+  else
+    assign limit = limit | plus: 0
+    assign loop_limit = limit | plus: 0
+    assign hover_enabled = settings.thumbnail_hover_enabled
+  endif
+
+  if per_slide != blank
+    assign visible_products = per_slide
+  else
+    if products_per != blank
+      assign visible_products = products_per | plus: 0
+    else
+      assign visible_products = products_per | plus: 0
+    endif
+  endif
+
+  if template.name == 'product'
+    if limit <= visible_products
+      assign products_length = limit
+    else
+      assign products_length = products.size | minus: 1
+    endif
+  elsif featured_collection
+    assign products_length = collections[featured_collection].products.size
+  elsif section.settings.show_product_recommendations
+    assign products_length = limit
+  else
+    assign products_length = products.size
+  endif
+
+  if product_recommendations == true
+    assign hover_enabled = settings.thumbnail_hover_enabled
+  endif
+%}
+
+
+
+<div
+  class="swiper-parent recommended-new aaa"
+  id = "{{ sectId }}"
+  data-products-per-slide="{{ visible_products }}"
+  data-products-limit="{{ limit }}"
+  data-products-available="{{ products_length }}">
+
+  <div class="sliderr">
+    <div class="swiper-container" id = "{{ sectId }}">
+      <div class="swiper-wrapper">
+
+        {% for product in products limit: loop_limit %}
+          {%- assign collection_handles = product.collections | map: 'handle' -%}
+          {% if product.id != skip_product.id %}
+            {%- assign feature_image = product.featured_image -%}
+            <div class="swiper-slide">
+              <div>
+                <a href="{{ product.url | within: collection }}">
+                  <img alt="{{ alt_text | escape }}" src="{{ product.featured_media.preview_image | img_url: '500x' }}" />
+
+                </a>
+                <div class="card-text">
+                  <a href="{{ product.url | within: collection }}">
+                    <h5>{{ product.title }}</h5>
+                  </a>
+                  
+                  <span class="product-thumbnail__price price {% if product.compare_at_price_max > product.price %}sale{% endif %}">
+                    {% if product.price_varies and product.price_min > 0 %}
+                      <small>
+                        <em>{{ 'products.general.from' | t }}</em>
+                      </small>
+                    {% endif %}
+                    {% if product.price_min > 0 %}
+                      <span class="money">
+                        {%
+                           render 'price-element',
+                         price: product.price_min %}
+                      </span>
+                    {% else %}
+                      {{ settings.free_price_text }}
+                    {% endif %}
+                    {% if product.compare_at_price > product.price %}
+                      <span class="product-thumbnail__was-price compare-at-price">
+                        <span class="money">
+                          {%
+                             render 'price-element',
+                           price: product.compare_at_price, %}
+                        </span>
+                      </span>
+                    {% endif %}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          {% endif %}
+        {% endfor %}
+
+
+      </div>
+
+
+      <!-- scrollbar -->
+      <div class="swiper-scrollbar"></div>
+
+
+    </div>
+    <!-- buttons -->
+    <div class="image-swiper-button-prev">
+      <img src="{{ 'icon-left.svg' | asset_url }}" />
+    </div>
+    <div class="image-swiper-button-next">
+      <img src="{{ 'icon-right.svg' | asset_url }}" />
+    </div>
+  </div>
+</div>

@@ -1,0 +1,119 @@
+/* Heading Fonts */ 
+
+@font-face {
+    font-family: "Mreavessanot bold";
+    src: url(//woodshed.life/cdn/shop/files/MrEavesSanOT-Bold.woff?v=15587433241616372215) format("woff");
+    font-style: normal;
+  }
+
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Mreavessanot bold", sans-serif !important;
+  }
+
+
+
+/* Body Font */
+
+
+/* Logo Font */
+
+@font-face {
+    font-family: "Mreavessanot bold";
+    src: url(//woodshed.life/cdn/shop/files/MrEavesSanOT-Bold.woff?v=15587433241616372215) format("woff");
+    font-style: normal;
+  }
+  .footer__block.block__logo .footer__heading, 
+  .header__logo-text,
+  .password-page .password-title,
+  .footer__block.block__logo .footer__heading  { 
+    font-family: "Mreavessanot bold", sans-serif !important;
+  }
+
+
+/* Nav Fonts */ 
+
+@font-face {
+    font-family: "Mreavessanot bold";
+    src: url(//woodshed.life/cdn/shop/files/MrEavesSanOT-Bold.woff?v=15587433241616372215) format("woff");
+    font-style: normal;
+  } 
+  .disclosure__toggle { 
+    font-family: "Mreavessanot bold", sans-serif !important;
+  }
+
+
+/* Nav Fonts */ 
+
+@font-face {
+    font-family: "Mreavessanot bold";
+    src: url(//woodshed.life/cdn/shop/files/MrEavesSanOT-Bold.woff?v=15587433241616372215) format("woff");
+  }
+  .button,.purchase-details .purchase-details__spb--true .shopify-payment-button .shopify-payment-button__button--unbranded {
+    font-family: "Mreavessanot bold", sans-serif !important;
+  }
+
+
+/* Preheadings */
+
+@font-face {
+    font-family: "Mreavessanot bold";
+    src: url(//woodshed.life/cdn/shop/files/MrEavesSanOT-Bold.woff?v=15587433241616372215) format("woff");
+    font-style: normal;
+  }
+  .heading-section__preheading { 
+    font-family: "Mreavessanot bold", sans-serif !important;
+  }
+
+
+/* Subheadings */
+
+@font-face {
+    font-family: "Mreavessanot bold";
+    src: url(//woodshed.life/cdn/shop/files/?5661) format("woff");
+    font-style: normal;
+  }
+  .heading-section__subheading { 
+    font-family: "Mreavessanot bold", sans-serif !important;
+  }
+
+
+
+/* Banner Headings */ 
+
+@font-face {
+    font-family: "Mreavessanot bold";
+    src: url(//woodshed.life/cdn/shop/files/MrEavesSanOT-Bold.woff?v=15587433241616372215) format("woff");
+    font-style: normal;
+  }
+  .slideshow-classic__banner h2.title, 
+  .banner__heading { 
+    font-family: "Mreavessanot bold", sans-serif !important;
+    font-style: normal;
+  }
+
+
+/* Banner Text */ 
+
+@font-face {
+    font-family: "Mreavessanot bold";
+    src: url(//woodshed.life/cdn/shop/files/MrEavesSanOT-Bold.woff?v=15587433241616372215) format("woff");
+    font-style: normal;
+  }
+   
+  .banner__subheading,
+  .block__image-with-overlay .pretext,
+  .block__image-with-overlay .subtitle,
+  .image-with-text-overlay .pretext,
+  .image-with-text-overlay .subtitle,
+  .image-slideshow .pretext,
+  .image-slideshow .subtitle { 
+    font-family: "Mreavessanot bold", sans-serif !important;
+    font-style: normal;
+  }
+
+
+
+.studioengine .is-box .is-container,
+.studioeditor .is-box .is-container {
+   margin-top: 0px !important;
+}

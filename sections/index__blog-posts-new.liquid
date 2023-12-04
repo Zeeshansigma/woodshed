@@ -1,0 +1,320 @@
+{% comment %}
+  ** Blog posts new **
+{% endcomment %}
+
+{% liquid
+  assign title = section.settings.title
+  assign use_mobile_slider = false
+%}
+
+{% style %}
+    #shopify-section-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+
+      {% if section.settings.width == 'wide' -%}
+        width: 100%;
+      {%- endif %}
+    }
+
+    @media only screen and (max-width: 798px) {
+      #shopify-section-{{ section.id }} {
+        padding-top: {{ section.settings.padding_top_mobile }}px;
+        padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+      }
+    }
+
+    {%
+      render 'css-loop',
+      css: section.settings.custom_css,
+      id: section.id,
+    %}
+
+    .blog_recent{
+
+    }
+    .blog_recent h2{
+      color: #1F989E;
+  text-align: center;
+  font-family: Mr Eaves Mod OT;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.45px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+    }
+{% endstyle %}
+
+<section
+  class="
+    section
+    {{ section.settings.css_class }}
+    is-width-{{ section.settings.width }}
+  "
+  {% if section.settings.animation != 'none' %}
+    data-scroll-class="{{ section.settings.animation }}"
+  {% endif %}
+>
+  {% if title != blank %}
+    <div class="container">
+      {% render 'heading', title: title, heading_tag: 'h2', context: 'featured-blog', text_alignment: 'center' %}
+    </div>
+  {% endif %}
+
+  <div
+    class="
+      blog-posts__wrapper
+      blog-posts__wrapper--page-dots-{{ section.settings.show_navigation_dots }}
+      container
+    "
+  >
+    {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
+    {% for handle in blog_handles %}
+      {% for article in blogs[handle].articles %}
+        {% if article.tags contains 'featured_home' %}
+          <div
+            class="
+              featured-article
+              blog-card
+              one-half
+              columns
+              article
+              card
+              show-border-{{ section.settings.show-border }}
+              medium-down--one-whole
+              has-margin-bottom
+            "
+          >
+            {% if article.image != blank %}
+              <div class="card-image blog-card__image">
+                <figure class="image">
+                  <a
+                    class="blog-card__link"
+                    href="{{ article.url }}"
+                    title="{{ article.title | escape }}"
+                  >
+                    {%
+                      render 'image-element',
+                      image: article.image,
+                      alt: article.image.alt,
+                      additional_classes: 'blog-card__image',
+                    %}
+                  </a>
+                </figure>
+              </div>
+            {% endif %}
+
+            <div class="card-content blog-card__content">
+
+            <div class="blog_categ_name">
+              <a class="blog_categ_name" href="{{ blogs[handle].url }}">{{ blogs[handle].title }}</a>
+            </div>
+
+              <div class="media">
+                <div class="media-content">
+                  <h3 class="title">
+                    <a
+                      class="featured-article--link"
+                      href="{{ article.url }}"
+                      title="{{ article.title | escape }}"
+                    >
+                      {{- article.title -}}
+                    </a>
+                  </h3>
+                </div>
+              </div>
+
+              {% if article.excerpt != blank %}
+                {% assign postexcerpt = article.excerpt | size %}
+
+                {% if postexcerpt > 150 %}
+                  {% assign excerptlength = 'lg' %}
+                {% elsif postexcerpt <= 150 %}
+                  {% assign excerptlength = 'sm' %}
+                {% endif %}
+
+                <div
+                  class="
+                    excerpt
+                    excerpt-length-{{ excerptlength }}
+                    has-margin-bottom
+                  "
+                >
+                  {{ article.excerpt }}
+                  <span class="truncation-fade"></span>
+                </div>
+              {% endif %}
+              <a href="{{ article.url }}" class="hiddenbloglink">read more</a>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Blog posts new",
+  "class": "blog_recent",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Recent blog posts"
+    },
+
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wide",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 80,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "default": 0,
+      "min": 0,
+      "max": 80,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "animation",
+      "label": "Animation",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "fadeIn",
+          "label": "Fade in"
+        },
+        {
+          "value": "fadeInDown",
+          "label": "Fade in down"
+        },
+        {
+          "value": "fadeInLeft",
+          "label": "Fade in left"
+        },
+        {
+          "value": "fadeInRight",
+          "label": "Fade in right"
+        },
+        {
+          "value": "slideInLeft",
+          "label": "Slide in left"
+        },
+        {
+          "value": "slideInRight",
+          "label": "Slide in right"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Mobile layout"
+    },
+    {
+      "type": "radio",
+      "id": "mobile_layout",
+      "label": "Mobile layout",
+      "options": [
+        {
+          "value": "slider",
+          "label": "Slider"
+        },
+        {
+          "value": "stacked",
+          "label": "Stacked"
+        }
+      ],
+      "default": "stacked"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_arrows",
+      "label": "Show arrows on mobile",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_navigation_dots",
+      "label": "Show navigation dots on mobile",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Mobile top spacing",
+      "min": 0,
+      "max": 80,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Mobile bottom spacing",
+      "min": 0, 
+      "max": 80,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "header", 
+      "content": "Advanced",
+      "info": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/360022329373)"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog posts new",
+      "category": "Blog"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["*"]
+  }
+}
+{% endschema %}
