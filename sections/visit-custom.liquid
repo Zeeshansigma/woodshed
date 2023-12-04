@@ -96,20 +96,44 @@ ul#tabs-nav li.active {
 
 <script>
   
-  // Show the first tab and hide the rest
-$('#tabs-nav li:first-child').addClass('active');
-$('.tab-content').hide();
-$('.tab-content:first').show();
+//   // Show the first tab and hide the rest
+// $('#tabs-nav li:first-child').addClass('active');
+// $('.tab-content').hide();
+// $('.tab-content:first').show();
+
+// // Click function
+// $('#tabs-nav li').click(function(){
+//   $('#tabs-nav li').removeClass('active');
+//   $(this).addClass('active');
+//   $('.tab-content').hide();
+//   var activeTab = $(this).find('a').attr('href');
+//   // $(activeTab).fadeIn();
+//   return true;
+// });
+// Show the first tab and hide the rest
+
+document.querySelector('#tabs-nav li:first-child').classList.add('active');
+document.querySelectorAll('.tab-content').forEach(function(tabContent) {
+    tabContent.style.display = 'none';
+});
+document.querySelectorAll('.tab-content')[0].style.display = 'block';
 
 // Click function
-$('#tabs-nav li').click(function(){
-  $('#tabs-nav li').removeClass('active');
-  $(this).addClass('active');
-  $('.tab-content').hide();
-  var activeTab = $(this).find('a').attr('href');
-  // $(activeTab).fadeIn();
-  return true;
+document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+        document.querySelectorAll('#tabs-nav li').forEach(function(item) {
+            item.classList.remove('active');
+        });
+        this.classList.add('active');
+
+        document.querySelectorAll('.tab-content').forEach(function(content) {
+            content.style.display = 'none';
+        });
+        var activeTab = this.querySelector('a').getAttribute('href').substring(1);
+        document.getElementById(activeTab).style.display = 'block';
+    });
 });
+
 </script>
 {% schema %}
     {
