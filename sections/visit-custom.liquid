@@ -121,7 +121,7 @@ document.querySelectorAll('.tab-content').forEach(function(tabContent) {
 document.querySelectorAll('.tab-content')[0].style.display = 'block';
 
 // Click function
-document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
+document.querySelectorAll('#tabs-nav li a').forEach(function(tab) {
     tab.addEventListener('click', function() {
         document.querySelectorAll('#tabs-nav li').forEach(function(item) {
             item.classList.remove('active');
