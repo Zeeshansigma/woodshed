@@ -41,13 +41,20 @@ padding: 95px 0;
 {% comment %} tabs {% endcomment %}
 <div class="tabs">
   <ul id="tabs-nav">
-    <li><a href="#tab1">Bob</a></li>
+    {% for block in section.blocks %}
+      {% if block.type == 'Title' %}
+    <li><a href="#tab1"> {{ block.settings.Tab_main_title }} </a></li>
+    
   </ul> <!-- END tabs-nav -->
   <div id="tabs-content">
+    {% elsif block.type == 'Content' %} 
     <div id="tab1" class="tab-content">
       <h2>Silent Bob </h2>
       <p>"You know, there's a million fine looking women in the world, dude. But they don't all bring you lasagna at work. Most of 'em just cheat on you."</p>
     </div>
+  {% endif %}
+  
+  {% endfor %}
   </div> 
 </div> 
 </div>
@@ -78,13 +85,29 @@ padding: 95px 0;
       ],
       "blocks": [
          {
-           "name": "Slide",
-           "type": "slide",
+           "name": "Title",
+           "type": "text",
            "settings": [
              {
-               "type": "image_picker",
-               "id": "image",
-               "label": "Image"
+               "type": "text",
+               "id": "Tab_main_title",
+               "label": "ADD TAb Title"
+             }
+           ]
+         },
+         {
+           "name": "Content",
+           "type": "text",
+           "settings": [
+             {
+               "type": "text",
+               "id": "Tab_main_heading",
+               "label": "ADD TAb Heading"
+             },
+             {
+               "type": "text",
+               "id": "Tab_main_subheading",
+               "label": "ADD TAb Text"
              }
            ]
          }
