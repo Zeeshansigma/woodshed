@@ -17,6 +17,9 @@ padding: 95px 0;
   max-width: 80%;
   margin: 0 auto;
 }
+.rich-text {
+    margin: 40px 0;
+}
 .rich-text p {
     font-size: 20px;
     font-weight: 400;
@@ -91,6 +94,16 @@ ul#tabs-nav li:nth-child(4) {
     max-width: 22%;
     text-align: center;
 } */
+.custom-slider{
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+  .custom-slider{
+    display: block;
+  }
+  
+}
 </style>
 
 
@@ -117,6 +130,18 @@ ul#tabs-nav li:nth-child(4) {
       {% endif %}
     {% endfor %}
   </ul> <!-- END tabs-nav -->
+   <!-- Swiper -->
+   <div class="swiper mySwiper custom-slider">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+      <div class="swiper-slide">
+            <li><a href="#{{ block.settings.Tab_id }}"> {{ block.settings.Tab_main_title }} </a></li>
+      </div>
+    {% endfor %}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
   
   <div id="tabs-content">
     {% for block in section.blocks %}
@@ -185,6 +210,20 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
     });
 });
 
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2.4,
+  spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 </script>
 {% schema %}
     {
