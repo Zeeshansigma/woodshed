@@ -106,9 +106,6 @@ $('#tabs-nav li').click(function(){
   $('#tabs-nav li').removeClass('active');
   $(this).addClass('active');
   $('.tab-content').hide();
-  // $(this).style.css.display = "block";
-  
-  
   var activeTab = $(this).find('a').attr('href');
   $(activeTab).fadeIn();
   return false;
