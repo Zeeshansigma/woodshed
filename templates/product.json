@@ -250,6 +250,7 @@
         "6a63c520-0960-4a4a-8466-be05dc894cb5": {
           "type": "Content",
           "settings": {
+            "Tab_content_id": "first",
             "Tab_main_heading_1": "Roasters Next Door",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
@@ -261,28 +262,34 @@
             "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
           }
         },
-        "e0b7c563-c2e9-4116-b72d-26abd09142bc": {
+        "d0a337ee-1c64-416c-b06a-e108f309349a": {
           "type": "Content",
           "settings": {
-            "Tab_main_heading_1": "",
-            "Tab_main_subheading_1": "",
-            "Tab_main_heading_2": "",
-            "Tab_main_subheading_2": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_content_id": "second",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
             "Tab_main_heading_3": "Sweet Donkey",
-            "tab_img_3": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
-            "Tab_main_subheading_3": "Great outdoor space. Good food basics in addition to coffee. Fun events."
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
           }
         },
-        "a2111490-995e-4af9-b93e-89e541f58c73": {
+        "96ec4b63-41d6-4c6d-83f7-c81b3438e63b": {
           "type": "Content",
           "settings": {
-            "Tab_main_heading_1": "",
-            "Tab_main_subheading_1": "",
-            "Tab_main_heading_2": "",
+            "Tab_content_id": "third",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
-            "Tab_main_heading_3": "Roasters Next Door.",
-            "tab_img_3": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
-            "Tab_main_subheading_3": "Great outdoor space. Good food basics in addition to coffee. Fun events."
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
           }
         }
       },
@@ -291,8 +298,8 @@
         "b3170870-43d2-4154-b3ba-91a9d6851b70",
         "4013d2ce-4122-45cc-91bc-6f31e3db2427",
         "6a63c520-0960-4a4a-8466-be05dc894cb5",
-        "e0b7c563-c2e9-4116-b72d-26abd09142bc",
-        "a2111490-995e-4af9-b93e-89e541f58c73"
+        "d0a337ee-1c64-416c-b06a-e108f309349a",
+        "96ec4b63-41d6-4c6d-83f7-c81b3438e63b"
       ],
       "settings": {
         "title_main": "YOU'RE GOING TO LOVE ROANOKE, VA.",
