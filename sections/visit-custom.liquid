@@ -49,8 +49,8 @@ padding: 95px 0;
   <div id="tabs-content">
     {% elsif block.type == 'Content' %} 
     <div id="tab1" class="tab-content">
-      <h2>Silent Bob </h2>
-      <p>"You know, there's a million fine looking women in the world, dude. But they don't all bring you lasagna at work. Most of 'em just cheat on you."</p>
+      <h2> {{ block.settings.Tab_main_heading }} </h2>
+      <p> {{ block.settings.Tab_main_subheading }} </p>
     </div>
   {% endif %}
   
