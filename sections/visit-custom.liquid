@@ -109,6 +109,9 @@ ul#tabs-nav li:nth-child(4) {
     display: none;
 
   }
+  .bg-visit-header{
+background:url( {{ section.settings.main_bg_visit_mbl | img_url: 'master' }});
+  }
 }
 </style>
 
@@ -244,6 +247,11 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
           "type": "image_picker",
           "id": "main_bg_visit",
           "label": "ADD Background Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_bg_visit_mbl",
+          "label": "ADD Background Image for Mobile"
         },
         {
             "type": "richtext",
