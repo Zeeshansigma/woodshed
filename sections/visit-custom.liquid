@@ -75,21 +75,23 @@ ul#tabs-nav li.active {
 <div class="tabs">
   <ul id="tabs-nav">
     {% for block in section.blocks %}
-      {% if block.type == 'Title' %}
-    <li><a href="#tab1"> {{ block.settings.Tab_main_title }} </a></li>
-    
+      {% if block.type == 'TAb Title' %}
+        <li><a href="#tab1"> {{ block.settings.Tab_main_title }} </a></li>
+      {% endif %}
+    {% endfor %}
   </ul> <!-- END tabs-nav -->
-  <div id="tabs-content">
-    {% elsif block.type == 'Content' %} 
-    <div id="tab1" class="tab-content">
-      <h2> {{ block.settings.Tab_main_heading }} </h2>
-      <p> {{ block.settings.Tab_main_subheading }} </p>
-    </div>
-  {% endif %}
   
-  {% endfor %}
+  <div id="tabs-content">
+    {% for block in section.blocks %}
+      {% if block.type == 'Tab Content' %}
+        <div class="tab-content">
+          <h2>{{ block.settings.Tab_main_heading }}</h2>
+          <p>{{ block.settings.Tab_main_subheading }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div> 
-</div> 
+</div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
