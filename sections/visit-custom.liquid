@@ -1,0 +1,84 @@
+<style>
+ .bg-visit-header{
+background:url( {{ section.settings.main_bg_visit | image_url: 'master' }});
+background-size:cover;
+background-position:center center;
+ }   
+</style>
+
+
+
+
+<div class="bg-visit-header">
+    <h2> {{ section.settings.title_main }} </h2>
+</div>
+<div class="rich-text">
+{{ section.settings.main-rich-text }}
+</div>
+<div class="visit-img">
+<img src="{{ section.settings.main_visit | img_url: "master"  }}">
+</div>
+
+
+{% comment %} tabs {% endcomment %}
+<div class="tabs">
+  <ul id="tabs-nav">
+    <li><a href="#tab1">Bob</a></li>
+  </ul> <!-- END tabs-nav -->
+  <div id="tabs-content">
+    <div id="tab1" class="tab-content">
+      <h2>Silent Bob <img src="" alt=""> </h2>
+      <p>"You know, there's a million fine looking women in the world, dude. But they don't all bring you lasagna at work. Most of 'em just cheat on you."</p>
+    </div>
+  </div> <!-- END tabs-content -->
+</div> <!-- END tabs -->
+{% comment %} end-tabs {% endcomment %}
+
+{% schema %}
+    {
+      "name": "Custom-visit",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title_main",
+          "label": "ADD Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_bg_visit",
+          "label": "ADD Background Image"
+        },
+        {
+            "type": "richtext",
+            "id": "main-rich-text",
+            "label": "ADD Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_visit",
+          "label": "ADD Image"
+        },
+      ],
+      "blocks": [
+         {
+           "name": "Slide",
+           "type": "slide",
+           "settings": [
+             {
+               "type": "image_picker",
+               "id": "image",
+               "label": "Image"
+             }
+           ]
+         }
+      ],
+      "presets": [
+        {
+          "name": "Custom-visit"
+          
+        }
+      ]
+      
+    }
+    {% endschema %}
+    
