@@ -230,14 +230,14 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "COFFEE-CENTRIC",
-            "Tab_id": "1"
+            "Tab_id": "first"
           }
         },
         "b3170870-43d2-4154-b3ba-91a9d6851b70": {
           "type": "text",
           "settings": {
             "Tab_main_title": "COFFEE-CENTRIC",
-            "Tab_id": "2"
+            "Tab_id": "second"
           }
         },
         "6a63c520-0960-4a4a-8466-be05dc894cb5": {
@@ -245,7 +245,7 @@
           "settings": {
             "Tab_main_heading": "Little Green Hive Coffee & Tea",
             "Tab_main_subheading": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
-            "Tab_content_id": "1"
+            "Tab_content_id": "first"
           }
         },
         "e0b7c563-c2e9-4116-b72d-26abd09142bc": {
@@ -253,7 +253,7 @@
           "settings": {
             "Tab_main_heading": "Little Green Hive Coffee & Tea",
             "Tab_main_subheading": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
-            "Tab_content_id": "2"
+            "Tab_content_id": "second"
           }
         }
       },
