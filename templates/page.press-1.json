@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "page-content__main",
+      "disabled": true,
       "settings": {
         "show_heading": true,
         "heading_alignment": "center",
@@ -11,9 +12,17 @@
         "css_class": "",
         "custom_css": ""
       }
+    },
+    "841e81dd-3740-4b20-95e1-04076d09225a": {
+      "type": "prees-page",
+      "settings": {
+        "main-heading": "",
+        "custom_collection": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "841e81dd-3740-4b20-95e1-04076d09225a"
   ]
 }
