@@ -232,19 +232,6 @@
             "Tab_main_title": "COFFEE-CENTRIC"
           }
         },
-        "a00bf72f-d8fd-4f56-a366-d87e7b6dc3fd": {
-          "type": "text",
-          "settings": {
-            "Tab_main_title": "COFFEE-CENTRIC"
-          }
-        },
-        "07928029-a08d-4837-ad51-e00516ef763d": {
-          "type": "Content",
-          "settings": {
-            "Tab_main_heading": "Little Green Hive Coffee & Tea",
-            "Tab_main_subheading": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing."
-          }
-        },
         "8826cf1a-320e-4934-96c2-36fe74ec63ee": {
           "type": "Content",
           "settings": {
@@ -255,8 +242,6 @@
       },
       "block_order": [
         "8c1bf619-ffa0-4042-a806-4871b1cd0572",
-        "a00bf72f-d8fd-4f56-a366-d87e7b6dc3fd",
-        "07928029-a08d-4837-ad51-e00516ef763d",
         "8826cf1a-320e-4934-96c2-36fe74ec63ee"
       ],
       "settings": {
