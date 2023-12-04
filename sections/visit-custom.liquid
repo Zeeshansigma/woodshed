@@ -60,6 +60,7 @@ ul#tabs-nav li.active a {
   display: flex;
     align-items: center;
     gap: 10px;
+    font-family: "Mreavessanot bold";
 }
 /* .tab-content {
   padding: 10px;
@@ -97,7 +98,9 @@ ul#tabs-nav li:nth-child(4) {
 .custom-slider{
   display: none;
 }
-
+.mobile{
+  display: none;
+}
 @media screen and (max-width:768px) {
   .custom-slider{
     display: block;
@@ -114,6 +117,12 @@ background:url( {{ section.settings.main_bg_visit_mbl | img_url: 'master' }});
 background-repeat: no-repeat;
     padding: 0;
   }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+  display: block;
+}
 }
 </style>
 
@@ -121,7 +130,8 @@ background-repeat: no-repeat;
 
 
 <div class="bg-visit-header">
-    <h2> {{ section.settings.title_main }} </h2>
+    <h2 class="desktop"> {{ section.settings.title_main }} </h2>
+    <h2 class="mobile"> {{ section.settings.title_main_mbl }} </h2>
 </div>
 <div class="main-page-content">
 <div class="rich-text">
@@ -244,6 +254,11 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
           "type": "text",
           "id": "title_main",
           "label": "ADD Title"
+        },
+        {
+          "type": "text",
+          "id": "title_main_mbl",
+          "label": "ADD Title for Mobile"
         },
         {
           "type": "image_picker",
