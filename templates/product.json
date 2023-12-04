@@ -261,18 +261,19 @@
           "type": "Content",
           "settings": {
             "Tab_main_heading": "Little Green Hive Coffee & Tea",
-            "Tab_main_subheading_2": "",
-            "Tab_main_heading_3": "",
-            "Tab_main_subheading_3": ""
+            "Tab_main_subheading_2": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_3": "Great outdoor space. Good food basics in addition to coffee. Fun events."
           }
         },
         "a2111490-995e-4af9-b93e-89e541f58c73": {
           "type": "Content",
           "settings": {
             "Tab_main_heading": "Little Green Hive Coffee & Tea",
-            "Tab_main_subheading_2": "",
-            "Tab_main_heading_3": "",
-            "Tab_main_subheading_3": ""
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Roasters Next Door.",
+            "Tab_main_subheading_3": "Great outdoor space. Good food basics in addition to coffee. Fun events."
           }
         }
       },
