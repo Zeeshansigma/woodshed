@@ -75,7 +75,7 @@ ul#tabs-nav li.active {
 <div class="tabs">
   <ul id="tabs-nav">
     {% for block in section.blocks %}
-      {% if block.type == 'TAb Title' %}
+      {% if block.type == 'text' %}
         <li><a href="#tab1"> {{ block.settings.Tab_main_title }} </a></li>
       {% endif %}
     {% endfor %}
@@ -83,7 +83,7 @@ ul#tabs-nav li.active {
   
   <div id="tabs-content">
     {% for block in section.blocks %}
-      {% if block.type == 'Tab Content' %}
+      {% if block.type == 'Content' %}
         <div class="tab-content">
           <h2>{{ block.settings.Tab_main_heading }}</h2>
           <p>{{ block.settings.Tab_main_subheading }}</p>
