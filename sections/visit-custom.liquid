@@ -74,7 +74,7 @@ ul#tabs-nav li.active {
   <ul id="tabs-nav">
     {% for block in section.blocks %}
       {% if block.type == 'text' %}
-        <li><a href="#tab1"> {{ block.settings.Tab_main_title }} </a></li>
+        <li><a href="#{{ block.settings.Tab_id }}"> {{ block.settings.Tab_main_title }} </a></li>
       {% endif %}
     {% endfor %}
   </ul> <!-- END tabs-nav -->
@@ -82,7 +82,7 @@ ul#tabs-nav li.active {
   <div id="tabs-content">
     {% for block in section.blocks %}
       {% if block.type == 'Content' %}
-        <div id="tab1" class="tab-content">
+        <div id="{{ block.settings.Tab_content_id }}" class="tab-content">
           <h2>{{ block.settings.Tab_main_heading }}</h2>
           <p>{{ block.settings.Tab_main_subheading }}</p>
         </div>
@@ -146,6 +146,11 @@ $('#tabs-nav li').click(function(){
                "type": "text",
                "id": "Tab_main_title",
                "label": "ADD TAb Title"
+             },
+             {
+               "type": "text",
+               "id": "Tab_id",
+               "label": "ADD TAb Id"
              }
            ]
          },
@@ -162,6 +167,11 @@ $('#tabs-nav li').click(function(){
                "type": "text",
                "id": "Tab_main_subheading",
                "label": "ADD TAb Text"
+             },
+             {
+               "type": "text",
+               "id": "Tab_content_id",
+               "label": "ADD TAb Content Id"
              }
            ]
          }
