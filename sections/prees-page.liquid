@@ -304,8 +304,8 @@ img.text {
 <div class="top-press image">
 	<div class="row">
 		<div class="col-md-12">
-			<img style="width: 100%" src="file:///Users/imac/Downloads/Group%2033829%20(1).png">
-	        <h1>PRESS</h1>
+			<img style="width: 100%" src="{{ section.settings.main-image | img_url:'master' }}">
+	        <h1>{{ section.settings.main-heading }}</h1>
 		</div>
 	</div>
 </div>
@@ -479,14 +479,14 @@ img.text {
   "name": "Press Page",
   "settings": [
     {
+            "type": "image_picker",
+            "id": "main-image",
+            "label": "ADD Brand logo"
+          },
+		  {
   "type": "text",
   "id": "main-heading",
-  "label": "main Heading"
-},
-{
-  "type": "collection",
-  "id": "custom_collection",
-  "label": "Collection"
+  "label": "Heading"
 }
   ],
     "presets": [
