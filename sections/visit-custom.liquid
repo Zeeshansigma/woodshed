@@ -3,7 +3,24 @@
 background:url( {{ section.settings.main_bg_visit | img_url: 'master' }});
 background-size:cover;
 background-position:center center;
+padding: 95px 0;
  }   
+ .bg-visit-header h2 {
+    font-size: 58px;
+    color: white;
+    text-align: center;
+    width: 39%;
+    margin: 0 auto;
+} 
+.main-page-content{
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.rich-text p {
+    font-size: 20px;
+    font-weight: 400;
+}
 </style>
 
 
@@ -12,6 +29,7 @@ background-position:center center;
 <div class="bg-visit-header">
     <h2> {{ section.settings.title_main }} </h2>
 </div>
+<div class="main-page-content">
 <div class="rich-text">
 {{ section.settings.main-rich-text }}
 </div>
@@ -32,7 +50,7 @@ background-position:center center;
     </div>
   </div> 
 </div> 
-
+</div>
 {% schema %}
     {
       "name": "Custom-visit",
