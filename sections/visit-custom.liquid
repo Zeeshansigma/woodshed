@@ -130,6 +130,12 @@ background-repeat: no-repeat;
 .main-page-content{
   max-width: 90%;
 }
+.swiper-a{
+  font-size: 16px;
+}
+.tab-first, .tab-second, .tab-third {
+    margin-top: 0 !important;
+}
 }
 </style>
 
@@ -163,7 +169,7 @@ background-repeat: no-repeat;
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
       <div class="swiper-slide">
-            <li><a href="#{{ block.settings.Tab_id }}"> {{ block.settings.Tab_main_title }} </a></li>
+            <li><a class="swiper-a" href="#{{ block.settings.Tab_id }}"> {{ block.settings.Tab_main_title }} </a></li>
       </div>
     {% endfor %}
     </div>
