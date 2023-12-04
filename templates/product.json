@@ -225,6 +225,25 @@
     },
     "8af241ac-11a3-48e6-9ee9-c8ea8157cfdb": {
       "type": "visit-custom",
+      "blocks": {
+        "12acc496-9679-423d-b339-fc5a5c37c065": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "COFFEE-CENTRIC"
+          }
+        },
+        "0a6179d3-d817-4afb-9344-ef165ae43918": {
+          "type": "Content",
+          "settings": {
+            "Tab_main_heading": "Little Green Hive Coffee & Tea",
+            "Tab_main_subheading": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing."
+          }
+        }
+      },
+      "block_order": [
+        "12acc496-9679-423d-b339-fc5a5c37c065",
+        "0a6179d3-d817-4afb-9344-ef165ae43918"
+      ],
       "settings": {
         "title_main": "YOU'RE GOING TO LOVE ROANOKE, VA.",
         "main_bg_visit": "shopify:\/\/shop_images\/Group_33829_1.png",
