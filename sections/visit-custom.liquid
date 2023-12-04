@@ -93,11 +93,15 @@ ul#tabs-nav li a.active {
           <h2>{{ block.settings.Tab_main_heading_1 }} <img src=" {{ block.settings.tab_img_1 |  img_url: 'master' }} "> </h2>
           <p>{{ block.settings.Tab_main_subheading_1 }}</p>
 
+        <div class="tab-second">
           <h2>{{ block.settings.Tab_main_heading_2 }} <img src=" {{ block.settings.tab_img_2 |  img_url: 'master' }} "> </h2>
           <p>{{ block.settings.Tab_main_subheading_2 }}</p>
+        </div>
 
+         <div class="tab-third">
           <h2>{{ block.settings.Tab_main_heading_3 }} <img src=" {{ block.settings.tab_img_3 |  img_url: 'master' }} "> </h2>
           <p>{{ block.settings.Tab_main_subheading_3 }}</p>
+         </div>
         </div>
       {% endif %}
     {% endfor %}
