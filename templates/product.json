@@ -250,9 +250,13 @@
         "6a63c520-0960-4a4a-8466-be05dc894cb5": {
           "type": "Content",
           "settings": {
-            "Tab_main_heading": "Little Green Hive Coffee & Tea",
-            "Tab_main_subheading_2": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
-            "Tab_main_heading_3": "Roasters Next Door",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
             "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
             "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
           }
@@ -260,7 +264,9 @@
         "e0b7c563-c2e9-4116-b72d-26abd09142bc": {
           "type": "Content",
           "settings": {
-            "Tab_main_heading": "Little Green Hive Coffee & Tea",
+            "Tab_main_heading_1": "",
+            "Tab_main_subheading_1": "",
+            "Tab_main_heading_2": "",
             "Tab_main_subheading_2": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
             "Tab_main_heading_3": "Sweet Donkey",
             "tab_img_3": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
@@ -270,9 +276,12 @@
         "a2111490-995e-4af9-b93e-89e541f58c73": {
           "type": "Content",
           "settings": {
-            "Tab_main_heading": "Little Green Hive Coffee & Tea",
+            "Tab_main_heading_1": "",
+            "Tab_main_subheading_1": "",
+            "Tab_main_heading_2": "",
             "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
             "Tab_main_heading_3": "Roasters Next Door.",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_3": "Great outdoor space. Good food basics in addition to coffee. Fun events."
           }
         }
