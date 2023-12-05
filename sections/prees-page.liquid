@@ -301,12 +301,11 @@ img.text {
 
 
 
-
 <div class="top-press image">
 	<div class="row">
 		<div class="col-md-12">
-			<img style="width: 100%" src="{{ section.settings.main | img_url:'' }}">
-	        <h1>PRESS</h1>
+			<img style="width: 100%" src="{{ section.settings.main-image | img_url : '' }}">
+	        <h1>{{ section.settings.main-heading }}</h1>
 		</div>
 	</div>
 </div>
@@ -315,139 +314,26 @@ img.text {
 	<div class="container">
 
 		<div class="logo-with-text">
+          {% for block in section.blocks %}
 			<div class="row">
 				<div class="col-md-4">
-					<img style="position: absolute; left: 0; top: -4px;" src="{{ section.settings.image1 | img_url:'' }}">
-					<img class="partner" style="width: 100%;height: auto;" src="{{ section.settings.image2 | img_url:'' }}">
+
+					<img style="position: absolute; left: 0; top: -4px;" src="https://cdn.shopify.com/s/files/1/0591/9870/1621/files/vvv.png?v=1701761972">
+                  
+					<img class="partner" style="width: 100%;height: auto;" src="{{ block.image | img_url : '' }}">
 				</div>
 				<div class="col-md-6 text-box">
 					<h6>A Cocktail for Every State</h6>
 					<p>(On map, click West Virginia)</p>
 					<button>SEE MORE</button>
-					<img class="bottom-img" src="{{ section.settings.image3 | img_url:'' }}">
+					<img class="bottom-img" src="file:///Users/imac/Downloads/Vector%2032%20(1).png">
 				</div>
 				<div class="col-md-2">
-					<img src="{{ section.settings.image4 | img_url:'' }}">
+					<img src="https://cdn.shopify.com/s/files/1/0591/9870/1621/files/Group_33830_3.png?v=1701710571">
 				</div>
 			</div>
-		</div>
-
-
-			<div class="logo-with-text">
-			<div class="row">
-
-				<div class="col-md-4">
-					<img style="position: absolute; left: 0; top: -4px;" src="{{ section.settings.image5 | img_url:'' }}">
-					<img class="partner" style="height: auto;" src="{{ section.settings.image6 | img_url:'' }}">
-				</div>
-				<div class="col-md-6 text-box">
-					<h6>Buzz Bites: An Appalachian pop-up, new eateries and a food drive</h6>
-					<p>(On map, click West Virginia)</p>
-					<button>SEE MORE</button>
-					<img class="bottom-img" src="{{ section.settings.image7 | img_url:'' }}">
-				</div>
-				<div class="col-md-2">
-					<img src="{{ section.settings.image8 | img_url:'' }}">
-				</div>
-			</div>
-		</div>
-
-
-		<div class="logo-with-text">
-			<div class="row">
-				<div class="col-md-4">
-					<img style="position: absolute; left: 0; top: -4px;" src="">
-					<img class="partner" style="height: auto;" src="">
-				</div>
-				<div class="col-md-6 text-box">
-					<h6>Appalachian Revival Pop-Up Features Handmade Goods</h6>
-					<p>(On map, click West Virginia)</p>
-					<button>SEE MORE</button>
-					<img class="bottom-img" src="">
-				</div>
-				<div class="col-md-2">
-					<img src="">
-				</div>
-			</div>
-		</div>
-
-
-		<div class="logo-with-text">
-			<div class="row">
-				<div class="col-md-4">
-					<img style="position: absolute; left: 0; top: -4px;" src="">
-					<img class="text" style="height: auto;" src="">
-				</div>
-				<div class="col-md-6 text-box">
-					<h6>It’s Cyber Monday—for businesses small and large</h6>
-					<p>(On map, click West Virginia)</p>
-					<button>SEE MORE</button>
-					<img class="bottom-img" src="">
-				</div>
-				<div class="col-md-2">
-					<img src="">
-				</div>
-			</div>
-		</div>
-
-
-
-		<div class="logo-with-text">
-			<div class="row">
-				<div class="col-md-4">
-					<img style="position: absolute; left: 0; top: -4px;" src="">
-					<img class="partner" style="height: auto;" src="">
-				</div>
-				<div class="col-md-6 text-box">
-					<h6>A Cocktail for Every State</h6>
-					<p>(On map, click West Virginia)</p>
-					<button>SEE MORE</button>
-					<img class="bottom-img" src="">
-				</div>
-				<div class="col-md-2">
-					<img src="">
-				</div>
-			</div>
-		</div>
-
-
-		<div class="logo-with-text">
-			<div class="row">
-				<div class="col-md-4">
-					<img style="position: absolute; left: 0; top: -4px;" src="">
-					<img class="hardle" style="height: auto;" src="">
-				</div>
-				<div class="col-md-6 text-box">
-					<h6>A Cocktail for Every State</h6>
-					<p>(On map, click West Virginia)</p>
-					<button>SEE MORE</button>
-					<img class="bottom-img" src="">
-				</div>
-				<div class="col-md-2">
-					<img src="">
-				</div>
-			</div>
-		</div>
-
-
-		<div class="logo-with-text">
-			<div class="row">
-				<div class="col-md-4">
-					<img style="position: absolute; left: 0; top: -4px;" src="">
-					<img class="partner" style="height: auto;" src="">
-				</div>
-				<div class="col-md-6 text-box">
-					<h6>A Cocktail for Every State</h6>
-					<p>(On map, click West Virginia)</p>
-					<button>SEE MORE</button>
-					<img class="bottom-img" src="">
-				</div>
-				<div class="col-md-2">
-					<img src="">
-				</div>
-			</div>
-		</div>
-	
+         {% endfor %}
+		</div>		
 	</div>
 
 	<button class="bottom-button">View More</button>
@@ -459,17 +345,17 @@ img.text {
 	<div class="container-fluid">
 		<div class="row">
 		<div class="col-md-6 left">
-			<img class="center" src="file:///Users/imac/Downloads/Group%208.svg">
-			<img class="mb-right" src="file:///Users/imac/Downloads/Vector%2031.svg">
-			<img class="mb-left" src="file:///Users/imac/Downloads/Vector%2030.svg">
+			<img class="center" src="https://cdn.shopify.com/s/files/1/0591/9870/1621/files/Group_8.svg?v=1701762514">
+			<img class="mb-right" src="https://cdn.shopify.com/s/files/1/0591/9870/1621/files/Vector_31.svg?v=1701762514">
+			<img class="mb-left" src="https://cdn.shopify.com/s/files/1/0591/9870/1621/files/Vector_30.svg?v=1701762514">
 			<div class="press-bottom-box-text">
-				<h1>CONTACT</h1>
+			<h1>CONTACT</h1>
 			<p>When submitting inquiries, please note your media outlet.</p>
 			<button>REACH OUT</button>
 			</div>
 		</div>
 		<div class="col-md-6 right">
-			<img width="100%" height="400px" src="file:///Users/imac/Downloads/Stacked%20wood%201800%20x%20800%201.png">
+			<img width="100%" height="400px" src="https://cdn.shopify.com/s/files/1/0591/9870/1621/files/Stacked_wood_1800_x_800_1.png?v=1701762441">
 		</div>
 	</div>
 	</div>
@@ -480,50 +366,30 @@ img.text {
   "name": "Press Page",
   "settings": [
     {
-            "type": "image_picker",
-            "id": "main",
-            "label": "ADD Brand logo"
-          },
+  "type": "text",
+  "id": "main-heading",
+  "label": "main Heading"
+},
 {
-            "type": "image_picker",
-            "id": "image1",
-            "label": "1"
-          },
-{
-            "type": "image_picker",
-            "id": "image2",
-            "label": "2"
-          },
-{
-            "type": "image_picker",
-            "id": "image3",
-            "label": "3"
-          },
-{
-            "type": "image_picker",
-            "id": "image4",
-            "label": "4"
-          },
-{
-            "type": "image_picker",
-            "id": "image5",
-            "label": "5"
-          },
-{
-            "type": "image_picker",
-            "id": "image6",
-            "label": "6"
-          },
-{
-            "type": "image_picker",
-            "id": "image7",
-            "label": "7"
-          },
-{
-            "type": "image_picker",
-            "id": "image8",
-            "label": "8"
-          }
+  "type": "image_picker",
+  "id": "main-image",
+  "label": "Main Image"
+}
+
+  ],
+ "max_blocks": 8,
+  "blocks": [
+     {
+       "name": "Logo And Text",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Partner Image"
+         }
+       ]
+     }
   ],
     "presets": [
   {
