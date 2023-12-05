@@ -73,8 +73,9 @@
   >
     {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
     {% for handle in blog_handles %}
-      {% for article in blogs[handle].articles | sort: 'published_at' | reverse %}
-        
+      {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
+{% for article in blog_handles_sorted %}
+
           {% unless article.tags contains 'featured' %}
          
           <div
