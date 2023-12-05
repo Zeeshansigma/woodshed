@@ -18594,11 +18594,7 @@ ul.faceted-filter-group-display__list {
   div.related-blogs {
 display: none;
 }
-@media screen and (min-width:1400px) {
-  .container, .container-lg{
-    max-width: 100% !important;
-  } 
-}
+
 /* # Font-Face
 ================================================== */
 /*  This is the proper syntax for an @font-face file.
