@@ -78,7 +78,7 @@
       {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
       {% for article in blog_handles_sorted %}
         {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
-        {% if total_articles_displayed <= 15 %}
+        {% if total_articles_displayed < 15 %}
           {{total_articles_displayed}}
           {% unless article.tags contains 'featured' %}
          
