@@ -15,6 +15,17 @@
     },
     "841e81dd-3740-4b20-95e1-04076d09225a": {
       "type": "prees-page",
+      "blocks": {
+        "be67d5ea-daae-4ed8-b793-5156c3a26048": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/garden_and_gun_logo_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "be67d5ea-daae-4ed8-b793-5156c3a26048"
+      ],
       "settings": {
         "main-heading": "PRESS",
         "main-image": "shopify:\/\/shop_images\/Group_33829_3.png"
