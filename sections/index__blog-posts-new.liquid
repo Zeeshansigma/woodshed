@@ -159,7 +159,7 @@
      {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
      {{ total_articles_displayed }}
           {% if total_articles_displayed >= 14 %}
-           test
+            {% break %}
           {% endif %}
             
           {% endunless %}
