@@ -57,13 +57,11 @@
     data-scroll-class="{{ section.settings.animation }}"
   {% endif %}
 >
-
   {% if title != blank %}
     <div class="container">
       {% render 'heading', title: title, heading_tag: 'h2', context: 'featured-blog', text_alignment: 'center' %}
     </div>
   {% endif %}
-
   <div
     class="
       blog-posts__wrapper
@@ -71,12 +69,12 @@
       container
     "
   >
+    {% assign total_articles_displayed = 0 %}
     {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
     {% for handle in blog_handles %}
       {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
-      {% for article in blog_handles_sorted limit : 3 %}
+      {% for article in blog_handles_sorted %}
           {% unless article.tags contains 'featured' %}
-         
           <div
             class="
               featured-article
@@ -90,7 +88,6 @@
               has-margin-bottom
             "
           >
-
             {% if article.image != blank %}
               <div class="card-image blog-card__image">
                 <figure class="image">
@@ -109,13 +106,10 @@
                 </figure>
               </div>
             {% endif %}
-
             <div class="card-content blog-card__content">
-
-            <div class="blog_categ_name">
-              <a class="blog_categ_name" href="{{ blogs[handle].url }}">{{ blogs[handle].title }}</a>
-            </div>
-
+              <div class="blog_categ_name">
+                <a class="blog_categ_name" href="{{ blogs[handle].url }}">{{ blogs[handle].title }}</a>
+              </div>
               <div class="media">
                 <div class="media-content">
                   <h3 class="title">
@@ -129,16 +123,13 @@
                   </h3>
                 </div>
               </div>
-
               {% if article.excerpt != blank %}
                 {% assign postexcerpt = article.excerpt | size %}
-
                 {% if postexcerpt > 150 %}
                   {% assign excerptlength = 'lg' %}
                 {% elsif postexcerpt <= 150 %}
                   {% assign excerptlength = 'sm' %}
                 {% endif %}
-
                 <div
                   class="
                     excerpt
@@ -153,8 +144,10 @@
               <a href="{{ article.url }}" class="hiddenbloglink">read more</a>
             </div>
           </div>
-        
-
+          {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
+          {% if total_articles_displayed >= 14 %}
+            {% break %}
+          {% endif %}
             {% endunless %}
       {% endfor %}
     {% endfor %}

@@ -604,12 +604,12 @@ body.product .product-gallery {
   left: 50px;
   right: auto;
 } */
-.image-swiper-button-prev{
+.image-swiper-button-prev.swiperc-prev-1{
   left: -53px;
   right: auto;
   top: 31% !important;
 }
-.image-swiper-button-next{
+.image-swiper-button-next.swiperc-next-1{
   right: -53px;
   left: auto;
   top: 31% !important;
