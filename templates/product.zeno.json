@@ -1,1 +1,449 @@
-{"sections":{"breadcrumbs":{"type":"product__breadcrumb","disabled":true,"settings":{"width":"standard","padding_top":20,"padding_bottom":20,"css_class":"","custom_css":""}},"main":{"type":"product__main","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{"display_savings":true}},"form":{"type":"form","settings":{"show_payment_button":true,"show_gift_card_recipient_form":false}},"description":{"type":"description","settings":{}},"c98d9bc6-521f-48b0-8cbd-4d0e23b522ba":{"type":"text","settings":{"text":"<p>‎ <\/p>"}},"d2469888-07dc-4f53-aa56-ffc70988097e":{"type":"text","settings":{"text":"<p><\/p><p><strong>SEE MORE FROM<\/strong><\/p>"}},"0695501d-251b-4404-b384-614e1022d2d0":{"type":"vendor","settings":{}},"299700ca-3c69-47ea-9675-9c222c83cd05":{"type":"share","settings":{}}},"block_order":["title","price","form","description","c98d9bc6-521f-48b0-8cbd-4d0e23b522ba","d2469888-07dc-4f53-aa56-ffc70988097e","0695501d-251b-4404-b384-614e1022d2d0","299700ca-3c69-47ea-9675-9c222c83cd05"],"settings":{"product_images_position":"left","set_product_height":false,"product_height":500,"video_looping":false,"gallery_arrows":true,"enable_zoom":false,"enable_product_lightbox":false,"slideshow_speed":0,"slideshow_transition":"slide","display_thumbnails":true,"thumbnail_position":"bottom-thumbnails","enable_thumbnail_slider":true,"width":"standard","padding_top":20,"padding_bottom":20,"animation":"none","css_class":"","custom_css":""}},"9f6a6000-1a4d-489b-a459-c040e8ee42b4":{"type":"index__rich-text","settings":{"title":"FREE HOLIDAY SHIPPING","heading_font":"open_sans_n4","heading_alignment":"center","heading_size":30,"text":"<p><strong>ON U.S. ORDERS OF $65+ UNTIL 11:59 PM E.T., DECEMBER 18, 2023.<\/strong><\/p>","text_font":"open_sans_n4","text_alignment":"center","text_size":17,"columns":1,"button_label":"","button_link":"","button_style":"button--primary","button_alignment":"center","heading_color":"#ffffff","text_color":"#ffffff","background":"#1f989e","gradient":"rgba(0,0,0,0)","gradient_rotation":180,"width":"wide","padding_top":0,"padding_bottom":0,"padding_left":0,"padding_right":0,"animation":"none","mobile_title":"","mobile_text":"","mobile_alignment":"none","padding_top_mobile":20,"padding_bottom_mobile":0,"css_class":"","custom_css":""}},"524d66ac-2873-451d-b663-f590fa843328":{"type":"index__rich-text","settings":{"title":"WHEN YOU SHOP, GOOD THINGS HAPPEN","heading_font":"raleway_n7","heading_alignment":"center","heading_size":28,"text":"","text_font":"open_sans_n4","text_alignment":"left","text_size":14,"columns":2,"button_label":"","button_link":"","button_style":"button--primary","button_alignment":"center","heading_color":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","background":"#ffffff","gradient":"#ffffff","gradient_rotation":180,"width":"wide","padding_top":0,"padding_bottom":0,"padding_left":0,"padding_right":0,"animation":"none","mobile_title":"","mobile_text":"","mobile_alignment":"none","padding_top_mobile":20,"padding_bottom_mobile":0,"css_class":"","custom_css":""}},"66050ff4-ea1f-4774-981d-1c95ed9acf8c":{"type":"index__when-you-shop","blocks":{"template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/makers.png","section_heading":"You support<br>our makers","icon":"shopify:\/\/shop_images\/Hammers.svg","section_body":"And help keep Appalachian crafts alive."}},"template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/writers.png","section_heading":"You Support<br>Our Writers","icon":"shopify:\/\/shop_images\/Quill.svg","section_body":"So we can all enjoy their powerful stories."}},"template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/pexels-photo-12797726_1_1.png","section_heading":"You<br>save trees","icon":"shopify:\/\/shop_images\/Layer_1.svg","section_body":"Because we ship products in gently reused boxes."}}},"block_order":["template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1","template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2","template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3"],"settings":{"section-heading":""}},"recommendations":{"type":"product__recommendations","settings":{"show_product_recommendations":true,"product_recommendations_style":"slider","product_recommendations_heading":"OH, THESE ARE REAL NICE","products_per":4,"recommended_products_limit":10,"align_height":true,"collection_height":290,"width":"wide","padding_top":20,"padding_bottom":20,"animation":"none","padding_top_mobile":20,"padding_bottom_mobile":20,"css_class":"","custom_css":""}},"zeno-product":{"type":"zeno-product","settings":{}}},"order":["breadcrumbs","main","zeno-product","9f6a6000-1a4d-489b-a459-c040e8ee42b4","524d66ac-2873-451d-b663-f590fa843328","66050ff4-ea1f-4774-981d-1c95ed9acf8c","recommendations"]}
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "product__breadcrumb",
+      "disabled": true,
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "product__main",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "c98d9bc6-521f-48b0-8cbd-4d0e23b522ba": {
+          "type": "text",
+          "settings": {
+            "text": "<p>‎ <\/p>"
+          }
+        },
+        "d2469888-07dc-4f53-aa56-ffc70988097e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p><strong>SEE MORE FROM<\/strong><\/p>"
+          }
+        },
+        "0695501d-251b-4404-b384-614e1022d2d0": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "299700ca-3c69-47ea-9675-9c222c83cd05": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "form",
+        "description",
+        "c98d9bc6-521f-48b0-8cbd-4d0e23b522ba",
+        "d2469888-07dc-4f53-aa56-ffc70988097e",
+        "0695501d-251b-4404-b384-614e1022d2d0",
+        "299700ca-3c69-47ea-9675-9c222c83cd05"
+      ],
+      "settings": {
+        "product_images_position": "left",
+        "set_product_height": false,
+        "product_height": 500,
+        "video_looping": false,
+        "gallery_arrows": true,
+        "enable_zoom": false,
+        "enable_product_lightbox": false,
+        "slideshow_speed": 0,
+        "slideshow_transition": "slide",
+        "display_thumbnails": true,
+        "thumbnail_position": "bottom-thumbnails",
+        "enable_thumbnail_slider": true,
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "9f6a6000-1a4d-489b-a459-c040e8ee42b4": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "FREE HOLIDAY SHIPPING",
+        "heading_font": "open_sans_n4",
+        "heading_alignment": "center",
+        "heading_size": 30,
+        "text": "<p><strong>ON U.S. ORDERS OF $65+ UNTIL 11:59 PM E.T., DECEMBER 18, 2023.<\/strong><\/p>",
+        "text_font": "open_sans_n4",
+        "text_alignment": "center",
+        "text_size": 17,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "button--primary",
+        "button_alignment": "center",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "background": "#1f989e",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "mobile_title": "",
+        "mobile_text": "",
+        "mobile_alignment": "none",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "524d66ac-2873-451d-b663-f590fa843328": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "WHEN YOU SHOP, GOOD THINGS HAPPEN",
+        "heading_font": "raleway_n7",
+        "heading_alignment": "center",
+        "heading_size": 28,
+        "text": "",
+        "text_font": "open_sans_n4",
+        "text_alignment": "left",
+        "text_size": 14,
+        "columns": 2,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "button--primary",
+        "button_alignment": "center",
+        "heading_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "#ffffff",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "mobile_title": "",
+        "mobile_text": "",
+        "mobile_alignment": "none",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "66050ff4-ea1f-4774-981d-1c95ed9acf8c": {
+      "type": "index__when-you-shop",
+      "blocks": {
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/makers.png",
+            "section_heading": "You support<br>our makers",
+            "icon": "shopify:\/\/shop_images\/Hammers.svg",
+            "section_body": "And help keep Appalachian crafts alive."
+          }
+        },
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/writers.png",
+            "section_heading": "You Support<br>Our Writers",
+            "icon": "shopify:\/\/shop_images\/Quill.svg",
+            "section_body": "So we can all enjoy their powerful stories."
+          }
+        },
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-photo-12797726_1_1.png",
+            "section_heading": "You<br>save trees",
+            "icon": "shopify:\/\/shop_images\/Layer_1.svg",
+            "section_body": "Because we ship products in gently reused boxes."
+          }
+        }
+      },
+      "block_order": [
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1",
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2",
+        "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3"
+      ],
+      "settings": {
+        "section-heading": ""
+      }
+    },
+    "recommendations": {
+      "type": "product__recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "OH, THESE ARE REAL NICE",
+        "products_per": 4,
+        "recommended_products_limit": 10,
+        "align_height": true,
+        "collection_height": 290,
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "8af241ac-11a3-48e6-9ee9-c8ea8157cfdb": {
+      "type": "visit-custom",
+      "blocks": {
+        "c787b284-64d9-4da7-99fc-75f9484aad0f": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "COFFEE-CENTRIC",
+            "Tab_id": "first"
+          }
+        },
+        "b3170870-43d2-4154-b3ba-91a9d6851b70": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "BOOZE-CENTRIC",
+            "Tab_id": "second"
+          }
+        },
+        "4013d2ce-4122-45cc-91bc-6f31e3db2427": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "FOOD-CENTRIC",
+            "Tab_id": "third"
+          }
+        },
+        "0c9e859b-7e88-4332-ae53-9ebefb7f924e": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "FROZEN TREATS",
+            "Tab_id": "four"
+          }
+        },
+        "30a08ad8-fd23-459b-ae2b-6c4ba67cb0a7": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "FAVORITE SHOPS",
+            "Tab_id": "five"
+          }
+        },
+        "cb8f1874-a76c-4337-b728-deb74d43cbcf": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "QUIRKY & COOL",
+            "Tab_id": "six"
+          }
+        },
+        "f4d27652-883e-4352-89d4-834f2d816998": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "OUTDOOR ADVENTURE",
+            "Tab_id": "seven"
+          }
+        },
+        "8f18d875-ef91-47f0-be3a-7aec70e90488": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "Where to Rest",
+            "Tab_id": "eight"
+          }
+        },
+        "6a63c520-0960-4a4a-8466-be05dc894cb5": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "first",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        },
+        "34dfab55-595b-432a-a97f-b2dc5b51531f": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "second",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        },
+        "25a7bfdd-c604-4d65-aba4-60d4532a930c": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "third",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        },
+        "4b3c56e4-a9a6-4290-9076-90709d910d11": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "four",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        },
+        "f3616412-826c-46bc-9769-af115833e32e": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "five",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        },
+        "da4feb4c-4f66-4bb6-8537-70ecd4817005": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "six",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        },
+        "d0a337ee-1c64-416c-b06a-e108f309349a": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "seven",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        },
+        "96ec4b63-41d6-4c6d-83f7-c81b3438e63b": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "eight",
+            "Tab_main_heading_1": "Roasters Next Door",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "Roasters Next Door",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "Sweet Donkey",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        }
+      },
+      "block_order": [
+        "c787b284-64d9-4da7-99fc-75f9484aad0f",
+        "b3170870-43d2-4154-b3ba-91a9d6851b70",
+        "4013d2ce-4122-45cc-91bc-6f31e3db2427",
+        "0c9e859b-7e88-4332-ae53-9ebefb7f924e",
+        "30a08ad8-fd23-459b-ae2b-6c4ba67cb0a7",
+        "cb8f1874-a76c-4337-b728-deb74d43cbcf",
+        "f4d27652-883e-4352-89d4-834f2d816998",
+        "8f18d875-ef91-47f0-be3a-7aec70e90488",
+        "6a63c520-0960-4a4a-8466-be05dc894cb5",
+        "34dfab55-595b-432a-a97f-b2dc5b51531f",
+        "25a7bfdd-c604-4d65-aba4-60d4532a930c",
+        "4b3c56e4-a9a6-4290-9076-90709d910d11",
+        "f3616412-826c-46bc-9769-af115833e32e",
+        "da4feb4c-4f66-4bb6-8537-70ecd4817005",
+        "d0a337ee-1c64-416c-b06a-e108f309349a",
+        "96ec4b63-41d6-4c6d-83f7-c81b3438e63b"
+      ],
+      "settings": {
+        "title_main": "YOU'RE GOING TO LOVE ROANOKE, VA.",
+        "title_main_mbl": "VISIT",
+        "main_bg_visit": "shopify:\/\/shop_images\/Group_33829_1.png",
+        "main_bg_visit_mbl": "shopify:\/\/shop_images\/Group_33832_1_1_11860646-ef07-4f6d-9189-b648dd3883b0.png",
+        "main-rich-text": "<p>Our award-winning shop is a great starting point for your visit. It has all the products from our website plus hundreds more, including many from craftspeople in the Roanoke Valley.<br\/><br\/>We're inside a market called <strong>Crafteria at 16 Church Ave, SW Roanoke, VA, 24011.<br\/><br\/><\/strong>In this midcentury building — which was originally a cafeteria — you'll also find Little Green Hive Coffee and Tea, Vintage Vault Records and Pop Collectibles, and Roanoke's only Puerto Rican eatery Delicias Boricuas. And that's just the start. Here's are some of our favorite places around our charming hometown.<\/p>",
+        "main_visit": "shopify:\/\/shop_images\/Downtoqwn_Roanoke_2048x2048_2.png"
+      }
+    },
+    "zeno-product": {
+      "type": "zeno-product",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "zeno-product",
+    "9f6a6000-1a4d-489b-a459-c040e8ee42b4",
+    "524d66ac-2873-451d-b663-f590fa843328",
+    "66050ff4-ea1f-4774-981d-1c95ed9acf8c",
+    "recommendations",
+    "8af241ac-11a3-48e6-9ee9-c8ea8157cfdb"
+  ]
+}
