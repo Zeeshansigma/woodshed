@@ -4078,7 +4078,7 @@ blockquote cite::before {
 }
 .section.is-width-wide {
   width: 100%;
-  max-width: none;
+  max-width: 100%;
 }
 .section.is-width-wide .container.has-limit {
   max-width: 1200px;
