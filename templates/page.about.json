@@ -58,7 +58,7 @@
         "template--15570492686389__a7c9c870-48e6-46ac-b61a-89102d2d18d5-image-2"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {p {font-size: 16px; }}"
+        "@media screen and (min-width: 768px) {p {font-size: 20px; }}"
       ],
       "settings": {
         "width": "wide",
@@ -140,6 +140,9 @@
         "template--15570492686389__02b2c8aa-ff8c-4599-95ba-5fb95927f01e-image-1",
         "template--15570492686389__02b2c8aa-ff8c-4599-95ba-5fb95927f01e-text-1"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 768px) {a, p {font-size: 20px; }}"
+      ],
       "settings": {
         "width": "wide",
         "show_gutter": true,
@@ -150,7 +153,7 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
         "css_class": "imgtxtimg",
-        "custom_css": "@media screen and (min-width: 768px) {\na, p {\nfont-size: 20px;\n}\n}"
+        "custom_css": ""
       }
     },
     "5d33d984-3222-40ba-b0ff-712ef8d136f3": {
@@ -191,7 +194,7 @@
         "bd0030b9-2596-497b-b4f1-458b3c59b997"
       ],
       "custom_css": [
-
+        "@media screen and (min-width: 768px) {a, p {font-size: 20px; }}"
       ],
       "settings": {
         "width": "wide",
@@ -203,7 +206,7 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
         "css_class": "imgtxtimg",
-        "custom_css": "@media screen and (min-width: 768px) {\na, p {\nfont-size: 20px;\n}\n}"
+        "custom_css": ""
       }
     },
     "85c40d8f-01ca-4c17-b368-eb1d50fc49c1": {
@@ -243,6 +246,9 @@
         "0caa42a9-83e8-4d21-89e3-2fc4f33e69a5",
         "3b99dc23-db4d-4641-bd85-795cea3baf5c"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 768px) {a, p {font-size: 20px;}}"
+      ],
       "settings": {
         "width": "wide",
         "show_gutter": true,
@@ -253,7 +259,7 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
         "css_class": "imgtxtimg",
-        "custom_css": "@media screen and (min-width: 768px) {\na, p {\nfont-size: 20px;\n}\n}"
+        "custom_css": ""
       }
     }
   },
