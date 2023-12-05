@@ -599,10 +599,20 @@ body.product .product-gallery {
   pointer-events: none;
 }
 
-.image-swiper-button-prev,
+/* .image-swiper-button-prev,
 .swiper-rtl .image-swiper-button-next {
   left: 50px;
   right: auto;
+} */
+.image-swiper-button-prev{
+  left: -53px;
+  right: auto;
+  top: 31% !important;
+}
+.image-swiper-button-next{
+  right: -53px;
+  left: auto;
+  top: 31% !important;
 }
 
 .image-swiper-button-next,
