@@ -74,7 +74,10 @@
     {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
     {% for handle in blog_handles %}
       {% for article in blogs[handle].articles %}
-        {% if article.tags != featured %}
+        {{ article.tags }}
+          {% if article.tags != 'featured' %}
+          
+
           <div
             class="
               featured-article
