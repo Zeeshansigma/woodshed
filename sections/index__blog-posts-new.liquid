@@ -75,9 +75,8 @@
     {% for handle in blog_handles %}
       {% for article in blogs[handle].articles %}
         
-          {% unless article.tags contain 'featured' %}
+          {% unless article.tags contains 'featured' %}
           
-
           <div
             class="
               featured-article
