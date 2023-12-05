@@ -122,7 +122,7 @@
       "custom_css": [
         "form {display: none;}",
         "h2 {margin-top: 22px !important;}",
-        "@media screen and (min-width: 768px) {.newsletter-section .btn{padding: 8px 16px; font-size: 20px; border-radius: 0px; } a#rmBtn {font-size: 20px; }}"
+        "@media screen and (min-width: 768px) {.btn {padding: 8px 16px; font-size: 20px; border-radius: 0px; }}"
       ],
       "settings": {
         "newsletter_title": "Contact",
