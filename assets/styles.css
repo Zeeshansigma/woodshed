@@ -18595,7 +18595,7 @@ ul.faceted-filter-group-display__list {
 display: none;
 }
 @media screen and (min-width:1400px) {
-  .container{
+  .container, .container-lg{
     max-width: 100% !important;
   } 
 }
