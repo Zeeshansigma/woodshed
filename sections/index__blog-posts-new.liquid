@@ -76,10 +76,14 @@
     {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
     {% for handle in blog_handles %}
       {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
-      {{ blog_handles_sorted.article.title }}
+
       {% for article in blog_handles_sorted %}
           {% unless article.tags contains 'featured' %}
-         
+            {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
+            {{ total_articles_displayed }}
+            {% if total_articles_displayed <= 14 %}
+              
+             
           <div
             class="
               featured-article
@@ -156,12 +160,9 @@
             </div>
           </div>
 
-     {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
-     {{ total_articles_displayed }}
-          {% if total_articles_displayed >= 14 %}
-           test
-          {% endif %}
-            
+    
+          
+            {% endif %}
           {% endunless %}
         
 
