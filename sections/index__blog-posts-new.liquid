@@ -73,11 +73,10 @@
   >
     {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
     {% for handle in blog_handles %}
-      {% for article in blogs[handle].articles %}
+      {% for article in blogs[handle].articles limit:14 %}
         
           {% unless article.tags contains 'featured' %}
-          {% if forloop.index < 15 %}
-            {{ forloop.index }}
+         
           <div
             class="
               featured-article
@@ -153,7 +152,7 @@
               <a href="{{ article.url }}" class="hiddenbloglink">read more</a>
             </div>
           </div>
-        {% endif %}
+        
 
             {% endunless %}
       {% endfor %}
