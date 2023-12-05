@@ -72,8 +72,8 @@
     "
   >
     {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
-    {% for handle in blog_handles limit: 14 %}
-      {% for article in blogs[handle].articles limit: 14 %}
+    {% for handle in blog_handles %}
+      {% for article in blogs[handle].articles limit: 1 %}
         
           {% unless article.tags contains 'featured' %}
          
