@@ -75,7 +75,6 @@
     {% for handle in blog_handles %}
       {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
       {% for article in blog_handles_sorted limit : 2 %}
-         {{ forloop.index }}
           {% unless article.tags contains 'featured' %}
          
           <div
@@ -91,6 +90,8 @@
               has-margin-bottom
             "
           >
+         {{ forloop.index }}
+
             {% if article.image != blank %}
               <div class="card-image blog-card__image">
                 <figure class="image">
