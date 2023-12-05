@@ -164,7 +164,7 @@ ul#tabs-nav li:nth-child(7) {
     {% endfor %}
   </ul> <!-- END tabs-nav -->
    <!-- Swiper -->
-   <div class="swiper mySwiper custom-slider">
+   {% comment %} <div class="swiper mySwiper custom-slider">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
       <div class="swiper-slide">
@@ -172,9 +172,7 @@ ul#tabs-nav li:nth-child(7) {
       </div>
     {% endfor %}
     </div>
-    {% comment %} <div class="swiper-button-next custom-slide"></div>
-    <div class="swiper-button-prev custom-slide"></div> {% endcomment %}
-  </div>
+  </div> {% endcomment %}
   
   <div id="tabs-content">
     {% for block in section.blocks %}
@@ -198,6 +196,20 @@ ul#tabs-nav li:nth-child(7) {
       {% endif %}
     {% endfor %}
   </div> 
+    <!-- Swiper -->
+    <div class="swiper mySwiper custom-slider">
+      <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+              {% if block.type == 'text' %}
+                  <div class="swiper-slide">
+                      <a class="swiper-abc" href="#{{ block.settings.Tab_id }}"> {{ block.settings.Tab_main_title }} </a>
+                  </div>
+              {% endif %}
+          {% endfor %}
+      </div>
+  </div>
+    <!-- Swiperend -->
+
 </div>
 </div>
 
