@@ -77,7 +77,7 @@
     {% for handle in blog_handles %}
       {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
 
-      {% for article in blog_handles_sorted limit : 3 %}
+      {% for article in blog_handles_sorted limit:3 %}
           {% unless article.tags contains 'featured' %}
             {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
         
