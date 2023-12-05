@@ -124,7 +124,8 @@
       "custom_css": [
         "form {display: none;}",
         "h2 {margin-top: 22px !important;}",
-        " .btn {padding: 8px 16px; font-size: 20px; border-radius: 0px; }"
+        ".btn {padding: 8px 16px; font-size: 20px; border-radius: 0px;}",
+        ".newsletter__subheading {line-height: normal;}"
       ],
       "settings": {
         "newsletter_title": "Contact",
