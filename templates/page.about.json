@@ -150,7 +150,7 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
         "css_class": "imgtxtimg",
-        "custom_css": "a, p {\nfont-size: 20px;\n}"
+        "custom_css": "@media screen and (min-width: 768px) {\na, p {\nfont-size: 20px;\n}\n}"
       }
     },
     "5d33d984-3222-40ba-b0ff-712ef8d136f3": {
@@ -203,7 +203,7 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
         "css_class": "imgtxtimg",
-        "custom_css": "a, p {\nfont-size: 20px;\n}"
+        "custom_css": "@media screen and (min-width: 768px) {\na, p {\nfont-size: 20px;\n}\n}"
       }
     },
     "85c40d8f-01ca-4c17-b368-eb1d50fc49c1": {
@@ -253,7 +253,7 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
         "css_class": "imgtxtimg",
-        "custom_css": "a, p {\nfont-size: 20px;\n}"
+        "custom_css": "@media screen and (min-width: 768px) {\na, p {\nfont-size: 20px;\n}\n}"
       }
     }
   },
