@@ -1,8 +1,46 @@
-{"sections":
-{"main":
-{"type":"visit-custom",
-"settings":
 {
-
-}}},
-"order":["main"]}
+  "sections": {
+    "main": {
+      "type": "visit-custom",
+      "blocks": {
+        "522894ad-aaf9-46bc-a47e-a49685c6af48": {
+          "type": "text",
+          "settings": {
+            "Tab_main_title": "COFFEE-CENTRIC",
+            "Tab_id": "1"
+          }
+        },
+        "56bfe999-7122-4121-a303-7efc60b11b30": {
+          "type": "Content",
+          "settings": {
+            "Tab_content_id": "1",
+            "Tab_main_heading_1": "ROASTERS NEXT DOOR",
+            "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
+            "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
+            "Tab_main_heading_2": "ROASTERS NEXT DOOR",
+            "tab_img_2": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_2": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room.",
+            "Tab_main_heading_3": "SWEET DONKEY",
+            "tab_img_3": "shopify:\/\/shop_images\/Icon_261e210f-d238-4228-9813-cfb00beb458d.png",
+            "Tab_main_subheading_3": "The coffee place for people who are serious about coffee. We're rank amateurs but love working in their lovely dining room."
+          }
+        }
+      },
+      "block_order": [
+        "522894ad-aaf9-46bc-a47e-a49685c6af48",
+        "56bfe999-7122-4121-a303-7efc60b11b30"
+      ],
+      "settings": {
+        "title_main": "YOU'RE GOING TO LOVE ROANOKE, VA.",
+        "title_main_mbl": "VISIT",
+        "main_bg_visit": "shopify:\/\/shop_images\/Group_33829_1.png",
+        "main_bg_visit_mbl": "shopify:\/\/shop_images\/Group_33832_1_1_11860646-ef07-4f6d-9189-b648dd3883b0.png",
+        "main-rich-text": "<p>Our award-winning shop is a great starting point for your visit. It has all the products from our website plus hundreds more, including many from craftspeople in the Roanoke Valley.<br\/><br\/>We're inside a market called<strong>Crafteria at 16 Church Ave, SW Roanoke, VA, 24011.<br\/><br\/><\/strong>In this midcentury building — which was originally a cafeteria — you'll also find Little Green Hive Coffee and Tea, Vintage Vault Records and Pop Collectibles, and Roanoke's only Puerto Rican eatery Delicias Boricuas. And that's just the start. Here's are some of our favorite places around our charming hometown.<\/p>",
+        "main_visit": "shopify:\/\/shop_images\/Downtoqwn_Roanoke_2048x2048_2.png"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
