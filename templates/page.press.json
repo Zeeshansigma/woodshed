@@ -103,7 +103,7 @@
         "6038dbdd-2c2c-4fd7-a981-e287c57f3f89"
       ],
       "custom_css": [
-        ".press-item .text_part a.btn {padding: 8px 16px; font-size: 20px; border-radius: 0px;}"
+        "@media screen and (min-width: 768px) {.press-item .text_part a.btn {padding: 8px 16px; font-size: 20px; border-radius: 0px; } a#rmBtn{font-size: 20px; }}"
       ],
       "settings": {
         "width": "standard",
