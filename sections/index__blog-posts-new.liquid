@@ -80,8 +80,8 @@
       {% for article in blog_handles_sorted %}
           {% unless article.tags contains 'featured' %}
             {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
-            {{ total_articles_displayed }}
-            {% if total_articles_displayed <= 14 %}
+        
+            {% if total_articles_displayed <= 13 %}
               
              
           <div
