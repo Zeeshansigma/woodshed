@@ -216,6 +216,7 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
 
 <!-- Initialize Swiper -->
 <script>
+
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2,
   spaceBetween: 16,
@@ -223,8 +224,21 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2.3,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+  },
   });
 </script>
+
 {% schema %}
     {
       "name": "Custom-visit",
