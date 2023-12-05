@@ -77,8 +77,7 @@
     {% for handle in blog_handles %}
       {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
       {% for article in blog_handles_sorted %}
-      <p> {{ article.length }}</p> 
-        <p>{{ article.size }}</p> 
+ 
           {% unless article.tags contains 'featured' %}
          
           <div
