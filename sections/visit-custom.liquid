@@ -62,11 +62,7 @@ ul#tabs-nav li.active a {
     gap: 10px;
     font-family: "Mreavessanot bold";
 }
-/* .tab-content {
-  padding: 10px;
-  border: 5px solid #09F;
-  background-color: #FFF;
-} */
+
 .tab-first,
 .tab-second,
 .tab-third{
@@ -121,9 +117,7 @@ background-repeat: no-repeat;
 .tab-first, .tab-second, .tab-third {
     margin-top: 20 !important;
 }
-.tab-content{
-  margin-top: 30px;
-}
+
 }
 </style>
 
@@ -190,26 +184,7 @@ background-repeat: no-repeat;
 </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 <script>
-  
-//   // Show the first tab and hide the rest
-// $('#tabs-nav li:first-child').addClass('active');
-// $('.tab-content').hide();
-// $('.tab-content:first').show();
-
-// // Click function
-// $('#tabs-nav li').click(function(){
-//   $('#tabs-nav li').removeClass('active');
-//   $(this).addClass('active');
-//   $('.tab-content').hide();
-//   var activeTab = $(this).find('a').attr('href');
-//   // $(activeTab).fadeIn();
-//   return true;
-// });
-// Show the first tab and hide the rest
-
 document.querySelector('#tabs-nav li:first-child').classList.add('active');
 document.querySelectorAll('.tab-content').forEach(function(tabContent) {
     tabContent.style.display = 'none';
