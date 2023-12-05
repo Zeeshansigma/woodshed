@@ -7,13 +7,13 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "COFFEE-CENTRIC",
-            "Tab_id": "1"
+            "Tab_id": "first"
           }
         },
         "56bfe999-7122-4121-a303-7efc60b11b30": {
           "type": "Content",
           "settings": {
-            "Tab_content_id": "1",
+            "Tab_content_id": "first",
             "Tab_main_heading_1": "ROASTERS NEXT DOOR",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
@@ -29,13 +29,13 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "BOOZE-CENTRIC",
-            "Tab_id": "2"
+            "Tab_id": "second"
           }
         },
         "14742f26-7879-4eec-bafe-b88f39934580": {
           "type": "Content",
           "settings": {
-            "Tab_content_id": "2",
+            "Tab_content_id": "second",
             "Tab_main_heading_1": "ROASTERS NEXT DOOR",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
@@ -51,13 +51,13 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "FOOD-CENTRIC",
-            "Tab_id": "3"
+            "Tab_id": "third"
           }
         },
         "20dce873-38b6-40f6-abdb-e11a1d9b21c3": {
           "type": "Content",
           "settings": {
-            "Tab_content_id": "3",
+            "Tab_content_id": "third",
             "Tab_main_heading_1": "ROASTERS NEXT DOOR",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
@@ -73,13 +73,13 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "FROZEN TREATS",
-            "Tab_id": "4"
+            "Tab_id": "four"
           }
         },
         "931fed61-e8d2-4d15-a89f-b9f06ed6b2a1": {
           "type": "Content",
           "settings": {
-            "Tab_content_id": "4",
+            "Tab_content_id": "four",
             "Tab_main_heading_1": "ROASTERS NEXT DOOR",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
@@ -95,13 +95,13 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "FAVORITE SHOPS",
-            "Tab_id": "5"
+            "Tab_id": "five"
           }
         },
         "6e575cc2-2c77-48ca-8eb1-30dc417cc36f": {
           "type": "Content",
           "settings": {
-            "Tab_content_id": "5",
+            "Tab_content_id": "five",
             "Tab_main_heading_1": "ROASTERS NEXT DOOR",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
@@ -117,13 +117,13 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "QUIRKY & COOL",
-            "Tab_id": "6"
+            "Tab_id": "six"
           }
         },
         "3c8c5b72-c6e9-459e-adc5-eabb59c297c1": {
           "type": "Content",
           "settings": {
-            "Tab_content_id": "6",
+            "Tab_content_id": "six",
             "Tab_main_heading_1": "ROASTERS NEXT DOOR",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
@@ -139,13 +139,13 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "OUTDOOR ADVENTURE",
-            "Tab_id": "7"
+            "Tab_id": "seven"
           }
         },
         "c3105777-577f-4034-bc0e-9db8482e67bc": {
           "type": "Content",
           "settings": {
-            "Tab_content_id": "7",
+            "Tab_content_id": "seven",
             "Tab_main_heading_1": "ROASTERS NEXT DOOR",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
@@ -161,13 +161,13 @@
           "type": "text",
           "settings": {
             "Tab_main_title": "WHERE TO REST",
-            "Tab_id": "8"
+            "Tab_id": "eight"
           }
         },
         "dfcda934-e904-4e5e-870d-c0f1de34b40f": {
           "type": "Content",
           "settings": {
-            "Tab_content_id": "8",
+            "Tab_content_id": "eight",
             "Tab_main_heading_1": "ROASTERS NEXT DOOR",
             "tab_img_1": "shopify:\/\/shop_images\/Icon_7c575487-0c72-4a1a-94a3-4aa951cb3491.png",
             "Tab_main_subheading_1": "IN OUR BUILDING! In addition to coffee, tea, and smoothies, these folks make the best breakfast burritos around. Be sure to ask for the green salsa. The recipe comes from owner Leo's abuela, and its amazing.",
