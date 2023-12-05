@@ -57,7 +57,7 @@
     data-scroll-class="{{ section.settings.animation }}"
   {% endif %}
 >
-<h1>sarib</h1>
+
   {% if title != blank %}
     <div class="container">
       {% render 'heading', title: title, heading_tag: 'h2', context: 'featured-blog', text_alignment: 'center' %}
@@ -74,7 +74,7 @@
     {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
     {% for handle in blog_handles %}
       {% for article in blogs[handle].articles %}
-        {% if article.tags != 'featured' %}
+        {% if article.tags != featured %}
           <div
             class="
               featured-article
