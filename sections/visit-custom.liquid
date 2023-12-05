@@ -167,7 +167,7 @@ ul#tabs-nav li:nth-child(7) {
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
       <div class="swiper-slide">
-            <li><a class="swiper-abc" href="#{{ block.settings.Tab_id }}"> {{ block.settings.Tab_main_title }} </a></li>
+            <a class="swiper-abc" href="#{{ block.settings.Tab_id }}"> {{ block.settings.Tab_main_title }} </a>
       </div>
     {% endfor %}
     </div>
