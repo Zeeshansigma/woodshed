@@ -4,7 +4,7 @@
       "type": "page-header",
       "settings": {
         "page_header": "About woodshed",
-        "page_header_mob": "About <br> Woodshed",
+        "page_header_mob": "About  Woodshed",
         "page_second": ""
       }
     },
@@ -58,7 +58,7 @@
         "template--15570492686389__a7c9c870-48e6-46ac-b61a-89102d2d18d5-image-2"
       ],
       "custom_css": [
-        "p {font-size: 20px;}"
+        "@media screen and (min-width: 768px) {p {font-size: 16px; }}"
       ],
       "settings": {
         "width": "wide",
