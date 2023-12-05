@@ -599,11 +599,11 @@ body.product .product-gallery {
   pointer-events: none;
 }
 
-/* .image-swiper-button-prev,
+.image-swiper-button-prev,
 .swiper-rtl .image-swiper-button-next {
   left: 50px;
   right: auto;
-} */
+}
 .image-swiper-button-prev.swiperc-prev-1{
   left: -53px;
   right: auto;

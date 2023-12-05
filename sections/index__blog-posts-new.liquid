@@ -146,6 +146,7 @@
           </div>
           {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
           {% if total_articles_displayed >= 14 %}
+            {{ total_articles_displayed }}
             {% break %}
           {% endif %}
             {% endunless %}
