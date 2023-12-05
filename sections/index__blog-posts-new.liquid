@@ -76,7 +76,7 @@
       {% for article in blogs[handle].articles %}
         
           {% unless article.tags contains 'featured' %}
-          
+          {% if forloop.index <= 14 %}
           <div
             class="
               featured-article
@@ -152,6 +152,8 @@
               <a href="{{ article.url }}" class="hiddenbloglink">read more</a>
             </div>
           </div>
+        {% endif %}
+
             {% endunless %}
       {% endfor %}
     {% endfor %}
