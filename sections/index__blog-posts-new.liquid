@@ -76,7 +76,7 @@
       {% for article in blogs[handle].articles %}
         
           {% unless article.tags contains 'featured' %}
-          {% if loop.index <= 14 %}
+          {% if forloop.index < 15 %}
           <div
             class="
               featured-article
