@@ -1,0 +1,50 @@
+<style>
+    .rich{
+        background-color: {{ section.settings.Rich_bg_clr }};
+        padding: 26px 0;
+    }
+    .rich h2{
+        color: #FFF;
+
+text-align: center;
+font-family: Mr Eaves Mod OT, sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+    }
+</style>
+
+
+<div class="rich">
+    <h2> {{ section.settings.rich_about }} </h2>
+</div>
+
+
+
+
+
+{% schema %}
+    {
+      "name": "About-Rich",
+      "settings": [
+        {
+          "type": "text",
+          "id": "rich_about",
+          "label": "Slideshow"
+        },
+        {
+  "type": "color",
+  "id": "Rich_bg_clr",
+  "label": "Background-color"
+}
+
+      ],
+      "presets": [
+        {
+          "name": "About-Rich"
+        }
+      ]
+    }
+    {% endschema %}
+    
