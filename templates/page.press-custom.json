@@ -20,10 +20,82 @@
             "Press_btn_link": "",
             "second_image": "shopify:\/\/shop_images\/Group_33830.png"
           }
+        },
+        "d59ca586-4af4-4467-a6a7-7ff66631e082": {
+          "type": "slide",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/Img_4_25ea50d0-a7e9-4592-93fe-123d882c3ad1.png",
+            "Press_title": "Buzz Bites: An Appalachian pop-up, new eateries and a food drive",
+            "Press_subtitle": "",
+            "Press_btn": "See more",
+            "Press_btn_link": "",
+            "second_image": "shopify:\/\/shop_images\/Group_33830.png"
+          }
+        },
+        "dd70a58d-0a30-45fb-b209-5b39cebc2ecc": {
+          "type": "slide",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/Img_5_a10670d6-ed76-49b4-a6a4-4a580a90e311.png",
+            "Press_title": "Appalachian Revival Pop-Up Features Handmade Goods",
+            "Press_subtitle": "",
+            "Press_btn": "See more",
+            "Press_btn_link": "",
+            "second_image": "shopify:\/\/shop_images\/Group_33830.png"
+          }
+        },
+        "1c64bdb3-251a-4453-8fe2-429693ded022": {
+          "type": "slide",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/Img_6_5ad529cd-13b0-4c3b-88e0-29ca6a1c0924.png",
+            "Press_title": "It’s Cyber Monday—for businesses small and large",
+            "Press_subtitle": "",
+            "Press_btn": "See more",
+            "Press_btn_link": "",
+            "second_image": "shopify:\/\/shop_images\/Group_33830.png"
+          }
+        },
+        "7e02bc76-89b9-4704-89bb-2c1e3ca592b8": {
+          "type": "slide",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/Img_5_a10670d6-ed76-49b4-a6a4-4a580a90e311.png",
+            "Press_title": "Small Batch, Big Taste",
+            "Press_subtitle": "",
+            "Press_btn": "See more",
+            "Press_btn_link": "",
+            "second_image": "shopify:\/\/shop_images\/Group_33830.png"
+          }
+        },
+        "b4f06a61-6584-4d34-868c-629ad0132670": {
+          "type": "slide",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/Img_7.png",
+            "Press_title": "Roanoke in the Appalachian South",
+            "Press_subtitle": "",
+            "Press_btn": "See more",
+            "Press_btn_link": "",
+            "second_image": "shopify:\/\/shop_images\/Group_33830.png"
+          }
+        },
+        "5b2302d5-77f4-4e91-bdc9-48007783f006": {
+          "type": "slide",
+          "settings": {
+            "first_image": "shopify:\/\/shop_images\/Img_8.png",
+            "Press_title": "Appalachian Crafts Beat the Winter Blues",
+            "Press_subtitle": "",
+            "Press_btn": "See more",
+            "Press_btn_link": "",
+            "second_image": "shopify:\/\/shop_images\/Group_33830.png"
+          }
         }
       },
       "block_order": [
-        "0f665fb6-675a-4ea1-8889-ed5273bede60"
+        "0f665fb6-675a-4ea1-8889-ed5273bede60",
+        "d59ca586-4af4-4467-a6a7-7ff66631e082",
+        "dd70a58d-0a30-45fb-b209-5b39cebc2ecc",
+        "1c64bdb3-251a-4453-8fe2-429693ded022",
+        "7e02bc76-89b9-4704-89bb-2c1e3ca592b8",
+        "b4f06a61-6584-4d34-868c-629ad0132670",
+        "5b2302d5-77f4-4e91-bdc9-48007783f006"
       ],
       "settings": {
       }
