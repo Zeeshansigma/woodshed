@@ -1,0 +1,54 @@
+<style>
+    .bg-about-header{
+        background:url( {{ section.settings.bg-about |  img_url: 'master' }});
+    background-size:cover;
+    background-position:center center;
+    }
+   
+
+</style>
+<div class="bg-about-header">
+    <h2> {{ section.settings.banner-text }} </h2>
+</div>
+
+
+
+
+
+{% schema %}
+    {
+      "name": "Image-with-text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bg-about",
+          "label": "ADD Header Image"
+        },
+        {
+            "type":"text",
+            "id": "banner-text",
+            "label": "ADD Banner Title"
+        }
+      ],
+    //   "max_blocks": 5,
+    //   "blocks": [
+    //      {
+    //        "name": "Slide",
+    //        "type": "slide",
+    //        "settings": [
+    //          {
+    //            "type": "image_picker",
+    //            "id": "image",
+    //            "label": "Image"
+    //          }
+    //        ]
+    //      }
+    //   ],
+      "presets": [
+        {
+          "name": "Slideshow"
+        }
+      ]
+    }
+    {% endschema %}
+    
