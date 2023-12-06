@@ -55,7 +55,8 @@
 }
 @media screen  and (max-width:768px) {
     .about-sec{
-        display: unset;
+        display: flex;
+        flex-direction: row-reverse;
     }
     .about-content{
         max-width: 90%;
@@ -68,6 +69,9 @@
     .about-img{
         max-width: 100%;
         margin-top: 24px;
+    }
+    .about-sec.swap-true{
+        flex-direction: unset;
     }
 }
 </style>
