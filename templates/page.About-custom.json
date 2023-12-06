@@ -17,7 +17,7 @@
         "about_btn": "",
         "button_link_about": "",
         "show_about_btn": false,
-        "swap-section": true
+        "swap-section": false
       }
     }
   },
