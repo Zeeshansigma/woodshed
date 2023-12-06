@@ -6,8 +6,12 @@
 }
 </style>
 <div class="about-sec">
-    <div class="about-content"></div>
-    <div class="about-img"></div>
+    <div class="about-content"> 
+{{ section.settings.Text-about }}
+    </div>
+    <div class="about-img">
+       <img src="{{ section.settings.with_text_image |  img_url: 'master' }}" alt=""> 
+    </div>
 </div>
 
 
@@ -15,7 +19,18 @@
     {
       "name": "Image-with-text",
       "settings": [
-        
+        {
+  "type": "richtext",
+  "id": "Text-about",
+  "label": "ADD Paragraph"
+},
+{
+  "type": "image_picker",
+  "id": "with_text_image",
+  "label": "ADD Image"
+}
+
+
       ],
       "presets": [
         {
