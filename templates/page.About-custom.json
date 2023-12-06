@@ -1,12 +1,12 @@
 {
-    "sections":{
-       "main":{
-          "type":"About-custom",
-          "settings":{
-          }
-       }
-    },
-    "order":[
-       "main"
-    ]
- }
+  "sections": {
+    "main": {
+      "type": "About-custom",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
