@@ -118,9 +118,9 @@ width: 100%;
         <a href=" {{ block.settings.Press_btn_link }} "> {{ block.settings.Press_btn }} </a>
     </div>
     <div class="press-tab-img">
-        <img class="side-contact" src=" {{ block.settings.second_image |  img_url: 'master' }} " alt="">
+        <img  src=" {{ block.settings.second_image |  img_url: 'master' }} " alt="">
     </div>
-    
+
 </div>
 {% endfor %}
 <div class="show-more">
@@ -134,7 +134,7 @@ width: 100%;
         <a href=" {{ section.settings.btn_contact_link }} "> {{ section.settings.button_text_contact }} </a>
     </div>
     <div class="press-contact-img">
-        <img src=" {{ section.settings.about_img |  img_url: 'master' }} " alt="">
+        <img class="side-contact" src=" {{ section.settings.about_img |  img_url: 'master' }} " alt="">
         <div class="img-z-index">
             <img src=" {{ section.settings.short_image |  img_url: 'master' }} " alt="">
         </div>
