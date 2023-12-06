@@ -1627,8 +1627,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_4655-e1527471073400-1024x640.jpg",
             "icon_label": "",
-            "title": "OUTDOOR+TRAVEL",
-            "text": "<p><\/p>",
+            "title": "OUTDOOR + TRAVEL",
+            "text": "",
             "link": "shopify:\/\/blogs\/outdoors-amp-travel",
             "overlay_text": "rgba(0,0,0,0)",
             "overlay_background": "rgba(0,0,0,0)",
@@ -1667,7 +1667,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_8108_copy.jpg",
             "icon_label": "",
-            "title": "ART+LIT",
+            "title": "ART + LIT",
             "text": "",
             "link": "shopify:\/\/blogs\/art-amp-lit",
             "overlay_text": "rgba(0,0,0,0)",
@@ -1680,7 +1680,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rural-Retreat_5b05cdb3-4b87-4534-8471-086cfde07fb9.jpg",
             "icon_label": "",
-            "title": "HISTORY+CULTURE",
+            "title": "HISTORY + CULTURE",
             "text": "",
             "link": "shopify:\/\/blogs\/history-amp-culture",
             "overlay_text": "rgba(0,0,0,0)",
