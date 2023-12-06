@@ -145,6 +145,20 @@ line-height: normal;
 margin-top: 25px;
 margin-top: 16px;
 }
+
+ @media screen and (max-width:768px) {
+    .press-tab-img{
+        display: none;
+    }
+    .press-tab{
+        display: unset;
+border: none;
+background: url( {{ block.settings.first_image_mbl |  img_url: 'master' }} );
+background-size:cover;
+background-position:center center;
+max-width:90%;
+    }
+ }
 </style>
 {% for block in section.blocks %}
 <div class="press-tab">
@@ -266,6 +280,11 @@ margin-top: 16px;
                 "type": "image_picker",
                "id": "second_image",
                "label": "ADD Texture Image"
+             },
+             {
+               "type": "image_picker",
+               "id": "first_image_mbl",
+               "label": "ADD Mobile Image"
              }
            ]
          }
