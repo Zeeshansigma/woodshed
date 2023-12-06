@@ -32,11 +32,39 @@
         "show_about_btn": true,
         "swap-section": true
       }
+    },
+    "8bd3e54c-2db4-46f6-abe2-f2c7d86c4bd5": {
+      "type": "img-swap",
+      "settings": {
+        "Text-about": "<p>Before airplanes and highways, the Appalachian mountains were largely isolated from the rest of the world. But necessity bred ingenuity. Craftspeople turned scraps of fabric into beautiful quilts, hardwood into hand plows, and foraged ingredients into delicious foods. That legacy is still alive and kicking. Today's Appalachian makers pull from these rich traditions to create funky finds for you, your home, and your loved ones.<\/p>",
+        "with_text_image": "shopify:\/\/shop_images\/Img_1_5051a288-37c5-4f72-a828-a8c0d860d43e.png",
+        "about_space_top": 60,
+        "about_space_Bottom": 60,
+        "about_btn": "Shop Appalachian goods",
+        "button_link_about": "",
+        "show_about_btn": true,
+        "swap-section": false
+      }
+    },
+    "1c1aa051-9cb2-4a5d-a395-405be6e1f8aa": {
+      "type": "img-swap",
+      "settings": {
+        "Text-about": "<p>You'll love Roanoke, and our award-winning shop is a great starting point. It has products from our website plus hundreds more, including many made in our Appalachian valley. You can find us at 16 Church Avenue, Southwest. Our unique midcentury building is also home to Little Green Hive Coffee and Tea, Vintage Vault Records and Pop Collectibles, and Roanoke's only Puerto Rican eatery Delicias Boricuas.<\/p>",
+        "with_text_image": "shopify:\/\/shop_images\/Img_2_ab2ed33d-c3ba-45f9-9c2d-ce36f4db5412.png",
+        "about_space_top": 60,
+        "about_space_Bottom": 60,
+        "about_btn": "Visit Us in Roanoke, Va.",
+        "button_link_about": "",
+        "show_about_btn": true,
+        "swap-section": true
+      }
     }
   },
   "order": [
     "main",
     "0c2cc7d8-523a-4059-9cfb-df20e836bfd4",
-    "1836daea-1bc2-4bf5-9da6-099e382dad75"
+    "1836daea-1bc2-4bf5-9da6-099e382dad75",
+    "8bd3e54c-2db4-46f6-abe2-f2c7d86c4bd5",
+    "1c1aa051-9cb2-4a5d-a395-405be6e1f8aa"
   ]
 }
