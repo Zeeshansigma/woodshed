@@ -144,7 +144,7 @@
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
-        "p.grid-item__text.text-align-center {font-size: 19px;}",
+        "p.grid-item__text.text-align-center {font-size: 20px;font-family: 'Mr Eaves San OT';}",
         "@media screen and (max-width: 768px) {.section--grid-section .grid-item__heading, p.grid-item__text.text-align-center {font-size: 16px; }}"
       ],
       "settings": {
