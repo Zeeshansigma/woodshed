@@ -160,9 +160,19 @@
             </div>
           </div>
 
+<<<<<<< Updated upstream
     
           
             {% endif %}
+=======
+     {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
+     {{ total_articles_displayed }}
+          {% if total_articles_displayed >= 14 %}
+                {{ total_articles_displayed }}
+
+          {% endif %}
+            
+>>>>>>> Stashed changes
           {% endunless %}
         
 
