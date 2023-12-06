@@ -77,7 +77,19 @@ margin: 45px auto 50px auto;
     .show-more{
         text-align: center;
     }
-
+.press-contact{
+    width: 100%;
+    max-width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.contact-content-press{
+    width: 100%;
+    max-width: 50%;
+    background: #1F989E;
+    color: white;
+}
 </style>
 {% for block in section.blocks %}
 <div class="press-tab">
@@ -98,6 +110,19 @@ margin: 45px auto 50px auto;
     <a href=" {{ section.settings.show_more_btn_tab_link }} "> {{ section.settings.show_more_btn_tab }} </a>
 </div>
 
+<div class="press-contact">
+    <div class="contact-content-press">
+        <h1> {{ section.settings.add_contact_title }} </h1>
+        <p> {{ section.settings.contact_subtitle }} </p>
+        <a href=" {{ section.settings.btn_contact_link }} "> {{ section.settings.button_text_contact }} </a>
+    </div>
+    <div class="press-contact-img">
+        <img src=" {{ section.settings.contact_about_img |  img_url: 'master' }} " alt="">
+        <div class="img-z-index">
+            <img src=" {{ section.settings.short_image |  img_url: 'master' }} " alt="">
+        </div>
+    </div>
+</div>
 
 {% schema %}
     {
@@ -112,6 +137,39 @@ margin: 45px auto 50px auto;
             "type": "url",
             "id": "show_more_btn_tab_link",
             "label": "ADD Button link"
+        },
+        {
+            "type": "text",
+            "id": "add_contact_title",
+            "label": "ADD Contact Title"
+        },
+        {
+            "type": "richtext",
+            "id": "contact_subtitle",
+            "label": "ADD Contact SubTitle"
+        },
+        {
+
+        "type": "text",
+        "id": "button_text_contact",
+        "label": "ADD Button"
+        },
+        {
+            "type": "url",
+            "id": "btn_contact_link",
+            "label": "ADD Button Link"
+        },
+
+        {
+            "type":"image_picker",
+            "id": "contact_about_img",
+            "default": "ADD Contact Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "short_image",
+            "label": "ADD Small Image"
+
         }
         
       ],
@@ -133,7 +191,7 @@ margin: 45px auto 50px auto;
              {
                 "type": "text",
                 "id": "Press_subtitle",
-                "label": "ADD Title"
+                "label": "ADD Sub Title"
              },
              {
                 "type": "text",
