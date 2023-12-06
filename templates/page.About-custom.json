@@ -37,7 +37,7 @@
         "button_style": "button--primary",
         "button_alignment": "center",
         "heading_color": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
         "background": "#1f989e",
         "gradient": "#1f989e",
         "gradient_rotation": 180,
