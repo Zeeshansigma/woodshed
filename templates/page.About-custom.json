@@ -3,6 +3,8 @@
     "main": {
       "type": "About-custom",
       "settings": {
+        "bg-about": "shopify:\/\/shop_images\/Group_33827_1.png",
+        "banner-text": "ABOUT WOODSHED"
       }
     }
   },
