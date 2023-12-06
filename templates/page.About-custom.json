@@ -20,6 +20,42 @@
         "swap-section": false
       }
     },
+    "86197664-6742-499a-a7ff-7f4cb6bbdbd7": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "",
+        "heading_font": "open_sans_n4",
+        "heading_alignment": "left",
+        "heading_size": 30,
+        "text": "<p>Woodshed celebrates modern Appalachian life.<\/p>",
+        "text_font": "open_sans_n4",
+        "text_alignment": "center",
+        "text_size": 14,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "button--primary",
+        "button_alignment": "center",
+        "heading_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "background": "#1f989e",
+        "gradient": "#C0C0C0",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "mobile_title": "",
+        "mobile_text": "",
+        "mobile_alignment": "none",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "1836daea-1bc2-4bf5-9da6-099e382dad75": {
       "type": "img-swap",
       "settings": {
@@ -63,6 +99,7 @@
   "order": [
     "main",
     "0c2cc7d8-523a-4059-9cfb-df20e836bfd4",
+    "86197664-6742-499a-a7ff-7f4cb6bbdbd7",
     "1836daea-1bc2-4bf5-9da6-099e382dad75",
     "8bd3e54c-2db4-46f6-abe2-f2c7d86c4bd5",
     "1c1aa051-9cb2-4a5d-a395-405be6e1f8aa"
