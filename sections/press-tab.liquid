@@ -226,7 +226,7 @@ padding: 20px 0;
  }
 </style>
 {% for block in section.blocks %}
-<div class="press-tab press-bg">
+<div class="press-tab press-bg" id="{{ block.id }}">
     <div class="press-tab-logo">
         <img src="{{ block.settings.first_image |  img_url: 'master' }}" alt="">
     </div>
