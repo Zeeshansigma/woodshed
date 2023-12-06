@@ -82,11 +82,11 @@
 }
 </style>
 <div class="about-sec swap-{{ section.settings.swap-section }}">
-    <div class="about-content"> 
+    <div class="about-content width-set-{{ section.settings.width_increase }}"> 
 {{ section.settings.Text-about }}
 <a class="about-{{ section.settings.show_about_btn }}" href=" {{ section.settings.button_link_about }} "> {{ section.settings.about_btn }} </a>
     </div>
-    <div class="about-img">
+    <div class="about-img width-set-{{ section.settings.width_increase }}">
        <img src="{{ section.settings.with_text_image |  img_url: 'master' }}" alt=""> 
     </div>
 </div>
@@ -147,7 +147,14 @@
   "id": "swap-section",
   "label": "Image Swap",
   "default": false
+},
+{
+  "type": "checkbox",
+  "id": "width_increase",
+  "label": "Width Increase Content",
+  "default": false
 }
+
 
 
 
