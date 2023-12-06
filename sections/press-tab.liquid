@@ -92,11 +92,11 @@ background: transparent;
         <img src=" {{ block.settings.second_image |  img_url: 'master' }} " alt="">
     </div>
 </div>
+
+{% endfor %}
 <div class="show-more">
     <a href=" {{ section.settings.show_more_btn_tab_link }} "> {{ section.settings.show_more_btn_tab }} </a>
 </div>
-{% endfor %}
-
 
 {% schema %}
     {
