@@ -5,7 +5,11 @@
     column-gap: 55px;
     width: 100%;
     max-width: 95%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: {{ section.settings.about_space_top }}px;
+    margin-bottom: {{ section.settings.about_space_Bottom }}px;
+
 }
 .about-content{
     width: 100%;
@@ -19,10 +23,17 @@
     width: 100%;
     height: 100%;
 }
+.about-false{
+    display: none;
+}
+.about-true{
+    display: block;
+}
 </style>
-<div class="about-sec">
+<div class="about-sec swap-{{ section.settings.swap-section }}">
     <div class="about-content"> 
 {{ section.settings.Text-about }}
+<a class="about-{{ section.settings.show_about_btn }}" href=" {{ section.settings.button_link_about }} "> {{ section.settings.about_btn }} </a>
     </div>
     <div class="about-img">
        <img src="{{ section.settings.with_text_image |  img_url: 'master' }}" alt=""> 
@@ -43,7 +54,54 @@
   "type": "image_picker",
   "id": "with_text_image",
   "label": "ADD Image"
+},
+{
+  "type": "range",
+  "id": "about_space_top",
+  "min": 50,
+  "max": 100,
+  "step": 10,
+  "unit": "px",
+  "label": "ADD Space Top",
+  "default": 60
+},
+{
+  "type": "range",
+  "id": "about_space_Bottom",
+  "min": 50,
+  "max": 100,
+  "step": 10,
+  "unit": "px",
+  "label": "ADD Space Bottom",
+  "default": 60
+},
+{
+    "type": "text",
+    "id": "about_btn",
+    "label": "ADD Btn Text"
+},
+{
+  "type": "url",
+  "id": "button_link_about",
+  "label": "Button link"
+},
+{
+  "type": "checkbox",
+  "id": "show_about_btn",
+  "label": "Show Button",
+  "default": false
+},
+{
+  "type": "checkbox",
+  "id": "swap-section",
+  "label": "Image Swap",
+  "default": false
 }
+
+
+
+
+
 
       ],
       "presets": [
