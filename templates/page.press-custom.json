@@ -3,6 +3,8 @@
     "main": {
       "type": "press-custom",
       "settings": {
+        "Press_bg": "shopify:\/\/shop_images\/Group_33827_1.png",
+        "press_title": "Press"
       }
     }
   },
