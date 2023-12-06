@@ -1,0 +1,12 @@
+{
+    "sections":{
+       "main":{
+          "type":"press-custom",
+          "settings":{
+          }
+       }
+    },
+    "order":[
+       "main"
+    ]
+ }
