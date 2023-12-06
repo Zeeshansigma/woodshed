@@ -17,7 +17,8 @@
         "about_btn": "",
         "button_link_about": "",
         "show_about_btn": false,
-        "swap-section": false
+        "swap-section": false,
+        "width_increase": false
       }
     },
     "86197664-6742-499a-a7ff-7f4cb6bbdbd7": {
@@ -74,7 +75,8 @@
         "about_btn": "Read about Appalachia",
         "button_link_about": "",
         "show_about_btn": true,
-        "swap-section": true
+        "swap-section": true,
+        "width_increase": false
       }
     },
     "8bd3e54c-2db4-46f6-abe2-f2c7d86c4bd5": {
@@ -87,7 +89,8 @@
         "about_btn": "Shop Appalachian goods",
         "button_link_about": "",
         "show_about_btn": true,
-        "swap-section": false
+        "swap-section": false,
+        "width_increase": true
       }
     },
     "1c1aa051-9cb2-4a5d-a395-405be6e1f8aa": {
@@ -100,7 +103,8 @@
         "about_btn": "Visit Us in Roanoke, Va.",
         "button_link_about": "",
         "show_about_btn": true,
-        "swap-section": true
+        "swap-section": true,
+        "width_increase": false
       }
     }
   },
