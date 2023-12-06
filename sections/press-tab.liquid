@@ -152,7 +152,7 @@ margin-top: 16px;
     .press-tab-img{
         display: none;
     }
-    .press-tab{
+    .press-bg{
         display: unset;
 border: none;
 background-image: url('{{ block.settings.first_image_mbl | img_url: 'master' }}');
@@ -197,7 +197,7 @@ text-align: center;
  }
 </style>
 {% for block in section.blocks %}
-<div class="press-tab">
+<div class="press-tab press-bg">
     <div class="press-tab-logo">
         <img src="{{ block.settings.first_image |  img_url: 'master' }}" alt="">
     </div>
