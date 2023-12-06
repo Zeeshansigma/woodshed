@@ -1,0 +1,36 @@
+<style>
+    .about-sec{
+    display: flex;
+    align-items: center;
+    column-gap: 55px;
+}
+</style>
+<div class="about-sec">
+    <div class="about-content"></div>
+    <div class="about-img"></div>
+</div>
+
+
+{% schema %}
+    {
+      "name": "Image-with-text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bg-about",
+          "label": "ADD Header Image"
+        },
+        {
+            "type":"text",
+            "id": "banner-text",
+            "label": "ADD Banner Title"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Slideshow"
+        }
+      ]
+    }
+    
+    {% endschema %}
