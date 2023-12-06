@@ -21,12 +21,12 @@
     }
     .press-tab-logo img{
         width: 100%;
-        max-width: 50%;
+        max-width: 60%;
     }
     .press-tab-img img{
         width: 100%;
     }
-    
+
 </style>
 
 <div class="press-tab">
@@ -37,6 +37,7 @@
     <div class="press-tab-content">
         <h3> {{ block.settings.Press_title }} </h3>
         <p> {{ block.settings.Press_subtitle }} </p>
+        <a href=" {{ block.settings.Press_btn_link }} "> {{ block.settings.Press_btn }} </a>
     </div>
     <div class="press-tab-img">
         <img src=" {{ block.settings.second_image |  img_url: 'master' }} " alt="">
@@ -71,6 +72,16 @@
                 "type": "text",
                 "id": "Press_subtitle",
                 "label": "ADD Title"
+             },
+             {
+                "type": "text",
+                "id": "Press_btn",
+                "label": "ADD Button"
+             },
+             {
+                "type": "url",
+                "id": "Press_btn_link",
+                "label": "ADD Button Link"
              },
              {
                 "type": "image_picker",
