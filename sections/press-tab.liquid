@@ -1,0 +1,86 @@
+<style>
+     .press-tab{
+        display: flex;
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .press-tab-logo{
+        width: 100%;
+        max-width: 40%;
+    }
+    .press-tab-content{
+        width: 100%;
+        max-width: 40%;
+    }
+    .press-tab-img{
+        width: 100%;
+        max-width: 20%; 
+    }
+    .press-tab-logo img{
+        width: 100%;
+    }
+    .press-tab-img img{
+        width: 100%;
+    }
+</style>
+
+<div class="press-tab">
+    {% for block in section.blocks %}
+    <div class="press-tab-logo">
+        <img src="{{ block.settings.first_image |  img_url: 'master' }}" alt="">
+    </div>
+    <div class="press-tab-content">
+        <h3> {{ block.settings.Press_title }} </h3>
+        <p> {{ block.settings.Press_subtitle }} </p>
+    </div>
+    <div class="press-tab-img">
+        <img src=" {{ block.settings.second_image |  img_url: 'master' }} " alt="">
+    </div>
+    {% endfor %}
+</div>
+
+
+
+{% schema %}
+    {
+      "name": "Press-Tab",
+      "settings": [
+        
+      ],
+      "blocks": [
+         {
+           "name": "Slide",
+           "type": "slide",
+           "settings": [
+             {
+               "type": "image_picker",
+               "id": "first_image",
+               "label": "ADD Brand Image"
+             },
+             {
+                "type": "text",
+                "id": "Press_title",
+                "label": "ADD Title"
+             },
+             {
+                "type": "text",
+                "id": "Press_subtitle",
+                "label": "ADD Title"
+             },
+             {
+                "type": "image_picker",
+               "id": "second_image",
+               "label": "ADD Texture Image"
+             }
+           ]
+         }
+      ],
+      "presets": [
+        {
+          "name": "Press-Tab"
+        }
+      ]
+
+    }
+    {% endschema %}

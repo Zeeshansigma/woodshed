@@ -14,40 +14,11 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
     }
-    .press-tab{
-        display: flex;
-        width: 100%;
-        max-width: 80%;
-        margin: 0 auto;
-    }
-    .press-tab-logo{
-        width: 100%;
-        max-width: 40%;
-    }
-    .press-tab-content{
-        width: 100%;
-        max-width: 40%;
-    }
-    .press-tab-img{
-        width: 100%;
-        max-width: 20%; 
-    }
+   
 </style>
 
 <div class="pres-bg-header">
     <h2> {{ section.settings.press_title }} </h2>
-</div>
-
-
-
-<div class="press-tab">
-    {% for block in section.blocks %}
-    <div class="press-tab-logo">
-        <img src="" alt="">
-    </div>
-    <div class="press-tab-content"></div>
-    <div class="press-tab-img"></div>
-    {% endfor %}
 </div>
 
 
@@ -60,44 +31,20 @@ text-transform: uppercase;
           "type": "image_picker",
           "id": "Press_bg",
           "label": "ADD Backgroun image"
-        },{
+        },
+        {
             "type":"text",
             "id": "press_title",
             "label": "ADD Title"
         }
       ],
-      "blocks": [
-         {
-           "name": "Slide",
-           "type": "slide",
-           "settings": [
-             {
-               "type": "image_picker",
-               "id": "first_image",
-               "label": "ADD Brand Image"
-             },
-             {
-                "type": "text",
-                "id": "Press_title",
-                "label": "ADD Title"
-             },
-             {
-                "type": "text",
-                "id": "Press_subtitle",
-                "label": "ADD Title"
-             }
-           ]
-         }
-      ],
+     
       "presets": [
         {
-          "name": "Slideshow",
-          "settings": {
-            "title": "Press-custom"
-          }
+          "name": "Press-custom"
         }
       ]
-      
+
     }
     {% endschema %}
     
