@@ -6,9 +6,15 @@
         "bg-about": "shopify:\/\/shop_images\/Group_33827_1.png",
         "banner-text": "ABOUT WOODSHED"
       }
+    },
+    "0c2cc7d8-523a-4059-9cfb-df20e836bfd4": {
+      "type": "img-swap",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "0c2cc7d8-523a-4059-9cfb-df20e836bfd4"
   ]
 }
