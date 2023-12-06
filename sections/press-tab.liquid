@@ -232,7 +232,9 @@ padding: 20px 0;
     </div>
     <div class="press-tab-content">
         <h3> {{ block.settings.Press_title }} </h3>
+        {% if block.settings.Press_subtitle != blank %}
         <p> {{ block.settings.Press_subtitle }} </p>
+        {% endif %}
         <a href=" {{ block.settings.Press_btn_link }} "> {{ block.settings.Press_btn }} </a>
     </div>
     <div class="press-tab-img">
