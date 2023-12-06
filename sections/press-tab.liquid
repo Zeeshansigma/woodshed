@@ -59,6 +59,23 @@ font-weight: 400;
 line-height: normal;
 margin-top: 16px;
     }
+    .show-more a{
+        display: inline-block;
+        padding: 8px 16px;
+        border: 1px solid #BBB2A3;
+        color: #1F989E;
+        font-family: Mr Eaves Mod OT, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: normal;
+background: transparent;
+    }
+    .show-more a:hover{
+        color: #1F989E;
+    }
+    .show-more{
+        text-align: center;
+    }
 
 </style>
 {% for block in section.blocks %}
@@ -75,7 +92,9 @@ margin-top: 16px;
         <img src=" {{ block.settings.second_image |  img_url: 'master' }} " alt="">
     </div>
 </div>
-
+<div class="show-more">
+    <a href=" {{ section.settings.show_more_btn_tab_link }} "> {{ section.settings.show_more_btn_tab }} </a>
+</div>
 {% endfor %}
 
 
@@ -83,6 +102,16 @@ margin-top: 16px;
     {
       "name": "Press-Tab",
       "settings": [
+        {
+            "type": "text",
+            "id": "show_more_btn_tab",
+            "label": "ADD Show More"
+        },
+        {
+            "type": "url",
+            "id": "show_more_btn_tab_link",
+            "label": "ADD Button link"
+        }
         
       ],
       "blocks": [
