@@ -39,7 +39,7 @@
         "heading_color": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "background": "#1f989e",
-        "gradient": "#C0C0C0",
+        "gradient": "#1f989e",
         "gradient_rotation": 180,
         "width": "wide",
         "padding_top": 20,
