@@ -312,6 +312,8 @@
                     <p>{{ product.price | money }}</p>
                 </div>
                 {% assign product_limit = product_limit | plus: 1 %}
+                {% else %}
+            {%- break -%}
             {% endif %}
         {%- endfor -%}
     </div>
