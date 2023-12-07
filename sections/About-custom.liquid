@@ -1,6 +1,6 @@
 <style>
     .bg-about-header{
-        background:url( {{ section.settings.bg-about |  img_url: 'master' }});
+        background:url( {{ section.settings.bg-about_laptop |  img_url: 'master' }});
     background-size:cover;
     background-position:center center;
 padding: 95px 0;
@@ -15,7 +15,35 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
    }
-
+   @media screen and (max-width:768px) {
+    .bg-about-header{
+        background: url( {{ section.settings.bg-about_mbl | img_url: 'master' }});
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+      }
+    
+   @media screen and (min-width:769px) and (max-width:1200px) {
+    .bg-about-header{
+      background: url( {{ section.settings.bg-about_tab | img_url: 'master' }});
+      background-size: cover;
+    min-height: 240px;
+    background-position: center center;
+    }
+   }
+   @media screen and (min-width:1441px) {
+    .bg-about-header{
+        background: url({{ section.settings.bg-about | img_url: 'master' }});
+        background-size: cover;
+        min-height: 240px;
+        background-position: center center;
+    }
+}
 </style>
 <div class="bg-about-header">
     <h2> {{ section.settings.banner-text }} </h2>
@@ -26,8 +54,23 @@ text-transform: uppercase;
       "settings": [
         {
           "type": "image_picker",
+          "id": "bg-about_laptop",
+          "label": "ADD Header Image Laptop" 
+        },
+        {
+          "type": "image_picker",
           "id": "bg-about",
-          "label": "ADD Header Image"
+          "label": "ADD Header Image Big" 
+        },
+        {
+          "type": "image_picker",
+          "id": "bg-about_tab",
+          "label": "ADD Header Image TAblet" 
+        },
+        {
+          "type": "image_picker",
+          "id": "bg-about_mbl",
+          "label": "ADD Header Image Mobile" 
         },
         {
             "type":"text",
