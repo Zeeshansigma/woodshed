@@ -2,6 +2,9 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
+      "custom_css": [
+        ".container.image-with-text-overlay__container.equal-columns--outside-trim{max-width: 100% !important;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Tractor_FEATURED.jpg",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
