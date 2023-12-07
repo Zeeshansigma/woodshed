@@ -293,13 +293,13 @@
       </p>
       <a href="{{ section.settings.maker_link_url }}">
         {{- section.settings.maker_link_text }}
-        <img class="arrowimg" src="{{ 'icon-right.svg' | asset_url }}"
-      ></a>
+        <img class="arrowimg" src="{{ 'icon-right.svg' | asset_url }}"/>
+    </a>
     </div>
     <div class="right_item">
       <div class="maker_products desk">
         {% assign my_coll_custom = collections[section.settings.coll_custom].products %}
-        {%  assign product_limit = 0 %} 
+        {% assign product_limit = 0 %} 
         {%- for product in my_coll_custom -%}
         {% if product_limit <= 4 %}
           <div class="maker_product">
@@ -317,7 +317,7 @@
       <div class="maker_products maker_slider recommended-new mob">
         <div class="swiper-wrapper">
         {% assign my_coll_custom_mbl = collections[section.settings.coll_custom_mobile].products %}
-        {%  assign product_limit = 0 %} 
+        {% assign product_limit = 0 %} 
           {%- for product in my_coll_custom_mbl -%}
         {% if product_limit <= 4 %}
             <div class="swiper-slide ">
