@@ -299,21 +299,23 @@
     <div class="right_item">
       <div class="maker_products desk">
         {% assign my_coll_custom = collections[section.settings.coll_custom].products %}
-        {% assign product_limit = 0 %} 
+        {% assign product_limit = 0 %}
         {%- for product in my_coll_custom -%}
-        {% if product_limit <= 4 %}
-          <div class="maker_product">
-            <a href="{{ product.url }}">
-              <img src="{{  product.featured_image | image_url: width: 533}}">
-            </a>
-            <a href="{{ product.url }}">
-              <h4>{{ product.url }}</h4>
-            </a>
-            <p>{{ product.price | money }}</p>
-          {% assign product_limit = product_limit | plus: 1 %} 
+            {% if product_limit <= 4 %}
+                <div class="maker_product">
+                    <a href="{{ product.url }}">
+                        <img src="{{ product.featured_image | image_url: width: 533 }}">
+                    </a>
+                    <a href="{{ product.url }}">
+                        <h4>{{ product.url }}</h4>
+                    </a>
+                    <p>{{ product.price | money }}</p>
+                </div>
+                {% assign product_limit = product_limit | plus: 1 %}
             {% endif %}
         {%- endfor -%}
-      </div>
+    </div>
+    
       <div class="maker_products maker_slider recommended-new mob">
         <div class="swiper-wrapper">
         {% assign my_coll_custom_mbl = collections[section.settings.coll_custom_mobile].products %}
