@@ -1,6 +1,6 @@
 <style>
     .pres-bg-header{
-        background: url( {{ section.settings.Press_bg |  img_url: 'master' }});
+        background: url( {{ section.settings.Press_bg_laptop |  img_url: 'master' }});
         background-size:cover;
         background-position:center center;
         padding:95px 0;
@@ -14,7 +14,35 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
     }
-   
+    @media screen and (max-width:768px) {
+      .pres-bg-header{
+        background: url( {{ section.settings.Press_bg_mbl |  img_url: 'master' }});
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+      }
+    
+   @media screen and (min-width:769px) and (max-width:1200px) {
+    .pres-bg-header{
+      background: url( {{ section.settings.Press_bg_tablet |  img_url: 'master' }});
+      background-size: cover;
+    min-height: 240px;
+    background-position: center center;
+    }
+   }
+   @media screen and ( min-width:1441px){
+  .bg-visit-header{
+    background: url( {{ section.settings.Press_bg |  img_url: 'master' }});
+    background-size: cover;
+    min-height: 240px;
+    background-position: center center;
+  }
+}
 </style>
 
 <div class="pres-bg-header">
@@ -30,7 +58,22 @@ text-transform: uppercase;
         {
           "type": "image_picker",
           "id": "Press_bg",
-          "label": "ADD Backgroun image"
+          "label": "ADD Background image"
+        },
+        {
+          "type": "image_picker",
+          "id": "Press_bg_laptop",
+          "label": "ADD Background image Laptop"
+        },
+        {
+          "type": "image_picker",
+          "id": "Press_bg_tablet",
+          "label": "ADD Background image TAblet"
+        },
+        {
+          "type": "image_picker",
+          "id": "Press_bg_mbl",
+          "label": "ADD Background image Mobile"
         },
         {
             "type":"text",
