@@ -119,3 +119,6 @@
 }
 
 
+.container.image-with-text-overlay__container.equal-columns--outside-trim{
+  max-width: 100% !important;
+}
