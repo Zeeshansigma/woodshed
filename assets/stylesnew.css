@@ -2080,3 +2080,8 @@ span.select select {
   margin-bottom: 0;
 }
 /* end */
+
+
+.container.image-with-text-overlay__container.equal-columns--outside-trim{
+  max-width: 100% !important;
+}
