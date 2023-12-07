@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <style>
  .bg-visit-header{
-background:url( {{ section.settings.main_bg_visit | img_url: 'master' }});
+background:url( {{ section.settings.main_bg_visit_Laptop | img_url: 'master' }});
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -154,7 +154,7 @@ h2.desktop {
 
   }
   .bg-visit-header{
-background:url( {{ section.settings.main_bg_visit_mbl | img_url: 'master' }});
+background:url( {{ section.settings.main_bg_visit | img_url: 'master' }});
 background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -200,6 +200,7 @@ ul#tabs-nav li:nth-child(7) {
 }
 @media screen and ( min-width:1441px){
   .bg-visit-header{
+background:url( {{ section.settings.main_bg_visit | img_url: 'master' }});
     background-size: cover;
     min-height: 240px;
     background-position: center center;
@@ -343,6 +344,11 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
           "type": "image_picker",
           "id": "main_bg_visit",
           "label": "ADD Background Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_bg_visit_Laptop",
+          "label": "ADD Background Image for Laptop"
         },
         {
           "type": "image_picker",
