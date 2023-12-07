@@ -28,7 +28,7 @@
     </div>
     <div class="right_item">
       <div class="maker_products desk">
-        {% assign my_coll_custom = collections[section.settings.collection_list_custom].products | limit: 4 %}
+        {% assign my_coll_custom = collections[section.settings.collection_list_custom].products limit: 4 %}
         {%- for product in my_coll_custom -%}
           <div class="maker_product">
             <a href="{{ product.url }}">
@@ -43,7 +43,7 @@
       </div>
       <div class="maker_products maker_slider recommended-new mob">
         <div class="swiper-wrapper">
-        {% assign my_coll_custom_mbl = collections[section.settings.collection_list_custom_mobile].products | limit: 4 %}
+        {% assign my_coll_custom_mbl = collections[section.settings.collection_list_custom_mobile].products limit: 4 %}
           {%- for product in my_coll_custom_mbl -%}
             <div class="swiper-slide ">
               <div>
