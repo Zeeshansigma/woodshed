@@ -45,7 +45,7 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0,
         "css_class": "",
-        "custom_css": ".container.image-with-text-overlay__container.equal-columns--outside-trim{\n  max-width: 100% !important;\n}"
+        "custom_css": ".container.image-with-text-overlay__container.equal-columns--outside-trim{\n  max-width: 100% !important;\npadding:0;\n}"
       }
     },
     "26c506ca-474f-4fcf-a755-0b7dab914a4b": {
