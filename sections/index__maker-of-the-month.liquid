@@ -45,10 +45,10 @@
       </div>
       <div class="maker_products maker_slider recommended-new mob">
         <div class="swiper-wrapper">
-        {% assign my_coll_custom_mbl = collections[section.settings.collection_list_custom_mobile].products %}
+        {% assign my_coll_custom_mbl = collections[section.settings.collection_list_custom_mobile].products | limit:4 %}
           {%- for product in my_coll_custom_mbl -%}
         {% if forloop.index <= 4 %}
-          {{ forloop.index }}
+        test  {{ forloop.index }}
             <div class="swiper-slide ">
               <div>
                 <a href="{{ product.url }}">
