@@ -227,7 +227,7 @@
           "settings": {
             "title": "",
             "heading_size": "regular",
-            "text": "<p>Appalachia is unlike anywhere on earth. Defined by one of the world's oldest mountain ranges, the region has birthed everything from bluegrass to MoonPies. Our stories explore all the special things about our mountains — their unmatched natural resources; their colorful history; their quirky towns; and the talented musicians, chefs, writers, and artists who make it so much fun to visit and live here.<\/p>",
+            "text": "<p>You'll love Roanoke, and our award-winning shop is a great starting point. It has products from our website plus hundreds more, including many made in our Appalachian valley. You can find us at 16 Church Avenue, Southwest. Our unique midcentury building is also home to Little Green Hive Coffee and Tea, Vintage Vault Records and Pop Collectibles, and Roanoke's only Puerto Rican eatery Delicias Boricuas.<\/p>",
             "alignment": "left",
             "vertical_position": "center",
             "button_label": "Visit Us in Roanoke, Va.",
@@ -247,7 +247,7 @@
         "3b99dc23-db4d-4641-bd85-795cea3baf5c"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {a, p {font-size: 20px;}}"
+        "@media screen and (min-width: 768px) {a, p {font-size: 20px; }}"
       ],
       "settings": {
         "width": "wide",
