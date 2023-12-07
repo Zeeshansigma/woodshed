@@ -142,7 +142,13 @@ h2.desktop {
     font-family: "Mreavessanot bold";
 
 }
+.mobile-img{
+  display: none;
+}
 @media screen and (max-width:768px) {
+  .mobile-img{
+    display: block;
+  }
   .custom-slider{
     display: block;
   }
@@ -233,6 +239,7 @@ background:url( {{ section.settings.main_bg_visit_tablet | img_url: 'master' }})
 </div>
 <div class="visit-img">
 <img src="{{ section.settings.main_visit | img_url: "master"}}">
+<img src=" {{ section.settings.main_visit_mobile |  img_url: 'master' }} " alt="" class="mobile-img">
 </div>
 
 
@@ -381,6 +388,11 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
           "type": "image_picker",
           "id": "main_visit",
           "label": "ADD Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_visit_mobile",
+          "label": "ADD Mobile Image"
         }
       ],
       "blocks": [
