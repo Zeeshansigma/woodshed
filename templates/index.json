@@ -144,7 +144,7 @@
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
-        "p.grid-item__text.text-align-center {font-size: 20px;font-family: 'Mr Eaves San OT';}",
+        "p.grid-item__text.text-align-center {font-size: 20px; font-family: \"Mr Eaves San OT\";}",
         "@media screen and (max-width: 768px) {.section--grid-section .grid-item__heading, p.grid-item__text.text-align-center {font-size: 16px; }}"
       ],
       "settings": {
@@ -1236,51 +1236,9 @@
     },
     "cc291733-b5c9-436b-b935-f2d05fe680af": {
       "type": "index__maker-of-the-month",
-      "blocks": {
-        "964c70e6-664a-410b-ba19-6421cd73bff1": {
-          "type": "Product",
-          "settings": {
-            "prod_img": "shopify:\/\/shop_images\/Sweet_Mint.png",
-            "prod_title": "SWEET MINT SYRUP",
-            "prod_price": "$10.00",
-            "prod_url": "shopify:\/\/products\/sweet-mint-syrup"
-          }
-        },
-        "7b4741d3-02d0-4ce5-8ee0-65d3cabead8e": {
-          "type": "Product",
-          "settings": {
-            "prod_img": "shopify:\/\/shop_images\/Cocktail_Syrup_sampler.jpg",
-            "prod_title": "COCKTAIL SYRUP SAMPLER",
-            "prod_price": "$24.00",
-            "prod_url": "shopify:\/\/products\/cocktail-syrup-sampler"
-          }
-        },
-        "5814dee9-8ad6-4248-b464-091b7792bdbe": {
-          "type": "Product",
-          "settings": {
-            "prod_img": "shopify:\/\/shop_images\/Favorites_Syrup_Sampler.webp",
-            "prod_title": "FAVORITES SYRUP SAMPLER",
-            "prod_price": "$20.00",
-            "prod_url": "shopify:\/\/products\/favorites-syrup-sampler"
-          }
-        },
-        "113f42bb-89ce-47d6-b69a-c27dc77d09a2": {
-          "type": "Product",
-          "settings": {
-            "prod_img": "shopify:\/\/shop_images\/grenadine.jpg",
-            "prod_title": "GRENADINE SYRUP",
-            "prod_price": "$11.00",
-            "prod_url": "shopify:\/\/products\/grenadine-syrup"
-          }
-        }
-      },
-      "block_order": [
-        "964c70e6-664a-410b-ba19-6421cd73bff1",
-        "7b4741d3-02d0-4ce5-8ee0-65d3cabead8e",
-        "5814dee9-8ad6-4248-b464-091b7792bdbe",
-        "113f42bb-89ce-47d6-b69a-c27dc77d09a2"
-      ],
       "settings": {
+        "collection_list_custom": "a-multitude-of-moths",
+        "collection_list_custom_mobile": "a-multitude-of-moths",
         "section_heading": "Featured Maker",
         "left_image": "shopify:\/\/shop_images\/jt_copper_theda_and_jolie_CROPPED.png",
         "maker_name": "J.T. COPPER",
