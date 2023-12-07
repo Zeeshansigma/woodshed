@@ -1237,8 +1237,8 @@
     "cc291733-b5c9-436b-b935-f2d05fe680af": {
       "type": "index__maker-of-the-month",
       "settings": {
-        "collection_list_custom": "j-t-copper",
-        "collection_list_custom_mobile": "j-t-copper",
+        "coll_custom": "a-multitude-of-moths",
+        "coll_custom_mobile": "a-multitude-of-moths",
         "section_heading": "Featured Maker",
         "left_image": "shopify:\/\/shop_images\/jt_copper_theda_and_jolie_CROPPED.png",
         "maker_name": "J.T. COPPER",
