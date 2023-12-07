@@ -37,14 +37,15 @@ text-transform: uppercase;
     background-position: center center;
     }
    }
-   @media screen and (min-width:1441px){
-    .pres-bg-header{
-    background: url( {{ section.settings.Press_bg |  img_url: 'master' }});
-    background-size: cover;
-    min-height: 240px;
-    background-position: center center;
-  }
+   @media screen and (min-width:1441px) {
+    .pres-bg-header {
+        background: url({{ section.settings.Press_bg | img_url: 'master' }});
+        background-size: cover;
+        min-height: 240px;
+        background-position: center center;
+    }
 }
+
 </style>
 
 <div class="pres-bg-header">
