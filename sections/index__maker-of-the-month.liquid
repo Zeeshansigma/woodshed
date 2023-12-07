@@ -301,7 +301,7 @@
         {% assign my_coll_custom = collections[section.settings.coll_custom].products %}
         {% assign product_limit = 0 %}
         {%- for product in my_coll_custom -%}
-            {% if product_limit <= 4 %}
+            {% if product_limit < 4 %}
                 <div class="maker_product">
                     <a href="{{ product.url }}">
                         <img src="{{ product.featured_image | image_url: width: 533 }}">
