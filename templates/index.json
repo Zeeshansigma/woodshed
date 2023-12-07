@@ -1426,7 +1426,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".blog-posts__wrapper.blog-posts__wrapper--page-dots-true.container{\nmax-width:100%;\npadding:0;\n}"
       }
     },
     "1664738391923fb5d7": {
