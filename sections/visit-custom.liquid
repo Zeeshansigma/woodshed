@@ -159,6 +159,9 @@ h2.desktop {
     display: none;
 
   }
+  .visit-desktop{
+    display: none;
+  }
   .bg-visit-header{
 background:url( {{ section.settings.main_bg_visit_mbl | img_url: 'master' }});
 background-repeat: no-repeat;
@@ -238,7 +241,7 @@ background:url( {{ section.settings.main_bg_visit_tablet | img_url: 'master' }})
 {{ section.settings.main-rich-text }}
 </div>
 <div class="visit-img">
-<img src="{{ section.settings.main_visit | img_url: "master"}}">
+<img class="visit-desktop" src="{{ section.settings.main_visit | img_url: "master"}}">
 <img src=" {{ section.settings.main_visit_mobile |  img_url: 'master' }} " alt="" class="mobile-img">
 </div>
 
