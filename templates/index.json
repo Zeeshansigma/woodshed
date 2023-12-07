@@ -3,7 +3,7 @@
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
       "custom_css": [
-        ".container.image-with-text-overlay__container.equal-columns--outside-trim{max-width: 100% !important;}"
+        ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Tractor_FEATURED.jpg",
@@ -45,7 +45,7 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".container.image-with-text-overlay__container.equal-columns--outside-trim{\n  max-width: 100% !important;\n}"
       }
     },
     "26c506ca-474f-4fcf-a755-0b7dab914a4b": {
