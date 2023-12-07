@@ -193,6 +193,7 @@ background-repeat: no-repeat;
 }
 .bg-visit-header h2{
   font-size: 45px;
+  width: 60%;
 }
 ul#tabs-nav li {
     font-size: 15px;
@@ -204,6 +205,14 @@ ul#tabs-nav li:nth-child(7) {
 @media screen and ( min-width:1441px){
   .bg-visit-header{
 background:url( {{ section.settings.main_bg_visit | img_url: 'master' }});
+    background-size: cover;
+    min-height: 240px;
+    background-position: center center;
+  }
+}
+@media screen  and (min-width:769px) and (max-width:1200px) {
+  .bg-visit-header{
+background:url( {{ section.settings.main_bg_visit_tablet | img_url: 'master' }});
     background-size: cover;
     min-height: 240px;
     background-position: center center;
@@ -352,6 +361,11 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
           "type": "image_picker",
           "id": "main_bg_visit_Laptop",
           "label": "ADD Background Image for Laptop"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_bg_visit_tablet",
+          "label": "ADD Background Image for Tablet"
         },
         {
           "type": "image_picker",
