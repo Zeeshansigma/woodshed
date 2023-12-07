@@ -157,10 +157,15 @@ h2.desktop {
 background:url( {{ section.settings.main_bg_visit_mbl | img_url: 'master' }});
 background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 0;
     background-position: center center;
+    min-height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
- 
+.bg-visit-header h2{
+  padding: 0;
+}
   .desktop{
     display: none;
   }
