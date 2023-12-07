@@ -28,7 +28,7 @@
     </div>
     <div class="right_item">
       <div class="maker_products desk">
-        {% assign my_coll_custom = collections[section.settings.collection_custom].products %}
+        {% assign my_coll_custom = collections[section.settings.coll_custom].products %}
         {%  assign product_limit = 0 %} 
         {%- for product in my_coll_custom -%}
         {% if product_limit <= 4 %}
@@ -46,7 +46,7 @@
       </div>
       <div class="maker_products maker_slider recommended-new mob">
         <div class="swiper-wrapper">
-        {% assign my_coll_custom_mbl = collections[section.settings.collection_custom_mobile].products %}
+        {% assign my_coll_custom_mbl = collections[section.settings.coll_custom_mobile].products %}
         {%  assign product_limit = 0 %} 
           {%- for product in my_coll_custom_mbl -%}
         {% if product_limit <= 4 %}
@@ -80,13 +80,13 @@
   "settings": [
     {
   "type": "collection",
-  "id": "collection_custom",
+  "id": "coll_custom",
   "label": " Select Collection",
   "limit": 4
 },
 {
   "type": "collection",
-  "id": "collection_custom_mobile",
+  "id": "coll_custom_mobile",
   "label": " Select Collection same For Mobile",
   "limit": 4
 },
