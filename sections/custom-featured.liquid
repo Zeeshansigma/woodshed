@@ -1,0 +1,113 @@
+
+<style>
+    .main-faetured-custom{
+        width: 100%;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .fatured-img-side{
+        width: 100%;
+        max-width: 50%;
+    }
+    .fatured-img-side img{
+        width: 100%;
+    }
+    .featured-custom-coll{
+        width: 100%;
+        max-width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+    .product-custom{
+        width: 100%;
+        max-width: 50%;
+    }
+    .product-custom img{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<h2> {{ section.settings.featured_title }} </h2>
+<div class="main-faetured-custom">
+    <div class="fatured-img-side">
+        <img src=" {{ section.settings.side_img_coll |  img_url: 'master' }} " alt="">
+        <h2> {{ section.settings.name_feature }} </h2>
+        <p> {{ section.settings.featured_about }} </p>
+        <a href=" {{ section.settings.btn_url }} "> {{ section.settings.feature_btn }} </a>
+    </div>
+    <div class="featured-custom-coll">
+{% for product in collection.products %}
+    {% assign my_coll_custom = collections[ section.settings.collection_list_custom ] %}
+    <div class="product-custom">
+        <img src=" {{ product.featured_image | img_url: "master" }} " alt="">
+        <h3> {{ product.title }} </h3>
+        <p> {{ product.price }} </p>
+    </div>
+    {% endfor %}
+    </div>
+</div>
+
+
+
+
+
+
+{% schema %}
+    {
+      "name": "Slideshow",
+      "settings": [
+        {
+"type": "text",
+"id": "featured_title",
+"label": "ADD Title"
+        },
+        {
+            "type": "image_picker",
+            "id": "side_img_coll",
+            "label": "ADD Image"
+        },
+        {
+            "type": "text",
+            "id": "name_feature",
+            "label": "ADD Name"
+        },
+        {
+            "type": "text",
+            "id": "featured_about",
+            "label": "ADD About Content"
+        },
+        {
+            "type": "text",
+            "id": "feature_btn",
+            "label": "ADD Btn"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "ADD Link"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Slideshow"
+        },
+        {
+  "type": "collection_list",
+  "id": "collection_list_custom",
+  "label": " Select Collection"
+}
+
+      ],
+      "presets": [
+        {
+          "name": "Slideshow"
+        }
+      ]
+    }
+    {% endschema %}
+    
