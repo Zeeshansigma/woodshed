@@ -28,30 +28,32 @@
     </div>
     <div class="right_item">
       <div class="maker_products desk">
-        {%- for block in section.blocks -%}
+        {% assign my_coll_custom = collections[section.settings.collection_list_custom].products | limit: 4 %}
+        {%- for product in my_coll_custom -%}
           <div class="maker_product">
-            <a href="{{block.settings.prod_url}}">
-              <img src="{{  block.settings.prod_img | image_url: width: 533}}">
+            <a href="{{ product.url }}">
+              <img src="{{  product.featured_image | image_url: width: 533}}">
             </a>
-            <a href="{{block.settings.prod_url}}">
-              <h4>{{ block.settings.prod_title }}</h4>
+            <a href="{{ product.url }}">
+              <h4>{{ product.url }}</h4>
             </a>
-            <p>{{ block.settings.prod_price }}</p>
+            <p>{{ product.price | money }}</p>
           </div>
         {%- endfor -%}
       </div>
       <div class="maker_products maker_slider recommended-new mob">
         <div class="swiper-wrapper">
-          {%- for block in section.blocks -%}
+        {% assign my_coll_custom_mbl = collections[section.settings.collection_list_custom_mobile].products | limit: 4 %}
+          {%- for product in my_coll_custom_mbl -%}
             <div class="swiper-slide ">
               <div>
-                <a href="{{block.settings.prod_url}}">
-                  <img alt="{{ block.settings.prod_title }} image" src="{{  block.settings.prod_img | image_url: width: 533}}">
+                <a href="{{ product.url }}">
+                  <img alt="{{ product.title }} image" src="{{  product.featured_image | image_url: width: 533}}">
                 </a>
                 <div class="card-text">
-                  <h5>{{ block.settings.prod_title }}</h5>
+                  <h5>{{ product.title }}</h5>
                   <span class="product-thumbnail__price price">
-                    <span class="money">{{ block.settings.prod_price }}</span>
+                    <span class="money">{{ product.price | money }}</span>
                   </span>
                 </div>
               </div>
@@ -69,6 +71,16 @@
 {
   "name": "Maker of the Month",
   "settings": [
+    {
+  "type": "collection_list",
+  "id": "collection_list_custom",
+  "label": " Select Collection"
+},
+{
+  "type": "collection_list",
+  "id": "collection_list_custom_mobile",
+  "label": " Select Collection same For Mobile"
+},
     {
       "type": "text",
       "label": "Section Heading",
@@ -100,36 +112,7 @@
       "id": "maker_link_url"
     }
   ],
-  "max_blocks": 4,
-  "blocks": [
-    {
-      "type": "Product",
-      "name": "Product",
-      "settings": [
-        {
-          "type": "image_picker",
-          "label": "Image",
-          "id": "prod_img"
-        },
-        {
-          "type": "text",
-          "label": "Title",
-          "id": "prod_title"
-        },
-
-        {
-          "type": "text",
-          "label": "Price",
-          "id": "prod_price"
-        },
-        {
-          "type": "url",
-          "label": "URL",
-          "id": "prod_url"
-        }
-      ]
-    }
-  ],
+ 
   "presets": [
     {
       "name": "Maker of the Month",
