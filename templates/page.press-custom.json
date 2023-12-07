@@ -4,6 +4,9 @@
       "type": "press-custom",
       "settings": {
         "Press_bg": "shopify:\/\/shop_images\/Group_33827_1.png",
+        "Press_bg_laptop": "shopify:\/\/shop_images\/LAPTOP.png",
+        "Press_bg_tablet": "shopify:\/\/shop_images\/tablet.png",
+        "Press_bg_mbl": "shopify:\/\/shop_images\/MOBILE.png",
         "press_title": "Press"
       }
     },
