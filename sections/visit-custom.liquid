@@ -2,9 +2,11 @@
 <style>
  .bg-visit-header{
 background:url( {{ section.settings.main_bg_visit | img_url: 'master' }});
-background-size:cover;
-background-position:center center;
-padding: 95px 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 220px;
  }   
  .bg-visit-header h2 {
     font-size: 58px;
@@ -12,6 +14,7 @@ padding: 95px 0;
     text-align: center;
     width: 39%;
     margin: 0 auto;
+    padding-bottom: 25px;
 } 
 .main-page-content{
   width: 100%;
