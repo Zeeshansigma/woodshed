@@ -327,7 +327,7 @@
             <div class="swiper-slide ">
               <div>
                 <a href="{{ product.url }}">
-                  <img alt="{{ product.title }} image" src="{{  product.featured_image | image_url: width: 533}}">
+                  <img alt="{{ product.title }} image" src="{{ product.featured_image | image_url: width: 533}}">
                 </a>
                 <div class="card-text">
                   <h5>{{ product.title }}</h5>
