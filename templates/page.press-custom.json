@@ -3,7 +3,7 @@
     "main": {
       "type": "press-custom",
       "settings": {
-        "Press_bg": "shopify:\/\/shop_images\/1920.png",
+        "Press_bg": "shopify:\/\/shop_images\/image_36_1.png",
         "Press_bg_laptop": "shopify:\/\/shop_images\/LAPTOP.png",
         "Press_bg_tablet": "shopify:\/\/shop_images\/tablet.png",
         "Press_bg_mbl": "shopify:\/\/shop_images\/MOBILE.png",
