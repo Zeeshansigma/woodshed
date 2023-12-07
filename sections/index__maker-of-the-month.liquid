@@ -30,6 +30,7 @@
       <div class="maker_products desk">
         {% assign my_coll_custom = collections[section.settings.collection_list_custom].products %}
         {%- for product in my_coll_custom -%}
+          {% if forloop.index <= 4 %}
           <div class="maker_product">
             <a href="{{ product.url }}">
               <img src="{{  product.featured_image | image_url: width: 533}}">
@@ -39,12 +40,14 @@
             </a>
             <p>{{ product.price | money }}</p>
           </div>
+          {% endif %}
         {%- endfor -%}
       </div>
       <div class="maker_products maker_slider recommended-new mob">
         <div class="swiper-wrapper">
         {% assign my_coll_custom_mbl = collections[section.settings.collection_list_custom_mobile].products %}
           {%- for product in my_coll_custom_mbl -%}
+        {% if forloop.index <= 4 %}
             <div class="swiper-slide ">
               <div>
                 <a href="{{ product.url }}">
@@ -58,6 +61,7 @@
                 </div>
               </div>
             </div>
+        {% endif %}
           {%- endfor -%}
         </div>
         <!-- scrollbar -->
