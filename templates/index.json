@@ -1241,7 +1241,7 @@
       "type": "index__maker-of-the-month",
       "settings": {
         "coll_custom": "j-t-copper",
-        "coll_custom_mobile": "a-multitude-of-moths",
+        "coll_custom_mobile": "j-t-copper",
         "section_heading": "Featured Maker",
         "left_image": "shopify:\/\/shop_images\/jt_copper_theda_and_jolie_CROPPED.png",
         "maker_name": "J.T. COPPER",
