@@ -408,46 +408,29 @@ background:url( {{ section.settings.main_bg_visit_tablet | img_url: 'master' }})
 </div>
 
 <script>
-var tabsNav = document.getElementById('tabs-nav');
-if (tabsNav && tabsNav.children.length > 0) {
-    var firstTab = tabsNav.children[0];
-    if (firstTab.classList) {
-        firstTab.classList.add('active');
-    }
-}
-
-var tabContents = document.getElementsByClassName('tab-content');
-for (var i = 0; i < tabContents.length; i++) {
-    tabContents[i].style.display = 'none';
-}
+document.querySelector('#tabs-nav li:first-child').classList.add('active');
+document.querySelectorAll('.tab-content').forEach(function(tabContent) {
+    tabContent.style.display = 'none';
+});
+document.querySelectorAll('.tab-content')[0].style.display = 'block';
 
 // Click function
-var tabs = document.getElementById('tabs-nav').getElementsByTagName('li');
-for (var i = 0; i < tabs.length; i++) {
-    tabs[i].addEventListener('click', function() {
-        var tabItems = document.getElementsByClassName('tab');
-        for (var j = 0; j < tabItems.length; j++) {
-            var item = tabItems[j];
-            if (item.classList) {
-                item.classList.remove('active');
-            }
-        }
-
-        if (this.classList) {
-            this.classList.add('active');
-        }
-
-        var tabContents = document.getElementsByClassName('tab-content');
-        for (var k = 0; k < tabContents.length; k++) {
-            var content = tabContents[k];
+document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+        document.querySelectorAll('#tabs-nav li').forEach(function(item) {
+          if(item.classList)
+            item.classList.remove('active');
+        });
+      if(this.classList){
+        this.classList.add('active');
+      }
+        document.querySelectorAll('.tab-content').forEach(function(content) {
             content.style.display = 'none';
-        }
-
+        });
         var activeTab = this.querySelector('a').getAttribute('href').substring(1);
         document.getElementById(activeTab).style.display = 'block';
     });
-}
-
+});
 
 </script>
 
