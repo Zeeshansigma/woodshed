@@ -408,11 +408,18 @@ background:url( {{ section.settings.main_bg_visit_tablet | img_url: 'master' }})
 </div>
 
 <script>
-document.querySelector('#tabs-nav li:first-child').classList.add('active');
-document.querySelectorAll('.tab-content').forEach(function(tabContent) {
-    tabContent.style.display = 'none';
-});
-document.querySelectorAll('.tab-content')[0].style.display = 'block';
+var tabsNav = document.getElementById('tabs-nav');
+if (tabsNav && tabsNav.children.length > 0) {
+    var firstTab = tabsNav.children[0];
+    if (firstTab.classList) {
+        firstTab.classList.add('active');
+    }
+}
+
+var tabContents = document.getElementsByClassName('tab-content');
+for (var i = 0; i < tabContents.length; i++) {
+    tabContents[i].style.display = 'none';
+}
 
 // Click function
 var tabs = document.getElementById('tabs-nav').getElementsByTagName('li');
