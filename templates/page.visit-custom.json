@@ -101,7 +101,7 @@
         "30c189e0-889a-4e44-b90f-53b62a8aea73": {
           "type": "text",
           "settings": {
-            "Tab_main_title": "FOOD-CENTRIC",
+            "Tab_main_title": "FROZEN-TREATS",
             "Tab_id": "third"
           }
         },
@@ -149,7 +149,7 @@
         "cf0a9890-6dcf-42f7-a8e5-55f8c1cfbddf": {
           "type": "text",
           "settings": {
-            "Tab_main_title": "FROZEN TREATS",
+            "Tab_main_title": "FOOD-CENTRIC",
             "Tab_id": "four"
           }
         },
