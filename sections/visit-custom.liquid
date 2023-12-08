@@ -420,8 +420,9 @@ document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
         document.querySelectorAll('#tabs-nav li').forEach(function(item) {
             item.classList.remove('active');
         });
+      if(event.classList){
         event.classList.add('active');
-
+      }
         document.querySelectorAll('.tab-content').forEach(function(content) {
             content.style.display = 'none';
         });
