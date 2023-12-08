@@ -1416,7 +1416,7 @@
       "type": "index__blog-posts-new",
       "settings": {
         "title": "Latest Stories",
-        "nbr_of_posts": 15,
+        "nbr_of_posts": 13,
         "width": "wide",
         "padding_top": 50,
         "padding_bottom": 0,
