@@ -81,7 +81,7 @@
           {% unless article.tags contains 'featured' %}
             {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
         
-            {% if total_articles_displayed <= 14 %}
+            {% if total_articles_displayed <= {{ section.settings.number }} %}
               
              
           <div
