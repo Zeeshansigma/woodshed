@@ -2,6 +2,9 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
+      "custom_css": [
+        ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Tractor_FEATURED.jpg",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
@@ -16,12 +19,12 @@
         "text_vertical_position": "bottom",
         "text_width": 59,
         "background_color": "#c79f4a",
-        "background_opacity": 37,
-        "border_color": "#c79f4a",
+        "background_opacity": 62,
+        "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
         "button_1_link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-        "button_1_style": "button--secondary",
+        "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
         "button_2_style": "button--secondary",
@@ -42,7 +45,7 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".container.image-with-text-overlay__container.equal-columns--outside-trim{\n  max-width: 100% !important;\npadding:0;\n}"
       }
     },
     "26c506ca-474f-4fcf-a755-0b7dab914a4b": {
@@ -144,7 +147,7 @@
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
-        "p.grid-item__text.text-align-center {font-size: 19px;}",
+        "p.grid-item__text.text-align-center {font-size: 20px; font-family: \"Mr Eaves San OT\";}",
         "@media screen and (max-width: 768px) {.section--grid-section .grid-item__heading, p.grid-item__text.text-align-center {font-size: 16px; }}"
       ],
       "settings": {
@@ -1236,51 +1239,9 @@
     },
     "cc291733-b5c9-436b-b935-f2d05fe680af": {
       "type": "index__maker-of-the-month",
-      "blocks": {
-        "964c70e6-664a-410b-ba19-6421cd73bff1": {
-          "type": "Product",
-          "settings": {
-            "prod_img": "shopify:\/\/shop_images\/Sweet_Mint.png",
-            "prod_title": "SWEET MINT SYRUP",
-            "prod_price": "$10.00",
-            "prod_url": "shopify:\/\/products\/sweet-mint-syrup"
-          }
-        },
-        "7b4741d3-02d0-4ce5-8ee0-65d3cabead8e": {
-          "type": "Product",
-          "settings": {
-            "prod_img": "shopify:\/\/shop_images\/Cocktail_Syrup_sampler.jpg",
-            "prod_title": "COCKTAIL SYRUP SAMPLER",
-            "prod_price": "$24.00",
-            "prod_url": "shopify:\/\/products\/cocktail-syrup-sampler"
-          }
-        },
-        "5814dee9-8ad6-4248-b464-091b7792bdbe": {
-          "type": "Product",
-          "settings": {
-            "prod_img": "shopify:\/\/shop_images\/Favorites_Syrup_Sampler.webp",
-            "prod_title": "FAVORITES SYRUP SAMPLER",
-            "prod_price": "$20.00",
-            "prod_url": "shopify:\/\/products\/favorites-syrup-sampler"
-          }
-        },
-        "113f42bb-89ce-47d6-b69a-c27dc77d09a2": {
-          "type": "Product",
-          "settings": {
-            "prod_img": "shopify:\/\/shop_images\/grenadine.jpg",
-            "prod_title": "GRENADINE SYRUP",
-            "prod_price": "$11.00",
-            "prod_url": "shopify:\/\/products\/grenadine-syrup"
-          }
-        }
-      },
-      "block_order": [
-        "964c70e6-664a-410b-ba19-6421cd73bff1",
-        "7b4741d3-02d0-4ce5-8ee0-65d3cabead8e",
-        "5814dee9-8ad6-4248-b464-091b7792bdbe",
-        "113f42bb-89ce-47d6-b69a-c27dc77d09a2"
-      ],
       "settings": {
+        "coll_custom": "a-multitude-of-moths",
+        "coll_custom_mobile": "a-multitude-of-moths",
         "section_heading": "Featured Maker",
         "left_image": "shopify:\/\/shop_images\/jt_copper_theda_and_jolie_CROPPED.png",
         "maker_name": "J.T. COPPER",
@@ -1455,6 +1416,7 @@
       "type": "index__blog-posts-new",
       "settings": {
         "title": "Latest Stories",
+        "nbr_of_posts": 14,
         "width": "wide",
         "padding_top": 50,
         "padding_bottom": 0,
@@ -1465,7 +1427,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".blog-posts__wrapper.blog-posts__wrapper--page-dots-true.container{\nmax-width:100%;\npadding:0;\n}"
       }
     },
     "1664738391923fb5d7": {
@@ -1656,7 +1618,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".featured-promotions__wrapper.container{\nmax-width:100%;\n}"
       }
     },
     "166473699748e4d6d6": {
@@ -1722,7 +1684,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".featured-promotions__wrapper.container{\nmax-width:100%;\npadding:0;\n}"
       }
     }
   },
