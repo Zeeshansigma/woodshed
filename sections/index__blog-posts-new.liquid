@@ -81,7 +81,11 @@
           {% unless article.tags contains 'featured' %}
             {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
         
+<<<<<<< Updated upstream
             {% if total_articles_displayed <= blog_limit %}
+=======
+            {% if total_articles_displayed <= {{ section.settings.nbr_of_posts }} %}
+>>>>>>> Stashed changes
               
              
           <div
