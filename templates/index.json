@@ -1047,8 +1047,7 @@
     "d66f23a7-6279-4cdf-807e-5700fe292fd6": {
       "type": "index__featured-collection",
       "custom_css": [
-        ".container h2 {margin-top: 50px;}",
-        ".container {max-width: 90%;}"
+        ".container h2 {margin-top: 50px;}"
       ],
       "settings": {
         "title": "BRAND SPANKIN' NEW",
@@ -1070,7 +1069,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "css_class": "",
-        "custom_css": ".featured-collection-section .section .container {\n    max-width: 90%;\n}"
+        "custom_css": ""
       }
     },
     "e85760dc-bd1d-4988-8076-d782e3a75094": {
