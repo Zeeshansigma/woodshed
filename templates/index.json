@@ -1047,7 +1047,8 @@
     "d66f23a7-6279-4cdf-807e-5700fe292fd6": {
       "type": "index__featured-collection",
       "custom_css": [
-        ".container h2 {margin-top: 50px;}"
+        ".container h2 {margin-top: 50px;}",
+        ".container {max-width: 90%;}"
       ],
       "settings": {
         "title": "BRAND SPANKIN' NEW",
