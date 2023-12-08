@@ -416,18 +416,18 @@ document.querySelectorAll('.tab-content')[0].style.display = 'block';
 
 // Click function
 document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
-    tab.addEventListener('click', function(event) {
+    tab.addEventListener('click', function() {
         document.querySelectorAll('#tabs-nav li').forEach(function(item) {
           if(item.classList)
             item.classList.remove('active');
         });
-      if(event.classList){
-        event.classList.add('active');
+      if(this.classList){
+        this.classList.add('active');
       }
         document.querySelectorAll('.tab-content').forEach(function(content) {
             content.style.display = 'none';
         });
-        var activeTab = event.querySelector('a').getAttribute('href').substring(1);
+        var activeTab = this.querySelector('a').getAttribute('href').substring(1);
         document.getElementById(activeTab).style.display = 'block';
     });
 });
