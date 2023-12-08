@@ -1069,7 +1069,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".featured-collection-section .section .container {\n    max-width: 90%;\n}"
       }
     },
     "e85760dc-bd1d-4988-8076-d782e3a75094": {
