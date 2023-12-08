@@ -415,23 +415,32 @@ document.querySelectorAll('.tab-content').forEach(function(tabContent) {
 document.querySelectorAll('.tab-content')[0].style.display = 'block';
 
 // Click function
-document.querySelectorAll('#tabs-nav li').forEach(function(tab) {
-  debugger;
-    tab.addEventListener('click', function() {
-        document.querySelectorAll('#tabs-nav li').forEach(function(item) {
-          if(item.classList)
-            item.classList.remove('active');
-        });
-      if(this.classList){
-        this.classList.add('active');
-      }
-        document.querySelectorAll('.tab-content').forEach(function(content) {
+var tabs = document.getElementById('tabs-nav').getElementsByTagName('li');
+for (var i = 0; i < tabs.length; i++) {
+    tabs[i].addEventListener('click', function() {
+        var tabItems = document.getElementsByClassName('tab');
+        for (var j = 0; j < tabItems.length; j++) {
+            var item = tabItems[j];
+            if (item.classList) {
+                item.classList.remove('active');
+            }
+        }
+
+        if (this.classList) {
+            this.classList.add('active');
+        }
+
+        var tabContents = document.getElementsByClassName('tab-content');
+        for (var k = 0; k < tabContents.length; k++) {
+            var content = tabContents[k];
             content.style.display = 'none';
-        });
+        }
+
         var activeTab = this.querySelector('a').getAttribute('href').substring(1);
         document.getElementById(activeTab).style.display = 'block';
     });
-});
+}
+
 
 </script>
 
