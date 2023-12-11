@@ -293,7 +293,8 @@ ul#tabs-nav li {
 </div>
   <!-- Swiperend -->
   <div id="tabs-content">
-    {% for block in section.blocks %}
+    {% assign  blocked = section.blocks | sort %}
+    {% for block in blocked %}
       {% if block.type == 'Content' %}
         <div id="{{ block.settings.Tab_content_id }}" class="tab-content">
          {% if block.settings.Tab_main_heading_1 != blank and block.settings.tab_img_1 != blank and block.settings.Tab_main_subheading_1 != blank %}
