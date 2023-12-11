@@ -72,14 +72,10 @@ ul#tabs-nav li.active a {
     font-family: "Mreavessanot bold";
 }
 
-.tab-first,
-.tab-second,
-.tab-third{
+.my-tab{
   margin-top: 38px;
 }
-.tab-first p,
-.tab-second p,
-.tab-third p{
+.my-tab p{
     margin-top: 24px;
     line-height: normal;
     font-size: 20px;
@@ -87,9 +83,7 @@ ul#tabs-nav li.active a {
     font-family: "Verdana Pro", sans-serif;
 
 }
-.tab-first a,
-.tab-second a,
-.tab-third a{
+.my-tab a{
   color: #1F989E !important;
 font-size: 22px;
 font-style: normal;
@@ -99,9 +93,7 @@ letter-spacing: 1.1px;
 text-transform: uppercase;
   font-family: "Mreavessanot bold";
 }
-.tab-first a img,
-.tab-second a img,
-.tab-third a img{
+.my-tab a img{
   margin-left: 10px;
 }
 .tab-third{
@@ -191,13 +183,13 @@ background-repeat: no-repeat;
 .main-page-content{
   max-width: 95%;
 }
-.tab-first, .tab-second, .tab-third, .tab-fourth, .tab-five, .tab-six, .tab-seven, .tab-eight, .tab-nine, .tab-ten, .tab-eleven, .tab-twelve, .tab-thirteen, .tab-fourteen, .tab-fifteen {
+.my-tab {
     margin-top: 20px !important;
 }
-.tab-first a, .tab-second a, .tab-third a{
+.my-tab a{
   font-size: 20px;
 }
-.tab-first p, .tab-second p, .tab-third p{
+.my-tab p{
   font-size: 16px;
 }
 .swiper-abc{
@@ -296,42 +288,42 @@ background:url( {{ section.settings.main_bg_visit_tablet | img_url: 'master' }})
       {% if block.type == 'Content' %}
         <div id="{{ block.settings.Tab_content_id }}" class="tab-content">
          {% if block.settings.Tab_main_heading_1 != blank and block.settings.tab_img_1 != blank and block.settings.Tab_main_subheading_1 != blank %}
-        <div class="tab-first">
+        <div class="tab-first my-tab">
             <a>{{ block.settings.Tab_main_heading_1 }} <img src=" {{ block.settings.tab_img_1 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_1 }}</p>
           </div>
         {% endif %}
         {% if block.settings.Tab_main_heading_2 != blank and block.settings.tab_img_2 != blank and block.settings.Tab_main_subheading_2 != blank %}
 
-        <div class="tab-second">
+        <div class="tab-second my-tab">
           <a>{{ block.settings.Tab_main_heading_2 }} <img src=" {{ block.settings.tab_img_2 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_2 }}</p>
         </div>
       {% endif %}
       {% if block.settings.Tab_main_heading_3 != blank and block.settings.tab_img_3 != blank and block.settings.Tab_main_subheading_3 != blank %}
 
-         <div class="tab-third">
+         <div class="tab-third my-tab">
           <a>{{ block.settings.Tab_main_heading_3 }} <img src=" {{ block.settings.tab_img_3 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_3 }}</p>
          </div>
         {% endif %}
         {% if block.settings.Tab_main_heading_4 != blank and block.settings.tab_img_4 != blank and block.settings.Tab_main_subheading_4 != blank %}
         
-         <div class="tab-fourth">
+         <div class="tab-fourth my-tab">
           <a>{{ block.settings.Tab_main_heading_4 }} <img src=" {{ block.settings.tab_img_4 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_4 }}</p>
          </div>
         {% endif %}
         {% if block.settings.Tab_main_heading_5 != blank and block.settings.tab_img_5 != blank and block.settings.Tab_main_subheading_5 != blank %}
 
-         <div class="tab-five">
+         <div class="tab-five my-tab">
           <a>{{ block.settings.Tab_main_heading_5 }} <img src=" {{ block.settings.tab_img_5 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_5 }}</p>
          </div>
         {% endif %}
         {% if block.settings.Tab_main_heading_6 != blank and block.settings.tab_img_6 != blank and block.settings.Tab_main_subheading_6 != blank %}
 
-         <div class="tab-six">
+         <div class="tab-six my-tab">
           <a>{{ block.settings.Tab_main_heading_6 }} <img src=" {{ block.settings.tab_img_6 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_6 }}</p>
          </div>
@@ -339,7 +331,7 @@ background:url( {{ section.settings.main_bg_visit_tablet | img_url: 'master' }})
 
          {% if block.settings.Tab_main_heading_7 != blank and block.settings.tab_img_7 != blank and block.settings.Tab_main_subheading_7 != blank %}
 
-         <div class="tab-seven">
+         <div class="tab-seven my-tab">
           <a>{{ block.settings.Tab_main_heading_7 }} <img src=" {{ block.settings.tab_img_7 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_7 }}</p>
          </div>
@@ -347,56 +339,56 @@ background:url( {{ section.settings.main_bg_visit_tablet | img_url: 'master' }})
 
          {% if block.settings.Tab_main_heading_8 != blank and block.settings.tab_img_8 != blank and block.settings.Tab_main_subheading_8 != blank %}
 
-         <div class="tab-eight">
+         <div class="tab-eight my-tab">
           <a>{{ block.settings.Tab_main_heading_8 }} <img src=" {{ block.settings.tab_img_8 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_8 }}</p>
          </div>
         {% endif %}
 
          {% if block.settings.Tab_main_heading_9 != blank and block.settings.tab_img_9 != blank and block.settings.Tab_main_subheading_9 != blank %}
-          <div class="tab-nine">
+          <div class="tab-nine my-tab">
           <a>{{ block.settings.Tab_main_heading_9 }} <img src=" {{ block.settings.tab_img_9 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_9 }}</p>
          </div>
         {% endif %}
 
          {% if block.settings.Tab_main_heading_10 != blank and block.settings.tab_img_10 != blank and block.settings.Tab_main_subheading_10 != blank %}
-          <div class="tab-`Ten">
+          <div class="tab-`Ten my-tab">
           <a>{{ block.settings.Tab_main_heading_10 }} <img src=" {{ block.settings.tab_img_10 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_10 }}</p>
          </div>
         {% endif %}
 
          {% if block.settings.Tab_main_heading_11 != blank and block.settings.tab_img_11 != blank and block.settings.Tab_main_subheading_11 != blank %}
-          <div class="tab-eleven">
+          <div class="tab-eleven my-tab">
           <a>{{ block.settings.Tab_main_heading_11 }} <img src=" {{ block.settings.tab_img_11 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_11 }}</p>
          </div>
         {% endif %}
 
          {% if block.settings.Tab_main_heading_12 != blank and block.settings.tab_img_12 != blank and block.settings.Tab_main_subheading_12 != blank %}
-          <div class="tab-twelve">
+          <div class="tab-twelve my-tab">
           <a>{{ block.settings.Tab_main_heading_12 }} <img src=" {{ block.settings.tab_img_12 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_12 }}</p>
          </div>
         {% endif %}
 
          {% if block.settings.Tab_main_heading_13 != blank and block.settings.tab_img_13 != blank and block.settings.Tab_main_subheading_13 != blank %}
-         <div class="tab-thirteen">
+         <div class="tab-thirteen my-tab">
           <a>{{ block.settings.Tab_main_heading_13 }} <img src=" {{ block.settings.tab_img_13 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_13 }}</p>
          </div>
         {% endif %}
 
          {% if block.settings.Tab_main_heading_14 != blank and block.settings.tab_img_14 != blank and block.settings.Tab_main_subheading_14 != blank %}
-         <div class="tab-fourteen">
+         <div class="tab-fourteen my-tab">
           <a>{{ block.settings.Tab_main_heading_14 }} <img src=" {{ block.settings.tab_img_14 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_14 }}</p>
          </div>
         {% endif %}
 
          {% if block.settings.Tab_main_heading_15 != blank and block.settings.tab_img_15 != blank and block.settings.Tab_main_subheading_15 != blank %}
-         <div class="tab-fifteen">
+         <div class="tab-fifteen my-tab">
           <a>{{ block.settings.Tab_main_heading_15 }} <img src=" {{ block.settings.tab_img_15 |  img_url: 'master' }} "> </a>
           <p>{{ block.settings.Tab_main_subheading_15 }}</p>
          </div>
