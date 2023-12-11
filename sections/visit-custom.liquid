@@ -293,7 +293,7 @@ ul#tabs-nav li {
 </div>
   <!-- Swiperend -->
   <div id="tabs-content">
-    {% assign  blocked = section.blocks | sort %}
+    {% assign  blocked = section.blocks | sort | join %}
     {% for block in blocked %}
       {% if block.type == 'Content' %}
         <div id="{{ block.settings.Tab_content_id }}" class="tab-content">
