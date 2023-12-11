@@ -176,7 +176,7 @@
         "mobile_text_horizontal_position": "same_as_desktop",
         "mobile_text_vertical_position": "same_as_desktop",
         "mobile_text_width": 97,
-        "mobile_layout": "slider",
+        "mobile_layout": "stacked",
         "show_arrows": false,
         "show_nav_buttons": true,
         "mobile_padding_top": 20,
