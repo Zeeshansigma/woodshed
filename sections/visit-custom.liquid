@@ -410,7 +410,25 @@ ul#tabs-nav li {
 
 </div>
 </div>
+<script>
+  // Get all tab containers
+const tabContainers = document.querySelectorAll('.tab-content');
 
+tabContainers.forEach(tabContainer => {
+    // Get all tab elements within each tab container
+    const tabs = Array.from(tabContainer.querySelectorAll('.my-tab'));
+
+    // Sort tabs based on their text content
+    tabs.sort((a, b) => {
+        const textA = a.querySelector('a').textContent.trim().toLowerCase();
+        const textB = b.querySelector('a').textContent.trim().toLowerCase();
+        return textA.localeCompare(textB);
+    });
+
+    // Rearrange the tabs based on the sorted order
+    tabs.forEach(tab => tabContainer.appendChild(tab));
+});
+</script>
 <script>
 document.querySelector('#tabs-nav li:first-child').classList.add('active');
 document.querySelectorAll('.tab-content').forEach(function(tabContent) {
