@@ -2,6 +2,7 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
@@ -48,29 +49,28 @@
         "custom_css": ".container.image-with-text-overlay__container.equal-columns--outside-trim{\n  max-width: 100% !important;\npadding:0;\n}"
       }
     },
-    "26c506ca-474f-4fcf-a755-0b7dab914a4b": {
+    "b69d7489-e38d-4c48-a615-2448c04436e0": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hellbilly_Hits_FEATURED.png",
+        "image": "shopify:\/\/shop_images\/HOMEPAGE.png",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-        "pretext": "",
-        "title": "THESE APPALACHIAN ARTISTS",
-        "subtitle": "<p><strong>WERE PUNK BEFORE PUNK WAS EVEN A THING.<\/strong><\/p>",
+        "pretext": "<p>RECIPE<\/p>",
+        "title": "HAVE YOU HAD VINEGAR PIE?",
+        "subtitle": "",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "right",
-        "text_horizontal_position": "right",
-        "text_vertical_position": "bottom",
-        "text_width": 59,
+        "text_alignment": "left",
+        "text_horizontal_position": "left",
+        "text_vertical_position": "top",
+        "text_width": 50,
         "background_color": "#c79f4a",
-        "background_opacity": 50,
-        "border_color": "#c79f4a",
-        "border_width": 0,
+        "background_opacity": 62,
+        "border_color": "#ffffff",
+        "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-        "button_1_style": "button--secondary",
+        "button_1_link": "shopify:\/\/blogs\/food-1\/recipe-elevate-your-vinegar-pie-with-this-secret-ingredient",
+        "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
         "button_2_style": "button--secondary",
@@ -91,7 +91,7 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0,
         "css_class": "",
-        "custom_css": ""
+        "custom_css": ".container.image-with-text-overlay__container.equal-columns--outside-trim{\n  max-width: 100% !important;\npadding:0;\n}"
       }
     },
     "eec3b939-57a9-4622-940d-41d939720352": {
@@ -128,10 +128,10 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/I_speak_Fluent_Irony_Candle.jpg",
-            "link": "shopify:\/\/collections\/made-in-virginia",
-            "heading": "SHOUT OUT TO VIRGINIA MAKERS",
-            "text": "Shop dozens of products made in the Old Dominion.",
+            "grid_image": "shopify:\/\/shop_images\/Tractor_SQUARE_656a0260-23f9-4e14-90c4-ecf314ca54e8.jpg",
+            "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
+            "heading": "IS KUDZU THE FUTURE OF APPALACHIAN FOOD?",
+            "text": "Chef Sean Brock thinks so.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
@@ -1690,7 +1690,7 @@
   },
   "order": [
     "2d094d34-f0ab-483e-86c9-db71a66d5135",
-    "26c506ca-474f-4fcf-a755-0b7dab914a4b",
+    "b69d7489-e38d-4c48-a615-2448c04436e0",
     "eec3b939-57a9-4622-940d-41d939720352",
     "57afa731-c9e0-4019-8291-79c4f6db6308",
     "1664305364127870be",
