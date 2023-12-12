@@ -129,6 +129,7 @@
                       class="featured-article--link"
                       href="{{ article.url }}"
                       title="{{ article.title | escape }}"
+                      published_at = "{{ article.published_at | date: "%B %d, %Y" }}"
                     >
                       {{- article.title -}}
                     </a>
