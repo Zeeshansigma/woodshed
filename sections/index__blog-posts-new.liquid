@@ -170,7 +170,31 @@
     {% endfor %}
   </div>
 </section>
+<script>
+const get_articles = document.querySelectorAll(".featured-article--link");
+const main = document.querySelector(".blog-posts__wrapper");
+let dates = [];
 
+// Extract and store dates along with the corresponding article elements
+get_articles.forEach((article) => {
+    const dates_pub = article.getAttribute("published_at");
+    dates.push({ date: dates_pub, element: article.closest('.featured-article') });
+});
+console.log(dates);
+
+// Sort the dates
+dates.sort(function (a, b) {
+    let dateA = new Date(a.date);
+    let dateB = new Date(b.date);
+    return dateB - dateA;
+});
+
+// Rearrange the existing articles in the DOM based on the sorted order
+dates.forEach((article) => {
+    main.appendChild(article.element);
+});
+
+</script>
 {% schema %}
 {
   "name": "Blog posts new",
