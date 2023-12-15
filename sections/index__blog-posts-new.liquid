@@ -72,31 +72,30 @@
     "
   >
     {% assign total_articles_displayed = 0 %}
-    {%  assign blog_limit = section.settings.nbr_of_posts %}
+    {% assign blog_limit = section.settings.nbr_of_posts %}
+    
     {% assign blog_handles = 'food-1,music,outdoors-amp-travel,art-amp-lit,history-amp-culture,our-farm' | split: ',' %}
-    {% for handle in blog_handles %}
-      {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
+    
 
-      {% for article in blog_handles_sorted limit:3 %}
-          {% unless article.tags contains 'featured' %}
-            {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
+    
+    {% for handle in blog_handles %}
+     
+      {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
         
+        {% assign article_counter = 0 %}
+        
+      {% for article in blog_handles_sorted limit:100 %}
+      
+         {% if article.tags contains 'featured' %}
+           
+           {% else %}
+           
+        {% assign article_counter = article_counter | plus: 1 %}
+           {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
             {% if total_articles_displayed <= blog_limit %}
               
              
-          <div
-            class="
-              featured-article
-              blog-card
-              one-half
-              columns
-              article
-              card
-              show-border-{{ section.settings.show-border }}
-              medium-down--one-whole
-              has-margin-bottom
-            "
-          >
+          <div class="featured-article blog-card one-half columns article card show-border-{{ section.settings.show-border }} medium-down--one-whole has-margin-bottom index-{{ forloop.index }}">
 
             {% if article.image != blank %}
               <div class="card-image blog-card__image">
@@ -129,7 +128,7 @@
                       class="featured-article--link"
                       href="{{ article.url }}"
                       title="{{ article.title | escape }}"
-                      published_at = "{{ article.published_at | date: "%B %d, %Y" }}"
+              published_at = "{{ article.published_at | date: "%B %d, %Y" }}"
                     >
                       {{- article.title -}}
                     </a>
@@ -164,9 +163,10 @@
     
           
             {% endif %}
-          {% endunless %}
-        
-
+           {% endif %}
+          {% if article_counter == 3 %}
+            {% break %}
+            {% endif %}
       {% endfor %}
     {% endfor %}
   </div>
