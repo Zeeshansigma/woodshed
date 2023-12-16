@@ -2,10 +2,55 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/04-Toy-Truck-Apple-Country-Woodcrafters_HOMEPAGE.jpg",
+        "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
+        "pretext": "",
+        "title": "SANTA'S REAL-LIFE HELPERS",
+        "subtitle": "<p><strong>MAKE TOYS FOR UNDERSERVED CHILDREN.<\/strong><\/p>",
+        "pretext_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "text_alignment": "right",
+        "text_horizontal_position": "right",
+        "text_vertical_position": "bottom",
+        "text_width": 60,
+        "background_color": "#c79f4a",
+        "background_opacity": 62,
+        "border_color": "#ffffff",
+        "border_width": 4,
+        "button_1": "SEE MORE",
+        "button_1_link": "shopify:\/\/blogs\/history-amp-culture\/santas-real-life-helpers-make-toys-for-underserved-north-carolina-children",
+        "button_1_style": "button--primary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "mobile_text_below_image": true,
+        "mobile_preheading": "",
+        "mobile_heading": "",
+        "mobile_subheading": "",
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "text_alignment_mobile": "same_as_desktop",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "css_class": "",
+        "custom_css": ".container.image-with-text-overlay__container.equal-columns--outside-trim{\n  max-width: 100% !important;\npadding:0;\n}"
+      }
+    },
+    "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Tractor_FEATURED.jpg",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
@@ -51,6 +96,7 @@
     },
     "b69d7489-e38d-4c48-a615-2448c04436e0": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/HOMEPAGE.png",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
@@ -97,13 +143,27 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify:\/\/shop_images\/vinegar-pie-updated-02_SQUARE.jpg",
+            "link": "shopify:\/\/blogs\/food-1\/recipe-elevate-your-vinegar-pie-with-this-secret-ingredient",
+            "heading": "HAVE YOU HAD VINEGAR PIE?",
+            "text": "This secret ingredient gives it a sweet twist.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
             "grid_image": "shopify:\/\/shop_images\/Holiday_Gift_Guide_2023_SQUARE.png",
             "link": "shopify:\/\/blogs\/art-amp-lit\/mark-lynn-s-gift-ideas-2023",
             "heading": "FROM CAMPFIRE CARDS TO CHRISTMAS TREE CANDLES,",
-            "text": "Our founder has gift ideas for everyone on your list.",
+            "text": "our founder has ideas for everyone on your list.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
@@ -124,26 +184,12 @@
             "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 0
           }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Tractor_SQUARE_656a0260-23f9-4e14-90c4-ecf314ca54e8.jpg",
-            "link": "shopify:\/\/blogs\/food-1\/is-kudzu-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-            "heading": "IS KUDZU THE FUTURE OF APPALACHIAN FOOD?",
-            "text": "Chef Sean Brock thinks so.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3"
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2"
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
@@ -1574,6 +1620,7 @@
   },
   "order": [
     "2d094d34-f0ab-483e-86c9-db71a66d5135",
+    "db12a40b-6acf-42b8-8fe2-803e020d87fd",
     "b69d7489-e38d-4c48-a615-2448c04436e0",
     "eec3b939-57a9-4622-940d-41d939720352",
     "57afa731-c9e0-4019-8291-79c4f6db6308",
