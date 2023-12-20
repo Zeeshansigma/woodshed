@@ -93,6 +93,7 @@
     },
     "9f6a6000-1a4d-489b-a459-c040e8ee42b4": {
       "type": "index__rich-text",
+      "disabled": true,
       "settings": {
         "title": "FREE HOLIDAY SHIPPING",
         "heading_font": "open_sans_n4",
