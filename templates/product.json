@@ -93,13 +93,12 @@
     },
     "9f6a6000-1a4d-489b-a459-c040e8ee42b4": {
       "type": "index__rich-text",
-      "disabled": true,
       "settings": {
-        "title": "FREE HOLIDAY SHIPPING",
+        "title": "FREE U.S. SHIPPING",
         "heading_font": "open_sans_n4",
         "heading_alignment": "center",
         "heading_size": 30,
-        "text": "<p><strong>ON U.S. ORDERS OF $85+ UNTIL NOON E.T., DECEMBER 20, 2023.<\/strong><\/p>",
+        "text": "<p><strong>ON $65+ ORDERS.<\/strong><\/p>",
         "text_font": "open_sans_n4",
         "text_alignment": "center",
         "text_size": 17,

@@ -4,13 +4,12 @@
   "sections": {
     "announcement_bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
         "homepage_only": false,
         "enable_sticky": false,
         "show_close_icon": true,
         "icon_label": "gift",
-        "text": "<p>FREE U.S. SHIPPING ON $85+ ORDERS UNTIL 12.20.23.<\/p>",
+        "text": "<p>FREE U.S. SHIPPING ON $65+ ORDERS.<\/p>",
         "mobile_text": "",
         "alignment": "start",
         "size": "small",
