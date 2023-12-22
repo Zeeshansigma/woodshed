@@ -46,7 +46,6 @@
   margin-bottom: 45px;
     }
 {% endstyle %}
-
 <section
   class="
     section
@@ -57,6 +56,7 @@
     data-scroll-class="{{ section.settings.animation }}"
   {% endif %}
 >
+
 
   {% if title != blank %}
     <div class="container">
@@ -71,31 +71,30 @@
       container
     "
   >
+    
     {% assign total_articles_displayed = 0 %}
     {% assign blog_limit = section.settings.nbr_of_posts %}
-    
+    {% assign total_articles = 0 %}
     {% assign blog_handles = 'history-amp-culture,food-1,music,outdoors-amp-travel,art-amp-lit,our-farm' | split: ',' %}
     
 
     
     {% for handle in blog_handles %}
-     
+     <!-- <handle>{{ handle }}</handle><br> -->
+      
       {% assign blog_handles_sorted = blogs[handle].articles | sort: 'published_at' | reverse %}
         
         {% assign article_counter = 0 %}
         
-      {% for article in blog_handles_sorted limit:100 %}
-      
+      {% for article in blog_handles_sorted limit:blog_limit %}
          {% if article.tags contains 'featured' %}
            
            {% else %}
-           
+           {% assign total_articles = total_articles | plus:1 %}
         {% assign article_counter = article_counter | plus: 1 %}
-           {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}
-            {% if total_articles_displayed <= blog_limit %}
-              
+           {% assign total_articles_displayed = total_articles_displayed | plus: 1 %}           
              
-          <div class="featured-article blog-card one-half columns article card show-border-{{ section.settings.show-border }} medium-down--one-whole has-margin-bottom index-{{ forloop.index }}">
+          <div class="featured-article blog-card one-half columns article card show-border-{{ section.settings.show-border }} medium-down--one-whole has-margin-bottom index-{{ forloop.index }}" data-limit="{{ blog_limit }}" data-published="{{ article.published_at | date: "%Y-%m-%d-%H-%M-%S" }}">
 
             {% if article.image != blank %}
               <div class="card-image blog-card__image">
@@ -162,11 +161,8 @@
 
     
           
-            {% endif %}
            {% endif %}
-          {% if article_counter == 5 %}
-            {% break %}
-            {% endif %}
+          
       {% endfor %}
     {% endfor %}
   </div>
@@ -175,13 +171,14 @@
 const get_articles = document.querySelectorAll(".featured-article--link");
 const main = document.querySelector(".blog-posts__wrapper");
 let dates = [];
-
+let maxDisplayCount = "{{ blog_limit }}"; // Maximum number of articles to display
+let currentDisplayCount = 0; // Counter to keep track of the number of displayed articles
+console.log(Number(maxDisplayCount));
 // Extract and store dates along with the corresponding article elements
 get_articles.forEach((article) => {
     const dates_pub = article.getAttribute("published_at");
     dates.push({ date: dates_pub, element: article.closest('.featured-article') });
 });
-console.log(dates);
 
 // Sort the dates
 dates.sort(function (a, b) {
@@ -192,7 +189,13 @@ dates.sort(function (a, b) {
 
 // Rearrange the existing articles in the DOM based on the sorted order
 dates.forEach((article) => {
-    main.appendChild(article.element);
+    if (currentDisplayCount < Number(maxDisplayCount)) {
+        main.appendChild(article.element);
+        currentDisplayCount++;
+    } else {
+        // If more than 18 articles, set display to none for the rest
+        article.element.style.display = 'none';
+    }
 });
 
 </script>
