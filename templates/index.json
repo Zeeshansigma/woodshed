@@ -143,20 +143,6 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Screenshot_2023-12-23_at_8.03.46_PM.png",
-            "link": "shopify:\/\/blogs\/history-amp-culture\/santas-real-life-helpers-make-toys-for-underserved-north-carolina-children",
-            "heading": "SANTA'S REAL LIFE HELPERS",
-            "text": "make toys for underserved children.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
-        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
@@ -168,6 +154,20 @@
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
             "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify:\/\/shop_images\/Screenshot_2023-12-23_at_8.03.46_PM.png",
+            "link": "shopify:\/\/blogs\/history-amp-culture\/santas-real-life-helpers-make-toys-for-underserved-north-carolina-children",
+            "heading": "SANTA'S REAL LIFE HELPERS",
+            "text": "make toys for underserved children.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
             "overlay_background_opacity": 0
           }
         },
@@ -202,8 +202,8 @@
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
