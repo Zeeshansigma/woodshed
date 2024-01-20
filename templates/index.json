@@ -99,7 +99,7 @@
       "type": "index__image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/03_-_Mason_a_Bernarda_Horton_FEATURED.png",
-        "link": "shopify:\/\/blogs\/art-amp-lit\/preserving-w-va-s-coal-legacy-through-crafts",
+        "link": "",
         "pretext": "",
         "title": "PRESERVING W.VA.'S COAL LEGACY",
         "subtitle": "<p><strong>THROUGH CRAFTS<\/strong><\/p>",
@@ -115,7 +115,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/art-amp-lit\/our-most-read-stories-of-2023",
+        "button_1_link": "shopify:\/\/blogs\/art-amp-lit\/preserving-w-va-s-coal-legacy-through-crafts",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
