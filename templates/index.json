@@ -1140,7 +1140,7 @@
         "title": "WHEN YOU SHOP, GOOD THINGS HAPPEN",
         "heading_font": "raleway_n8",
         "heading_alignment": "center",
-        "heading_size": 24,
+        "heading_size": 26,
         "text": "",
         "text_font": "open_sans_n4",
         "text_alignment": "left",
@@ -1283,7 +1283,7 @@
         "collection_style": "slider",
         "width": "wide",
         "show_gutter": true,
-        "padding_top": 20,
+        "padding_top": 50,
         "padding_bottom": 0,
         "animation": "none",
         "collection_layout_mobile": "slider",
@@ -1357,13 +1357,13 @@
         "custom_css": ""
       }
     },
-    "rich_text": {
+    "index_rich_text_wHMfbj": {
       "type": "index__rich-text",
       "settings": {
         "title": "MORE STORIES",
         "heading_font": "raleway_n8",
         "heading_alignment": "center",
-        "heading_size": 30,
+        "heading_size": 26,
         "text": "",
         "text_font": "raleway_n4",
         "text_alignment": "left",
@@ -1543,7 +1543,7 @@
     "index_featured_collection_ifhMEK",
     "ba484f58-0b34-44ab-bb04-224ad3e88622",
     "1637629699d3a36a14",
-    "rich_text",
+    "index_rich_text_wHMfbj",
     "16376013846d7a1647",
     "166473699748e4d6d6"
   ]
