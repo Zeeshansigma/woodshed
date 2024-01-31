@@ -1213,14 +1213,14 @@
     "cc291733-b5c9-436b-b935-f2d05fe680af": {
       "type": "index__maker-of-the-month",
       "settings": {
-        "coll_custom": "j-t-copper",
-        "coll_custom_mobile": "j-t-copper",
+        "coll_custom": "tal-bert",
+        "coll_custom_mobile": "tal-bert",
         "section_heading": "Featured Maker",
-        "left_image": "shopify:\/\/shop_images\/jt_copper_theda_and_jolie_CROPPED.png",
-        "maker_name": "J.T. COPPER",
-        "maker_desc": "Inspired by their Floyd, Va. community, bakers Jolie Greatorex and Theda Anderson began dabbling in syrups in 2014. Today, their delicious products are sweetening everything from cocktails to pancakes and winning awards along the way.",
+        "left_image": "shopify:\/\/shop_images\/image1_CROPPED.jpg",
+        "maker_name": "Tal & Bert",
+        "maker_desc": "Hailing from the Paris of Appalachia — Pittsburgh, Pa. — Ray and Val Talbert love recreational mining. In 2020, they segued that passion into products built around mined gems. They’ve been featured in Real Simple, Essence, and Cosmopolitan.",
         "maker_link_text": "See more",
-        "maker_link_url": "https:\/\/woodshed.life\/collections\/vendors?q=J.T.%20Copper"
+        "maker_link_url": "shopify:\/\/collections\/tal-bert"
       }
     },
     "ee8c59a4-fce6-43fe-bdc7-ad4f95dabcfc": {
