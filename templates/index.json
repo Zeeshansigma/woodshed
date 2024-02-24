@@ -1113,8 +1113,8 @@
         ".container h2 {margin-top: 50px;}"
       ],
       "settings": {
-        "title": "ON SALE",
-        "collection": "sale",
+        "title": "BRAND SPANKIN' NEW",
+        "collection": "new",
         "products_per": 4,
         "products_limit": 50,
         "align_height": false,
@@ -1273,8 +1273,8 @@
     "index_featured_collection_ifhMEK": {
       "type": "index__featured-collection",
       "settings": {
-        "title": "BRAND SPANKIN' NEW",
-        "collection": "new",
+        "title": "ON SALE",
+        "collection": "sale",
         "products_per": 4,
         "products_limit": 50,
         "align_height": false,
