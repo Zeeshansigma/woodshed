@@ -143,17 +143,17 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Cumberland_Caverns_Ten-Acre-Room-Caving-scaled_SQUARE_INSTA_ONLY.jpg",
-            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/ready-to-escape-the-cold-try-caving",
-            "heading": "READY TO ESCAPE THE COLD?",
-            "text": "Get underground and explore a cave.",
+            "grid_image": "shopify:\/\/shop_images\/FEATURED_OPOSSUM_Square.png",
+            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/5-reasons-the-opossum-should-be-appalachia-s-official-mascot",
+            "heading": "5 REASONS THE OPPOSUM",
+            "text": "should be Appalachia's official mascot.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
+            "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 0
           }
         },
@@ -172,17 +172,17 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/FEATURED_OPOSSUM_Square.png",
-            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/5-reasons-the-opossum-should-be-appalachia-s-official-mascot",
-            "heading": "5 REASONS THE OPPOSUM",
-            "text": "should be Appalachia's official mascot.",
+            "grid_image": "shopify:\/\/shop_images\/Cumberland_Caverns_Ten-Acre-Room-Caving-scaled_SQUARE_INSTA_ONLY.jpg",
+            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/ready-to-escape-the-cold-try-caving",
+            "heading": "READY TO ESCAPE THE COLD?",
+            "text": "Get underground and explore a cave.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
             "overlay_background_opacity": 0
           }
         },
@@ -203,9 +203,9 @@
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
