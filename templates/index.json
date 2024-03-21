@@ -2,23 +2,22 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cumberland_Caverns_Ten-Acre-Room-Caving-scaled.jpg",
-        "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-        "pretext": "",
-        "title": "READY TO ESCAPE THE COLD?",
-        "subtitle": "<p><strong>TRY CAVING.<\/strong><\/p>",
+        "image": "shopify:\/\/shop_images\/Sisters_Florence_Friermuth_Susie_Friermuth_Doffing_guarding_after_they_arrested_for_moonshining_on_family_farm_near_Saint_Paul_Minnesota_Photo_originally_published_by_Minneapolis_Dail.png",
+        "link": "shopify:\/\/blogs\/food-1\/asheville-lady-bootlegger-inspires-todays-women-booze-maker",
+        "pretext": "<p>ASHEVILLE'S<\/p>",
+        "title": "LADY BOOT -LEGGERS",
+        "subtitle": "<p><strong>INSPIRE TODAY'S WOMEN.<\/strong><\/p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
         "text_alignment": "left",
         "text_horizontal_position": "left",
         "text_vertical_position": "bottom",
-        "text_width": 42,
+        "text_width": 40,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
@@ -51,6 +50,7 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Baby_Opposum_by_stanley45_via_Canva.png",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
@@ -175,10 +175,10 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/vinegar-pie-updated-02_SQUARE.jpg",
-            "link": "shopify:\/\/blogs\/food-1\/recipe-elevate-your-vinegar-pie-with-this-secret-ingredient",
-            "heading": "HAVE YOU HAD VINEGAR PIE?",
-            "text": "This secret ingredient gives it a sweet twist.",
+            "grid_image": "shopify:\/\/shop_images\/FEATURED_OPOSSUM_Square.png",
+            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/5-reasons-the-opossum-should-be-appalachia-s-official-mascot",
+            "heading": "5 REASONS THE OPPOSUM",
+            "text": "should be Appalachia's official mascot.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
