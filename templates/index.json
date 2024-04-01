@@ -2,6 +2,7 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
@@ -50,26 +51,25 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Baby_Opposum_by_stanley45_via_Canva.png",
+        "image": "shopify:\/\/shop_images\/Wild_ramps_by_Fertnig_via_Canva_HOMEPAGE.png",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-        "pretext": "",
-        "title": "5 reasons THE OPOSSUM",
-        "subtitle": "<p><strong>SHOULD BE APPALACHIA'S OFFICIAL MASCOT.<\/strong><\/p>",
+        "pretext": "<p><strong>GET GARLICKY WITH<\/strong><\/p>",
+        "title": "5 OF APPALACHIA'S TOP RAMPS FESTIVALS.",
+        "subtitle": "",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
         "text_alignment": "right",
         "text_horizontal_position": "right",
         "text_vertical_position": "bottom",
-        "text_width": 45,
+        "text_width": 47,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/outdoors-amp-travel\/5-reasons-the-opossum-should-be-appalachia-s-official-mascot",
+        "button_1_link": "shopify:\/\/blogs\/food-1\/get-garlicky-with-5-of-appalachia-s-top-ramps-festivals",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -143,6 +143,20 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify:\/\/shop_images\/Sisters_Florence_Friermuth_Susie_Friermuth_Doffing_guarding_after_they_arrested_for_moonshining_on_family_farm_near_Saint_Paul_Minnesota_Photo_originally_published_by_Minneapolis_Dail_b1a567ff-5881-4200-9657-eb8d4549aaf7.png",
+            "link": "shopify:\/\/blogs\/food-1\/asheville-lady-bootlegger-inspires-todays-women-booze-maker",
+            "heading": "ASHEVILLE LADY BOOT - LEGGER",
+            "text": "inspires today's women.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -172,20 +186,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Cumberland_Caverns_Ten-Acre-Room-Caving-scaled_SQUARE_INSTA_ONLY.jpg",
-            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/ready-to-escape-the-cold-try-caving",
-            "heading": "READY TO ESCAPE THE COLD?",
-            "text": "Get underground and explore a cave.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -203,9 +203,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
