@@ -74,9 +74,9 @@
             {% assign collection = collections['fun-reads'] %} 
             
         <div id="" class="zn-collection "   >
-          {% assign productCount = collection.products | size | at_most: 12 %}
+          {% assign productCount = collection.products | size | at_most: 8 %}
           {% if productCount > 0 %}
-            {% paginate collection.products by 12 %}
+            {% paginate collection.products by 8 %}
               <div class="zn-products">
               {% for product in collection.products limit:productCount %}
                 <div class="zn-product zn-element-wrapper" data-type="product">
