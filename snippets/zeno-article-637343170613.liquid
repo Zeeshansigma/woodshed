@@ -1,0 +1,1092 @@
+
+      <div class="zn-container" >
+      
+          <div id="znid-289017474208"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i>SHOT BY MARK LYNN FERGUSON IN OUR ROANOKE, VIRGINIA SHOP.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-445609530049"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><p>They told her to leave Appalachia and never look back. She stayed and wrote an acclaimed anthology.<br></p></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-625957556263"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Growing up in Kittanning, a small village in the Appalachian plateau of western Pennsylvania, Jolene McIlwain always knew she’d have to choose. On her 18th birthday, she’d either have to pack up and leave behind the mountain soil or stay rooted in a place often deemed depressed and deprived. </p><p><br></p><p>“In the end,” Jolene said, “I stayed.”</p><p><br></p><p>Today, despite all the naysayers who warned her about getting stuck in her sleepy hometown, Jolene is thriving in Kittanning. That much is evidenced by “Sidle Creek,” her short story anthology reviewers are describing as tender, terrifying, and thrilling. It has also been named an NPR Book of the Year.</p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">This lauded collection takes readers to the “timbered and mine-bruised landscape” of western Pennsylvania. There, on the banks of the eponymous stream, Jolene brings to life a hardscrabble cast who illustrate a “genuine rural community … instead of perpetuating the strong held myths” about Appalachia.&nbsp;</span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;"><br></span></p><p>In one story, “The Fractal Geometry of Grief,” a man named Hubert falls in love with a doe-eyed whitetail deer after his wife’s death. Jolene said she began writing the piece more than a decade ago while coping with “the reality of losing loved ones to heart attacks, strokes, Alzheimer’s, and tragic accidents.”</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-157657465292"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color" data-border-enable="true"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >FUN READS</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-853812914379"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['outdoor-favorites'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 12 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 12 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-645431170389-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-090203410592-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if 'OUTDOOR FAVORITES' == '' %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-305247117398"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i style="font-weight: normal;">Every purchase helps keep our Appalachian magazine alive and thriving.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-512601800382"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">Amid her heartbreak, the writer befriended a herd of deer. “I wanted desperately to be nearer to them in some way,” she said, “to keep them safe from harm.”</span></p><p><br></p><p>These themes come together to create a deeply lyrical story that Jolene hopes will cause readers to “fall in love with the place, the people, the animals, the flora and fauna, the bodies of water, in much the same way I’ve fallen in love with the place that inspired the fictional Sidle Creek.”</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-642039055452"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >From “The Fractal Geometry of Grief,”&nbsp;<p>a short story in “Sidle Creek”</p></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-748558783532"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >BY&nbsp;Jolene McIlwain</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-523556460505"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">Hubert Ashe fell in love with the doe in August, four months after his wife passed.</span></p><p><br></p><p>He told no one about the deer until October when he called to inform his son, Will, he wouldn’t be joining him for Thanksgiving. He wouldn’t feel comfortable leaving the cabin and the deer behind. Who would put out apples? Who would sprinkle corn?</p><p><br></p><p>“Are you sure, Dad?”</p><p><br></p><p>“Yes, I’m sure.” Hubert gazed at the laptop’s screen, the trail-cam photos. His doe. He traced the white band around her nose. Clicked to the next shot. Touched her throat’s white patch.</p><p><br></p><p>“But I don’t want you to be alone, Dad.”</p><p><br></p><p>“I’m fine,” Hubert said. It was Will who was alone. Still single, in his late forties, he’d stumbled through relationships, never having unearthed a love that would sustain him.</p><p><br></p><p>Hubert closed the trail-cam file. Home screen appeared. Genevieve’s seventy-third birthday. Two days before Easter. Their last holiday together, posing in front of the redbud’s shocking pink blossoms.</p><p>&nbsp;</p><p>Hubert’s wide grin, disheveled hair, glasses crooked on his crooked nose. Will beaming, so tall, between them. Genevieve with her new white silk scarf tied at her throat, nearly matching the snow-white her once ginger hair had become. Her hand clutching a leaf. She was gone by the time the pink blossoms wilted and green heart-shaped leaves dressed that tree.</p><p><br></p><p>Hubert adjusted the phone to his ear. Will talked of flights and restaurants and day trips he’d planned for them. “Yes. Yes,” Hubert said. He opened the construction file. He wanted the new glass room he’d designed for the doe to be a surprise for his son. It was almost complete. “Listen,” Hubert said, “why don’t you just come here? I’d love to have you, and you could meet her.”</p><p><br></p><p>“Meet who?”</p><p><br></p><p>Hubert pulled the drapes aside. Was she in the yard yet? The building crew had put up barriers to keep all wildlife off of the poured floor as it cured, but he knew she’d be curious. </p><p><br></p><p>“My doe,” he said.</p><p><br></p><p>Will laughed. “Well, listen, I’ll just have to meet your doe at Christmas because really, Dad, that’s why I was hoping you could get here. There’s no way I’ll be able to get away over Thanksgiving with work and stuff.”</p><p><br></p><p>“Okay, Professor! Get that semester buttoned up and I’ll see you soon enough.”</p><p><br></p><p>“Sounds good. Love you.”</p><p><br></p><p>“Love you, too.”</p><p><br></p><p>Hubert closed his laptop, stood next to the window searching the tree line for her. Outside he swept away the debris mud wasps had left on the battens, straightened his wood stack, the pinecone wreath on the door.</p><p><br></p><p>Miles McIntyre, Hubert’s closest neighbor, came down the drive.</p><p><br></p><p>“Your boy wanted me to check, make sure you don’t need anything,” Miles said. He stood in the middle of the yard, his hulking frame squeezed into his weathered game warden’s jacket, taking in the edges of the wooded lot, smoothing his beard and likely surveying the downed branches, the fallen black walnut’s trunk Hubert hadn’t gotten to yet. Maybe he was just remembering how much Genevieve, unlike Hubert, had loved collecting kindling, downed wood, or maybe he was remembering how she’d said, “I loathe their deaths but I do love how their loss opens up the canopy for others to grow, grow, grow.” Hubert hadn’t joined them last fall. He’d stayed on the porch out of their way.</p><p><br></p><p>“He must have called you as soon as we hung up. Well, you can tell Will I’m just fine, Miles,” Hubert said. There wasn’t any movement in the trees.</p><p><br></p><p>“Will do,” Miles said, stepping from the porch.</p><p><br></p><p>“Yes, I am just fine,” Hubert muttered, rubbing at his brow. But he wasn’t. Two whitetail he’d noted in several trail-cam captures hadn’t appeared in three days: the twelve-point, part of a pre-rut bachelor group of four, and the little button buck that always grazed with Hubert’s doe. Simply disappeared. Hubert knew from the pamphlet Miles had given him a month before that archery season was in, so he straightened up his shoulders, tried to sound perfectly calm as he asked, “Did anyone around here tag a twelve-point?” He steeled himself for the answer. It had been Miles who’d warned him not to get too attached to the wildlife when he’d first expressed his desire to handfeed the herd. “You’re only asking for trouble. They’ll want in your house.” Still Miles had explained the steps of earning trust, which foods to use, how to talk, walk, move around them. Of course, Miles didn’t know Hubert had fallen in love with one.</p><p><br></p><p>“Yep. Riley Bowser, Harold’s grandson, got a nice one. You’ve met Harold, right? Yeah, big twelve-point. Lung shot. Quick.” Hubert felt like air was being sucked from his lungs through some hole. “Put his picture in the paper, they did.”</p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">“And any little button bucks?” Hubert couldn’t bear hearing it had been shot but he had to know. It always looked so skittish in the photos. So wary. Just like him. He was informed. He wasn’t naïve. He’d read the game commission’s harvest report Miles had given him, knew the numbers. Thousands killed each season, antlered and antlerless.</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-455103462136"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   >SERIOUS LIT</h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-855690563690"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['appalachian-lit'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 8 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 8 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-939724037571-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-637469069015-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if 'APPALACHIAN LIT' == '' %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-012312932994"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i style="font-weight: normal;">Every purchase helps keep our Appalachian magazine alive and thriving.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-377855918584"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>“Not sure about a button buck,” Miles said, kicking at the dried mud on his tires. “I’ll ask around. Usually archers go for the big racks, though. You sure you don’t need anything?”</p><p><br></p><p>“I’m sure.” Far off, the train from Echo to Brinie Furnace blew its crossing whistle, and high above a grey squirrel darted from one tall oak to another, sending acorns thudding to the ground.</p><p><br></p><p>“You okay, Hube?”</p><p><br></p><p>Hubert wiped his eyes with his handkerchief. This worry and crying would sometimes bubble up out of him with no warning. “Yes. These allergies. Molds. I think tree molds. They’re worse this fall, worse than I remember them from last.”</p><p><br></p><p>“Well, wet and hot summer. That’s what we get, I guess.”</p><p><br></p><p>“Yes, yes, it was.” Hubert blew his nose. “Oh, you mentioned before you could post safety zone signs, right? I think one of those Ramers has been walking through here.”</p><p><br></p><p>Miles took off his hat, pushed back his thinning hair, snugged<span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">&nbsp;it back on. “I don’t think you’ll have a problem, but, yeah, I can put some up later today.”</span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;"><br></span></p><p>“I’d appreciate that.”</p><p><br></p><p>“Well, I gotta take off. Just call if you need anything, okay? And if you want help clearing the floor of these branches and such, say the word. Just got my saw sharpened.”</p><p><br></p><p>“I sure will. Thank you kindly, Miles.”</p><p><br></p><p>Miles saluted, a habit from when he was a Marine. He stopped. “You said the room’s gonna be all glass, huh? When are they putting up the walls?”</p><p><br></p><p>“They said they’d start first thing Monday.”</p><p><br></p><p>“It’ll go pretty quick from there.”</p><p><br></p><p>“I hope so,” Hubert said, fingering one of the cardboard boxes that held the glass wall panels. They’d been sitting on the porch since delivery a few days before. He was so anxious to have the room completed. Now even more so since hunting season had begun.</p><p><br></p><p>As soon as Miles pulled out, Hubert rushed to the house, to his computer. The local paper showed the smiling boy posing with the dead twelve-point, arrow threaded through its antlers, bow on the ground near one front hoof, quiver against its side, the boy’s gloved hands grasping the rack. Hubert closed his eyes. Breathe. Don’t get worked up. He had a porch to winterize. A shed to organize. Feed to scatter. He blew his nose again, shut his laptop.</p><p><br></p><p>His doe must have sensed his worry, much as he tried to push it away, for there she was by the shed waiting for him. Instead of slowly making his path to her, talking quietly, bridging the distance between them in a measured way, lest she leap and run, he yelled out, “You must stay close to the house. As close as you can.” Her ear twitched. She turned to look behind the shed and he ran to her. But she was like light itself, flying through the woods dodging saplings, stumps. A good fifty yards from him she stopped, turned around to look back, her markings slightly distinct from the last of the leaves.</p><p><br></p><p>“I’m sorry,” he shouted. “I, I didn’t mean to frighten you but I’m just so scared something is going to, to happen. Please just stay as close as you can.” She hesitated for a moment, then meandered farther and farther, camouflaged now completely by the trees. His eyes searched. Again, he thought of running to her, but he didn’t want to frighten her more. He didn’t want to tell her how his mind traveled to such horrible places where he pictured her zigzagged rush from the pain of a bullet or imagined her dropped in the berm, hit by a reckless driver, or found her bedded down in her favorite spot near Sidle Creek, but bleeding from multiple wounds, a spray of the shotgun—some pellets unable to penetrate her hide, others finding her heart and lungs and belly.</p><p><br></p><p>Movement. No. Not her. How he wished for a glimpse of her late summer coat, that ginger tone it had been when he’d first met her. But now her coat had changed to the color of wintered trees, a blueish tan that fall weather and a needed cover for survival had made her.</p><p><br></p><p>There. There she was now. He squinted. There. Blending completely but for the white rings around her eyes and muzzle.</p><p><br></p><p>And then, gone again.</p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">He bit his lip as he struggled to remove the thick plastic from the mineral block. He carried it to the small stand, his head thumping to its edges with dread. He dipped the coffee can into the large bag of shucked corn. Sprinkled the yellow around the mineral block. He waited outside the shed for over an hour for her return, but not one deer came in to feed.</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-005388347386"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="horizontal_line" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-horizontal-line"> 
+          <hr id="" class=""    />
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-498235163913"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >Lauren Stepp is a lifestyle journalist from the mountains of North Carolina. She writes about everything from fifth-generation apple farmers to mixed-media artists, publishing her work in magazines across the Southeast. In her spare time, Lauren mountain bikes, reads gritty southern fiction, and drops her g's.</div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-887207909942"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="8-4 8-4 12-12" data-vertical-align="center" data-border-enable="true" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-8 zn-column-md-8 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-781789297904"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="banner" data-full-width="false" data-effect="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-banner " tabindex="0" role="link"   > 
+          <div class="zn-children-container">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-039571852068"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-467447287848"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-552500751615"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h4 id="" class="zn-heading "   >SILAS HOUSE: WRITING FROM GRIEF</h4>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-019265837042"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >SEE MORE</div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-4 zn-column-md-4 zn-column-sm-12">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-903453378517"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-border-enable="true" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-113475521722"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><div>NEXT UP</div></h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-500502498317"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="6-6 6-6 6-6" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-714993698223"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/johnny-cash-forever-words-the-unknown-poems">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Johhny-Cash-Forever-Words-14504262.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-306618522322"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/the-cash-and-carter-family-cookbook-recipes-and-recollections-from-johnny-and-junes-table">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Cash-and-Carter-Family-Cookbook-14504277.jpeg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-546230378206"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="button" data-hover-options="false" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-button">
+          
+          
+            
+            
+            <a href="/collections/books" target="">
+          
+          <button type="button" id="" class=""   >
+            
+            <div class="zn-button-text">
+              JOHNNY CASH BOOKS
+            </div>
+          </button>
+          
+          </a>
+          
+        </div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="page-settings" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="container-style" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="scheduled-publish" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="currency-converter" >
+            <div class="zn-addon zn-lg  ">
+              
+    
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="messenger" >
+            <div class="zn-addon zn-lg  ">
+              
+    <div class="zn-messenger">
+      
+      
+      <div class="fb-customerchat" page_id="" theme_color="#0A7CFF" greeting_dialog_display="hide"></div>
+    </div>
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="announcement-bar" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="lazy-loading" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="color-palette" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="breakpoints" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="custom-css" >
+            
+            
+            
+          </div>
+        
+</div>
