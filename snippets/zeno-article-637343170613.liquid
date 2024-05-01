@@ -71,7 +71,7 @@
             <div class="zn-element zn-lg  ">
               
             {% assign oriCollection = collection %}
-            {% assign collection = collections['outdoor-favorites'] %} 
+            {% assign collection = collections['fun-reads'] %} 
             
         <div id="" class="zn-collection "   >
           {% assign productCount = collection.products | size | at_most: 12 %}
@@ -208,7 +208,7 @@
             {% endpaginate %}
           {% else %}
             <div class="zn-no-product">
-              {% if 'OUTDOOR FAVORITES' == '' %}
+              {% if 'FUN READS' == '' %}
               Please choose collection to show products from sidebar.
               {% else %}
               No products found. Please add some products to the collection first.
