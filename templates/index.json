@@ -1215,7 +1215,7 @@
       "type": "index__maker-of-the-month",
       "settings": {
         "coll_custom": "root-branch-paper-co",
-        "coll_custom_mobile": "tal-bert",
+        "coll_custom_mobile": "root-branch-paper-co",
         "section_heading": "Featured Maker",
         "left_image": "shopify:\/\/shop_images\/IMG_6866_CROPPED.jpg",
         "maker_name": "ROOT & BRANCH PAPER CO.",
