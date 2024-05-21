@@ -161,11 +161,11 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Mothers_Day_Gift_Guide_2024_SQUARE.png",
-            "mobile_grid_image": "shopify:\/\/shop_images\/Mothers_Day_Gift_Guide_2024_SQUARE.png",
-            "link": "shopify:\/\/blogs\/art-amp-lit\/2024-mountain-mama-gift-guide",
-            "heading": "FIND THE PERFECT GIFT",
-            "text": "for your mountain mama in our 2024 gift guide.",
+            "grid_image": "shopify:\/\/shop_images\/IMG_1847.webp",
+            "mobile_grid_image": "shopify:\/\/shop_images\/IMG_1847.webp",
+            "link": "shopify:\/\/collections\/gifts-for-grads",
+            "heading": "GIFTS FOR GRADS",
+            "text": "that encourage, celebrate, and make folks laugh out loud.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
