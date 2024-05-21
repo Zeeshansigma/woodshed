@@ -1,0 +1,1167 @@
+
+      <div class="zn-container" >
+      
+          <div id="znid-931804386773"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i>Smokey bear camp mug, MADE BY THE LANDMARK PROJECT IN GREENVILLE, SOUTH CAROLINA. photo provided by the landmark project.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-687861278939"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><p>Since 1944, Smokey Bear has taught us to snuff out campfires and never play with matches. Now that we know some forest fires are good, experts are asking if Smokey is still “on message.”<br></p></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-155150700912"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Smokey Bear is entering his golden years. On August 9, 2024 the four-legged forest guardian will celebrate his 80th trip ‘round the sun. To commemorate Smokey’s big birthday and National Wildfire Awareness Month, we’ve rounded up five hot facts about the teddy who protects Appalachia’s forests, which currently total 93.4 million acres according to the Forest Resources Association, along with the nation’s many other woodlands.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-145930312266"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >1. Bambi was Smokey’s predecessor.<a href="https://www.nps.gov/maca/index.htm" target="_blank"><br></a></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-946994094171"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>In 1942, a Japanese submarine attacked off the coast of Santa Barbara, California. Shells exploded just miles away from Los Padres National Forest, nearly setting the treasured woodlands ablaze. </p><p><br></p><p>After that incident, the U.S. Forest Service (USFS) doubled down on fire prevention campaigns, partnering with Disney to feature Bambi on a public service announcement poster. “Please, mister,” Bambi implored, “don’t be careless.” </p><p><br><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">The doe-eyed fawn resonated with Americans, but USFS could only use the deer’s likeness for a year, per the copyright agreement. Intent on finding another cuddly character, the government commissioned artist Albert Staehle to sketch a bear dousing a campfire with a bucket of water. And so, on August 9, 1944, Smokey Bear was born.&nbsp; &nbsp;&nbsp;</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-448227209554"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color" data-border-enable="true"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >CELEBRATE SMOKEY</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-643029486183"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['smokey-bear'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 3 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 3 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-969986825183-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-895109049821-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if 'SMOKEY BEAR' == '' %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-382011021920"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i style="font-weight: normal;">Every purchase helps keep our Appalachian magazine alive and thriving.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-248830668575"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >2. Smokey had a real-life alter ego.<a href="https://skylinecaverns.com" target="_blank"><br></a></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-326188927184"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>For many years, Smokey was nothing more than a drawing. That changed on May 9, 1950, when a hotshot crew found a five-pound bear cub in the Capitan Mountains of New Mexico. </p><p><br></p><p>Badly burned from a wildfire that had ignited days prior, the cub was flown to Santa Fe for veterinary care. Soon enough, newspapers across the country picked up the story.</p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">Recognizing the press opportunity, USFS named the little guy Smokey and sent him to the Smithsonian National Zoological Park in Washington, D.C. Until the bear’s passing in 1976, tourists came from near and far to glimpse the real-life ranger.&nbsp;</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-226776058351"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >3. He’s the only bear on earth with 10 fingers.<a href="https://www.lostworldcaverns.com" target="_blank"><br></a></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-221988887529"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Real wild ursines have paws. But not Smokey. Over the years, animators slowly made America’s most iconic bear, well, less of a bear. They filed his teeth, softened his facial features, and, sometime in the 1950s, gave him 10 human-like digits.  </p><p><br><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">The phalanges were a matter of practicality. How else would Smokey hold a shovel, snuff out matches, or point an index finger and deliver his signature slogan, “Only YOU can prevent wildfires”?&nbsp;&nbsp;</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-471488550092"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >4. Smokey has his own ZIP code.<a href="https://cumberlandcaverns.com" target="_blank"><br></a></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-165322409027"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>In 1952, USFS established the Junior Forest Ranger program with hopes of igniting youngsters’ interest in fire safety. Kids would scribble letters to Smokey and receive memorabilia in return. The initiative worked. A little too well. </p><p><br><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">By 1964, Smokey had so many penpals that the U.S. Postal Service gave him his own D.C. ZIP code — 20252. Historically speaking, this honor was reserved for one person and one person only: the U.S. president.&nbsp; &nbsp; &nbsp;&nbsp;</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-906802769933"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   >OUTDOORSY FAVORITES</h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-533883317061"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['outdoor-favorites'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 8 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 8 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-210133009388-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-297173312305-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if 'OUTDOOR FAVORITES' == '' %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-075904131522"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i style="font-weight: normal;">Every purchase helps keep our Appalachian magazine alive and thriving.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-609192549604"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >5. Smokey is timeless…or is he?<a href="https://lincolncaverns.com" target="_blank"><br></a></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-756507130570"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Smokey Bear is the longest-running public-service campaign in U.S. history. There’s no denying that. But recently, wildfire experts like those associated with FireSmart, British Columbia's wildfire prevention and awareness program, have started questioning whether the bear is still relevant. </p><p><br></p><p>The program's website says that Smokey does a perfect job of "generating basic levels of awareness." However, "these days our knowledge of wildfire — how it spreads, the role it plays in nature, the heightened risks associated with the wildland-urban interface, etc. — is far more extensive.”</p><p><br></p><p>With this in mind, Smokey’s mantra has changed. Rather than just jab a finger at you accusingly, the forest critter fosters more nuanced conversation with a new message on his website, which is managed by the USFS:</p><p><br></p><p>“Regardless of the benefits of occasional natural fires under specific conditions, remember Smokey's ABCs: ‘Always Be Careful with fire.’ Smokey wants you to be responsible when you use fire. It is still wrong and irresponsible to play with matches, throw lighted cigarettes away, or use equipment without proper spark arrestors, or leave any kind of fire unattended.”</p><p><br><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit;">These wise words prove that even an 80-year-old ursine can evolve to deliver a fresh message that continues to protect forests and the countless homes around them.&nbsp;</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-125393442989"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="horizontal_line" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-horizontal-line"> 
+          <hr id="" class=""    />
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-737865718040"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><div id="znid-498235163913" data-type="text"><div><div id="">Lauren Stepp is a lifestyle journalist from the mountains of North Carolina. She writes about everything from fifth-generation apple farmers to mixed-media artists, publishing her work in magazines across the Southeast. In her spare time, Lauren mountain bikes, reads gritty southern fiction, and drops her g's.</div></div></div></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-449005270875"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="8-4 8-4 12-12" data-vertical-align="center" data-border-enable="true" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-8 zn-column-md-8 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-984583423702"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="banner" data-full-width="false" data-effect="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-banner " tabindex="0" role="link"   > 
+          <div class="zn-children-container">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-119933274063"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-405196357455"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-387940749167"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h4 id="" class="zn-heading "   >VISIT DOLLY'S HOMETOWN WITH A LOCAL</h4>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-175677931239"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >SEE MORE</div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-4 zn-column-md-4 zn-column-sm-12">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-246224114954"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-border-enable="true" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-917019657337"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><div>NEXT UP</div></h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-883250307321"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="6-6 6-6 6-6" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-810129344020"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/deer-necklace">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Deer-bust-gold-5774058.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-537443148962"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/tiny-mountain-mustard-seed-necklace">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Mountain-Mustard-Seed-Necklace-6725023.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-251632909169"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="button" data-hover-options="false" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-button">
+          
+          
+            
+            
+            <a href="https://woodshed.life/search?type=product,page,article&q=lindera*" target="">
+          
+          <button type="button" id="" class=""   >
+            
+            <div class="zn-button-text">
+              NATURE INSPIRED JEWELRY
+            </div>
+          </button>
+          
+          </a>
+          
+        </div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="page-settings" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="container-style" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="scheduled-publish" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="currency-converter" >
+            <div class="zn-addon zn-lg  ">
+              
+    
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="messenger" >
+            <div class="zn-addon zn-lg  ">
+              
+    <div class="zn-messenger">
+      
+      
+      <div class="fb-customerchat" page_id="" theme_color="#0A7CFF" greeting_dialog_display="hide"></div>
+    </div>
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="announcement-bar" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="lazy-loading" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="color-palette" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="breakpoints" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="custom-css" >
+            
+            
+            
+          </div>
+        
+</div>
