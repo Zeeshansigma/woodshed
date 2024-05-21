@@ -51,6 +51,7 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Sidle_Creek_at_Woodshed_HOMEPAGE.jpg",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
@@ -96,26 +97,25 @@
     },
     "b69d7489-e38d-4c48-a615-2448c04436e0": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cumberland_Caverns_Ten-Acre-Room-Caving-scaled.jpg",
+        "image": "shopify:\/\/shop_images\/Smokey_Mug_Campsite_HOMEPAGE.jpg",
         "link": "",
         "pretext": "",
-        "title": "READY TO ESCAPE THE COLD?",
-        "subtitle": "<p><strong>TRY CAVING.<\/strong><\/p>",
+        "title": "SMOKEY BEAR TURNS 80",
+        "subtitle": "<p><strong>BUT IS HE STILL RELEVANT?<\/strong><\/p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "text_horizontal_position": "left",
         "text_vertical_position": "bottom",
-        "text_width": 100,
+        "text_width": 46,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/outdoors-amp-travel\/ready-to-escape-the-cold-try-caving",
+        "button_1_link": "shopify:\/\/blogs\/history-amp-culture\/smokey-bear-turns-80-but-is-he-still-relevant",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -143,6 +143,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify:\/\/shop_images\/Sidle_Creek_at_Woodshed_SQUARE.jpg",
+            "mobile_grid_image": "shopify:\/\/shop_images\/Sidle_Creek_at_Woodshed_SQUARE.jpg",
+            "link": "shopify:\/\/blogs\/art-amp-lit\/one-passage-sidle-creek-an-npr-book-of-the-year",
+            "heading": "ONE PASSAGE: \"SIDLE CREEK\"",
+            "text": "an NPR book of the year.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -151,21 +166,6 @@
             "link": "shopify:\/\/blogs\/art-amp-lit\/2024-mountain-mama-gift-guide",
             "heading": "FIND THE PERFECT GIFT",
             "text": "for your mountain mama in our 2024 gift guide.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Ramps_Square.png",
-            "mobile_grid_image": "shopify:\/\/shop_images\/Ramps_Square.png",
-            "link": "shopify:\/\/blogs\/food-1\/get-garlicky-with-5-of-appalachia-s-top-ramps-festivals",
-            "heading": "APPALACHIA'S TOP RAMPS FESTIVALS",
-            "text": "from Pa. to Tenn.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
@@ -204,8 +204,8 @@
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
