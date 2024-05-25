@@ -20,7 +20,7 @@
   <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">
   {%- if product.featured_image.size > 0 -%}
     {%- for image in product.images limit: 3 -%}
-      <meta property="og:image" content="http:{{ image.src | product_img_url: '600x' }}">
+      <meta property="og:image" content="https:{{ image.src | product_img_url: '600x' }}">
       <meta property="og:image:secure_url" content="https:{{ image.src | product_img_url: '600x' }}">
       {%- if image.alt contains 'youtube' or image.alt contains 'vimeo' -%}
         {% assign src = image.alt | split: 'src="' %}
@@ -36,7 +36,7 @@
   <meta property="og:title" content="{{ collection.title | strip_html | escape }}">
   {%- if collection.products_count > 0 -%}
     {% assign image = collection.products.first.featured_image %}
-    <meta property="og:image" content="http:{{ image.src | product_img_url: '600x' }}">
+    <meta property="og:image" content="https:{{ image.src | product_img_url: '600x' }}">
     <meta property="og:image:secure_url" content="https:{{ image.src | product_img_url: '600x' }}">
   {%- else -%}
     {{ page_image }}
@@ -46,13 +46,13 @@
   <meta property="og:title" content="{{ article.title | strip_html | escape }}">
   {% assign img_tag = '<' | append: 'img' %}
   {%- if article.image -%}
-    <meta property="og:image" content="http:{{ article.image | img_url: '600x' }}">
+    <meta property="og:image" content="https:{{ article.image | img_url: '600x' }}">
     <meta property="og:image:secure_url" content="https:{{ article.image | img_url: '600x' }}">
   {%- elsif article.content contains img_tag -%}
     {% assign src = article.content | split: 'src="' %}
     {% assign src = src[1] | split: '"' | first | remove: 'https:' | remove: 'http:' %}
     {%- if src -%}
-      <meta property="og:image" content="http:{{ src }}">
+      <meta property="og:image" content="https:{{ src }}">
       <meta property="og:image:secure_url" content="https:{{ src }}">
     {%- endif -%}
   {%- else -%}
@@ -65,13 +65,13 @@
     {% assign article = blog.articles.first %}
     {% assign img_tag = '<' | append: 'img' %}
     {%- if article.image -%}
-      <meta property="og:image" content="http:{{ article.image | img_url: '600x' }}">
+      <meta property="og:image" content="https:{{ article.image | img_url: '600x' }}">
       <meta property="og:image:secure_url" content="https:{{ article.image | img_url: '600x' }}">
     {%- elsif article.content contains img_tag -%}
       {% assign src = article.content | split: 'src="' %}
       {% assign src = src[1] | split: '"' | first | remove: 'https:' | remove: 'http:' %}
       {%- if src -%}
-        <meta property="og:image" content="http:{{ src }}">
+        <meta property="og:image" content="https:{{ src }}">
         <meta property="og:image:secure_url" content="https:{{ src }}">
       {%- endif -%}
     {%- else -%}
@@ -86,7 +86,7 @@
     {% assign src = page.content | split: 'src="' %}
     {% assign src = src[1] | split: '"' | first | remove: 'https:' | remove: 'http:' %}
     {%- if src -%}
-      <meta property="og:image" content="http:{{ src }}">
+      <meta property="og:image" content="https:{{ src }}">
       <meta property="og:image:secure_url" content="https:{{ src }}">
     {%- endif -%}
   {%- else -%}
