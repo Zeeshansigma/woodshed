@@ -47,7 +47,7 @@
   {% assign img_tag = '<' | append: 'img' %}
   {%- if article.image -%}
     <meta property="og:image" content="https:{{ article.image | img_url: '600x' }}">
-    <meta property="og:image:secure_url" content="https:{{ article.image | img_url: '600x' }}">
+    
   {%- elsif article.content contains img_tag -%}
     {% assign src = article.content | split: 'src="' %}
     {% assign src = src[1] | split: '"' | first | remove: 'https:' | remove: 'http:' %}
