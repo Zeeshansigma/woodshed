@@ -98,24 +98,24 @@
     "b69d7489-e38d-4c48-a615-2448c04436e0": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Smokey_Mug_Campsite_HOMEPAGE.jpg",
+        "image": "shopify:\/\/shop_images\/01-Banjo_free_from_Matheus_Ferrero_via_canva_no_restrictions_FEATURED.png",
         "link": "",
         "pretext": "",
-        "title": "SMOKEY BEAR TURNS 80",
-        "subtitle": "<p><strong>BUT IS HE STILL RELEVANT?<\/strong><\/p>",
+        "title": "6 UNLIKELY BANJO SONGS",
+        "subtitle": "<p><strong>(INDIE TO EDM) WE CAN'T STOP PLAYING<\/strong><\/p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "left",
-        "text_horizontal_position": "left",
+        "text_alignment": "right",
+        "text_horizontal_position": "right",
         "text_vertical_position": "bottom",
-        "text_width": 46,
+        "text_width": 53,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/history-amp-culture\/smokey-bear-turns-80-but-is-he-still-relevant",
+        "button_1_link": "shopify:\/\/blogs\/music\/6-unlikely-banjo-songs-indie-to-edm-we-can-t-stop-playing",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -143,21 +143,6 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Sidle_Creek_at_Woodshed_SQUARE.jpg",
-            "mobile_grid_image": "shopify:\/\/shop_images\/Sidle_Creek_at_Woodshed_SQUARE.jpg",
-            "link": "shopify:\/\/blogs\/art-amp-lit\/one-passage-sidle-creek-an-npr-book-of-the-year",
-            "heading": "ONE PASSAGE: \"SIDLE CREEK\"",
-            "text": "an NPR book of the year.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -176,14 +161,29 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Sisters_Florence_Friermuth_Susie_Friermuth_Doffing_guarding_after_they_arrested_for_moonshining_on_family_farm_near_Saint_Paul_Minnesota_Photo_originally_published_by_Minneapolis_Dail_b1a567ff-5881-4200-9657-eb8d4549aaf7.png",
-            "link": "shopify:\/\/blogs\/food-1\/asheville-lady-bootlegger-inspires-todays-women-booze-maker",
-            "heading": "ASHEVILLE LADY BOOT - LEGGER",
-            "text": "inspires today's women.",
+            "grid_image": "shopify:\/\/shop_images\/Smokey_Mug_Campsite_SQUARE.jpg",
+            "link": "shopify:\/\/blogs\/history-amp-culture\/smokey-bear-turns-80-but-is-he-still-relevant",
+            "heading": "SMOKEY BEAR TURNS 80",
+            "text": "but is he still relevant?",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
             "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify:\/\/shop_images\/Sidle_Creek_at_Woodshed_SQUARE.jpg",
+            "mobile_grid_image": "shopify:\/\/shop_images\/Sidle_Creek_at_Woodshed_SQUARE.jpg",
+            "link": "shopify:\/\/blogs\/art-amp-lit\/one-passage-sidle-creek-an-npr-book-of-the-year",
+            "heading": "ONE PASSAGE: \"SIDLE CREEK\"",
+            "text": "an NPR book of the year.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 0
           }
         },
@@ -204,9 +204,9 @@
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
