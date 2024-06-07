@@ -146,11 +146,11 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/IMG_1847.webp",
-            "mobile_grid_image": "shopify:\/\/shop_images\/IMG_1847.webp",
-            "link": "shopify:\/\/collections\/gifts-for-grads",
-            "heading": "GIFTS FOR GRADS",
-            "text": "that encourage, celebrate, and make folks laugh out loud.",
+            "grid_image": "shopify:\/\/shop_images\/Zebrawood.jpg",
+            "mobile_grid_image": "shopify:\/\/shop_images\/Zebrawood.jpg",
+            "link": "shopify:\/\/collections\/gifts-for-grads-1",
+            "heading": "GIFTS FOR YOUR DADDY",
+            "text": "that will leave him tappin' his toes and laughin' out loud.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
