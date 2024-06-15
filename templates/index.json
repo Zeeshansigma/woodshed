@@ -2,16 +2,15 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Sisters_Florence_Friermuth_Susie_Friermuth_Doffing_guarding_after_they_arrested_for_moonshining_on_family_farm_near_Saint_Paul_Minnesota_Photo_originally_published_by_Minneapolis_Dail.png",
+        "image": "shopify:\/\/shop_images\/05_-_Lanie_Bayless_Marsh_and_Gabrielle_Gabby_Wilson_FEATURED.jpg",
         "link": "",
         "pretext": "",
-        "title": "ASHEVILLE LADY BOOT - LEGGER",
-        "subtitle": "<p><strong>INSPIRES TODAY'S WOMEN.<\/strong><\/p>",
+        "title": "WHAT DOES IT MEAN TO BE WEST VIRGINIAN",
+        "subtitle": "<p><strong>IN A POST-COAL WORLD?<\/strong><\/p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -24,7 +23,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/food-1\/asheville-lady-bootlegger-inspires-todays-women-booze-maker",
+        "button_1_link": "shopify:\/\/blogs\/history-amp-culture\/what-does-it-mean-to-be-west-virginian-in-a-post-coal-world",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -97,6 +96,7 @@
     },
     "b69d7489-e38d-4c48-a615-2448c04436e0": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/01-Banjo_free_from_Matheus_Ferrero_via_canva_no_restrictions_FEATURED.png",
         "link": "",
@@ -146,11 +146,11 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Zebrawood.jpg",
-            "mobile_grid_image": "shopify:\/\/shop_images\/Zebrawood.jpg",
-            "link": "shopify:\/\/collections\/gifts-for-grads-1",
-            "heading": "GIFTS FOR YOUR DADDY",
-            "text": "that will leave him tappin' his toes and laughin' out loud.",
+            "grid_image": "shopify:\/\/shop_images\/01-Banjo_free_from_Matheus_Ferrero_via_canva_no_restrictions_SQUARE.png",
+            "mobile_grid_image": "shopify:\/\/shop_images\/01-Banjo_free_from_Matheus_Ferrero_via_canva_no_restrictions_SQUARE.png",
+            "link": "shopify:\/\/blogs\/music\/6-unlikely-banjo-songs-indie-to-edm-we-can-t-stop-playing",
+            "heading": "6 UNLIKELY BANJO SONGS",
+            "text": "(indie to EDM) we can't stop playing.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
