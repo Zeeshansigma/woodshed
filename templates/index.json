@@ -11,6 +11,7 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
@@ -59,13 +60,13 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Sidle_Creek_at_Woodshed_HOMEPAGE.jpg",
+        "image": "shopify:\/\/shop_images\/UTV_on_tracks_FEATURED.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/UTV_on_tracks_FEATURED.jpg",
         "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
         "pretext": "",
-        "title": "ONE PASSAGE: \"SIDLE CREEK\"",
-        "subtitle": "<p><strong>AN NPR BOOK OF THE YEAR<\/strong><\/p>",
+        "title": "DOWN AND DIRTY",
+        "subtitle": "<p><strong>ON THE HATFIELD-MCCOY TRAILS<\/strong><\/p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -78,7 +79,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/art-amp-lit\/one-passage-sidle-creek-an-npr-book-of-the-year",
+        "button_1_link": "shopify:\/\/blogs\/outdoors-amp-travel\/down-and-dirty-on-the-hatfield-mccoy-trails",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -152,6 +153,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify:\/\/shop_images\/05_-_Lanie_Bayless_Marsh_and_Gabrielle_Gabby_Wilson_SQUARE.jpg",
+            "mobile_grid_image": "shopify:\/\/shop_images\/05_-_Lanie_Bayless_Marsh_and_Gabrielle_Gabby_Wilson_SQUARE.jpg",
+            "link": "shopify:\/\/blogs\/history-amp-culture\/what-does-it-mean-to-be-west-virginian-in-a-post-coal-world",
+            "heading": "WHAT DOES IT MEAN TO BE WEST VIRGINIAN",
+            "text": "in a post-coal world?",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -181,21 +197,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify:\/\/shop_images\/05_-_Lanie_Bayless_Marsh_and_Gabrielle_Gabby_Wilson_SQUARE.jpg",
-            "mobile_grid_image": "shopify:\/\/shop_images\/05_-_Lanie_Bayless_Marsh_and_Gabrielle_Gabby_Wilson_SQUARE.jpg",
-            "link": "shopify:\/\/blogs\/history-amp-culture\/what-does-it-mean-to-be-west-virginian-in-a-post-coal-world",
-            "heading": "WHAT DOES IT MEAN TO BE WEST VIRGINIAN",
-            "text": "in a post-coal world?",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -213,9 +214,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
