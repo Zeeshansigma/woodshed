@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -76,7 +85,7 @@
         "about_space_top": 60,
         "about_space_Bottom": 60,
         "about_btn": "Read about Appalachia",
-        "button_link_about": "",
+        "button_link_about": "https:\/\/woodshed.life\/",
         "show_about_btn": true,
         "swap-section": true,
         "width_increase": false
@@ -90,7 +99,7 @@
         "about_space_top": 60,
         "about_space_Bottom": 60,
         "about_btn": "Shop Appalachian goods",
-        "button_link_about": "",
+        "button_link_about": "https:\/\/woodshed.life\/",
         "show_about_btn": true,
         "swap-section": false,
         "width_increase": true
@@ -104,7 +113,7 @@
         "about_space_top": 60,
         "about_space_Bottom": 60,
         "about_btn": "Visit Us in Roanoke, Va.",
-        "button_link_about": "",
+        "button_link_about": "https:\/\/woodshed.life\/pages\/visit-1",
         "show_about_btn": true,
         "swap-section": true,
         "width_increase": false
