@@ -11,29 +11,28 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/05_-_Lanie_Bayless_Marsh_and_Gabrielle_Gabby_Wilson_FEATURED.jpg",
+        "image": "shopify:\/\/shop_images\/Bart_and_Sunshpere_FEATURED.png",
         "link": "",
         "pretext": "",
-        "title": "WHAT DOES IT MEAN TO BE WEST VIRGINIAN",
-        "subtitle": "<p><strong>IN A POST-COAL WORLD?<\/strong><\/p>",
+        "title": "HOW \"THE SIMPSONS\"",
+        "subtitle": "<p><strong>SAVED THE SUNSPHERE<\/strong><\/p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
         "text_alignment": "left",
         "text_horizontal_position": "left",
         "text_vertical_position": "bottom",
-        "text_width": 40,
+        "text_width": 63,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/history-amp-culture\/what-does-it-mean-to-be-west-virginian-in-a-post-coal-world",
+        "button_1_link": "shopify:\/\/blogs\/outdoors-amp-travel\/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -60,6 +59,7 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/UTV_on_tracks_FEATURED.jpg",
         "mobile_image": "shopify:\/\/shop_images\/UTV_on_tracks_FEATURED.jpg",
@@ -153,6 +153,20 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify:\/\/shop_images\/UTV_on_tracks_copy.png",
+            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/down-and-dirty-on-the-hatfield-mccoy-trails",
+            "heading": "DOWN AND DIRTY",
+            "text": "on the Hatfield-McCoy Trails.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
@@ -183,20 +197,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Smokey_Mug_Campsite_SQUARE.jpg",
-            "link": "shopify:\/\/blogs\/history-amp-culture\/smokey-bear-turns-80-but-is-he-still-relevant",
-            "heading": "SMOKEY BEAR TURNS 80",
-            "text": "but is he still relevant?",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -214,9 +214,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
