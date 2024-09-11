@@ -1271,12 +1271,12 @@
     "cc291733-b5c9-436b-b935-f2d05fe680af": {
       "type": "index__maker-of-the-month",
       "settings": {
-        "coll_custom": "root-branch-paper-co",
-        "coll_custom_mobile": "root-branch-paper-co",
+        "coll_custom": "farmhouse-pottery",
+        "coll_custom_mobile": "farmhouse-pottery",
         "section_heading": "Featured Maker",
-        "left_image": "shopify:\/\/shop_images\/IMG_6866_CROPPED.jpg",
-        "maker_name": "ROOT & BRANCH PAPER CO.",
-        "maker_desc": "Jessie, the artist behind Knoxville, Tenn.’s Root & Branch Paper Co. is inspired by nature’s intricacy. Whether she’s making a notebook or notecard, her love of plants, mushrooms, and insects always shows in gorgeous detail.",
+        "left_image": "shopify:\/\/shop_images\/james_farmhouse_pottery_CROPPED.jpg",
+        "maker_name": "FARMHOUSE POTTERY",
+        "maker_desc": "In 2012, James Zillian founded Farmhouse Pottery in Vermont’s beautiful Green Mountains. Committed to old-world methods and design, he and his team create bespoke goods that bring authenticity and joy to your home.",
         "maker_link_text": "See more",
         "maker_link_url": "https:\/\/woodshed.life\/collections\/vendors?q=Root%20%26%20Branch%20Paper%20Co."
       }
