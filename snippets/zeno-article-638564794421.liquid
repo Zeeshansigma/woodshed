@@ -1,0 +1,1017 @@
+
+      <div class="zn-container" >
+      
+          <div id="znid-330236327507"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><p><i>Child labor was among the abuses in Pa. mines. shot in 1911 in&nbsp;<span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; font-weight: bolder; letter-spacing: 0px;">South Pittston</span><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; font-weight: bolder; letter-spacing: 0px;">&nbsp;by Lewis Wickes Hine, this photo was provided by Library of Congress.</span></i></p></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-548985738274"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><p>“Despite providing energy that largely ran the entire country, many of Appalachia’s<br>hardest working people were treated like industrial serfs.”</p></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-486801868865"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Imagine working 11 or more hours a day in the dark, deep underground, only to go back to the surface at the end of your shift to find that there’s little light in your life up there too. That was reality for countless Appalachian miners for about half a century.</p><p><br></p><p>Many were paid in “scrip” instead of cash — currency that could be used in stores owned by mining companies and nowhere else. Coalminers were sometimes provided with small houses (some basically shacks) by mine owners, but those came at a high price. When miners pushed too hard for better working conditions or attempted to unionize, they and their families could be forced out of their homes and left to live in whatever was available, including chicken coops and tents. </p><p><br></p><p>Despite providing energy that largely ran the entire country, many of Appalachia’s hardest working people were treated like industrial serfs. But instead of leaving them defeated, this mistreatment made them angry and ready to fight for their rights.</p><p><span style="color: inherit; font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;">Mining and labor historians often focus on southern parts of Appalachia, like West Virginia and eastern Kentucky, but life was just as hard in other mining communities, including those in Pennsylvania’s mountains. Miners there helped pioneer the burgeoning organized labor movement. In fact, central Pennsylvania miners were among the first to unionize in what was a forerunner to the United Mine Workers of America (UMW). More than 46,000 Pennsylvania miners joined this union and were willing to strike — losing their incomes and often their homes — for better working conditions.</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-257561969887"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color" data-border-enable="true"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >MADE IN PENNSYLVANIA</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-425503225560"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['made-in-pennsylvania'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 12 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 12 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-374315553653-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-826642230898-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if 'MADE IN PENNSYLVANIA' == '' %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-370767080620"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><span style="font-weight: normal;"><i>Every purchase helps keep our Appalachian magazine alive, thriving, and free to readers like you.</i></span></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-600541262398"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Between 1915 and 1922, miners went on strike more than 1,000 times in Appalachian Pennsylvania. During that period, post WW1 inflation also led to a massive nationwide UMW strike in 1919. Fear about coal shortages alarmed the government and big business, but instead of working with the miners, these powerful institutions declared war.</p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;">After a federal judge deemed the nationwide strike illegal, the Department of Justice sent investigators into coal towns to target union leaders. They tapped the phones of leaders in Pennsylvania and elsewhere, and encouraged the immigration and nationalization authorities to threaten Appalachia’s many immigrant workers with deportation. Troops were sent into coal towns to keep order, and courts made it illegal to demonstrate or to hold public meetings. Miners could be arrested for just carrying the U.S. flag.</span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;">Violence, including lynchings, rapes and beatings, became common as mine owners, backed by federal and state governments, fought for control. The Ku Klux Klan, which was becoming a major social movement in the 1920s, helped to reinforce the companies’ power through intimidation and violence. More than 125,000 western Pennsylvanians joined the Klan, including many mine officials. In Cambria County, Klansmen marched through the town of Lilly, fighting with union members and leaving two workers dead.</span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;">Even owners who had agreed to union terms found ways to crush mine workers. Many outright closed their union mines, putting up to 2,000 men out of work at a time, and later reopened them, often under “new” ownership and nonunion labor.</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-739086588193"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-border-enable="true" data-layout="6-6 6-6 12-12" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-155647592640"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/lark-ascending">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Sidle-Creek-14582386.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-12">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-897899095046"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >Taut prose and gorgeous imagery won this Appalachian Pa. book praise as an NPR and Library Journal Best Book of the Year. Shelf Awareness called it “a rare gem, a compelling blend of nature and humanity perfect for fans of Barbara Kingsolver..."</h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-134116724427"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="button" data-hover-options="false" data-full-width="false" data-border-enable="true"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-button">
+          
+          
+            
+            
+            <a href="/products/sidle-creek" target="">
+          
+          <button type="button" id="" class=""   >
+            
+            <div class="zn-button-text">
+              <b>SHOP NOW</b>
+            </div>
+          </button>
+          
+          </a>
+          
+        </div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-555001383132"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >(Every purchase helps keep our Appalachian magazine alive and thriving.)</h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-095449009206"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>By 1927, almost all central Pennsylvania mine operators had broken their agreements with the union, including the Clearfield Bituminous Coal Corporation (CBC) in Rossiter. When the company decided to shut down the mine and later reopen it with nonunion workers, the local sheriff quelled unrest by declaring martial law—creating mandatory curfews and threatening anyone who broke his rules with three to seven years of imprisonment. Soon, almost every central Pennsylvania county had made similar proclamations.</p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;">These brutal tactics worked. By 1929, the United Mine Workers of America only had 100,000 members, down from 400,000 in 1919. But the battle wasn’t over and neither was unionization, thanks to the heroic efforts and extreme sacrifices of central Pennsylvania coalminers, union members, and their families.</span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;">The 1930s saw the passing of The Wagner Act (also known as the National Labor Relations Act), which established the first national labor policy of protecting the workers' right to organize and conduct collective bargaining. It also saw the formation of the Committee for Industrial Organization (CIO) in Pittsburgh to foster industrial unionism.</span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;">Learn more about this harsh period in Appalachian Pennsylvania with <a href="https://www.youtube.com/watch?v=aE7HjswNyes" target="_blank">this documentary about the period</a>. “What you see in the documentary was never taught in schools,” said Dr. James “Jim” Doughtery, who produced the piece. “And the more I investigated, the angrier I got.”</span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;"><br></span></p><p><span style="color: inherit; font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;">Dougherty’s historic research later inspired him to found the Northern Appalachian Folk Festival and the Jim Rogers &amp; Ken Holliday Folk School on the Arts and Humanities, which helps preserve Appalachian Pennsylvania’s rich history and traditions.</span></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-322802186673"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="horizontal_line" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-horizontal-line"> 
+          <hr id="" class=""    />
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-699597289328"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><div id="znid-983976489376" data-type="text"><div id=""><div id="znid-657733542649" data-type="text" data-background-type="none" data-border-enable="false" data-shadow-enable="false" data-text-shadow-enable="false"><div id="znid-324028692836" data-type="text"><div><div id="">Freelance writer. Road tripper. Travel diva. Dog rescuer. <a href="http://www.vanessaorrink.com/" target="_blank">Vanessa Orr</a> writes for food or Kibbles 'N Bits. Based out of Pittsburgh, Pennsylvania via Juneau, Alaska, she's been a freelance writer for more than 25 years. An avid traveler, she always brings home amazing memories, intriguing stories...and often more dogs.&nbsp;</div></div></div></div></div></div></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-135145683987"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="8-4 8-4 12-12" data-vertical-align="center" data-border-enable="true" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-8 zn-column-md-8 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-306544365283"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="banner" data-full-width="false" data-effect="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-banner " tabindex="0" role="link"   > 
+          <div class="zn-children-container">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-910760864292"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-842167227063"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-176533007662"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h4 id="" class="zn-heading "   >AMAZING CAVES, PA. TO TENN.</h4>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-757740575626"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >SEE MORE</div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-4 zn-column-md-4 zn-column-sm-12">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-528754234743"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-border-enable="true" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-970911947226"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><div>NEXT UP</div></h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-884150712301"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="6-6 6-6 6-6" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-644682657192"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/appalachian-unisex-tee">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Appalachian-tee-27704837.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-582721594800"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/appalachian-forever-sticker">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Appalachian-Heart-Sticker-27704817.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-733560368599"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="button" data-hover-options="false" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-button">
+          
+          
+            
+            
+            <a href="https://woodshed.life/collections/appalachian-essentials" target="">
+          
+          <button type="button" id="" class=""   >
+            
+            <div class="zn-button-text">
+              APPALACHIAN ESSENTIALS
+            </div>
+          </button>
+          
+          </a>
+          
+        </div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="page-settings" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="container-style" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="scheduled-publish" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="currency-converter" >
+            <div class="zn-addon zn-lg  ">
+              
+    
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="messenger" >
+            <div class="zn-addon zn-lg  ">
+              
+    <div class="zn-messenger">
+      
+      
+      <div class="fb-customerchat" page_id="" theme_color="#0A7CFF" greeting_dialog_display="hide"></div>
+    </div>
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="announcement-bar" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="lazy-loading" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="color-palette" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="breakpoints" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="custom-css" >
+            
+            
+            
+          </div>
+        
+</div>
