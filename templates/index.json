@@ -16,11 +16,11 @@
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/01_-_Sunsphere_2024_Bruce_McCamish_Photography_TEMP_FEATURED.jpg",
+        "image": "shopify://shop_images/01_-_Sunsphere_2024_Bruce_McCamish_Photography_TEMP_FEATURED.jpg",
         "link": "",
         "pretext": "",
         "title": "HOW \"THE SIMPSONS\"",
-        "subtitle": "<p><strong>SAVED THE SUNSPHERE<\/strong><\/p>",
+        "subtitle": "<p><strong>SAVED THE SUNSPHERE</strong></p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -33,7 +33,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/outdoors-amp-travel\/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
+        "button_1_link": "shopify://blogs/outdoors-amp-travel/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -62,11 +62,11 @@
       "type": "index__image-with-text-overlay",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bart_and_Sunshpere_FEATURED.png",
+        "image": "shopify://shop_images/Bart_and_Sunshpere_FEATURED.png",
         "link": "",
         "pretext": "",
         "title": "HOW \"THE SIMPSONS\"",
-        "subtitle": "<p><strong>SAVED THE SUNSPHERE<\/strong><\/p>",
+        "subtitle": "<p><strong>SAVED THE SUNSPHERE</strong></p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -79,7 +79,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/outdoors-amp-travel\/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
+        "button_1_link": "shopify://blogs/outdoors-amp-travel/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -107,11 +107,11 @@
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pins_and_stickers_FEATURED.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Pins_and_stickers_FEATURED.jpg",
-        "link": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-        "pretext": "<p>RECOVERY AND GRIEF AT THE<\/p>",
-        "title": "HEALING APPALACHIA MUSIC FESTIVAL",
+        "image": "shopify://shop_images/Breaker_Boys_in_Pa_mine_FEATURED_copy.jpg",
+        "mobile_image": "shopify://shop_images/Breaker_Boys_in_Pa_mine_FEATURED_copy.jpg",
+        "link": "shopify://blogs/food-1/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
+        "pretext": "<p>THE UNTOLD STORY OF</p>",
+        "title": "PENNSYLVANIA'S MINE WARS",
         "subtitle": "",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
@@ -119,13 +119,13 @@
         "text_alignment": "right",
         "text_horizontal_position": "right",
         "text_vertical_position": "bottom",
-        "text_width": 40,
+        "text_width": 48,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/music\/recovery-and-grief-at-the-healing-appalachia-music-festival",
+        "button_1_link": "shopify://blogs/history-amp-culture/the-untold-story-of-pennsylvania-s-mine-wars",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -154,11 +154,11 @@
       "type": "index__image-with-text-overlay",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/01-Banjo_free_from_Matheus_Ferrero_via_canva_no_restrictions_FEATURED.png",
+        "image": "shopify://shop_images/01-Banjo_free_from_Matheus_Ferrero_via_canva_no_restrictions_FEATURED.png",
         "link": "",
         "pretext": "",
         "title": "6 UNLIKELY BANJO SONGS",
-        "subtitle": "<p><strong>(INDIE TO EDM) WE CAN'T STOP PLAYING<\/strong><\/p>",
+        "subtitle": "<p><strong>(INDIE TO EDM) WE CAN'T STOP PLAYING</strong></p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -171,7 +171,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify:\/\/blogs\/music\/6-unlikely-banjo-songs-indie-to-edm-we-can-t-stop-playing",
+        "button_1_link": "shopify://blogs/music/6-unlikely-banjo-songs-indie-to-edm-we-can-t-stop-playing",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -199,12 +199,26 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Pins_and_stickers_SQUARE.jpg",
+            "link": "shopify://blogs/music/recovery-and-grief-at-the-healing-appalachia-music-festival",
+            "heading": "RECOVERY AND GRIEF",
+            "text": "at the Healing Appalachia music festival",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/flatfooting_2_FEATURED_SQUARE.png",
-            "mobile_grid_image": "shopify:\/\/shop_images\/flatfooting_2_FEATURED_SQUARE.png",
-            "link": "shopify:\/\/blogs\/music\/theres-no-right-way-to-flatfoot-dance",
+            "grid_image": "shopify://shop_images/flatfooting_2_FEATURED_SQUARE.png",
+            "mobile_grid_image": "shopify://shop_images/flatfooting_2_FEATURED_SQUARE.png",
+            "link": "shopify://blogs/music/theres-no-right-way-to-flatfoot-dance",
             "heading": "THERE'S NO RIGHT WAY",
             "text": "to flatfoot dance",
             "button_label": "SEE MORE",
@@ -217,9 +231,9 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/01_-_Sunsphere_2024_Bruce_McCamish_Photography_SQUARE.jpg",
-            "mobile_grid_image": "shopify:\/\/shop_images\/01_-_Sunsphere_2024_Bruce_McCamish_Photography_SQUARE.jpg",
-            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
+            "grid_image": "shopify://shop_images/01_-_Sunsphere_2024_Bruce_McCamish_Photography_SQUARE.jpg",
+            "mobile_grid_image": "shopify://shop_images/01_-_Sunsphere_2024_Bruce_McCamish_Photography_SQUARE.jpg",
+            "link": "shopify://blogs/outdoors-amp-travel/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
             "heading": "HOW \"THE SIMPSONS\"",
             "text": "saved the Sunsphere in Knoxville, Tenn.",
             "button_label": "SEE MORE",
@@ -229,26 +243,12 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify:\/\/shop_images\/UTV_on_tracks_copy.png",
-            "link": "shopify:\/\/blogs\/outdoors-amp-travel\/down-and-dirty-on-the-hatfield-mccoy-trails",
-            "heading": "DOWN AND DIRTY",
-            "text": "on the Hatfield-McCoy Trails.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
           "settings": {
-            "grid_image": "shopify:\/\/shop_images\/Holiday_Gift_Guide_2023_SQUARE.png",
-            "link": "shopify:\/\/blogs\/art-amp-lit\/mark-lynn-s-gift-ideas-2023",
+            "grid_image": "shopify://shop_images/Holiday_Gift_Guide_2023_SQUARE.png",
+            "link": "shopify://blogs/art-amp-lit/mark-lynn-s-gift-ideas-2023",
             "heading": "FROM CAMPFIRE CARDS TO CHRISTMAS TREE CANDLES,",
             "text": "our founder has ideas for everyone on your list.",
             "button_label": "SEE MORE",
@@ -260,9 +260,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
@@ -326,12 +326,12 @@
         "51eaceb3-f12b-4580-b883-575c9c36d3b5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tyler_Childers_screen_grab_SQUARE.png",
+            "image": "shopify://shop_images/Tyler_Childers_screen_grab_SQUARE.png",
             "pretext": "",
             "title": "TYLER CHILDERS GOES GAY",
-            "text": "<p>(But not the way you think.)<\/p>",
+            "text": "<p>(But not the way you think.)</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/music\/tyler-childers-goes-gay-but-not-the-way-you-think",
+            "button_link": "shopify://blogs/music/tyler-childers-goes-gay-but-not-the-way-you-think",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -340,12 +340,12 @@
         "7c150f0e-c0eb-46e0-9346-897320273751": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Opposum_Family_tee.png",
+            "image": "shopify://shop_images/Opposum_Family_tee.png",
             "pretext": "",
             "title": "TEE TIME SALE",
-            "text": "<p>20% off select tees and accessories.<\/p>",
+            "text": "<p>20% off select tees and accessories.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/collections\/tee-time-20-off-select-tees-and-accessories",
+            "button_link": "shopify://collections/tee-time-20-off-select-tees-and-accessories",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -354,12 +354,12 @@
         "a1e2ea1d-3bd0-41cc-87a9-2265297ddcf7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/01-Mildred-Swinging-Bridge_SQUARE.jpg",
+            "image": "shopify://shop_images/01-Mildred-Swinging-Bridge_SQUARE.jpg",
             "pretext": "",
             "title": "MEET MILDRED",
-            "text": "<p>Grandfather Mountain’s orange soda loving bear.<\/p>",
+            "text": "<p>Grandfather Mountain’s orange soda loving bear.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/history-amp-culture\/meet-mildred-grandfather-mountain-s-real-life-equivalent-to-yogi-bear",
+            "button_link": "shopify://blogs/history-amp-culture/meet-mildred-grandfather-mountain-s-real-life-equivalent-to-yogi-bear",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -368,12 +368,12 @@
         "cc85a4f5-86e0-4a2c-92de-065a80676b57": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Appalachian_Cookbooks.png",
-            "pretext": "<p>NAIL<\/p>",
+            "image": "shopify://shop_images/Appalachian_Cookbooks.png",
+            "pretext": "<p>NAIL</p>",
             "title": "NATIONAL PICNIC MONTH",
-            "text": "<p>with picnic-perfect recipes from our Appalachian cookbooks.<\/p>",
+            "text": "<p>with picnic-perfect recipes from our Appalachian cookbooks.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/collections\/appalachian-cookbooks",
+            "button_link": "shopify://collections/appalachian-cookbooks",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -383,12 +383,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/National_Grilling_Month.png",
-            "pretext": "<p>NATIONAL GRILLING MONTH<\/p>",
+            "image": "shopify://shop_images/National_Grilling_Month.png",
+            "pretext": "<p>NATIONAL GRILLING MONTH</p>",
             "title": "10% OFF SELECT SAUCES",
-            "text": "<p>from a ramps hot sauce to a BBQ sampler.<\/p>",
+            "text": "<p>from a ramps hot sauce to a BBQ sampler.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/collections\/national-grilling-month",
+            "button_link": "shopify://collections/national-grilling-month",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -398,12 +398,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/SilasHouse2022_by_C_Williams_SQUARE_low_res_a6ef36e4-f970-411c-a561-2544d94779f8.jpg",
-            "pretext": "<p>INTERVIEW:<\/p>",
+            "image": "shopify://shop_images/SilasHouse2022_by_C_Williams_SQUARE_low_res_a6ef36e4-f970-411c-a561-2544d94779f8.jpg",
+            "pretext": "<p>INTERVIEW:</p>",
             "title": "AUTHOR SILAS HOUSE",
-            "text": "<p>channels grief into his work, loves Appalachian Md., and has a lot of nightmares.<\/p>",
+            "text": "<p>channels grief into his work, loves Appalachian Md., and has a lot of nightmares.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/art-amp-lit\/how-silas-house-turned-crushing-grief-into-a-lauded-novel",
+            "button_link": "shopify://blogs/art-amp-lit/how-silas-house-turned-crushing-grief-into-a-lauded-novel",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -413,12 +413,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/FEATURED_SQUARE_04_Monarch_Kim_Bailey.jpg",
-            "pretext": "<p>HAVE A YARD?<\/p>",
+            "image": "shopify://shop_images/FEATURED_SQUARE_04_Monarch_Kim_Bailey.jpg",
+            "pretext": "<p>HAVE A YARD?</p>",
             "title": "YOU CAN HELP SAVE APPALACHIA'S BUTTERFLIES.",
             "text": "",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/outdoors-amp-travel\/wanna-save-appalachias-butterflies",
+            "button_link": "shopify://blogs/outdoors-amp-travel/wanna-save-appalachias-butterflies",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -428,12 +428,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Demon_Copperhead_255795f5-fce4-4e24-bf84-cba41da1182a.jpg",
-            "pretext": "<p>APPALACHIAN NOVEL WINS<\/p>",
+            "image": "shopify://shop_images/Demon_Copperhead_255795f5-fce4-4e24-bf84-cba41da1182a.jpg",
+            "pretext": "<p>APPALACHIAN NOVEL WINS</p>",
             "title": "PULITZER PRIZE",
-            "text": "<p>Get your copy of Barbara Kingsolver's epic tale, set in Southwest Va.<\/p>",
+            "text": "<p>Get your copy of Barbara Kingsolver's epic tale, set in Southwest Va.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/products\/demon-copperhead",
+            "button_link": "shopify://products/demon-copperhead",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -443,12 +443,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_Pines_Sevierville_Dolly_Mural.jpg",
-            "pretext": "<p>IN DOLLY'S HOMETOWN <\/p>",
+            "image": "shopify://shop_images/The_Pines_Sevierville_Dolly_Mural.jpg",
+            "pretext": "<p>IN DOLLY'S HOMETOWN </p>",
             "title": "SEVIERVILLE, TENN.",
-            "text": "<p>new restaurants and shops honor their local legend.<\/p>",
+            "text": "<p>new restaurants and shops honor their local legend.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/outdoors-amp-travel\/round-here-sevierville-tenn",
+            "button_link": "shopify://blogs/outdoors-amp-travel/round-here-sevierville-tenn",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -458,12 +458,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/SQUARE_Katie_Button_and_eggs.jpg",
+            "image": "shopify://shop_images/SQUARE_Katie_Button_and_eggs.jpg",
             "pretext": "",
             "title": "APPALACHIA'S BEST EGGS?",
-            "text": "<p>Celebrity chef Katie Button knows a good egg when she sees one.<\/p>",
+            "text": "<p>Celebrity chef Katie Button knows a good egg when she sees one.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/food-1\/appalachia-s-best-eggs-celebrity-chef-katie-button-visits-her-favorite-egg-farm",
+            "button_link": "shopify://blogs/food-1/appalachia-s-best-eggs-celebrity-chef-katie-button-visits-her-favorite-egg-farm",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -473,12 +473,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/QUEER_BILLIES.png",
-            "pretext": "<p>CALLING ALL<\/p>",
+            "image": "shopify://shop_images/QUEER_BILLIES.png",
+            "pretext": "<p>CALLING ALL</p>",
             "title": "QUEERBILLIES",
-            "text": "<p>Show your queer pride and Appalachian pride all at once.<\/p>",
+            "text": "<p>Show your queer pride and Appalachian pride all at once.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/collections\/calling-all-queerbillies",
+            "button_link": "shopify://collections/calling-all-queerbillies",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -488,12 +488,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/FOR_GRADS.png",
-            "pretext": "<p>GIFTS<\/p>",
+            "image": "shopify://shop_images/FOR_GRADS.png",
+            "pretext": "<p>GIFTS</p>",
             "title": "FOR GRADS",
-            "text": "<p>Snarky candles, jewelry, opossum tees, and more.<\/p>",
+            "text": "<p>Snarky candles, jewelry, opossum tees, and more.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/collections\/gifts-for-grads",
+            "button_link": "shopify://collections/gifts-for-grads",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -503,12 +503,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Wild_ramps.jpg",
-            "pretext": "<p>RECIPE<\/p>",
+            "image": "shopify://shop_images/Wild_ramps.jpg",
+            "pretext": "<p>RECIPE</p>",
             "title": "FARMER'S CHEESE WITH RAMPS AND HERBS",
-            "text": "<p>from Chef Travis Milton.<\/p>",
+            "text": "<p>from Chef Travis Milton.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/food-1\/recipe-farmers-cheese-with-ramps-and-herbs",
+            "button_link": "shopify://blogs/food-1/recipe-farmers-cheese-with-ramps-and-herbs",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -518,12 +518,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/FEATURED_Adventures_on_the_Gorge_Melissa_and_Jason_13.jpg",
-            "pretext": "<p>5 STUNNING<\/p>",
+            "image": "shopify://shop_images/FEATURED_Adventures_on_the_Gorge_Melissa_and_Jason_13.jpg",
+            "pretext": "<p>5 STUNNING</p>",
             "title": "WEDDING VENUES",
-            "text": "<p>and why they're better than getting married in jail. <\/p>",
+            "text": "<p>and why they're better than getting married in jail. </p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/outdoors-amp-travel\/5-stunning-wedding-venues-in-appalachia",
+            "button_link": "shopify://blogs/outdoors-amp-travel/5-stunning-wedding-venues-in-appalachia",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -533,12 +533,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/AT_Enamel_Pin_5f64c22f-aaf4-43fa-977a-a072d645f4bd.jpg",
+            "image": "shopify://shop_images/AT_Enamel_Pin_5f64c22f-aaf4-43fa-977a-a072d645f4bd.jpg",
             "pretext": "",
             "title": "TAKE A HIKE",
-            "text": "<p>And celebrate the longest \"hiking-only\" footpath on Earth.<\/p>",
+            "text": "<p>And celebrate the longest \"hiking-only\" footpath on Earth.</p>",
             "button_label": "SEE MORE",
-            "button_link": "https:\/\/woodshed.life\/search?type=product,page,article&q=%22appalachian%20trail%22*",
+            "button_link": "https://woodshed.life/search?type=product,page,article&q=%22appalachian%20trail%22*",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -548,12 +548,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Patty_Loveless_and_Chris_Stapleton_square.jpg",
+            "image": "shopify://shop_images/Patty_Loveless_and_Chris_Stapleton_square.jpg",
             "pretext": "",
             "title": "YOU'LL NEVER LEAVE HARLAN ALIVE",
-            "text": "<p>The story behind Patty Loveless' stunning performance.<\/p>",
+            "text": "<p>The story behind Patty Loveless' stunning performance.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/music\/one-song-you-ll-never-leave-harlan-alive",
+            "button_link": "shopify://blogs/music/one-song-you-ll-never-leave-harlan-alive",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -563,12 +563,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mothers_Day_2023_Square.png",
+            "image": "shopify://shop_images/Mothers_Day_2023_Square.png",
             "pretext": "",
             "title": "Handmade Gifts",
-            "text": "<p>for the outdoorsy mama, the boozy mama, the culinary mama, and more.<\/p>",
+            "text": "<p>for the outdoorsy mama, the boozy mama, the culinary mama, and more.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/art-amp-lit\/mountain-mama-gift-guide",
+            "button_link": "shopify://blogs/art-amp-lit/mountain-mama-gift-guide",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -578,12 +578,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/08_Route_11.jpg",
+            "image": "shopify://shop_images/08_Route_11.jpg",
             "pretext": "",
             "title": "8 BINGE-WORTHY ROADTRIP SNACKS",
-            "text": "<p>Made in Appalachia<\/p>",
+            "text": "<p>Made in Appalachia</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/food-1\/8-binge-worthy-road-trip-snacks",
+            "button_link": "shopify://blogs/food-1/8-binge-worthy-road-trip-snacks",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -593,12 +593,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Flikr.png",
-            "pretext": "<p>TABLETOP FIREPLACES<\/p>",
+            "image": "shopify://shop_images/Flikr.png",
+            "pretext": "<p>TABLETOP FIREPLACES</p>",
             "title": "30% OFF",
-            "text": "<p>Use indoor or outdoor. Fueled by rubbing alcohol—the kind you buy at a pharmacy.<\/p>",
+            "text": "<p>Use indoor or outdoor. Fueled by rubbing alcohol—the kind you buy at a pharmacy.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/products\/tabletop-fireplace",
+            "button_link": "shopify://products/tabletop-fireplace",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -608,12 +608,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ben_Isenberg_Ascend_WV_SQUARE.jpg",
+            "image": "shopify://shop_images/Ben_Isenberg_Ascend_WV_SQUARE.jpg",
             "pretext": "",
             "title": "GET PAID TO MOVE TO APPALACHIA",
-            "text": "<p>This family got $12K when they relocated to W.Va. <\/p>",
+            "text": "<p>This family got $12K when they relocated to W.Va. </p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/history-amp-culture\/this-marketing-exec-got-paid-to-move-to-appalachia",
+            "button_link": "shopify://blogs/history-amp-culture/this-marketing-exec-got-paid-to-move-to-appalachia",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -623,12 +623,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Nightfall_square_afe46821-890b-40f4-ad50-2b637c3c041a.jpg",
+            "image": "shopify://shop_images/Nightfall_square_afe46821-890b-40f4-ad50-2b637c3c041a.jpg",
             "pretext": "",
             "title": "NIGHTFALL",
-            "text": "<p>Is this clip poetry or prose? We’re not sure, but it started with arresting nighttime photos from our Appalachian farm.<\/p>",
+            "text": "<p>Is this clip poetry or prose? We’re not sure, but it started with arresting nighttime photos from our Appalachian farm.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/our-farm\/nightfall-our-appalachian-farm-in-words-and-photos",
+            "button_link": "shopify://blogs/our-farm/nightfall-our-appalachian-farm-in-words-and-photos",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -638,12 +638,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lavache_3_square.jpg",
+            "image": "shopify://shop_images/Lavache_3_square.jpg",
             "pretext": "",
             "title": "LA VACHE MEANS HOLY COW",
-            "text": "<p>And it's what you'll say when you try La Vache caramels.<\/p>",
+            "text": "<p>And it's what you'll say when you try La Vache caramels.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/products\/la-vache-microcreamery-caramels",
+            "button_link": "shopify://products/la-vache-microcreamery-caramels",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -653,12 +653,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/White_Grass_Ski_Lodge_by_Dylan_Jones_square.jpg",
+            "image": "shopify://shop_images/White_Grass_Ski_Lodge_by_Dylan_Jones_square.jpg",
             "pretext": "",
             "title": "REMEMBER SKIING?",
-            "text": "<p>One writer misses snow in W.Va.'s \"Canadian Valley.\"<\/p>",
+            "text": "<p>One writer misses snow in W.Va.'s \"Canadian Valley.\"</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/outdoors-amp-travel\/skiing-the-canadian-valley-during-a-banner-w-va-season",
+            "button_link": "shopify://blogs/outdoors-amp-travel/skiing-the-canadian-valley-during-a-banner-w-va-season",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -668,12 +668,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hendersonville_Bearfootin_Bears_square.jpg",
-            "pretext": "<p>HENDERSONVILLE, N.C.<\/p>",
+            "image": "shopify://shop_images/Hendersonville_Bearfootin_Bears_square.jpg",
+            "pretext": "<p>HENDERSONVILLE, N.C.</p>",
             "title": "",
-            "text": "<p>Even as city-slickers bring amenities like duck pate, its small-town charm shines through.<\/p>",
+            "text": "<p>Even as city-slickers bring amenities like duck pate, its small-town charm shines through.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/outdoors-amp-travel\/round-here-hendersonville-nc",
+            "button_link": "shopify://blogs/outdoors-amp-travel/round-here-hendersonville-nc",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -683,12 +683,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Homemade_Kombucha_square.jpg",
+            "image": "shopify://shop_images/Homemade_Kombucha_square.jpg",
             "pretext": "",
             "title": "WTH IS KOMBUCHA AND WHERE CAN I GIT' SOME?",
             "text": "",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/food-1\/wth-is-kombucha-and-where-can-i-git-some",
+            "button_link": "shopify://blogs/food-1/wth-is-kombucha-and-where-can-i-git-some",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -698,12 +698,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-02-04_at_10.44.52_AM.png",
+            "image": "shopify://shop_images/Screenshot_2023-02-04_at_10.44.52_AM.png",
             "pretext": "",
             "title": "GOODBYE DRY JANUARY",
-            "text": "<p>From mixers to muddlers, we'll help you resume the wet life.<\/p>",
+            "text": "<p>From mixers to muddlers, we'll help you resume the wet life.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/collections\/goodbye-dry-january",
+            "button_link": "shopify://collections/goodbye-dry-january",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -713,12 +713,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Nina_Simone_Mural_square.jpg",
-            "pretext": "<p>ONE SONG<\/p>",
+            "image": "shopify://shop_images/Nina_Simone_Mural_square.jpg",
+            "pretext": "<p>ONE SONG</p>",
             "title": "YOUNG, GIFTED AND BLACK",
-            "text": "<p>Appalachian native Nina Simone inspired Black children.<\/p>",
+            "text": "<p>Appalachian native Nina Simone inspired Black children.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/music\/one-song-young-gifted-and-black",
+            "button_link": "shopify://blogs/music/one-song-young-gifted-and-black",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -728,12 +728,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dolly_Angel_square.jpg",
-            "pretext": "<p>8 TIMES DOLLY PARTON PROVED SHE'S THE<\/p>",
+            "image": "shopify://shop_images/Dolly_Angel_square.jpg",
+            "pretext": "<p>8 TIMES DOLLY PARTON PROVED SHE'S THE</p>",
             "title": "PATRON SAINT OF APPALACHIA",
             "text": "",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/history-amp-culture\/8-times-dolly-parton-proved-she-s-the-patron-saint-of-appalachia",
+            "button_link": "shopify://blogs/history-amp-culture/8-times-dolly-parton-proved-she-s-the-patron-saint-of-appalachia",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -743,12 +743,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/I_think_you_re_puurfect.jpg",
+            "image": "shopify://shop_images/I_think_you_re_puurfect.jpg",
             "pretext": "",
             "title": "GIVE YOUR LOVE",
-            "text": "<p>THE PURRFECT CARD<strong>.<\/strong><\/p>",
+            "text": "<p>THE PURRFECT CARD<strong>.</strong></p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/collections\/card-stickers",
+            "button_link": "shopify://collections/card-stickers",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -758,12 +758,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/13_Farm_House_Clayton_Donuts_square.jpg",
+            "image": "shopify://shop_images/13_Farm_House_Clayton_Donuts_square.jpg",
             "pretext": "",
             "title": "Appalachian Breakfast Trail",
-            "text": "<p><strong>This path of a.m. eateries is like that other Appalachian Trail, only tastier.<\/strong><\/p>",
+            "text": "<p><strong>This path of a.m. eateries is like that other Appalachian Trail, only tastier.</strong></p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/food-1\/eat-the-appalachian-breakfast-trail",
+            "button_link": "shopify://blogs/food-1/eat-the-appalachian-breakfast-trail",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -773,12 +773,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captain.png",
+            "image": "shopify://shop_images/Captain.png",
             "pretext": "",
             "title": "CRAFT THE COLD AWAY",
-            "text": "<p>with adorable embroidery kits.<\/p>",
+            "text": "<p>with adorable embroidery kits.</p>",
             "button_label": "SEE MORE",
-            "button_link": "https:\/\/woodshed.life\/search?type=product,page,article&q=EMBROIDERY%20KIT*",
+            "button_link": "https://woodshed.life/search?type=product,page,article&q=EMBROIDERY%20KIT*",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -788,12 +788,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Drumming_Bird_Austin_Sawyer_square.jpg",
-            "pretext": "<p>ONE SONG<\/p>",
+            "image": "shopify://shop_images/Drumming_Bird_Austin_Sawyer_square.jpg",
+            "pretext": "<p>ONE SONG</p>",
             "title": "AMERICAN SPIRITS",
-            "text": "<p>Does this powerful tune represent a new generation of Appalachian musicians?<\/p>",
+            "text": "<p>Does this powerful tune represent a new generation of Appalachian musicians?</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/music\/one-song-american-spirits",
+            "button_link": "shopify://blogs/music/one-song-american-spirits",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -803,12 +803,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/iStock-1069125066_CROPPED_SQUARE.jpg",
+            "image": "shopify://shop_images/iStock-1069125066_CROPPED_SQUARE.jpg",
             "pretext": "",
             "title": "5 BLOWOUT NEW YEAR’S EVE PARTIES IN APPALACHIA",
             "text": "",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/outdoors-amp-travel\/5-blowout-new-years-eve-parties-in-appalachia",
+            "button_link": "shopify://blogs/outdoors-amp-travel/5-blowout-new-years-eve-parties-in-appalachia",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -818,12 +818,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bear_tea_towel.jpg",
+            "image": "shopify://shop_images/Bear_tea_towel.jpg",
             "pretext": "",
             "title": "FIND YOUR CUP OF TEA",
-            "text": "<p><strong>Choose from dozens of tea towel patterns.<\/strong><\/p>",
+            "text": "<p><strong>Choose from dozens of tea towel patterns.</strong></p>",
             "button_label": "SEE MORE",
-            "button_link": "https:\/\/woodshed.life\/search?type=product,page,article&q=towel*",
+            "button_link": "https://woodshed.life/search?type=product,page,article&q=towel*",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -833,12 +833,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lilly_Formato_square.jpg",
-            "pretext": "<p>'ROUND HERE<\/p>",
+            "image": "shopify://shop_images/Lilly_Formato_square.jpg",
+            "pretext": "<p>'ROUND HERE</p>",
             "title": "WYTHEVILLE",
-            "text": "<p>Discovering phở, drag shows, and hip decor in this surprising Blue Ridge town.<\/p>",
+            "text": "<p>Discovering phở, drag shows, and hip decor in this surprising Blue Ridge town.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/outdoors-amp-travel\/round-here-wytheville-va",
+            "button_link": "shopify://blogs/outdoors-amp-travel/round-here-wytheville-va",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -848,12 +848,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Gift_Card_Woodshed_2.jpg",
+            "image": "shopify://shop_images/Gift_Card_Woodshed_2.jpg",
             "pretext": "",
             "title": "A GIFT THAT KEEPS ON GIVING",
-            "text": "<p>Woodshed gift cards can be used anytime, online or in our Roanoke shop.<\/p>",
+            "text": "<p>Woodshed gift cards can be used anytime, online or in our Roanoke shop.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/products\/woodshed-an-appalachian-joint-gift-card",
+            "button_link": "shopify://products/woodshed-an-appalachian-joint-gift-card",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -863,12 +863,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0513_square.jpg",
+            "image": "shopify://shop_images/IMG_0513_square.jpg",
             "pretext": "",
             "title": "RECIPE: CHEESE SLAW",
-            "text": "<p><strong>The party dip you didn't know you need.<\/strong><\/p>",
+            "text": "<p><strong>The party dip you didn't know you need.</strong></p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/food-1\/recipe-cheese-slaw-the-dip-you-didn-t-know-you-need",
+            "button_link": "shopify://blogs/food-1/recipe-cheese-slaw-the-dip-you-didn-t-know-you-need",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -878,12 +878,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Belsnickel_cropped_square.png",
+            "image": "shopify://shop_images/Belsnickel_cropped_square.png",
             "pretext": "",
             "title": "DRUNK AND SWINGING SWITCHES,",
-            "text": "<p><strong>Belsnickel wants to know if you were naughty or nice.<\/strong><\/p>",
+            "text": "<p><strong>Belsnickel wants to know if you were naughty or nice.</strong></p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/history-amp-culture\/drunk-and-swinging-switches-belsnickel-knows-where-you-live",
+            "button_link": "shopify://blogs/history-amp-culture/drunk-and-swinging-switches-belsnickel-knows-where-you-live",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -893,12 +893,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pimento_Cheese_Square_1000_x_1000.jpg",
+            "image": "shopify://shop_images/Pimento_Cheese_Square_1000_x_1000.jpg",
             "pretext": "",
             "title": "SO MANY ADDICTIVE FLAVORS",
-            "text": "<p><strong>Sweet, savory, and sometimes in between.<\/strong><\/p>",
+            "text": "<p><strong>Sweet, savory, and sometimes in between.</strong></p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/products\/poppy-popcorn",
+            "button_link": "shopify://products/poppy-popcorn",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -908,12 +908,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Whitney_Appalachian_Forager_Square.jpg",
-            "pretext": "<p><\/p>",
+            "image": "shopify://shop_images/Whitney_Appalachian_Forager_Square.jpg",
+            "pretext": "<p></p>",
             "title": "Preserved Mushroom Pasta",
-            "text": "<p>You won't believe what the Appalachian Forager did with the Scratch Pasta we sent her.<\/p>",
+            "text": "<p>You won't believe what the Appalachian Forager did with the Scratch Pasta we sent her.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/food-1\/preserved-mushroom-pasta-with-appalachian-forager",
+            "button_link": "shopify://blogs/food-1/preserved-mushroom-pasta-with-appalachian-forager",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -923,12 +923,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vicious_is_My_Middle_Name_square.jpg",
+            "image": "shopify://shop_images/Vicious_is_My_Middle_Name_square.jpg",
             "pretext": "",
             "title": "VICIOUS IS MY MIDDLE NAME",
-            "text": "<p><strong>\"Mountain folk have a punk attitude all their own.\"<\/strong><\/p>",
+            "text": "<p><strong>\"Mountain folk have a punk attitude all their own.\"</strong></p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/art-amp-lit\/one-passage-vicious-is-my-middle-name",
+            "button_link": "shopify://blogs/art-amp-lit/one-passage-vicious-is-my-middle-name",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -938,12 +938,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_0062_square.jpg",
-            "pretext": "<p><\/p>",
+            "image": "shopify://shop_images/DSC_0062_square.jpg",
+            "pretext": "<p></p>",
             "title": "FINDING TREASURE IN A TRAILER",
-            "text": "<p>\"I was raised to think single-wides were for desperate people. Buying one showed me just how wrong I was.\"<\/p>",
+            "text": "<p>\"I was raised to think single-wides were for desperate people. Buying one showed me just how wrong I was.\"</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/history-amp-culture\/finding-treasure-in-a-trailer",
+            "button_link": "shopify://blogs/history-amp-culture/finding-treasure-in-a-trailer",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -953,12 +953,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dolly_Parton_Motel_Keychain.jpg",
+            "image": "shopify://shop_images/Dolly_Parton_Motel_Keychain.jpg",
             "pretext": "",
             "title": "WISE WORDS FROM tHE DOLLY LAMA",
-            "text": "<p><strong>No one gives better life advice than Dolly Parton.<\/strong><\/p>",
+            "text": "<p><strong>No one gives better life advice than Dolly Parton.</strong></p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/products\/dolly-parton-motel-keychain",
+            "button_link": "shopify://products/dolly-parton-motel-keychain",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -968,12 +968,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Wehrloom_Appalachian_Mountain_Honey.jpg",
+            "image": "shopify://shop_images/Wehrloom_Appalachian_Mountain_Honey.jpg",
             "pretext": "",
             "title": "BE A SWEETIE",
-            "text": "<p>Made from the nectar of N.C. mountain flowers, this honey couldn't be more Appalachian.<\/p>",
+            "text": "<p>Made from the nectar of N.C. mountain flowers, this honey couldn't be more Appalachian.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/products\/appalachian-mountain-honey",
+            "button_link": "shopify://products/appalachian-mountain-honey",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -983,12 +983,12 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mining-for-Love_1000_x_1000.jpg",
-            "pretext": "<p><\/p>",
+            "image": "shopify://shop_images/Mining-for-Love_1000_x_1000.jpg",
+            "pretext": "<p></p>",
             "title": "MINING FOR LOVE",
-            "text": "<p>Stan Jennings remembers the first time he spoke to Sue Williams. It was the start of a night shift in 1985.<\/p>",
+            "text": "<p>Stan Jennings remembers the first time he spoke to Sue Williams. It was the start of a night shift in 1985.</p>",
             "button_label": "SEE MORE",
-            "button_link": "shopify:\/\/blogs\/art-amp-lit\/mining-for-love-how-a-coal-mine-romance-led-to-a-thriving-craft-business",
+            "button_link": "shopify://blogs/art-amp-lit/mining-for-love-how-a-coal-mine-romance-led-to-a-thriving-craft-business",
             "mobile_pretext": "",
             "mobile_title": "",
             "mobile_text": ""
@@ -998,9 +998,9 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "pretext": "<p>Preheading<\/p>",
+            "pretext": "<p>Preheading</p>",
             "title": "Your headline",
-            "text": "<p>Each slide can have its own text and button link. Use it to describe the product, collection, page, etc. that the image depicts.<\/p>",
+            "text": "<p>Each slide can have its own text and button link. Use it to describe the product, collection, page, etc. that the image depicts.</p>",
             "button_label": "",
             "button_link": "",
             "mobile_pretext": "",
@@ -1086,69 +1086,69 @@
         "bf455fa2-fe1e-464f-8237-40305289d6e8": {
           "type": "Slide",
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/Holiday_Gift_Guide_2023_SQUARE.png",
+            "slide_img": "shopify://shop_images/Holiday_Gift_Guide_2023_SQUARE.png",
             "slide_titlet": "FROM CAMPFIRE CARDS TO CHRISTMAS TREE CANDLES,",
             "slide_titlem": "OUR FOUNDER HAS GIFT IDEAS FOR EVERYONE ON YOUR LIST.",
             "slide_text": "",
             "slide_btn_text": "SEE MORE",
-            "slide_btn_url": "shopify:\/\/blogs\/art-amp-lit\/mark-lynn-s-gift-ideas-2023"
+            "slide_btn_url": "shopify://blogs/art-amp-lit/mark-lynn-s-gift-ideas-2023"
           }
         },
         "97298883-32fe-498b-817e-be35b3a90de0": {
           "type": "Slide",
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/Ramp_Vinegar_6ac335f1-11fa-4da1-a9fe-2ee0caa6a003.png",
+            "slide_img": "shopify://shop_images/Ramp_Vinegar_6ac335f1-11fa-4da1-a9fe-2ee0caa6a003.png",
             "slide_titlet": "",
             "slide_titlem": "APPALACHIAN INGREDIENTS",
             "slide_text": "that will make your holiday recipes shine.",
             "slide_btn_text": "SEE MORE",
-            "slide_btn_url": "shopify:\/\/collections\/appalachian-ingredients"
+            "slide_btn_url": "shopify://collections/appalachian-ingredients"
           }
         },
         "ee34182b-5618-449c-8d5b-72e7ab573eea": {
           "type": "Slide",
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/Tractor_SQUARE.jpg",
+            "slide_img": "shopify://shop_images/Tractor_SQUARE.jpg",
             "slide_titlet": "",
             "slide_titlem": "IS KUDZU THE FUTURE OF APPALACHIAN FOOD?",
             "slide_text": "Chef Sean Brock thinks so.",
             "slide_btn_text": "SEE MORE",
-            "slide_btn_url": "shopify:\/\/blogs\/food-1\/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so"
+            "slide_btn_url": "shopify://blogs/food-1/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so"
           }
         },
         "ed373c11-d2de-485c-a5d2-ab058f74b42c": {
           "type": "Slide",
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/I_speak_Fluent_Irony_Candle.jpg",
+            "slide_img": "shopify://shop_images/I_speak_Fluent_Irony_Candle.jpg",
             "slide_titlet": "SHOUT OUT TO",
             "slide_titlem": "VIRGINIA MAKERS",
             "slide_text": "Shop dozens of products made in the Old Dominion.",
             "slide_btn_text": "SEE MORE",
-            "slide_btn_url": "shopify:\/\/collections\/made-in-virginia"
+            "slide_btn_url": "shopify://collections/made-in-virginia"
           }
         },
         "39fdc5ed-c2fe-4bdc-8e00-76249a415d01": {
           "type": "Slide",
           "disabled": true,
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/HellBilly_Hits_SQUARE.png",
+            "slide_img": "shopify://shop_images/HellBilly_Hits_SQUARE.png",
             "slide_titlet": "PLAYLIST",
             "slide_titlem": "HELLIBILLY HITS",
             "slide_text": "These Appalachian artists were punk before punk was even a thing.",
             "slide_btn_text": "SEE MORE",
-            "slide_btn_url": "shopify:\/\/blogs\/music\/playlist-hellbilly-hits"
+            "slide_btn_url": "shopify://blogs/music/playlist-hellbilly-hits"
           }
         },
         "1ce40827-9f0d-4102-997b-c41e444c054c": {
           "type": "Slide",
           "disabled": true,
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/05-Dandelion-Root_SQUARE_54574b61-753d-464c-a113-95e00b427ad9.jpg",
+            "slide_img": "shopify://shop_images/05-Dandelion-Root_SQUARE_54574b61-753d-464c-a113-95e00b427ad9.jpg",
             "slide_titlet": "",
             "slide_titlem": "FOUR FOURAGED FOODS",
             "slide_text": "that will wow your Thanksgiving guests.",
             "slide_btn_text": "SEE MORE",
-            "slide_btn_url": "shopify:\/\/blogs\/food-1\/four-foraged-foods-that-will-wow-thanksgiving-guests"
+            "slide_btn_url": "shopify://blogs/food-1/four-foraged-foods-that-will-wow-thanksgiving-guests"
           }
         }
       },
@@ -1234,27 +1234,27 @@
         "1293cc6f-b691-40a9-9631-d79804c35c1a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/makers.png",
+            "image": "shopify://shop_images/makers.png",
             "section_heading": "YOU SUPPORT\n<br>\nOUR MAKERS",
-            "icon": "shopify:\/\/shop_images\/Hammers.svg",
+            "icon": "shopify://shop_images/Hammers.svg",
             "section_body": "And help keep Appalachian crafts alive."
           }
         },
         "288b1fea-39f4-44b4-8d32-333c1ad4c58b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/writers.png",
+            "image": "shopify://shop_images/writers.png",
             "section_heading": "YOU SUPPORT\n<br>\nOUR WRITERS",
-            "icon": "shopify:\/\/shop_images\/Quill.svg",
+            "icon": "shopify://shop_images/Quill.svg",
             "section_body": "So we can all enjoy their powerful stories."
           }
         },
         "8884080d-bb0f-45dd-902b-476d3cb76aa2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-photo-12797726_1_1.png",
+            "image": "shopify://shop_images/pexels-photo-12797726_1_1.png",
             "section_heading": "YOU\n<br>\nSAVE TREES",
-            "icon": "shopify:\/\/shop_images\/Layer_1.svg",
+            "icon": "shopify://shop_images/Layer_1.svg",
             "section_body": "Because we ship products in gently reused boxes."
           }
         }
@@ -1274,11 +1274,11 @@
         "coll_custom": "farmhouse-pottery",
         "coll_custom_mobile": "farmhouse-pottery",
         "section_heading": "Featured Maker",
-        "left_image": "shopify:\/\/shop_images\/james_farmhouse_pottery_CROPPED.jpg",
+        "left_image": "shopify://shop_images/james_farmhouse_pottery_CROPPED.jpg",
         "maker_name": "FARMHOUSE POTTERY",
         "maker_desc": "In 2012, James Zillian founded Farmhouse Pottery in Vermont’s beautiful Green Mountains. Committed to old-world methods and design, he and his team create bespoke goods that bring authenticity and joy to your home.",
         "maker_link_text": "See more",
-        "maker_link_url": "https:\/\/woodshed.life\/collections\/vendors?q=Root%20%26%20Branch%20Paper%20Co."
+        "maker_link_url": "https://woodshed.life/collections/vendors?q=Root%20%26%20Branch%20Paper%20Co."
       }
     },
     "ee8c59a4-fce6-43fe-bdc7-ad4f95dabcfc": {
@@ -1303,7 +1303,7 @@
       "type": "index__newsletter",
       "settings": {
         "newsletter_title": "JOIN THIS JOINT. <br> GET 10% OFF.",
-        "newsletter_richtext": "<p>Connect with us for the latest promos, stories, and products.<\/p>",
+        "newsletter_richtext": "<p>Connect with us for the latest promos, stories, and products.</p>",
         "newsletter_btn_text": "",
         "newsletter_btn_url": "",
         "newsletter_section_text_align": "left",
@@ -1312,7 +1312,7 @@
         "background_color": "#1f989e",
         "text_color": "#ffffff",
         "image_darken": false,
-        "image": "shopify:\/\/shop_images\/Stacked_wood_stock_art_from_pexels.jpg",
+        "image": "shopify://shop_images/Stacked_wood_stock_art_from_pexels.jpg",
         "image_position": "right",
         "width": "wide",
         "padding_top": 24,
@@ -1457,11 +1457,11 @@
         "163760138498df96b0-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wild-rabbit-hash-e1476197515307-1024x749.jpg",
+            "image": "shopify://shop_images/wild-rabbit-hash-e1476197515307-1024x749.jpg",
             "icon_label": "",
             "title": "FOOD",
             "text": "",
-            "link": "shopify:\/\/blogs\/food-1",
+            "link": "shopify://blogs/food-1",
             "overlay_text": "rgba(0,0,0,0)",
             "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 0
@@ -1470,11 +1470,11 @@
         "163760138498df96b0-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reverb-amp-for-playing-sweet-music.jpg",
+            "image": "shopify://shop_images/reverb-amp-for-playing-sweet-music.jpg",
             "icon_label": "",
             "title": "MUSIC",
-            "text": "<p><\/p>",
-            "link": "shopify:\/\/blogs\/music",
+            "text": "<p></p>",
+            "link": "shopify://blogs/music",
             "overlay_text": "rgba(0,0,0,0)",
             "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 70
@@ -1483,11 +1483,11 @@
         "163760138498df96b0-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4655-e1527471073400-1024x640.jpg",
+            "image": "shopify://shop_images/IMG_4655-e1527471073400-1024x640.jpg",
             "icon_label": "",
             "title": "OUTDOOR + TRAVEL",
             "text": "",
-            "link": "shopify:\/\/blogs\/outdoors-amp-travel",
+            "link": "shopify://blogs/outdoors-amp-travel",
             "overlay_text": "rgba(0,0,0,0)",
             "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 70
@@ -1523,11 +1523,11 @@
         "16647369974685f8aa-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8108_copy.jpg",
+            "image": "shopify://shop_images/IMG_8108_copy.jpg",
             "icon_label": "",
             "title": "ART + LIT",
             "text": "",
-            "link": "shopify:\/\/blogs\/art-amp-lit",
+            "link": "shopify://blogs/art-amp-lit",
             "overlay_text": "rgba(0,0,0,0)",
             "overlay_background": "#000000",
             "overlay_background_opacity": 20
@@ -1536,11 +1536,11 @@
         "16647369974685f8aa-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rural-Retreat_5b05cdb3-4b87-4534-8471-086cfde07fb9.jpg",
+            "image": "shopify://shop_images/Rural-Retreat_5b05cdb3-4b87-4534-8471-086cfde07fb9.jpg",
             "icon_label": "",
             "title": "HISTORY + CULTURE",
             "text": "",
-            "link": "shopify:\/\/blogs\/history-amp-culture",
+            "link": "shopify://blogs/history-amp-culture",
             "overlay_text": "rgba(0,0,0,0)",
             "overlay_background": "#000000",
             "overlay_background_opacity": 30
@@ -1549,11 +1549,11 @@
         "16647369974685f8aa-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1584.jpg",
+            "image": "shopify://shop_images/IMG_1584.jpg",
             "icon_label": "",
             "title": "OUR FARM",
-            "text": "<p><\/p>",
-            "link": "shopify:\/\/blogs\/our-farm",
+            "text": "<p></p>",
+            "link": "shopify://blogs/our-farm",
             "overlay_text": "rgba(0,0,0,0)",
             "overlay_background": "#000000",
             "overlay_background_opacity": 0
