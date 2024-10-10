@@ -11,16 +11,16 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/01_-_Sunsphere_2024_Bruce_McCamish_Photography_TEMP_FEATURED.jpg",
+        "image": "shopify://shop_images/Kinship_During_Hurricane_FINAL_OPTION_2_FEATURED.png",
+        "mobile_image": "shopify://shop_images/Kinship_During_Hurricane_FINAL_OPTION_2_FEATURED.png",
         "link": "",
-        "pretext": "",
-        "title": "HOW \"THE SIMPSONS\"",
-        "subtitle": "<p><strong>SAVED THE SUNSPHERE</strong></p>",
+        "pretext": "<p>FINDING KINSHIP</p>",
+        "title": "IN THE HURRICANE'S WAKE",
+        "subtitle": "",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -33,7 +33,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/outdoors-amp-travel/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
+        "button_1_link": "shopify://blogs/history-amp-culture/finding-kinship-in-the-wake-of-hurricane-helene",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -106,6 +106,7 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Breaker_Boys_in_Pa_mine_FEATURED_copy.jpg",
         "mobile_image": "shopify://shop_images/Breaker_Boys_in_Pa_mine_FEATURED_copy.jpg",
@@ -199,6 +200,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Breaker_Boys_in_Pa_mine_SQUARE.jpg",
+            "mobile_grid_image": "shopify://shop_images/Breaker_Boys_in_Pa_mine_SQUARE.jpg",
+            "link": "shopify://blogs/history-amp-culture/the-untold-story-of-pennsylvania-s-mine-wars",
+            "heading": "THE UNTOLD STORY OF",
+            "text": "Pennsyvlania's mine wars.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
@@ -228,21 +244,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/01_-_Sunsphere_2024_Bruce_McCamish_Photography_SQUARE.jpg",
-            "mobile_grid_image": "shopify://shop_images/01_-_Sunsphere_2024_Bruce_McCamish_Photography_SQUARE.jpg",
-            "link": "shopify://blogs/outdoors-amp-travel/weird-appalachia-how-the-simpsons-saved-the-sunsphere",
-            "heading": "HOW \"THE SIMPSONS\"",
-            "text": "saved the Sunsphere in Knoxville, Tenn.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -260,9 +261,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
