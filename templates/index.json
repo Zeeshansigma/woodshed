@@ -1166,9 +1166,35 @@
     },
     "d66f23a7-6279-4cdf-807e-5700fe292fd6": {
       "type": "index__featured-collection",
+      "disabled": true,
       "custom_css": [
         ".container h2 {margin-top: 50px;}"
       ],
+      "settings": {
+        "title": "BRAND SPANKIN' NEW",
+        "collection": "new",
+        "products_per": 4,
+        "products_limit": 50,
+        "align_height": false,
+        "collection_height": 200,
+        "button_label": "",
+        "button_style": "button--primary",
+        "collection_style": "slider",
+        "width": "wide",
+        "show_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "animation": "none",
+        "collection_layout_mobile": "slider",
+        "mobile_products_per_row": "1",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_featured_collection_9faLUT": {
+      "type": "index__featured-collection",
       "settings": {
         "title": "BRAND SPANKIN' NEW",
         "collection": "new",
@@ -1594,6 +1620,7 @@
     "1664305364127870be",
     "197a6fe7-a58b-4a0c-8757-938c4bca85d7",
     "d66f23a7-6279-4cdf-807e-5700fe292fd6",
+    "index_featured_collection_9faLUT",
     "79e6b01b-fca3-4bb8-8ae7-0904e6a98660",
     "d57abab4-c4a8-4e7d-9ebe-d8b7b9d70b4b",
     "cc291733-b5c9-436b-b935-f2d05fe680af",
