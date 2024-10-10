@@ -1196,8 +1196,8 @@
     "index_featured_collection_9faLUT": {
       "type": "index__featured-collection",
       "settings": {
-        "title": "BRAND SPANKIN' NEW",
-        "collection": "new",
+        "title": "SUPPORT CRAFTERS IN HURRICANE DAMAGED AREAS",
+        "collection": "supporter-crafters-in-hurricane-affected-communities",
         "products_per": 4,
         "products_limit": 50,
         "align_height": false,
