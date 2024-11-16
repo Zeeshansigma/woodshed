@@ -11,6 +11,7 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
@@ -106,27 +107,26 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Breaker_Boys_in_Pa_mine_FEATURED_copy.jpg",
-        "mobile_image": "shopify://shop_images/Breaker_Boys_in_Pa_mine_FEATURED_copy.jpg",
+        "image": "shopify://shop_images/twincreeks_mashing-11_FEATURED.jpg",
+        "mobile_image": "shopify://shop_images/twincreeks_mashing-11_FEATURED.jpg",
         "link": "shopify://blogs/food-1/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-        "pretext": "<p>THE UNTOLD STORY OF</p>",
-        "title": "PENNSYLVANIA'S MINE WARS",
-        "subtitle": "",
+        "pretext": "",
+        "title": "Prison didn’t stop one moonshine kingpin.",
+        "subtitle": "<p>HIS FAMILY STILL DISTILLS 89 YEARS LATER.</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
         "text_alignment": "right",
         "text_horizontal_position": "right",
         "text_vertical_position": "bottom",
-        "text_width": 48,
+        "text_width": 42,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/history-amp-culture/the-untold-story-of-pennsylvania-s-mine-wars",
+        "button_1_link": "shopify://blogs/history-amp-culture/prison-didn-t-stop-one-moonshine-kingpin-his-family-still-distills-89-years-later",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -200,6 +200,20 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Kinship_During_Hurricane_FINAL_OPTION_2_SQUARE_3.png",
+            "link": "shopify://blogs/history-amp-culture/finding-kinship-in-the-wake-of-hurricane-helene",
+            "heading": "FINDING KINSHIP",
+            "text": "in the hurricane's wake",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -212,20 +226,6 @@
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
             "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Pins_and_stickers_SQUARE.jpg",
-            "link": "shopify://blogs/music/recovery-and-grief-at-the-healing-appalachia-music-festival",
-            "heading": "RECOVERY AND GRIEF",
-            "text": "at the Healing Appalachia music festival",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
             "overlay_background_opacity": 0
           }
         },
@@ -261,8 +261,8 @@
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
@@ -1162,8 +1162,7 @@
         "1ce40827-9f0d-4102-997b-c41e444c054c"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "d66f23a7-6279-4cdf-807e-5700fe292fd6": {
       "type": "index__featured-collection",
