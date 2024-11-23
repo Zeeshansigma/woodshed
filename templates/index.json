@@ -1166,7 +1166,6 @@
     },
     "d66f23a7-6279-4cdf-807e-5700fe292fd6": {
       "type": "index__featured-collection",
-      "disabled": true,
       "custom_css": [
         ".container h2 {margin-top: 50px;}"
       ],
@@ -1195,6 +1194,7 @@
     },
     "index_featured_collection_9faLUT": {
       "type": "index__featured-collection",
+      "disabled": true,
       "settings": {
         "title": "SUPPORT CRAFTERS IN HURRICANE DAMAGED AREAS",
         "collection": "supporter-crafters-in-hurricane-affected-communities",
