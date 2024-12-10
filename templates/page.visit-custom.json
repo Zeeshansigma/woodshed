@@ -566,9 +566,70 @@
         "main_visit_mobile": "shopify://shop_images/Downtoqwn_Roanoke_2048x2048_2_e95f874a-7d18-4220-abad-92a8d94699c4.png",
         "main_visit_mobile_sec": "shopify://shop_images/image_35_57db009e-cbe7-4064-80ac-33d29e640897.png"
       }
+    },
+    "index_image_with_text_gfzfQ4": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_UM9AUg": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_text": "",
+            "image_text_mob": "",
+            "image_link": ""
+          }
+        },
+        "image_gNU6Gf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAIN_01_-_Blue_Ridge_Scenic_Railway_Courtesy_of_Georgia_s_Blue_Ridge_SQUARE.jpg",
+            "image_text": "",
+            "image_text_mob": "",
+            "image_link": ""
+          }
+        },
+        "text_DFPR4g": {
+          "type": "text",
+          "settings": {
+            "title": "SPECIAL THANKS TO MONGE & ASSOCIATES",
+            "heading_size": "regular",
+            "text": "<p><strong>for generously supporting Woodshed and giving back to the Roanoke community.</strong></p>",
+            "alignment": "left",
+            "vertical_position": "center",
+            "button_label": "LEARN MORE",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "mobile_title": "",
+            "mobile_heading_size": "same_as_desktop",
+            "mobile_text": "",
+            "mobile_alignment": "same_as_desktop"
+          }
+        }
+      },
+      "block_order": [
+        "image_UM9AUg",
+        "image_gNU6Gf",
+        "text_DFPR4g"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wide",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "mobile_text_position": "same_as_desktop",
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "index_image_with_text_gfzfQ4"
   ]
 }
