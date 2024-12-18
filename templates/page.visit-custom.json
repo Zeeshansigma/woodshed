@@ -582,7 +582,8 @@
         "image_gNU6Gf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MAIN_01_-_Blue_Ridge_Scenic_Railway_Courtesy_of_Georgia_s_Blue_Ridge_SQUARE.jpg",
+            "image": "shopify://shop_images/Monge_Square_Logo.png",
+            "mobile_image": "shopify://shop_images/Monge_Square_Logo.png",
             "image_text": "",
             "image_text_mob": "",
             "image_link": ""
