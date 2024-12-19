@@ -582,8 +582,7 @@
         "image_gNU6Gf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Monge_Square_Logo.png",
-            "mobile_image": "shopify://shop_images/Monge_Square_Logo.png",
+            "image": "shopify://shop_images/Monge_and_Associated_logo_white_area.png",
             "image_text": "",
             "image_text_mob": "",
             "image_link": ""
@@ -598,8 +597,8 @@
             "alignment": "left",
             "vertical_position": "center",
             "button_label": "LEARN MORE",
-            "link": "",
-            "button_style": "button--primary",
+            "link": "https://www.becauseyouwanttowin.com/roanoke-virginia-personal-injury-lawyer/",
+            "button_style": "button--secondary",
             "background": "rgba(0,0,0,0)",
             "text_color": "rgba(0,0,0,0)",
             "mobile_title": "",
@@ -614,7 +613,6 @@
         "image_gNU6Gf",
         "text_DFPR4g"
       ],
-      "disabled": true,
       "settings": {
         "width": "wide",
         "show_gutter": true,
