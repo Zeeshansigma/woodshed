@@ -1273,6 +1273,7 @@
     },
     "index_featured_collection_9faLUT": {
       "type": "index__featured-collection",
+      "disabled": true,
       "settings": {
         "title": "GIFTS UNDER $35",
         "collection": "under-35",
