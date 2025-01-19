@@ -1,0 +1,898 @@
+
+      <div class="zn-container" >
+      
+          <div id="znid-887051707242"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i>THE HARDWORKING CREW FROM SHENANDOAH HABITATS PLANTS TREES ON OUR BEDFORD, VA. LAND.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-775710845061"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><p>“So what happened to the forest that was here before? My ancestors cleared it, which made a lot of sense. It was key to their survival.”&nbsp;</p></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-397115314650"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>When my husband Alex and I bought my old family farm three years ago, we knew we wanted to make it greener, but we had no clue about where to start.</p><p><br></p><p>Over half of our 225 acres was pastureland — much more open space than we needed or wanted. We could have stopped bush hogging it, and trees would have returned gradually. But let’s be honest. I ain’t getting any younger. Hoping to grow a full-size forest before I go toes up, I began combing the internet for planting programs. </p><p><br></p><p>Turns out, a lot of institutions will loan you large sums of money at exorbitant interest rates to plant trees. That was a no-go. </p><p><br></p><p>Then I discovered a too-good-to-be-true USDA program. It claimed it could plant a lot of trees without us paying a dime. I reached out to our USDA district conservationist, fully prepared to be disappointed. </p><p><br></p><p>Boy was I wrong. </p><p><br></p><p>In December 2024, without spending a penny of our own money, we planted 8,500 wonderful little trees. It was the program’s largest known planting on individually-owned land in the Roanoke, Virginia metro.</p><p><br></p><p>The best part: As this new forest grows, it will restore nature’s balance in an area that was clear-cut by my ancestors nearly two centuries ago.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-715497270575"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="video"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-video "   >
+          
+          
+            
+            
+            
+            
+          
+
+          
+            
+          
+          
+          <div class="zn-video-frame">
+            
+            <iframe
+              class="zn-embed-iframe"
+              width="640"
+              height="360"
+              src="https://www.youtube.com/embed/BpNNGx-RVXs?playlist=BpNNGx-RVXs&autoplay=false&loop=false&mute=true&controls=1&modestbranding=1&playsinline=1&rel=0"
+              frameborder="0">
+            </iframe>
+            
+
+            
+           
+            
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-699001462937"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>One very special tree — the American chestnut hybrid — was among the dozens of native species we added. The American chestnut once comprised about a third of the Great Eastern Forest in the U.S. It was a cornerstone of wild animals’ diets and a coveted building material due to its very hard wood. A foreign blight effectively made these trees extinct in the first half of the 20th century. Today, the original American Chestnut tree cannot grow past the size of a shrub before succumbing to this disease, but these new hybrids are more blight resistant. We can’t wait to see how they do. </p><p>In addition to this giant planting project, we’re also working with Blue Ridge Land Conservancy to protect our land using a conservation easement. The easement will be in effect in perpetuity, meaning that, as long as there’s a U.S. legal system, our forest will be protected from development.&nbsp;</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-055341429716"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   >MADE IN VIRGINIA</h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-670675931108"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['made-in-virginia'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 8 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 8 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-014340642097-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-482282578185-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if 'MADE IN VIRGINIA' == '' %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-929188591054"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i style="font-weight: normal;">Every purchase helps keep our Appalachian magazine alive, thriving, and free to readers like you.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-961391436842"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>If you’d like to explore trees through the <a href="https://www.fsa.usda.gov/resources/programs/conservation-reserve-enhancement-program-crep">Conservation Reserve and Enhancement Program</a>, contact your area <a href="https://www.nrcs.usda.gov/">USDA service center</a>. </p><p><br></p><p>If you’d like a company to plant trees for you, <a href="https://shenandoahhabitats.com/">Shenandoah Habitats</a>, the company that planted ours, is amazing. </p><p><br></p><p>If you’re interested in protecting your forest or farmland with a <a href="https://farmlandaccess.org/conservation-easements/">conservation easement</a>, search for “conservation land trusts” in your area. We’ll share details about our easement in the future, but three important things to note: </p><p><br></p><p>1)&nbsp;<span style="font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;">Even with the easement, you still own your land.</span></p><p><span style="font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;"><br></span></p><p><span style="font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;">2)&nbsp;</span><span style="font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;">Through federal tax deductions and the sale of state tax credits, a conservation easement can actually generate significant revenue.</span></p><p><br></p><p>3) A conservation easement doesn’t prohibit all development. Working with a land trust, you can carve out areas for light development while protecting most of your land forever.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-171723970846"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="horizontal_line" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-horizontal-line"> 
+          <hr id="" class=""    />
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-732121231972"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><div id="znid-983976489376" data-type="text"><div><div id=""><div id="znid-657733542649" data-type="text" data-background-type="none" data-border-enable="false" data-shadow-enable="false" data-text-shadow-enable="false"><div><div>Mark Lynn Ferguson founded Woodshed. His work has appeared in The Washington Post, Chicago Tribune, The Seattle Times, and many Appalachian publications. He lives in Roanoke, Virginia, where he loves cooking a mess of fried taters and picking pawpaws.</div></div></div></div></div></div></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-341543930511"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="8-4 8-4 12-12" data-vertical-align="center" data-border-enable="true" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-8 zn-column-md-8 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-495851761098"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="banner" data-full-width="false" data-effect="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-banner " tabindex="0" role="link"   > 
+          <div class="zn-children-container">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-196396855744"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-315865073335"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-563151390850"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h4 id="" class="zn-heading "   >NIGHTFALL: OUR FARM IN WORDS AND PHOTOS</h4>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-013171871445"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >SEE MORE</div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-4 zn-column-md-4 zn-column-sm-12">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-995651962027"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-border-enable="true" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-852282094869"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><div>NEXT UP</div></h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-909884052916"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="6-6 6-6 6-6" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-109242970145"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/biscuit-head-new-southern-biscuits-breakfasts-and-brunch">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Appalachian-Heart-Sticker-27704817.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-222235857839"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/southern-from-scratch">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Coal-dust-27704562.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-571007041096"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="button" data-hover-options="false" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-button">
+          
+          
+            
+            
+            <a href="/collections/appalachian-essentials" target="">
+          
+          <button type="button" id="" class=""   >
+            
+            <div class="zn-button-text">
+              APPALACHIAN ESSENTIALS
+            </div>
+          </button>
+          
+          </a>
+          
+        </div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="page-settings" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="container-style" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="scheduled-publish" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="currency-converter" >
+            <div class="zn-addon zn-lg  ">
+              
+    
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="messenger" >
+            <div class="zn-addon zn-lg  ">
+              
+    <div class="zn-messenger">
+      
+      
+      <div class="fb-customerchat" page_id="" theme_color="#0A7CFF" greeting_dialog_display="hide"></div>
+    </div>
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="announcement-bar" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="lazy-loading" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="color-palette" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="breakpoints" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="custom-css" >
+            
+            
+            
+          </div>
+        
+</div>
