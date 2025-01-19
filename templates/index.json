@@ -16,7 +16,7 @@
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Kinship_During_Hurricane_FINAL_OPTION_2_FEATURED.png",
+        "image": "shopify://shop_images/IMG_0085.jpg",
         "mobile_image": "shopify://shop_images/Kinship_During_Hurricane_FINAL_OPTION_2_FEATURED.png",
         "link": "",
         "pretext": "<p>FINDING KINSHIP</p>",
@@ -62,25 +62,25 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Alumnimum_Tree_FEATURED.png",
-        "mobile_image": "shopify://shop_images/Alumnimum_Tree_FEATURED.png",
+        "image": "shopify://shop_images/Hector_HOMEPAGE.jpg",
+        "mobile_image": "shopify://shop_images/Hector_HOMEPAGE.jpg",
         "link": "",
         "pretext": "",
-        "title": "ALUMINUM TREES",
-        "subtitle": "<p><strong>MAKE A COMEBACK IN N.C. MUSEUM.</strong></p>",
+        "title": "WE'RE RESTORING A FOREST",
+        "subtitle": "<p><strong>AND RETURNING THE AMERICAN CHESTNUT TO OUR LAND.</strong></p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
         "text_alignment": "left",
         "text_horizontal_position": "left",
-        "text_vertical_position": "bottom",
+        "text_vertical_position": "middle",
         "text_width": 40,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/history-amp-culture/a-very-kitschy-christmas-aluminum-trees-make-a-comeback",
+        "button_1_link": "shopify://blogs/our-farm/we-re-restoring-a-forest-and-returning-the-american-chestnut-tree-to-our-land",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,6 +202,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/tempImageAIcssO.heic",
+            "mobile_grid_image": "shopify://shop_images/tempImageAIcssO.heic",
+            "link": "shopify://blogs/history-amp-culture/a-very-kitschy-christmas-aluminum-trees-make-a-comeback",
+            "heading": "ALUMINUM TREES",
+            "text": "make a comeback",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -232,21 +247,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Holiday_Gift_Guide_2024_84706f95-40cf-40d6-9c0f-8f7086bea9c1.png",
-            "mobile_grid_image": "shopify://shop_images/Holiday_Gift_Guide_2024_84706f95-40cf-40d6-9c0f-8f7086bea9c1.png",
-            "link": "shopify://blogs/art-amp-lit/mark-lynns-gift-ideas-2024",
-            "heading": "GIFT GUIDE",
-            "text": "2024",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -264,9 +264,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
