@@ -1173,8 +1173,8 @@
         ".container h2 {margin-top: 50px;}"
       ],
       "settings": {
-        "title": "LOVE IS IN THE AIR",
-        "collection": "love-is-in-the-air",
+        "title": "BRAND SPANKIN' NEW",
+        "collection": "new",
         "products_per": 4,
         "products_limit": 50,
         "align_height": false,
