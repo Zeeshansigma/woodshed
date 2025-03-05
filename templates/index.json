@@ -62,17 +62,17 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/whiskey_museum_FEATURED.jpg",
-        "mobile_image": "shopify://shop_images/whiskey_museum_FEATURED.jpg",
+        "image": "shopify://shop_images/chai_tea_recipe_main_FEATURED.png",
+        "mobile_image": "shopify://shop_images/chai_tea_recipe_main_FEATURED.png",
         "link": "",
         "pretext": "",
-        "title": "IMBIBE YOUR WAY",
-        "subtitle": "<p><strong>AROUND APPALACHIAN PA.</strong></p>",
+        "title": "RECIPE: SMOKY MOUNTAIN SPICE BREW",
+        "subtitle": "",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "left",
-        "text_horizontal_position": "left",
+        "text_alignment": "right",
+        "text_horizontal_position": "right",
         "text_vertical_position": "middle",
         "text_width": 40,
         "background_color": "#c79f4a",
@@ -80,7 +80,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/outdoors-amp-travel/imbibe-your-way-around-appalachian-pa",
+        "button_1_link": "shopify://blogs/food-1/recipe-smoky-mountain-spice-brew",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,6 +202,20 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/whiskey_museum_SQUARE.jpg",
+            "link": "shopify://blogs/outdoors-amp-travel/imbibe-your-way-around-appalachian-pa",
+            "heading": "IMBIBE YOUR WAY",
+            "text": "around Appalachian Pa.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
@@ -232,21 +246,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/MAIN_01_-_Blue_Ridge_Scenic_Railway_Courtesy_of_Georgia_s_Blue_Ridge_SQUARE.jpg",
-            "mobile_grid_image": "shopify://shop_images/MAIN_01_-_Blue_Ridge_Scenic_Railway_Courtesy_of_Georgia_s_Blue_Ridge_SQUARE.jpg",
-            "link": "shopify://blogs/outdoors-amp-travel/these-four-festive-trains-make-the-holidays-magical",
-            "heading": "FOUR FESTIVE TRAINS",
-            "text": "that make the holidays magical.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -264,9 +263,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
