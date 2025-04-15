@@ -62,12 +62,12 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Andi_Marie_Tillman_HOMEPAGE.jpg",
-        "mobile_image": "shopify://shop_images/Andi_Marie_Tillman_HOMEPAGE.jpg",
+        "image": "shopify://shop_images/MAIN_01_-_Roan_Mountain_Photo_by_J._Smilanic_courtesy_of_ExploreAsheville.com_FEATURED.jpg",
+        "mobile_image": "shopify://shop_images/MAIN_01_-_Roan_Mountain_Photo_by_J._Smilanic_courtesy_of_ExploreAsheville.com_FEATURED.jpg",
         "link": "",
         "pretext": "",
-        "title": "A ONE-WOMAN \"HEE HAW,\"",
-        "subtitle": "<p>Andi Marie Tillman is breaking the internet.</p>",
+        "title": "5 APPALACHIAN WILDFLOWER HIKES",
+        "subtitle": "<p>to soothe your soul</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -80,7 +80,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/art-amp-lit/a-one-woman-hee-haw-andi-marie-tillman-is-breaking-the-internet",
+        "button_1_link": "shopify://blogs/outdoors-amp-travel/5-appalachian-wildflower-hikes-to-soothe-your-soul",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,6 +202,20 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/AndiTillman-9776_SQUARE.jpg",
+            "link": "shopify://blogs/art-amp-lit/a-one-woman-hee-haw-andi-marie-tillman-is-breaking-the-internet",
+            "heading": "A ONE WOMAN \"HEE-HAW\"",
+            "text": "is breaking the internet.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
@@ -231,20 +245,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/whiskey_museum_SQUARE.jpg",
-            "link": "shopify://blogs/outdoors-amp-travel/imbibe-your-way-around-appalachian-pa",
-            "heading": "IMBIBE YOUR WAY",
-            "text": "around Appalachian Pa.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -262,9 +262,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
