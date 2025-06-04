@@ -62,25 +62,25 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Edna_Lewis_Dinner_FEATURED.jpg",
+        "image": "shopify://shop_images/04_-_The_Treehouse_at_Moose_Meadow._Photo_by_Travis_Burke_Photography_HOMEPAGE.jpg",
         "mobile_image": "shopify://shop_images/Edna_Lewis_Dinner_FEATURED.jpg",
         "link": "",
         "pretext": "",
-        "title": "COOKING LIKE EDNA LEWIS",
-        "subtitle": "<p>The Appalachian chef who brought Southern food to the world</p>",
+        "title": "5 LUXE TREEHOUSES",
+        "subtitle": "<p>that elevate summer vacations</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "text_horizontal_position": "left",
-        "text_vertical_position": "middle",
-        "text_width": 47,
+        "text_vertical_position": "bottom",
+        "text_width": 43,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/food-1/cooking-like-edna-lewis-the-appalachian-chef-who-brought-southern-food-to-the-world",
+        "button_1_link": "shopify://blogs/outdoors-amp-travel/5-luxe-treehouses-that-elevate-summer-vacations",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,6 +202,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Edna_Lewis_Dinner_SQUARE.jpg",
+            "mobile_grid_image": "shopify://shop_images/Edna_Lewis_Dinner_SQUARE.jpg",
+            "link": "shopify://blogs/food-1/cooking-like-edna-lewis-the-appalachian-chef-who-brought-southern-food-to-the-world",
+            "heading": "COOKING LIKE EDNA LEWIS",
+            "text": "the Appalachian chef who brought Southern food to the world",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -232,21 +247,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Hector_SQUARE.jpg",
-            "mobile_grid_image": "shopify://shop_images/Hector_SQUARE.jpg",
-            "link": "shopify://blogs/our-farm/we-re-restoring-a-forest-and-returning-the-american-chestnut-tree-to-our-land",
-            "heading": "WE'RE RESTORING A FOREST",
-            "text": "with American chestnut hybrids.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -264,9 +264,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
