@@ -62,25 +62,25 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/02_-_Pennsylvania_Firefly_Festival_Peggy_Butler_FEATURED.jpg",
-        "mobile_image": "shopify://shop_images/02_-_Pennsylvania_Firefly_Festival_Peggy_Butler_FEATURED.jpg",
+        "image": "shopify://shop_images/Summer_Reading_List_Pop_Art_FEATURED.png",
+        "mobile_image": "shopify://shop_images/Summer_Reading_List_Pop_Art_FEATURED.png",
         "link": "",
         "pretext": "",
-        "title": "GLOW TIME",
-        "subtitle": "<p>Your guide to firefly season in Apapalchia</p>",
+        "title": "OUR SUMMER READING LIST",
+        "subtitle": "<p>is made for the shade.</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "right",
-        "text_horizontal_position": "right",
-        "text_vertical_position": "bottom",
+        "text_alignment": "left",
+        "text_horizontal_position": "left",
+        "text_vertical_position": "middle",
         "text_width": 40,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/outdoors-amp-travel/glow-time-your-guide-to-firefly-season-in-appalachia",
+        "button_1_link": "shopify://blogs/art-amp-lit/from-authors-like-barbara-kingsolver-and-david-joy-these-books-are-made-for-the-shade",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,6 +202,36 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "ad969059-2d4f-422c-9ed6-8271b95831b7": {
+          "type": "grid_item",
+          "disabled": true,
+          "settings": {
+            "grid_image": "shopify://shop_images/Holiday_Gift_Guide_2023_SQUARE.png",
+            "link": "shopify://blogs/art-amp-lit/mark-lynn-s-gift-ideas-2023",
+            "heading": "FROM CAMPFIRE CARDS TO CHRISTMAS TREE CANDLES,",
+            "text": "our founder has ideas for everyone on your list.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/02_-_Pennsylvania_Firefly_Festival_Peggy_Butler_SQUARE.jpg",
+            "mobile_grid_image": "shopify://shop_images/02_-_Pennsylvania_Firefly_Festival_Peggy_Butler_SQUARE.jpg",
+            "link": "shopify://blogs/outdoors-amp-travel/glow-time-your-guide-to-firefly-season-in-appalachia",
+            "heading": "GLOW TIME",
+            "text": "Your guide to firefly season in Appalachia",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
@@ -231,43 +261,13 @@
             "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 0
           }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Sierra_Hull_SQUARE.png",
-            "mobile_grid_image": "shopify://shop_images/Sierra_Hull_SQUARE.png",
-            "link": "shopify://blogs/music/one-song-spitfire-by-sierra-hull",
-            "heading": "ONE SONG: \"SPITFIRE\"",
-            "text": "by Sierra Hull",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
-        "ad969059-2d4f-422c-9ed6-8271b95831b7": {
-          "type": "grid_item",
-          "disabled": true,
-          "settings": {
-            "grid_image": "shopify://shop_images/Holiday_Gift_Guide_2023_SQUARE.png",
-            "link": "shopify://blogs/art-amp-lit/mark-lynn-s-gift-ideas-2023",
-            "heading": "FROM CAMPFIRE CARDS TO CHRISTMAS TREE CANDLES,",
-            "text": "our founder has ideas for everyone on your list.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
+        "ad969059-2d4f-422c-9ed6-8271b95831b7",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "ad969059-2d4f-422c-9ed6-8271b95831b7"
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2"
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
