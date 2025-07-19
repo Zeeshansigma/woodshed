@@ -1,0 +1,898 @@
+
+      <div class="zn-container" >
+      
+          <div id="znid-257851575230"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i>PHOTO BY KEVIN &amp; KING.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-084386011310"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><p>East Tennessee artist Amythyst Kiah revives an Appalachian murder ballad with eerie elegance.&nbsp;</p></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-649384599384"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>As a Black, queer, metal-loving kid in a conservative, white suburb of Chattanooga, Tennessee, Amythyst Kiah grew up feeling like an outsider. “Even though my parents loved and accepted me, I never really saw where I fit in,” she said.</p><p><br></p><p>Music offered a soft place to land. As a teen, Amythyst found solace in the aching vulnerability of Tori Amos,&nbsp;</p><p>Nirvana, and Radiohead, but later, while studying bluegrass and old-time music at East Tennessee State University, she started to appreciate traditional Appalachian music and the central but often overlooked role Black artists have played in shaping it.</p><p><br></p><p>“Studying roots music helped me realize that Southern Appalachia — this place I’d grown up in and felt so disconnected from — is part of my story, too,” Amythyst said. “It grounded me.”</p><p><br></p><p>It also opened the door to the darker side of Appalachian songcraft: murder ballads.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-150548832527"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color" data-border-enable="true"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >ALSO&nbsp;FROM TENNESSEE</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-369893280617"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['made-in-tennessee'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 12 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 12 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-323914253096-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-366630576995-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if 'MADE IN TENNESSEE' == '' %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-595999497235"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><span style="font-weight: normal;"><i>Every purchase helps keep our Appalachian magazine alive, thriving, and free to readers like you.</i></span></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-064860614002"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p><span style="font-family: inherit; font-size: inherit; letter-spacing: 0px; text-align: inherit;">“They’re just super sad, depressing songs, and I’m drawn to that kind of thing,” Amythyst added with a laugh.</span></p><p>Her affinity for musical noir comes through loud and clear in her haunting rendition of “In the Pines” (<a href="https://music.apple.com/us/album/in-the-pines/1739704265?i=1739704269">Apple</a> | <a href="https://open.spotify.com/track/5HTRW7oVRwE0ZxYkYfQ6Vo?si=zZYqcUnSQTC2Zq5qtafBpQ">Spotify</a>), a 19th-century murder ballad believed to have originated in Appalachia. Passed down through generations, it’s been recorded by everyone from Bill Monroe to Nirvana. These very different artists represent two very different genres that ground Amythyst’s music — old-time and indie rock — but she wasn’t about to replicate either of their styles.</p><p><br></p><p>To put her own spin on the tune, Amythyst collaborated with producer Butch Walker (known for his work with Taylor Swift, Green Day, and Weezer), who suggested using a rubber bridge guitar — an instrument with a low-fidelity tone reminiscent of a plucked cello. The resulting sound is ghostly and raw, perfectly suited to a song about love, loss, and lingering grief.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-135157895633"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="video"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-video "   >
+          
+          
+            
+            
+            
+            
+          
+
+          
+            
+          
+          
+          <div class="zn-video-frame">
+            
+            <iframe
+              class="zn-embed-iframe"
+              width="640"
+              height="360"
+              src="https://www.youtube.com/embed/pdSPU3xLAtI?playlist=pdSPU3xLAtI&autoplay=false&loop=false&mute=true&controls=1&modestbranding=1&playsinline=1&rel=0"
+              frameborder="0">
+            </iframe>
+            
+
+            
+           
+            
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-043046027557"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Grief is familiar terrain for Amythyst, whose 2021 album, “Wary + Strange,” confronts the trauma of losing her mother to suicide when she was just 17. The record earned critical acclaim from Rolling Stone and Pitchfork, and its standout track “Black Myself” garnered her a Grammy nomination.</p><p><br></p><p>Amythyst’s latest release, “Still + Bright,” marks a bold evolution. According to the artist’s website, the album delves into her interest in Eastern spirituality and the connection she feels to the natural world.  </p><p><br></p><p>“Now I’m at a point where I’m confident in what I value and love,” Amythyst said, “and because of that, I’ve made the album I’ve always wanted to make.”</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-571624294515"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="horizontal_line" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-horizontal-line"> 
+          <hr id="" class=""    />
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-052243694571"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><div id="znid-983976489376" data-type="text"><div><div id=""><div id="znid-657733542649" data-type="text" data-background-type="none" data-border-enable="false" data-shadow-enable="false" data-text-shadow-enable="false"><div><div>Lauren Stepp is a lifestyle journalist from the mountains of North Carolina. She writes about everything from fifth-generation apple farmers to mixed-media artists, publishing her work in magazines across the Southeast. In her spare time, Lauren mountain bikes, reads gritty southern fiction, and drops her g's.</div></div></div></div></div></div></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-405979005985"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="8-4 8-4 12-12" data-vertical-align="center" data-border-enable="true" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-8 zn-column-md-8 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-330805149143"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="banner" data-full-width="false" data-effect="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-banner " tabindex="0" role="link"   > 
+          <div class="zn-children-container">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-118040871110"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-853168494487"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-737195403438"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h4 id="" class="zn-heading "   >6 UNLIKELY BANJO SONGS</h4>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-247187498422"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >SEE MORE</div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-4 zn-column-md-4 zn-column-sm-12">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-435717992919"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-border-enable="true" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-554690974726"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><div>NEXT UP</div></h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-524630363233"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="6-6 6-6 6-6" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-874288924653"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/johnny-cash-the-life-in-lyrics">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Johnny-Cash-Life-in-Lyrics-26068623.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-183672695493"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/dolly-parton-songteller-my-life-in-lyrics">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Dolly-Songteller-26068659.jpeg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-708740663386"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="button" data-hover-options="false" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-button">
+          
+          
+            
+            
+            <a href="/collections/music-legends" target="">
+          
+          <button type="button" id="" class=""   >
+            
+            <div class="zn-button-text">
+              MUSIC LEGENDS
+            </div>
+          </button>
+          
+          </a>
+          
+        </div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="page-settings" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="container-style" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="scheduled-publish" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="currency-converter" >
+            <div class="zn-addon zn-lg  ">
+              
+    
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="messenger" >
+            <div class="zn-addon zn-lg  ">
+              
+    <div class="zn-messenger">
+      
+      
+      <div class="fb-customerchat" page_id="" theme_color="#0A7CFF" greeting_dialog_display="hide"></div>
+    </div>
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="announcement-bar" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="lazy-loading" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="color-palette" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="breakpoints" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="custom-css" >
+            
+            
+            
+          </div>
+        
+</div>
