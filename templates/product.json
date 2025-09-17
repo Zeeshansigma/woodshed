@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -11,13 +20,58 @@
         "custom_css": ""
       }
     },
+    "index_image_with_text_overlay_7LXKrW": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "link": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "text_width": 40,
+        "background_color": "#FFFFFF",
+        "background_opacity": 77,
+        "border_color": "#FFFFFF",
+        "border_width": 0,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "mobile_text_below_image": true,
+        "mobile_preheading": "",
+        "mobile_heading": "",
+        "mobile_subheading": "",
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "text_alignment_mobile": "same_as_desktop",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "main": {
       "type": "product__main",
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -34,30 +88,27 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "c98d9bc6-521f-48b0-8cbd-4d0e23b522ba": {
           "type": "text",
           "settings": {
-            "text": "<p>‎ <\/p>"
+            "text": "<p>‎ </p>"
           }
         },
         "d2469888-07dc-4f53-aa56-ffc70988097e": {
           "type": "text",
           "settings": {
-            "text": "<p><\/p><p><strong>SEE MORE FROM<\/strong><\/p>"
+            "text": "<p></p><p><strong>SEE MORE FROM</strong></p>"
           }
         },
         "0695501d-251b-4404-b384-614e1022d2d0": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "299700ca-3c69-47ea-9675-9c222c83cd05": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -98,7 +149,7 @@
         "heading_font": "open_sans_n4",
         "heading_alignment": "center",
         "heading_size": 30,
-        "text": "<p><strong>ON $65+ ORDERS.<\/strong><\/p>",
+        "text": "<p><strong>ON $65+ ORDERS.</strong></p>",
         "text_font": "open_sans_n4",
         "text_alignment": "center",
         "text_size": 17,
@@ -169,27 +220,27 @@
         "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/makers.png",
+            "image": "shopify://shop_images/makers.png",
             "section_heading": "You support<br>our makers",
-            "icon": "shopify:\/\/shop_images\/Hammers.svg",
+            "icon": "shopify://shop_images/Hammers.svg",
             "section_body": "And help keep Appalachian crafts alive."
           }
         },
         "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/writers.png",
+            "image": "shopify://shop_images/writers.png",
             "section_heading": "You Support<br>Our Writers",
-            "icon": "shopify:\/\/shop_images\/Quill.svg",
+            "icon": "shopify://shop_images/Quill.svg",
             "section_body": "So we can all enjoy their powerful stories."
           }
         },
         "template--15559433486389__66050ff4-ea1f-4774-981d-1c95ed9acf8c-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-photo-12797726_1_1.png",
+            "image": "shopify://shop_images/pexels-photo-12797726_1_1.png",
             "section_heading": "You<br>save trees",
-            "icon": "shopify:\/\/shop_images\/Layer_1.svg",
+            "icon": "shopify://shop_images/Layer_1.svg",
             "section_body": "Because we ship products in gently reused boxes."
           }
         }
@@ -226,6 +277,7 @@
   },
   "order": [
     "breadcrumbs",
+    "index_image_with_text_overlay_7LXKrW",
     "main",
     "9f6a6000-1a4d-489b-a459-c040e8ee42b4",
     "524d66ac-2873-451d-b663-f590fa843328",
