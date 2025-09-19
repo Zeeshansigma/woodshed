@@ -22,9 +22,10 @@
     },
     "index_image_with_text_overlay_7LXKrW": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
+        "image": "shopify://shop_images/2025_Move_WS_Web_banner.png",
+        "mobile_image": "shopify://shop_images/2025_Move_WS_Web_banner.png",
         "link": "",
         "pretext": "",
         "title": "",
@@ -36,9 +37,9 @@
         "text_horizontal_position": "center",
         "text_vertical_position": "middle",
         "text_width": 40,
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_opacity": 77,
-        "border_color": "#FFFFFF",
+        "border_color": "#ffffff",
         "border_width": 0,
         "button_1": "",
         "button_1_link": "",

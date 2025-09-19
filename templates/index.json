@@ -11,16 +11,15 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_0085.jpg",
-        "mobile_image": "shopify://shop_images/Kinship_During_Hurricane_FINAL_OPTION_2_FEATURED.png",
+        "image": "shopify://shop_images/2025_Move_WS_Web_banner.png",
+        "mobile_image": "shopify://shop_images/2025_Move_WS_Web_banner.png",
         "link": "",
-        "pretext": "<p>FINDING KINSHIP</p>",
-        "title": "IN THE HURRICANE'S WAKE",
+        "pretext": "",
+        "title": "",
         "subtitle": "",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
@@ -33,7 +32,7 @@
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
-        "button_1": "SEE MORE",
+        "button_1": "",
         "button_1_link": "shopify://blogs/history-amp-culture/finding-kinship-in-the-wake-of-hurricane-helene",
         "button_1_style": "button--primary",
         "button_2": "",
@@ -41,7 +40,7 @@
         "button_2_style": "button--secondary",
         "width": "wide",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 20,
         "padding_left": 0,
         "padding_right": 0,
         "animation": "none",
