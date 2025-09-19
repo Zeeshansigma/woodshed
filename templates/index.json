@@ -53,7 +53,7 @@
         "subheading_color_mobile": "rgba(0,0,0,0)",
         "text_alignment_mobile": "same_as_desktop",
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
+        "padding_bottom_mobile": 26,
         "css_class": "",
         "custom_css": ".container.image-with-text-overlay__container.equal-columns--outside-trim{\n  max-width: 100% !important;\npadding:0;\n}"
       }
