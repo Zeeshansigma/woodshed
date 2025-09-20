@@ -15,7 +15,7 @@
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/2025_Move_WS_Web_banner.png",
+        "image": "shopify://shop_images/Move_WS_Web_banner.png",
         "mobile_image": "shopify://shop_images/Move_WS_Social_Post_Mobile_Web_Banner.png",
         "link": "",
         "pretext": "",
