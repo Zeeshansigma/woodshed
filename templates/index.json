@@ -61,25 +61,25 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
-        "mobile_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
+        "image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN.png",
+        "mobile_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN.png",
         "link": "",
         "pretext": "",
-        "title": "WHAT'S TASTIER THAN PAWPAW?",
-        "subtitle": "<p>Pawpaw with chocolate liquor.</p>",
+        "title": "EXOPLANETS TO PINBALL GAMES",
+        "subtitle": "<p>6 quirky Blue Ridge Parkway experiences</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "right",
-        "text_horizontal_position": "right",
-        "text_vertical_position": "middle",
+        "text_alignment": "left",
+        "text_horizontal_position": "left",
+        "text_vertical_position": "bottom",
         "text_width": 40,
         "background_color": "#c79f4a",
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/food-1/pawpaw-cocktail-petticoat",
+        "button_1_link": "shopify://blogs/outdoors-amp-travel/exoplanets-to-pinball-games-6-quirky-blue-ridge-parkway-experiences",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -201,6 +201,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
+            "mobile_grid_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
+            "link": "shopify://blogs/food-1/pawpaw-cocktail-petticoat",
+            "heading": "WHAT'S TASTIER THAN PAWPAW?",
+            "text": "Pawpaw with chocolate liquor.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -234,39 +249,24 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify://shop_images/mid_journey_option_2_FEATURED_SQUARE.png",
-            "mobile_grid_image": "shopify://shop_images/mid_journey_option_2_FEATURED_SQUARE.png",
-            "link": "shopify://blogs/outdoors-amp-travel/appalachias-hot-weather-havens",
-            "heading": "HOT WEATHER HAVENS",
-            "text": "make it easy to stay cool.",
+            "grid_image": "shopify://shop_images/Amythyst_Kiah_SQUARE.jpg",
+            "mobile_grid_image": "shopify://shop_images/Amythyst_Kiah_SQUARE.jpg",
+            "link": "shopify://blogs/music/one-song-in-the-pines",
+            "heading": "\"IN THE PINES\"",
+            "text": "a murder ballad that proves \"spooky\" is nothin' new",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
             "overlay_background": "#ffffff",
             "overlay_background_opacity": 0
           }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Tomato_Sandwich_FEATURED_SQUARE.png",
-            "mobile_grid_image": "shopify://shop_images/Summer_Reading_List_Pop_Art_SQUARE.png",
-            "link": "shopify://blogs/food-1/next-level-mater-sandwiches",
-            "heading": "NEXT-LEVEL 'MATER SANDWICHES",
-            "text": "with amazing heirlooms",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "ad969059-2d4f-422c-9ed6-8271b95831b7",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2"
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1"
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
