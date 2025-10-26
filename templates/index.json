@@ -60,7 +60,6 @@
     },
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN.png",
         "mobile_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN.png",
@@ -107,6 +106,7 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/The_Road_FEATURED.jpg",
         "mobile_image": "shopify://shop_images/twincreeks_mashing-11_FEATURED.jpg",
@@ -203,12 +203,12 @@
       "blocks": {
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
-          "disabled": true,
           "settings": {
-            "grid_image": "shopify://shop_images/Holiday_Gift_Guide_2023_SQUARE.png",
-            "link": "shopify://blogs/art-amp-lit/mark-lynn-s-gift-ideas-2023",
-            "heading": "FROM CAMPFIRE CARDS TO CHRISTMAS TREE CANDLES,",
-            "text": "our founder has ideas for everyone on your list.",
+            "grid_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
+            "mobile_grid_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
+            "link": "shopify://blogs/food-1/pawpaw-cocktail-petticoat",
+            "heading": "WHAT'S BETTER THAN A PAWPAW?",
+            "text": "A pawpaw cocktail.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
@@ -218,6 +218,7 @@
         },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
+          "disabled": true,
           "settings": {
             "grid_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN_69d50ab1-cc4b-4b6d-bf51-335d09fdae3e.png",
             "mobile_grid_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN_69d50ab1-cc4b-4b6d-bf51-335d09fdae3e.png",
