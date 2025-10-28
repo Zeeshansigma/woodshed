@@ -119,7 +119,7 @@
         "subheading_color": "#ffffff",
         "text_alignment": "left",
         "text_horizontal_position": "left",
-        "text_vertical_position": "top",
+        "text_vertical_position": "bottom",
         "text_width": 40,
         "background_color": "#c79f4a",
         "background_opacity": 62,
