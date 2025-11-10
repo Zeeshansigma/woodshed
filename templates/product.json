@@ -22,6 +22,7 @@
     },
     "index_image_with_text_overlay_7LXKrW": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "image": "shopify://shop_images/Move_WS_Web_banner_CLOSED.png",
