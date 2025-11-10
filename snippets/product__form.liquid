@@ -744,8 +744,7 @@
 
           {% capture add_to_cart_label %}{% if collection_handles contains 'pre-order' %}{{ 'collections.general.pre_order' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}{% endcapture %}
           
-          
-{% if false %}
+
           <button type="submit" name="add" class="button {% if settings.cart_action == 'mini_cart' or settings.cart_action == 'drawer' %} ajax-submit {% endif %}action_button button--add-to-cart {% if show_payment_button %} action_button--secondary {% endif %}" data-label={{ add_to_cart_label | json }} data-add-to-cart-trigger>
             {% if  settings.button_cart_icon != blank and settings.button_cart_icon_position == 'left' %}
               {%
@@ -766,17 +765,13 @@
               <path fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
             </svg>
           </button>
-{% endif %}
 
-<p class="coming-soon-note">
-  Temporarily unavailable while we move — thanks for your patience!
-</p>
 
           {% if show_payment_button %}
 
-{% if false %}            
+            
             {{ form | payment_button }}
-{% endif %}
+
           {% endif %}
         </div>
 
