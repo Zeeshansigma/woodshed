@@ -109,17 +109,17 @@
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Post_Apocalyptic_FEATURED.png",
+        "image": "shopify://shop_images/Bourbon_Syrup_with_waffle_copy.jpg",
         "mobile_image": "shopify://shop_images/Post_Apocalyptic_FEATURED.png",
-        "link": "shopify://blogs/food-1/is-kudku-the-future-of-appalachian-food-chef-sean-brock-thinks-so",
-        "pretext": "",
-        "title": "FROM \"THE HUNGER GAMES\" TO \"THE ROAD\"",
-        "subtitle": "<p>Appalachia keeps inspiring apocalyptic fiction.</p>",
+        "link": "shopify://blogs/food-1/pro-tip-breakfast-is-better-with-bourbon",
+        "pretext": "<p>PRO TIP:</p>",
+        "title": "BREAKFAST IS BETTER WITH BOURBON.",
+        "subtitle": "",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "left",
-        "text_horizontal_position": "left",
+        "text_alignment": "right",
+        "text_horizontal_position": "right",
         "text_vertical_position": "bottom",
         "text_width": 40,
         "background_color": "#c79f4a",
@@ -202,6 +202,36 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN_69d50ab1-cc4b-4b6d-bf51-335d09fdae3e.png",
+            "mobile_grid_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN_69d50ab1-cc4b-4b6d-bf51-335d09fdae3e.png",
+            "link": "shopify://blogs/outdoors-amp-travel/exoplanets-to-pinball-games-6-quirky-blue-ridge-parkway-experiences",
+            "heading": "EXPLANETS TO PINBALL,",
+            "text": "6 quirky Blue Ridge Parkway experiences",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/05-Dandelion-Root_SQUARE_ee1370d1-ad8d-455c-ab1d-0789150f151f.jpg",
+            "mobile_grid_image": "shopify://shop_images/05-Dandelion-Root_SQUARE_ee1370d1-ad8d-455c-ab1d-0789150f151f.jpg",
+            "link": "shopify://blogs/food-1/four-foraged-foods-that-will-wow-thanksgiving-guests",
+            "heading": "FOUR FORAGED FOODS",
+            "text": "that will wow your Thanksgiving guests.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -218,57 +248,27 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN_69d50ab1-cc4b-4b6d-bf51-335d09fdae3e.png",
-            "mobile_grid_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN_69d50ab1-cc4b-4b6d-bf51-335d09fdae3e.png",
-            "link": "shopify://blogs/outdoors-amp-travel/exoplanets-to-pinball-games-6-quirky-blue-ridge-parkway-experiences",
-            "heading": "EXPLANETS TO PINBALL",
-            "text": "6 quirky Blue Ridge Parkway experiences",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify://shop_images/Mothman_art_photo_realistic_2_SQUARE.png",
-            "mobile_grid_image": "shopify://shop_images/Mothman_art_photo_realistic_2_SQUARE.png",
-            "link": "shopify://blogs/history-amp-culture/mothman-is-real-important-in-one-wv-town",
-            "heading": "MOTHMAN IS REAL",
-            "text": "(important) to one W.V. town.",
+            "grid_image": "shopify://shop_images/Post_Apocalyptic_FEATURED.png",
+            "mobile_grid_image": "shopify://shop_images/Post_Apocalyptic_FEATURED.png",
+            "link": "shopify://blogs/history-amp-culture/from-the-hunger-games-to-the-road-appalachia-keeps-inspiring-apocalyptic-fiction",
+            "heading": "\"HUNGEr GAMES\" TO \"THE ROAD,\"",
+            "text": "visions of apocalyptic Appalachia",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
             "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Amythyst_Kiah_SQUARE.jpg",
-            "mobile_grid_image": "shopify://shop_images/Amythyst_Kiah_SQUARE.jpg",
-            "link": "shopify://blogs/music/one-song-in-the-pines",
-            "heading": "\"IN THE PINES\"",
-            "text": "a murder ballad that proves \"spooky\" is nothin' new",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
             "overlay_background_opacity": 0
           }
         }
       },
       "block_order": [
-        "ad969059-2d4f-422c-9ed6-8271b95831b7",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1"
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
+        "ad969059-2d4f-422c-9ed6-8271b95831b7",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3"
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
