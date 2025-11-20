@@ -110,7 +110,7 @@
       "type": "index__image-with-text-overlay",
       "settings": {
         "image": "shopify://shop_images/Bourbon_Syrup_with_waffle_copy.jpg",
-        "mobile_image": "shopify://shop_images/Post_Apocalyptic_FEATURED.png",
+        "mobile_image": "shopify://shop_images/Bourbon_Syrup_with_waffle_copy.jpg",
         "link": "",
         "pretext": "<p>PRO TIP:</p>",
         "title": "BREAKFAST IS BETTER WITH BOURBON.",
