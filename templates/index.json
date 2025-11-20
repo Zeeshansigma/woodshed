@@ -111,7 +111,7 @@
       "settings": {
         "image": "shopify://shop_images/Bourbon_Syrup_with_waffle_copy.jpg",
         "mobile_image": "shopify://shop_images/Post_Apocalyptic_FEATURED.png",
-        "link": "shopify://blogs/food-1/pro-tip-breakfast-is-better-with-bourbon",
+        "link": "",
         "pretext": "<p>PRO TIP:</p>",
         "title": "BREAKFAST IS BETTER WITH BOURBON.",
         "subtitle": "",
@@ -127,7 +127,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/history-amp-culture/from-the-hunger-games-to-the-road-appalachia-keeps-inspiring-apocalyptic-fiction",
+        "button_1_link": "shopify://blogs/food-1/pro-tip-breakfast-is-better-with-bourbon",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
