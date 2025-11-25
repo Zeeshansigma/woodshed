@@ -174,6 +174,91 @@
                     
             <div class="zn-children">
               
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-813948889049-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-513392751757-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
             </div>
           
                   </div>
