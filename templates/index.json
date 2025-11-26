@@ -220,11 +220,11 @@
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify://shop_images/05-Dandelion-Root_SQUARE_ee1370d1-ad8d-455c-ab1d-0789150f151f.jpg",
-            "mobile_grid_image": "shopify://shop_images/05-Dandelion-Root_SQUARE_ee1370d1-ad8d-455c-ab1d-0789150f151f.jpg",
+            "grid_image": "shopify://shop_images/Bourbon_Syrup_with_waffle_copy_9ecb59ac-cc47-40a1-8b5c-bcca45e0fd95.jpg",
+            "mobile_grid_image": "shopify://shop_images/Bourbon_Syrup_with_waffle_copy_9ecb59ac-cc47-40a1-8b5c-bcca45e0fd95.jpg",
             "link": "shopify://blogs/food-1/four-foraged-foods-that-will-wow-thanksgiving-guests",
-            "heading": "FOUR FORAGED FOODS",
-            "text": "that will wow your Thanksgiving guests.",
+            "heading": "BREAKFAST IS BETTER",
+            "text": "with bourbon.",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
