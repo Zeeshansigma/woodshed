@@ -109,11 +109,11 @@
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Cabbage_Patch_Dolls_department_store_1983_FEATURED_COLOR_2.png",
-        "mobile_image": "shopify://shop_images/Cabbage_Patch_Dolls_department_store_1983_FEATURED_COLOR_2.png",
-        "link": "",
+        "image": "shopify://shop_images/Holiday_Gift_Guide_2025.png",
+        "mobile_image": "shopify://shop_images/Holiday_Gift_Guide_2025.png",
+        "link": "shopify://blogs/art-amp-lit/mark-lynn-s-gift-ideas-2025",
         "pretext": "",
-        "title": "THAT TIME APPALACHIAN CRAFTS CAUSED BLACK FRIDAY RIOTS.",
+        "title": "",
         "subtitle": "",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
@@ -126,8 +126,8 @@
         "background_opacity": 62,
         "border_color": "#ffffff",
         "border_width": 4,
-        "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/history-amp-culture/that-time-appalachian-crafts-caused-black-friday-riots-how-cabbage-patch-kids-went-from-cute-to-crazy",
+        "button_1": "",
+        "button_1_link": "",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,6 +202,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Cabbage_Patch_Dolls_department_store_1983_FEATURED_COLOR_2.png",
+            "mobile_grid_image": "shopify://shop_images/Cabbage_Patch_Dolls_department_store_1983_FEATURED_COLOR_2.png",
+            "link": "shopify://blogs/history-amp-culture/that-time-appalachian-crafts-caused-black-friday-riots-how-cabbage-patch-kids-went-from-cute-to-crazy",
+            "heading": "THAT TIME APPALACHIAN CRAFTS",
+            "text": "caused holiday season riots",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
@@ -247,28 +262,13 @@
             "overlay_background": "#ffffff",
             "overlay_background_opacity": 0
           }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Post_Apocalyptic_FEATURED.png",
-            "mobile_grid_image": "shopify://shop_images/Post_Apocalyptic_FEATURED.png",
-            "link": "shopify://blogs/history-amp-culture/from-the-hunger-games-to-the-road-appalachia-keeps-inspiring-apocalyptic-fiction",
-            "heading": "\"HUNGEr GAMES\" TO \"THE ROAD,\"",
-            "text": "visions of apocalyptic Appalachia",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "ad969059-2d4f-422c-9ed6-8271b95831b7",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3"
+        "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
