@@ -61,14 +61,13 @@
     },
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN.png",
-        "mobile_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN.png",
+        "image": "shopify://shop_images/Bolio_midjourney_FEATURED_2.png",
+        "mobile_image": "shopify://shop_images/Bolio_midjourney_FEATURED_2.png",
         "link": "",
         "pretext": "",
-        "title": "EXOPLANETS TO PINBALL GAMES",
-        "subtitle": "<p>6 quirky Blue Ridge Parkway experiences</p>",
+        "title": "BOILO",
+        "subtitle": "<p>Champagne of the coal region</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -81,7 +80,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/outdoors-amp-travel/exoplanets-to-pinball-games-6-quirky-blue-ridge-parkway-experiences",
+        "button_1_link": "shopify://blogs/food-1/boilo-champagne-of-the-coal-region",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -108,6 +107,7 @@
     },
     "db12a40b-6acf-42b8-8fe2-803e020d87fd": {
       "type": "index__image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Holiday_Gift_Guide_2025.png",
         "mobile_image": "shopify://shop_images/Holiday_Gift_Guide_2025.png",
@@ -217,6 +217,21 @@
             "overlay_background_opacity": 0
           }
         },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Holiday_Gift_Guide_2025_7b2c6abe-f5d4-437d-baf4-ecf805da98ff.png",
+            "mobile_grid_image": "shopify://shop_images/Holiday_Gift_Guide_2025_7b2c6abe-f5d4-437d-baf4-ecf805da98ff.png",
+            "link": "shopify://blogs/art-amp-lit/mark-lynn-s-gift-ideas-2025",
+            "heading": "2025 APPALACHIAN GIFT GUIDE",
+            "text": "from our founder",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
           "type": "grid_item",
           "settings": {
@@ -229,21 +244,6 @@
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
             "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN_69d50ab1-cc4b-4b6d-bf51-335d09fdae3e.png",
-            "mobile_grid_image": "shopify://shop_images/01_-_BRP_VisitNC.com_FEATURED_MAIN_69d50ab1-cc4b-4b6d-bf51-335d09fdae3e.png",
-            "link": "shopify://blogs/outdoors-amp-travel/exoplanets-to-pinball-games-6-quirky-blue-ridge-parkway-experiences",
-            "heading": "EXPLANETS TO PINBALL,",
-            "text": "6 quirky Blue Ridge Parkway experiences",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 0
           }
         },
@@ -266,8 +266,8 @@
       },
       "block_order": [
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
