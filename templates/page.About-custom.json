@@ -1,29 +1,29 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "About-custom",
       "settings": {
-        "bg-about_laptop": "shopify:\/\/shop_images\/LAPTOP.png",
-        "bg-about": "shopify:\/\/shop_images\/image_36_2.png",
-        "bg-about_tab": "shopify:\/\/shop_images\/tablet.png",
-        "bg-about_mbl": "shopify:\/\/shop_images\/mobile_1.png",
+        "bg-about_laptop": "shopify://shop_images/LAPTOP.png",
+        "bg-about": "shopify://shop_images/image_36_2.png",
+        "bg-about_tab": "shopify://shop_images/tablet.png",
+        "bg-about_mbl": "shopify://shop_images/mobile_1.png",
         "banner-text": "ABOUT WOODSHED"
       }
     },
     "0c2cc7d8-523a-4059-9cfb-df20e836bfd4": {
       "type": "img-swap",
       "settings": {
-        "Text-about": "<p>In 2010, Appalachian native <a href=\"https:\/\/x.com\/Mark__Lynn\" target=\"_blank\" title=\"https:\/\/x.com\/Mark__Lynn\">Mark Lynn Ferguson<\/a> founded a scrappy blog called The Revivalist: Word from the Appalachian South. It was his way of staying connected to his homeland while living in Washington, D.C. Initially read by his mom and a couple cousins, the website grew to include lots more readers and other writers who had something to say about the region.<br\/><br\/>The more Mark Lynn wrote about Appalachia, the more he found himself looking out his windows and wishing he could see the mountains he missed so much. So, after a few years, he sold his big city house, packed a U-Haul, and moved back to his hometown of Roanoke, Virginia. Once there, he and his husband Alex opened a quirky makers market in an old cafeteria building, filling it with handcrafted goods and small batch foods made in cities, towns, and backwoods workshops across Appalachia.<br\/><br\/>In 2022, all of this Appalachian goodness — both stories about life in these stunning mountains and products made there — came together on a new website with a new name.<\/p>",
-        "with_text_image": "shopify:\/\/shop_images\/owner-2.png",
+        "Text-about": "<p>In 2010, Appalachian native <a href=\"https://x.com/Mark__Lynn\" target=\"_blank\" title=\"https://x.com/Mark__Lynn\">Mark Lynn Ferguson</a> founded a scrappy blog called The Revivalist: Word from the Appalachian South. It was his way of staying connected to his homeland while living in Washington, D.C. Initially read by his mom and a couple cousins, the website grew to include lots more readers and other writers who had something to say about the region.<br/><br/>The more Mark Lynn wrote about Appalachia, the more he found himself looking out his windows and wishing he could see the mountains he missed so much. So, after a few years, he sold his big city house, packed a U-Haul, and moved back to his hometown of Roanoke, Virginia. Once there, he and his husband Alex opened a quirky makers market in an old cafeteria building, filling it with handcrafted goods and small batch foods made in cities, towns, and backwoods workshops across Appalachia.<br/><br/>In 2022, all of this Appalachian goodness — both stories about life in these stunning mountains and products made there — came together on a new website with a new name.</p>",
+        "with_text_image": "shopify://shop_images/owner-2.png",
         "about_space_top": 60,
         "about_space_Bottom": 60,
         "about_btn": "",
@@ -41,7 +41,7 @@
         "heading_font": "open_sans_n4",
         "heading_alignment": "center",
         "heading_size": 30,
-        "text": "<p>Woodshed celebrates modern Appalachian life.<\/p>",
+        "text": "<p>Woodshed celebrates modern Appalachian life.</p>",
         "text_font": "open_sans_n4",
         "text_alignment": "center",
         "text_size": 36,
@@ -80,12 +80,12 @@
     "1836daea-1bc2-4bf5-9da6-099e382dad75": {
       "type": "img-swap",
       "settings": {
-        "Text-about": "<p>Appalachia is unlike anywhere on earth. Defined by one of the world's oldest mountain ranges, the region has birthed everything from bluegrass to MoonPies. Our stories explore all the special things about our mountains — their unmatched natural resources; their colorful history; their quirky towns; and the talented musicians, chefs, writers, and artists who make it so much fun to visit and live here.<\/p>",
-        "with_text_image": "shopify:\/\/shop_images\/Img_28beaa2d-5291-4f4e-bd07-1c2ae2940ba5.png",
+        "Text-about": "<p>Appalachia is unlike anywhere on earth. Defined by one of the world's oldest mountain ranges, the region has birthed everything from bluegrass to MoonPies. Our stories explore all the special things about our mountains — their unmatched natural resources; their colorful history; their quirky towns; and the talented musicians, chefs, writers, and artists who make it so much fun to visit and live here.</p>",
+        "with_text_image": "shopify://shop_images/Img_28beaa2d-5291-4f4e-bd07-1c2ae2940ba5.png",
         "about_space_top": 60,
         "about_space_Bottom": 60,
         "about_btn": "Read about Appalachia",
-        "button_link_about": "https:\/\/woodshed.life\/",
+        "button_link_about": "https://woodshed.life/",
         "show_about_btn": true,
         "swap-section": true,
         "width_increase": false
@@ -94,12 +94,12 @@
     "8bd3e54c-2db4-46f6-abe2-f2c7d86c4bd5": {
       "type": "img-swap",
       "settings": {
-        "Text-about": "<p>Before airplanes and highways, the Appalachian mountains were largely isolated from the rest of the world. But necessity bred ingenuity. Craftspeople turned scraps of fabric into beautiful quilts, hardwood into hand plows, and foraged ingredients into delicious foods. That legacy is still alive and kicking. Today's Appalachian makers pull from these rich traditions to create funky finds for you, your home, and your loved ones.<\/p>",
-        "with_text_image": "shopify:\/\/shop_images\/Img_1_5051a288-37c5-4f72-a828-a8c0d860d43e.png",
+        "Text-about": "<p>Before airplanes and highways, the Appalachian mountains were largely isolated from the rest of the world. But necessity bred ingenuity. Craftspeople turned scraps of fabric into beautiful quilts, hardwood into hand plows, and foraged ingredients into delicious foods. That legacy is still alive and kicking. Today's Appalachian makers pull from these rich traditions to create funky finds for you, your home, and your loved ones.</p>",
+        "with_text_image": "shopify://shop_images/Img_1_5051a288-37c5-4f72-a828-a8c0d860d43e.png",
         "about_space_top": 60,
         "about_space_Bottom": 60,
         "about_btn": "Shop Appalachian goods",
-        "button_link_about": "https:\/\/woodshed.life\/",
+        "button_link_about": "https://woodshed.life/",
         "show_about_btn": true,
         "swap-section": false,
         "width_increase": true
@@ -108,12 +108,12 @@
     "1c1aa051-9cb2-4a5d-a395-405be6e1f8aa": {
       "type": "img-swap",
       "settings": {
-        "Text-about": "<p>You'll love Roanoke, and our award-winning shop is a great starting point. It has products from our website plus hundreds more, including many made in our Appalachian valley. You can find us at 16 Church Avenue, Southwest. Our unique midcentury building is also home to Little Green Hive Coffee and Tea, Vintage Vault Records and Pop Collectibles, and Roanoke's only Puerto Rican eatery Delicias Boricuas.<\/p>",
-        "with_text_image": "shopify:\/\/shop_images\/Img_2_ab2ed33d-c3ba-45f9-9c2d-ce36f4db5412.png",
+        "Text-about": "<p>You'll love Roanoke, and our award-winning shop is a great starting point. It has products from our website plus hundreds more, including many made in our Appalachian valley. You can find us at 409 S. Jefferson Street in downtown Roanoke.</p>",
+        "with_text_image": "shopify://shop_images/Img_2_ab2ed33d-c3ba-45f9-9c2d-ce36f4db5412.png",
         "about_space_top": 60,
         "about_space_Bottom": 60,
         "about_btn": "Visit Us in Roanoke, Va.",
-        "button_link_about": "https:\/\/woodshed.life\/pages\/visit-1",
+        "button_link_about": "https://woodshed.life/pages/visit-1",
         "show_about_btn": true,
         "swap-section": true,
         "width_increase": false
