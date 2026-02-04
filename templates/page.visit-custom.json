@@ -614,6 +614,7 @@
         "image_gNU6Gf",
         "text_DFPR4g"
       ],
+      "disabled": true,
       "settings": {
         "width": "wide",
         "show_gutter": true,
