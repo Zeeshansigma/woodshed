@@ -62,12 +62,12 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/05_-_Warm_Springs_Pools_-_Photo_Credit_Gordon_Gregory_FEATURED.jpg",
-        "mobile_image": "shopify://shop_images/05_-_Warm_Springs_Pools_-_Photo_Credit_Gordon_Gregory_FEATURED.jpg",
+        "image": "shopify://shop_images/Bison_Featured.png",
+        "mobile_image": "shopify://shop_images/Bison_Featured.png",
         "link": "",
         "pretext": "",
-        "title": "WARM YOUR SOUL AND YOUR BUNS",
-        "subtitle": "<p>at these Appalachian hot springs.</p>",
+        "title": "WHO'S BRINGING BISON BACK TO APPALACHIA?",
+        "subtitle": "<p>A rad, Indigenous, women-led group.</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -80,7 +80,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/outdoors-amp-travel/warm-your-soul-and-your-buns-at-these-appalachian-hot-springs",
+        "button_1_link": "shopify://blogs/history-amp-culture/who-s-bringing-bison-back-to-appalachia-a-rad-indigenous-women-led-group",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,6 +202,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/05_-_Warm_Springs_Pools_-_Photo_Credit_Gordon_Gregory_FEATURED.jpg",
+            "mobile_grid_image": "shopify://shop_images/05_-_Warm_Springs_Pools_-_Photo_Credit_Gordon_Gregory_FEATURED.jpg",
+            "link": "shopify://blogs/outdoors-amp-travel/warm-your-soul-and-your-buns-at-these-appalachian-hot-springs",
+            "heading": "WARM YOUR SOUL AND YOUR BUNS",
+            "text": "at these Appalachian hot springs.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -232,21 +247,6 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Bolio_midjourney_FEATURED_2.png",
-            "mobile_grid_image": "shopify://shop_images/Bolio_midjourney_FEATURED_2.png",
-            "link": "shopify://blogs/food-1/boilo-champagne-of-the-coal-region",
-            "heading": "BOILO RECIPE",
-            "text": "the champagne of the coal region",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
         "ad969059-2d4f-422c-9ed6-8271b95831b7": {
           "type": "grid_item",
           "disabled": true,
@@ -265,9 +265,9 @@
         }
       },
       "block_order": [
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
