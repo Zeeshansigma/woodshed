@@ -1301,12 +1301,12 @@
     "cc291733-b5c9-436b-b935-f2d05fe680af": {
       "type": "index__maker-of-the-month",
       "settings": {
-        "coll_custom": "base-camp-printing-co",
-        "coll_custom_mobile": "base-camp-printing-co",
+        "coll_custom": "shirtmandude",
+        "coll_custom_mobile": "shirtmandude",
         "section_heading": "Featured Maker",
-        "left_image": "shopify://shop_images/owners_jpg.jpg",
-        "maker_name": "BASE CAMP PRINTING CO.",
-        "maker_desc": "From their Charleston, W.V. printshop, sisters Emily and Betsy Sokolosky craft clever cards and stunning posters on vintage presses. Their hand-carved images even grace posters for NPR’s “Mountain Stage.”",
+        "left_image": "shopify://shop_images/Jay_Shirtmandude.jpg",
+        "maker_name": "SHIRTMANDUDE",
+        "maker_desc": "Nearly 20 years ago, Jay Longshore started Shirtmandude in a backyard shed. Today, he has a bustling shop in Black Mountain, N.C. and his “fun shirts for weird people” are worn all around the world.",
         "maker_link_text": "See more",
         "maker_link_url": "shopify://collections/base-camp-printing-co"
       }
