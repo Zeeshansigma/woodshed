@@ -221,7 +221,7 @@
           "type": "grid_item",
           "settings": {
             "grid_image": "shopify://shop_images/Bison_Featured.png",
-            "mobile_grid_image": "shopify://shop_images/Bourbon_Syrup_with_waffle_copy_9ecb59ac-cc47-40a1-8b5c-bcca45e0fd95.jpg",
+            "mobile_grid_image": "shopify://shop_images/Bison_Featured.png",
             "link": "shopify://blogs/history-amp-culture/who-s-bringing-bison-back-to-appalachia-a-rad-indigenous-women-led-group",
             "heading": "WHO'S BRINGING BISON BACK TO APPALACHIA?",
             "text": "A rad, Indiginous, women-led group",
