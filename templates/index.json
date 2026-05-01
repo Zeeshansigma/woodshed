@@ -206,7 +206,7 @@
           "type": "grid_item",
           "settings": {
             "grid_image": "shopify://shop_images/The_Wildmans_FEATURED.png",
-            "mobile_grid_image": "shopify://shop_images/05_-_Warm_Springs_Pools_-_Photo_Credit_Gordon_Gregory_FEATURED.jpg",
+            "mobile_grid_image": "shopify://shop_images/The_Wildmans_FEATURED.png",
             "link": "shopify://blogs/music/what-if-the-beatles-shot-a-video-in-the-blue-ridge",
             "heading": "WHAT IF THE BEATLES",
             "text": "shot a video in the Blue Ridge?",
