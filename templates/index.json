@@ -62,12 +62,12 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Boojum_5_FEATURED_Website.png",
-        "mobile_image": "shopify://shop_images/Boojum_5_FEATURED_Website.png",
-        "link": "shopify://blogs/history-amp-culture/meet-boojum-bigfoot-s-older-gentler-cryptid-cousin",
+        "image": "shopify://shop_images/bedroom_with_books_FEATURED_75f2bef8-b74c-4763-9edc-12abc79e07f6.jpg",
+        "mobile_image": "shopify://shop_images/bedroom_with_books_FEATURED_75f2bef8-b74c-4763-9edc-12abc79e07f6.jpg",
+        "link": "shopify://blogs/art-amp-lit/wild-summer-reading-family-scandals-survivalist-cabins-and-salamander-dance-parties",
         "pretext": "",
-        "title": "MEET BOOJUM",
-        "subtitle": "<p>Bigfoot's older, gentler cryptid cousin</p>",
+        "title": "WILD SUMMER READING",
+        "subtitle": "<p>Family scandals, a survivalist cabin, and a hellbender mystery</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -202,6 +202,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Boojum_5_FEATURED_Website.png",
+            "mobile_grid_image": "shopify://shop_images/Boojum_5_FEATURED_Website.png",
+            "link": "shopify://blogs/history-amp-culture/meet-boojum-bigfoot-s-older-gentler-cryptid-cousin",
+            "heading": "MEET BOOJUM",
+            "text": "Bigfoot's older, gentler cryptid cousin",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -210,21 +225,6 @@
             "link": "shopify://blogs/art-amp-lit/from-box-turtles-to-bunch-berries-exploring-tiny-species-within-appalachia",
             "heading": "BOX TURTLES TO BUNCHBERRIES,",
             "text": "exploring tiny species within Appalachia",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/The_Wildmans_FEATURED.png",
-            "mobile_grid_image": "shopify://shop_images/The_Wildmans_FEATURED.png",
-            "link": "shopify://blogs/music/what-if-the-beatles-shot-a-video-in-the-blue-ridge",
-            "heading": "WHAT IF THE BEATLES",
-            "text": "shot a video in the Blue Ridge?",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
@@ -265,8 +265,8 @@
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
