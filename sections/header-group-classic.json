@@ -174,28 +174,12 @@
         "css_class": "",
         "custom_css": ""
       }
-    },
-    "img_swap_xQDdfR": {
-      "type": "img-swap",
-      "disabled": true,
-      "settings": {
-        "Text-about": "<p>xxxxxxx</p>",
-        "with_text_image": "shopify://shop_images/Holiday_Gift_Guide_2024.png",
-        "about_space_top": 60,
-        "about_space_Bottom": 60,
-        "about_btn": "",
-        "button_link_about": "",
-        "show_about_btn": false,
-        "swap-section": false,
-        "width_increase": false
-      }
     }
   },
   "order": [
     "announcement_bar",
     "header_top_bar",
     "header",
-    "mega_menu",
-    "img_swap_xQDdfR"
+    "mega_menu"
   ]
 }

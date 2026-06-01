@@ -11,13 +11,12 @@
   "sections": {
     "2d094d34-f0ab-483e-86c9-db71a66d5135": {
       "type": "index__image-with-text-overlay",
-      "disabled": true,
       "custom_css": [
         ".container.image-with-text-overlay__container.equal-columns--outside-trim {max-width: 100% !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Move_WS_Web_banner_CLOSED.png",
-        "mobile_image": "shopify://shop_images/Move_WS_Web_banner_CLOSED.png",
+        "image": "shopify://shop_images/Cafe_WS_Web_banner.png",
+        "mobile_image": "shopify://shop_images/Cafe_WS_Web_banner.png",
         "link": "",
         "pretext": "",
         "title": "",
