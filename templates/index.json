@@ -62,25 +62,25 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/bedroom_with_books_FEATURED_75f2bef8-b74c-4763-9edc-12abc79e07f6.jpg",
-        "mobile_image": "shopify://shop_images/bedroom_with_books_FEATURED_75f2bef8-b74c-4763-9edc-12abc79e07f6.jpg",
-        "link": "shopify://blogs/art-amp-lit/wild-summer-reading-family-scandals-survivalist-cabins-and-salamander-dance-parties",
+        "image": "shopify://shop_images/IMG_6663.jpg",
+        "mobile_image": "shopify://shop_images/IMG_6663.jpg",
+        "link": "",
         "pretext": "",
-        "title": "WILD SUMMER READING",
-        "subtitle": "<p>Family scandals, a survivalist cabin, and a hellbender mystery</p>",
+        "title": "TRAVEL + LEISURE",
+        "subtitle": "<p>spotlights some of Roanoke's best places, including our shop.</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
-        "text_alignment": "left",
-        "text_horizontal_position": "left",
+        "text_alignment": "right",
+        "text_horizontal_position": "right",
         "text_vertical_position": "bottom",
         "text_width": 40,
         "background_color": "#c79f4a",
-        "background_opacity": 71,
+        "background_opacity": 74,
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/art-amp-lit/wild-summer-reading-family-scandals-survivalist-cabins-and-salamander-dance-parties",
+        "button_1_link": "https://www.travelandleisure.com/roanoke-virginia-guide-11991587",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,6 +202,21 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/bedroom_with_books_SQUARE.jpg",
+            "mobile_grid_image": "shopify://shop_images/bedroom_with_books_SQUARE.jpg",
+            "link": "shopify://blogs/art-amp-lit/wild-summer-reading-family-scandals-survivalist-cabins-and-salamander-dance-parties",
+            "heading": "WILD SUMMER READING",
+            "text": "with scandals, survivalist cabins, and a hellbender mystery",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
@@ -210,21 +225,6 @@
             "link": "shopify://blogs/history-amp-culture/meet-boojum-bigfoot-s-older-gentler-cryptid-cousin",
             "heading": "MEET BOOJUM",
             "text": "Bigfoot's older, gentler cryptid cousin",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/stream_snorkeling_FEATURED.jpg",
-            "mobile_grid_image": "shopify://shop_images/stream_snorkeling_FEATURED.jpg",
-            "link": "shopify://blogs/art-amp-lit/from-box-turtles-to-bunch-berries-exploring-tiny-species-within-appalachia",
-            "heading": "BOX TURTLES TO BUNCHBERRIES,",
-            "text": "exploring tiny species within Appalachia",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
@@ -265,8 +265,8 @@
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
