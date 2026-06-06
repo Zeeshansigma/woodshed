@@ -83,7 +83,6 @@
         },
         "form": {
           "type": "form",
-          "disabled": true,
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient_form": false
