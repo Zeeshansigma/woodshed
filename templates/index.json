@@ -62,12 +62,12 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/IMG_6663.jpg",
-        "mobile_image": "shopify://shop_images/IMG_6663.jpg",
-        "link": "",
+        "image": "shopify://shop_images/LEAD_06_-_Looking_Glass_Falls_Photo_by_Blackhorse_Studio.jpg",
+        "mobile_image": "shopify://shop_images/LEAD_06_-_Looking_Glass_Falls_Photo_by_Blackhorse_Studio.jpg",
+        "link": "shopify://blogs/outdoors-amp-travel/from-vermont-to-georgia-5-wondrous-waterfalls-that-will-wow-you",
         "pretext": "",
-        "title": "TRAVEL + LEISURE",
-        "subtitle": "<p>spotlights some of Roanoke's best places, including our shop.</p>",
+        "title": "5 WONDROUS WATERFALLS THAT WILL WOW YOU,",
+        "subtitle": "<p>from Vermont to Georgia</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -217,6 +217,21 @@
             "overlay_background_opacity": 0
           }
         },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/IMG_6663_1.jpg",
+            "mobile_grid_image": "shopify://shop_images/IMG_6663_1.jpg",
+            "link": "https://www.travelandleisure.com/roanoke-virginia-guide-11991587",
+            "heading": "TRAVEL + LEISURE",
+            "text": "spotlights our shop and other cool Roanoke spots",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
@@ -229,21 +244,6 @@
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
             "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Bison_Featured.png",
-            "mobile_grid_image": "shopify://shop_images/Bison_Featured.png",
-            "link": "shopify://blogs/history-amp-culture/who-s-bringing-bison-back-to-appalachia-a-rad-indigenous-women-led-group",
-            "heading": "WHO'S BRINGING BISON BACK TO APPALACHIA?",
-            "text": "A rad, Indiginous, women-led group",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
             "overlay_background_opacity": 0
           }
         },
@@ -266,8 +266,8 @@
       },
       "block_order": [
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
