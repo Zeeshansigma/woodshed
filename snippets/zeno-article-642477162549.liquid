@@ -208,7 +208,7 @@
             {% endpaginate %}
           {% else %}
             <div class="zn-no-product">
-              {% if 'MADE IN KENTUCKY' == '' %}
+              {% if collection.handle == blank %}
               Please choose collection to show products from sidebar.
               {% else %}
               No products found. Please add some products to the collection first.
@@ -417,7 +417,7 @@
             {% endpaginate %}
           {% else %}
             <div class="zn-no-product">
-              {% if 'FROM THE EARTH' == '' %}
+              {% if collection.handle == blank %}
               Please choose collection to show products from sidebar.
               {% else %}
               No products found. Please add some products to the collection first.
