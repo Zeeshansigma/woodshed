@@ -208,7 +208,7 @@
             {% endpaginate %}
           {% else %}
             <div class="zn-no-product">
-              {% if 'CRYPTIDS AND CREW' == '' %}
+              {% if collection.handle == blank %}
               Please choose collection to show products from sidebar.
               {% else %}
               No products found. Please add some products to the collection first.
@@ -492,7 +492,7 @@
             {% endpaginate %}
           {% else %}
             <div class="zn-no-product">
-              {% if 'MADE IN NORTH CAROLINA' == '' %}
+              {% if collection.handle == blank %}
               Please choose collection to show products from sidebar.
               {% else %}
               No products found. Please add some products to the collection first.
