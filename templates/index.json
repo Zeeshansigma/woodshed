@@ -62,12 +62,12 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/LEAD_06_-_Looking_Glass_Falls_Photo_by_Blackhorse_Studio.jpg",
-        "mobile_image": "shopify://shop_images/LEAD_06_-_Looking_Glass_Falls_Photo_by_Blackhorse_Studio.jpg",
+        "image": "shopify://shop_images/Train_Mosaic_FEATURED.jpg",
+        "mobile_image": "shopify://shop_images/Train_Mosaic_FEATURED.jpg",
         "link": "shopify://blogs/outdoors-amp-travel/from-vermont-to-georgia-5-wondrous-waterfalls-that-will-wow-you",
         "pretext": "",
-        "title": "5 WONDROUS WATERFALLS THAT WILL WOW YOU,",
-        "subtitle": "<p>from Vermont to Georgia</p>",
+        "title": "FROM COAL MINE TO ART PROJECT:",
+        "subtitle": "<p>The Ruins honors its history with mosaics.</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -80,7 +80,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/outdoors-amp-travel/5-wondrous-waterfalls-that-will-wow-you-from-vermont-to-georgia",
+        "button_1_link": "shopify://blogs/outdoors-amp-travel/from-coal-mine-to-art-project-the-ruins-honors-its-history-with-mosaics",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -202,14 +202,14 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify://shop_images/bedroom_with_books_SQUARE.jpg",
-            "mobile_grid_image": "shopify://shop_images/bedroom_with_books_SQUARE.jpg",
-            "link": "shopify://blogs/art-amp-lit/wild-summer-reading-family-scandals-survivalist-cabins-and-salamander-dance-parties",
-            "heading": "WILD SUMMER READING",
-            "text": "with scandals, survivalist cabins, and a hellbender mystery",
+            "grid_image": "shopify://shop_images/LEAD_06_-_Looking_Glass_Falls_Photo_by_Blackhorse_Studio.jpg",
+            "mobile_grid_image": "shopify://shop_images/LEAD_06_-_Looking_Glass_Falls_Photo_by_Blackhorse_Studio.jpg",
+            "link": "shopify://blogs/outdoors-amp-travel/5-wondrous-waterfalls-that-will-wow-you-from-vermont-to-georgia",
+            "heading": "5 WONDROUS WATERFALLS",
+            "text": "from Vermont to Georgia",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
@@ -232,14 +232,14 @@
             "overlay_background_opacity": 0
           }
         },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
-            "grid_image": "shopify://shop_images/Boojum_5_FEATURED_Website.png",
-            "mobile_grid_image": "shopify://shop_images/Boojum_5_FEATURED_Website.png",
-            "link": "shopify://blogs/history-amp-culture/meet-boojum-bigfoot-s-older-gentler-cryptid-cousin",
-            "heading": "MEET BOOJUM",
-            "text": "Bigfoot's older, gentler cryptid cousin",
+            "grid_image": "shopify://shop_images/bedroom_with_books_SQUARE.jpg",
+            "mobile_grid_image": "shopify://shop_images/bedroom_with_books_SQUARE.jpg",
+            "link": "shopify://blogs/art-amp-lit/wild-summer-reading-family-scandals-survivalist-cabins-and-salamander-dance-parties",
+            "heading": "WILD SUMMER READING",
+            "text": "with scandals, survivalist cabins, and a hellbender mystery",
             "button_label": "SEE MORE",
             "button_style": "button--secondary",
             "text_color": "rgba(0,0,0,0)",
@@ -265,9 +265,9 @@
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
         "ad969059-2d4f-422c-9ed6-8271b95831b7"
       ],
       "custom_css": [
