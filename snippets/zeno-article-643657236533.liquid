@@ -1,0 +1,927 @@
+
+      <div class="zn-container" >
+      
+          <div id="znid-985067905942"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i>TRAIN MOSAIC AT THE RUINS. PHOTO BY VANESSA ORR.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-687681599227"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><p>“Located along the Great Allegheny Passage, it is one of the only places in Appalachia where the coal story is told not in a museum case, but in the walls themselves.” — From The Ruins website</p></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-745939249668"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>You’re cruising down a bike trail, and glance to your left to see a Pittsburgh &amp; Lake Erie train right beside you. But there aren’t any train tracks there; just a tangle of trees and vines. And this train isn’t made of metal. It’s made from thousands of pieces of grey and black tile.</p><p><br></p><p>Surprise. You’ve just discovered The Ruins.</p><p><br></p><p>Nestled in the woods 30 miles southeast of Pittsburgh, Pennsylvania, this unique art installation is comprised of dozens of mosaics and other art projects that honor the place’s history. For 52 years, the site was the Banning #2 coal mine, which employed over 600 miners in its heyday. </p><p><br></p><p>This retired mine has been given new life through the work of mosaic artist Rachel Sager, who has not only created a shining legacy to those who worked in the coal mines of southwestern Pennsylvania, but invited hundreds of artists from all over the world to do the same.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-229335839813"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color" data-border-enable="true"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >ALSO FROM PENNSYLVANIA</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-639423656990"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['made-in-pennsylvania'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 12 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 12 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-067740847756-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-264912362420-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if collection.handle == blank %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-679540080708"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i style="font-weight: normal;">Every purchase helps keep our Appalachian magazine alive and thriving.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-996607736023"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>The daughter, grand-daughter, and great-granddaughter of miners, Sager says she never felt any different than her peers…until she went to college. There, her classmates looked down on the mining industry. They treated coal like it was a four-letter word.</p><p><br></p><p>“It broke me inside,” said Sager. “Coal paid for my college.”</p><p><br></p><p>But Sager refused to feel shame about her past, and years later, she learned about an 11-acre property with a foreclosed home for sale. The home sat beside a former mine, complete with wall after wall made from concrete. “A mosaic artist finding a giant substrate to use as a canvas is the perfect storm,” laughs Sager.</p><p><br></p><p>By bringing her two worlds together — art and coal — she has opened up the stories of Appalachia and its coal-mining history to a much larger audience. Today, The Ruins attracts both national and international attention and not just from visitors. More than 500 artists from over 17 countries have contributed to the ever-evolving outdoor art project.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-351428494624"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/The-Ruins-Beehive-Photo-by-Rachel-Sager-copy-85510601.jpeg" alt="" draggable="false"    />
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-874871458814"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i>RUINS BEEHIVE EXHIBIT. PHOTO BY VANESSA ORR.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-744400307008"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>One of the latest additions to this sprawling experiment is the Ruins Beehive. It alone was created by 200 artists, a lively mix of beginners and experts. Sager put out an open call, inviting artists to submit small hexagons, which came together in a beautiful piece of modern art. Because so many mosaic artists are self-taught and don’t have an art-school background, Sager designed the project to provide an education in color theory as part of an immersive, inclusive experience for the participants.</p><p><br></p><p>But perhaps what is most striking are Sager’s tributes to miners themselves, including an incredibly lifelike mosaic of her father, who owned Sager Coal Company, which operated at a number of sites in southwestern Pennsylvania.  Another group of artists is currently working on a coal miner portrait modeled on a present-day West Virginia mine worker. Together, these art pieces remind visitors that the coal industry is not just part of Appalachia’s past; it’s still alive today. </p><p><br></p><p>Sager is also writing a book about The Ruins, speaks to groups about her unique project, and offers guided tours of the site. They can be booked at www.sagermosaics.com.</p><p><br></p><p>“I just want to keep doing what I’m doing,” she says, referring to the project as her life’s mission. “The Ruins is about excellence in mosaic and great storytelling and honoring the people who worked here.”</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-447115576909"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Rachels-father-85510585.jpg" alt="" draggable="false"    />
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-017983268787"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i>mural of rachel sager's father. photo by vanessa orr.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-027279787931"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="horizontal_line" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-horizontal-line"> 
+          <hr id="" class=""    />
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-520329851846"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >Freelance writer. Road tripper. Travel diva. Dog rescuer. <a href="http://www.vanessaorrink.com/" target="_blank">Vanessa Orr</a> writes for food or Kibbles 'N Bits. Based out of Pittsburgh, Pennsylvania via Juneau, Alaska, she's been a freelance writer for more than 25 years. An avid traveler, she always brings home amazing memories, intriguing stories...and often more dogs.&nbsp;</div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-475919340050"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="8-4 8-4 12-12" data-vertical-align="center" data-border-enable="true" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-8 zn-column-md-8 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-509149617653"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="banner" data-full-width="false" data-effect="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-banner " tabindex="0" role="link"   > 
+          <div class="zn-children-container">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-077182480969"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-589303880821"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-784596302292"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h4 id="" class="zn-heading "   >TINY SPECIES IN APPALACHIA</h4>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-060776498959"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >SEE MORE</div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-4 zn-column-md-4 zn-column-sm-12">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-329722769563"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-border-enable="true" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-537944503539"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><div>NEXT UP</div></h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-995572190308"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="6-6 6-6 6-6" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-347150097795"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/opossum-print">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/OpossumCover-85510343.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-712548402072"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/types-of-butterflies-educational-nature-print">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/butterflyprint-1200x-85510449.webp" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-126786397673"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="button" data-hover-options="false" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-button">
+          
+          
+            
+            
+            <a href="/collections/home-family" target="">
+          
+          <button type="button" id="" class=""   >
+            
+            <div class="zn-button-text">
+              APPALACHIAN ART
+            </div>
+          </button>
+          
+          </a>
+          
+        </div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="page-settings" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="container-style" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="scheduled-publish" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="currency-converter" >
+            <div class="zn-addon zn-lg  ">
+              
+    
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="messenger" >
+            <div class="zn-addon zn-lg  ">
+              
+    <div class="zn-messenger">
+      
+      
+      <div class="fb-customerchat" page_id="" theme_color="#0A7CFF" greeting_dialog_display="hide"></div>
+    </div>
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="announcement-bar" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="lazy-loading" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="color-palette" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="breakpoints" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="custom-css" >
+            
+            
+            
+          </div>
+        
+</div>
