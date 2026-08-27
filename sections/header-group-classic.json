@@ -174,12 +174,45 @@
         "css_class": "",
         "custom_css": ""
       }
+    },
+    "178784823541305ca0": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_9bf0576_cpMDrP": {
+          "type": "ai_gen_block_9bf0576",
+          "settings": {
+            "announcement_text": "<strong>HONOR DOLLY PARTON BY DONATING TO HER NONPROFIT, AND WOODSHED WILL MATCH YOUR DONATION, DOLLAR FOR DOLLAR. </strong>",
+            "link_text": "DONATE NOTE",
+            "link_url": "https://woodshed.life/pages/dolly",
+            "text_font": "raleway_n4",
+            "font_size": 18,
+            "letter_spacing": 1,
+            "text_style": "uppercase",
+            "text_alignment": "center",
+            "desktop_width_percent": 100,
+            "background_color": "#C79F4A",
+            "text_color": "#f7f7f7",
+            "link_color": "#FFFFFF",
+            "link_hover_color": "#d9531e",
+            "link_underline_style": "solid",
+            "link_underline_thickness": 1,
+            "padding_vertical": 15,
+            "padding_horizontal": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9bf0576_cpMDrP"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "announcement_bar",
     "header_top_bar",
     "header",
-    "mega_menu"
+    "mega_menu",
+    "178784823541305ca0"
   ]
 }
