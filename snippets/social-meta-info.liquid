@@ -2,15 +2,35 @@
   Facebook Open Graph meta tags
 {% endcomment %}
 
+{%- liquid
+  assign social_image = null
+  if request.page_type == 'page' and page.metafields.custom.social_share_image != blank
+    assign social_file = page.metafields.custom.social_share_image.value
+    if social_file.image
+      assign social_image = social_file.image
+    else
+      assign social_image = social_file
+    endif
+  endif
+-%}
+
 <meta name="author" content="{{ shop.name }}">
 <meta property="og:url" content="{{ canonical_url }}">
 <meta property="og:site_name" content="{{ shop.name }}">
 
 {%- capture page_image -%}
+{%- if social_image -%}
+  <meta property="og:image" content="https:{{ social_image | img_url: '1200x' }}">
+  <meta property="og:image:secure_url" content="https:{{ social_image | img_url: '1200x' }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ page.title | escape }}">
+{%- else -%}
   <meta property="og:image" content="https:{{ page_image | img_url: '1200x' }}">
   <meta property="og:image:secure_url" content="https:{{ page_image | img_url: '1200x' }}">
   <meta property="og:image:width" content="{{ page_image.width }}">
   <meta property="og:image:height" content="{{ page_image.height }}">
+{%- endif -%}
 {%- endcapture -%}
 
 {%- if template.name == 'product' -%}
@@ -109,7 +129,7 @@
 {%- if settings.twitter_link != blank -%}
   <meta name="twitter:site" content="{{ settings.twitter_link | split: 'twitter.com/' | last | prepend: '@' }}">
 {%- endif -%}
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 {%- if template.name == 'product' -%}
   <meta name="twitter:title" content="{{ product.title }}">
   <meta name="twitter:description" content="{{ product.description | strip_html | truncatewords: 140, '' | escape }}">
