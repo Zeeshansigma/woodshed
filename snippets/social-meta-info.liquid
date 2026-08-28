@@ -102,7 +102,9 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="{{ page.title | strip_html | escape }}">
   {% assign img_tag = '<' | append: 'img' %}
-  {%- if page.content contains img_tag -%}
+  {%- if social_image -%}
+    {{ page_image }}
+  {%- elsif page.content contains img_tag -%}
     {% assign src = page.content | split: 'src="' %}
     {% assign src = src[1] | split: '"' | first | remove: 'https:' | remove: 'http:' %}
     {%- if src -%}
