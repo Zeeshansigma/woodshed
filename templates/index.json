@@ -202,6 +202,37 @@
     "eec3b939-57a9-4622-940d-41d939720352": {
       "type": "grid",
       "blocks": {
+        "ad969059-2d4f-422c-9ed6-8271b95831b7": {
+          "type": "grid_item",
+          "disabled": true,
+          "settings": {
+            "grid_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
+            "mobile_grid_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
+            "link": "shopify://blogs/food-1/pawpaw-cocktail-petticoat",
+            "heading": "WHAT'S BETTER THAN A PAWPAW?",
+            "text": "A pawpaw cocktail.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Train_Mosaic_FEATURED_b865c532-bc3d-4c71-9073-9a4814e93a88.jpg",
+            "mobile_grid_image": "shopify://shop_images/Train_Mosaic_FEATURED_b865c532-bc3d-4c71-9073-9a4814e93a88.jpg",
+            "link": "shopify://blogs/outdoors-amp-travel/from-coal-mine-to-art-project-the-ruins-honors-its-history-with-mosaics",
+            "heading": "TURNING A COAL MINE INTO AN ART PROJECT,",
+            "text": "and honoring history through mosaics.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
@@ -231,44 +262,13 @@
             "overlay_background": "#ffffff",
             "overlay_background_opacity": 0
           }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/bedroom_with_books_SQUARE.jpg",
-            "mobile_grid_image": "shopify://shop_images/bedroom_with_books_SQUARE.jpg",
-            "link": "shopify://blogs/art-amp-lit/wild-summer-reading-family-scandals-survivalist-cabins-and-salamander-dance-parties",
-            "heading": "WILD SUMMER READING",
-            "text": "with scandals, survivalist cabins, and a hellbender mystery",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "rgba(0,0,0,0)",
-            "overlay_background_opacity": 0
-          }
-        },
-        "ad969059-2d4f-422c-9ed6-8271b95831b7": {
-          "type": "grid_item",
-          "disabled": true,
-          "settings": {
-            "grid_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
-            "mobile_grid_image": "shopify://shop_images/pawpaw_cocktail_FEATURED.jpg",
-            "link": "shopify://blogs/food-1/pawpaw-cocktail-petticoat",
-            "heading": "WHAT'S BETTER THAN A PAWPAW?",
-            "text": "A pawpaw cocktail.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
         }
       },
       "block_order": [
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
+        "ad969059-2d4f-422c-9ed6-8271b95831b7",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "ad969059-2d4f-422c-9ed6-8271b95831b7"
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1"
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
