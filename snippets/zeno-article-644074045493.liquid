@@ -1,0 +1,1167 @@
+
+      <div class="zn-container" >
+      
+          <div id="znid-714795499872"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i>PHOTO BY AFF ON ALAMY.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-597969431206"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><p>While Dolly is irreplaceable, generations of artists, philanthropists, business leaders, and everyday folks will follow the trail of rhinestones she left behind.</p></h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-923225859518"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>For mountain people, Dolly Parton was never simply a celebrity. She was proof.</p><p><br></p><p>Proof that leaving Appalachia did not require disowning it. That ambition and generosity could live in the same rhinestone-covered body. That a woman could be funny without becoming a joke, poor without being pitied, and Southern without making herself smaller.</p><p><br></p><p>When Parton died on August 25, 2026, she left behind songs, businesses, books, and an enormous cultural absence. </p><p>“There will never ever be another you,” fellow country legend Reba McEntire wrote on Instagram. </p><p><br></p><p>This simple statement couldn’t be truer. The question is not who replaces Dolly but instead, who carries forward all the amazing things she built.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-354194692651"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color" data-border-enable="true"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >DOLLY DELIGHTS</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-136314155556"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['dolly'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 12 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 12 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-549631727741-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-650846849906-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if collection.handle == blank %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-251699294913"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><span style="font-weight: normal;"><i>Every purchase helps keep our Appalachian magazine alive, thriving, and free to readers like you.</i></span></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-878520355310"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >A NEW TAKE ON APPALACHIA</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-072581897811"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Long before Dolly stepped onto a Nashville stage, popular culture had flattened Appalachia into a handful of tired images: barefoot hillbillies, hopeless poverty, and people stranded somewhere in the past.</p><p><br></p><p>Dolly knew exactly what the world thought of mountain people. She also knew better.</p><p><br></p><p>“They portray mountain people like we are all these dumb barefoot hillbillies,” she once said. “I think country people are the smartest people in the world, and I’ve been everywhere.”</p><p><br></p><p>Rather than run from the hillbilly label, Dolly grabbed hold of it, bedazzled it, and handed it back on her own terms. She never abandoned her accent, softened her childhood, or treated the mountains as something she had escaped. She became a global icon not despite being Appalachian, but as an Appalachian.</p><p><br></p><p>Without her, the region loses its most famous narrator. But the story does not end with her. It belongs now to the writers, musicians, artists, and ordinary mountain folk willing to keep telling it with the same pride and refusal to be simplified.</p><p><br></p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-251444589275"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >A REGIONAL ECONOMY</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-923151873364"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p><span style="font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;">In 1986, Dolly put her name, imagination, and considerable star power behind a small east Tennessee amusement park. Dollywood soon became something much bigger: an economic engine that put food on tables for families across her home county.</span></p><p><span style="font-family: inherit; font-size: inherit; text-align: inherit; letter-spacing: 0px;"><br></span></p><p>Millions of visitors now make their way to Dollywood each year, supporting thousands of jobs as well as the hotels, restaurants, shops, and roadside attractions surrounding it. What Dolly built inside the park gates helped entire communities thrive beyond them.</p><p><br></p><p>And those gates are not closing. In a statement mourning its “Dreamer-in-Chief,” Dollywood announced that the park would remain open because, as Dolly always said, “the show must go on.” The roller coasters will keep climbing, the cinnamon bread will keep baking, and east Tennessee families will keep earning a living from the hometown dream Dolly made real.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-713047722260"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   >ALSO FROM TENNESSEE</h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-612138301831"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="collection" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+            {% assign oriCollection = collection %}
+            {% assign collection = collections['made-in-tennessee'] %} 
+            
+        <div id="" class="zn-collection "   >
+          {% assign productCount = collection.products | size | at_most: 8 %}
+          {% if productCount > 0 %}
+            {% paginate collection.products by 8 %}
+              <div class="zn-products">
+              {% for product in collection.products limit:productCount %}
+                <div class="zn-product zn-element-wrapper" data-type="product">
+                  <div class="zn-product-children">
+                    
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-103585050412-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-product-image"   >
+          {% assign imageLink = '' %}
+
+          {% if product.images.size > 0 %}
+            {% assign imageLink = product.images[0].src | img_url: 'original' %}
+          {% endif %}
+
+          {% assign alternateImageLink = imageLink %}
+          {% if product.images.size > 1 %}
+            {% assign alternateImageLink = product.images[1].src | img_url: 'original' %}
+          {% endif %}
+
+          <div class="zn-product-video"></div>
+
+          {% if imageLink != '' %}
+          {% if true %}
+          <a href="{{product.url}}" class="zn-nodrag">
+          {% else %}
+          <a>
+          {% endif %}
+            {% if 'none' == 'zoom' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            {% if 'none' == 'alternate' %}
+            <img class="zn-secondary-image zn-nodrag" src="{{alternateImageLink}}" alt="{{product.title | escape}}" />
+            {% endif %}
+            <img id="" class=" zn-primary-image zn-nodrag" src="{{imageLink}}" alt="{{product.title | escape}}" />
+          </a>
+          {% else %}
+          <div class="zn-no-image">
+            This product has no images.
+          </div>
+          {% endif %}
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-788423277521-{{forloop.index | minus: 1}}"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="product-title"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <h3 id="" class="zn-product-title "   >
+          {% if true %}
+          <a href="{{product.url}}">
+          {% else %}
+          <a>
+          {% endif %}
+            {{product.title}}
+          </a>
+        </h3>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+
+              {% if 'false' == 'true' %}
+                <div class="zn-pagination">
+                  {% assign prevLink = '' %}
+                  {% if paginate.current_page > 1 %}
+                    {% assign prevPage = paginate.current_page | minus: 1 %}
+                    {% assign prevLink = '?page=' | append: prevPage %}
+                  {% endif %}
+
+                  {% assign nextLink = '' %}
+                  {% if paginate.current_page < paginate.pages %}
+                    {% assign nextPage = paginate.current_page | plus: 1 %}
+                    {% assign nextLink = '?page=' | append: nextPage %}
+                  {% endif %}
+
+                  <a class="zn-pagination-prev" {% if prevLink != '' %} href="{{prevLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <div class="zn-pagination-page">
+                    {{ paginate.current_page }}
+                  </div>
+                  <a class="zn-pagination-next" {% if nextLink != '' %} href="{{nextLink}}" {% endif %}>
+                    <svg viewBox="0 0 10 6" style="transform: rotate(-90deg); transform-origin: center;">
+                      <path d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              {% endif %}
+            {% endpaginate %}
+          {% else %}
+            <div class="zn-no-product">
+              {% if collection.handle == blank %}
+              Please choose collection to show products from sidebar.
+              {% else %}
+              No products found. Please add some products to the collection first.
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+       
+            {% assign collection = oriCollection %}
+          
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-572272709308"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading" data-background-type="color"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h5 id="" class="zn-heading "   ><i style="font-weight: normal;">Every purchase helps keep our Appalachian magazine alive, thriving, and free to readers like you.</i></h5>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-484633159816"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >A BLUEPRINT FOR SOUTHERN WOMANHOOD</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-151024405331"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Dolly built a version of Southern womanhood roomy enough to hold apparent contradictions. </p><p><br></p><p>She was glamorous and shrewd, gracious and unyielding, deeply rooted in tradition and entirely self-invented. People saw the wigs, curves, and rhinestones and sometimes missed the formidable businesswoman underneath. Dolly rarely corrected them. Being underestimated could be useful.</p><p><br></p><p>But she knew exactly what her work was worth. She left Porter Wagoner to build a solo career and famously refused to let Elvis Presley record “I Will Always Love You” when his manager demanded half the publishing rights. Later, she turned “9 to 5” into a gleeful battle cry for working women tired of lousy pay and lecherous bosses.</p><p><br></p><p>Dolly hesitated to claim the feminist label, but she never hesitated to claim control over her body, work, and money. “I think women should be treated equally, and I’m going to see to it that I am,” she said in a 2002 interview.&nbsp;</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-874267344930"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >A GLOBAL LITERACY MOVEMENT</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-102859797513"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>What began in 1995 as a book-gifting program for children in Dolly’s Sevier County has grown into an international literacy movement. Dolly Parton’s Imagination Library has now mailed more than 330 million books to children around the world.</p><p><br></p><p>The idea was inspired by her father, Lee Parton, whom Dolly described as one of the smartest people she had ever known. He could not read or write, and she believed that inability had kept him from fulfilling some of his dreams.</p><p><br></p><p>“Before he passed away, my Daddy told me the Imagination Library was probably the most important thing I had ever done,” she said. That praise meant more to her than just about any award.</p><p><br></p><p>Today, the “Book Lady,” as children began to call her, may be gone, but the books will keep coming, carrying Dolly’s dream into millions of homes around the world. “The work ahead has never felt more meaningful,” the Dollywood Foundation said in an online statement, “and we will carry it forward as she lifts us all up.”</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-141043440746"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   >A GENRE-BENDING ERA FOR COUNTRY MUSIC</h3>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-779314668055"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><p>Dolly stretched country music’s borders without snapping its Appalachian roots. She could turn acrylic fingernails into percussion as she did when she conceived the song “9 to 5,” a one-room cabin into a universal story of striving and success, and a farewell song to Porter Wagoner — “I Will Always Love You” — into one of the most enduring love ballads ever written.</p><p><br></p><p>Her influence traveled far beyond country radio. Whitney Houston’s version of “I Will Always Love You” became a pop juggernaut, while “Jolene” has been reimagined by everyone from The White Stripes to Beyoncé. Dolly herself released a disco album in 1978 and a rock album in 2023, plus many of her songs saw dance remixes. </p><p><br></p><p>Yet, through it all, Dolly proved that crossing genres did not require sanding away her accent, abandoning her roots, or becoming less recognizably herself. The country music industry she leaves behind is bigger, quirkier, and more welcoming because she passed through it. </p><p><br></p><p>While no one should be called “the next Dolly Parton,” musically or otherwise, generations of artists, philanthropists, business leaders, and everyday folks will follow the trail of rhinestones she left behind.</p></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-113017362406"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="horizontal_line" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-horizontal-line"> 
+          <hr id="" class=""    />
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-953155183616"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   ><div id="znid-983976489376" data-type="text"><div><div id=""><div id="znid-657733542649" data-type="text" data-background-type="none" data-border-enable="false" data-shadow-enable="false" data-text-shadow-enable="false"><div><div>Lauren Stepp is a lifestyle journalist from the mountains of North Carolina. She writes about everything from fifth-generation apple farmers to mixed-media artists, publishing her work in magazines across the Southeast. In her spare time, Lauren mountain bikes, reads gritty southern fiction, and drops her g's.</div></div></div></div></div></div></div>
+            </div>
+            
+            
+          </div>
+        
+
+          <div id="znid-916722865435"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="8-4 8-4 12-12" data-vertical-align="center" data-border-enable="true" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-8 zn-column-md-8 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-179531889310"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="banner" data-full-width="false" data-effect="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div id="" class="zn-banner " tabindex="0" role="link"   > 
+          <div class="zn-children-container">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-005023186604"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-165232888305"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-750061706879"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h4 id="" class="zn-heading "   >WHY DOLLY IS APPALACHIA'S PATRON SAINT</h4>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-180292561505"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="text"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <div id="" class="zn-text "   >SEE MORE</div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-4 zn-column-md-4 zn-column-sm-12">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-232649189210"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="12 12 12" data-background-type="color" data-border-enable="true" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-12 zn-column-md-12 zn-column-sm-12">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-290491976809"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="heading"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              <h3 id="" class="zn-heading "   ><div>NEXT UP</div></h3>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-369623755498"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="row" data-layout="6-6 6-6 6-6" data-full-width="false" data-vertical-align="top"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-row " id="" data-reverse-lg="false" data-reverse-md="false" data-reverse-sm="false"   >
+          
+
+          
+          
+
+          
+          
+
+          
+          
+
+          
+
+          
+          <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+            
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-880741325306"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/johnny-cash-the-life-in-lyrics">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Johnny-Cash-Life-in-Lyrics-88710563.jpg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+            <div class="zn-column zn-column-lg-6 zn-column-md-6 zn-column-sm-6">
+              
+            <div class="zn-children">
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-310041960786"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="image" data-filter="none"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-image">
+          
+          
+          <a href="/products/southern-from-scratch">
+          
+          <img id="" class=" zn-nodrag" src="https://media.zenobuilder.com/upload/sp-9949/Cash-and-Carter-Family-Cookbook-88710552.jpeg" alt="" draggable="false"    />
+          
+          </a>
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+                <div class="zn-child">
+                  <div class="zn-template">
+                    
+          <div id="znid-227956527902"
+            class="zn-element-wrapper 
+                
+              " 
+            data-type="button" data-hover-options="false" data-full-width="false"
+            
+          >
+            <div class="zn-element zn-lg  ">
+              
+        <div class="zn-button">
+          
+          
+            
+            
+            <a href="https://woodshed.life/search?type=product,page,article&q=lindera*" target="">
+          
+          <button type="button" id="" class=""   >
+            
+            <div class="zn-button-text">
+              JOHNNY AND JUNE
+            </div>
+          </button>
+          
+          </a>
+          
+        </div>
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+          </div>
+         
+          
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+                  </div>
+                </div>
+              
+            </div>
+          
+            </div>
+          
+
+          
+          
+
+          
+          
+        </div>
+      
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="page-settings" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="container-style" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="scheduled-publish" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="currency-converter" >
+            <div class="zn-addon zn-lg  ">
+              
+    
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="messenger" >
+            <div class="zn-addon zn-lg  ">
+              
+    <div class="zn-messenger">
+      
+      
+      <div class="fb-customerchat" page_id="" theme_color="#0A7CFF" greeting_dialog_display="hide"></div>
+    </div>
+  
+            </div>
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="announcement-bar" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="lazy-loading" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="color-palette" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="breakpoints" >
+            
+            
+            
+          </div>
+        
+
+          <div class="zn-addon-wrapper" type="custom-css" >
+            
+            
+            
+          </div>
+        
+</div>
