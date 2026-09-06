@@ -62,12 +62,12 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Dolly_Angel_cropped.jpg",
-        "mobile_image": "shopify://shop_images/Dolly_Angel_cropped.jpg",
-        "link": "shopify://blogs/outdoors-amp-travel/from-vermont-to-georgia-5-wondrous-waterfalls-that-will-wow-you",
+        "image": "shopify://shop_images/Dolly_Sign_AFF_on_Alamy_FEATURED_abbe32cc-8518-40ce-9553-86e01ab8b4af.jpg",
+        "mobile_image": "shopify://shop_images/Dolly_Sign_AFF_on_Alamy_FEATURED_abbe32cc-8518-40ce-9553-86e01ab8b4af.jpg",
+        "link": "shopify://blogs/history-amp-culture/dolly-parton-built-big-things-what-happens-to-them-now",
         "pretext": "",
-        "title": "8 TIMES DOLLY PROVED",
-        "subtitle": "<p>she's the patron saint of Appalachia.</p>",
+        "title": "DOLLY BUILT BIG THINGS.",
+        "subtitle": "<p>What happens to them now?</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -218,6 +218,21 @@
             "overlay_background_opacity": 0
           }
         },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Dolly_Angel_square.jpg",
+            "mobile_grid_image": "shopify://shop_images/Dolly_Angel_square.jpg",
+            "link": "shopify://blogs/history-amp-culture/8-times-dolly-parton-proved-she-s-the-patron-saint-of-appalachia",
+            "heading": "8 TIMES DOLLY PROVED",
+            "text": "she's the patron saint of Appalachia.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3": {
           "type": "grid_item",
           "settings": {
@@ -247,28 +262,13 @@
             "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 0
           }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/IMG_6663_1.jpg",
-            "mobile_grid_image": "shopify://shop_images/IMG_6663_1.jpg",
-            "link": "https://www.travelandleisure.com/roanoke-virginia-guide-11991587",
-            "heading": "TRAVEL + LEISURE",
-            "text": "spotlights our shop and other cool Roanoke spots.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
         }
       },
       "block_order": [
         "ad969059-2d4f-422c-9ed6-8271b95831b7",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1"
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2"
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
@@ -1171,7 +1171,7 @@
     "index_featured_collection_9faLUT": {
       "type": "index__featured-collection",
       "settings": {
-        "title": "DOLLY GOODS",
+        "title": "DOLLY DELIGHTS",
         "collection": "dolly",
         "products_per": 4,
         "products_limit": 50,
