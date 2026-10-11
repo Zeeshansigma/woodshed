@@ -62,12 +62,12 @@
     "index_image_with_text_overlay_dJAFJU": {
       "type": "index__image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Helene_Birds_FEATURED.png",
-        "mobile_image": "shopify://shop_images/Helene_Birds_FEATURED.png",
+        "image": "shopify://shop_images/From_Cherry_Springs_State_Park_FEATURED.jpg",
+        "mobile_image": "shopify://shop_images/From_Cherry_Springs_State_Park_FEATURED.jpg",
         "link": "",
         "pretext": "",
-        "title": "IN 2024, HURRICANE HELENE TORE FORESTS UP.",
-        "subtitle": "<p>Then a rare bird returned.</p>",
+        "title": "STELLAR PLACES TO STARGAZE",
+        "subtitle": "<p>across Appalachia</p>",
         "pretext_color": "#ffffff",
         "heading_color": "#ffffff",
         "subheading_color": "#ffffff",
@@ -80,7 +80,7 @@
         "border_color": "#ffffff",
         "border_width": 4,
         "button_1": "SEE MORE",
-        "button_1_link": "shopify://blogs/outdoors-amp-travel/in-2024-hurricane-helene-tore-forests-up-then-a-rare-bird-returned",
+        "button_1_link": "shopify://blogs/outdoors-amp-travel/stellar-places-to-stargaze",
         "button_1_style": "button--primary",
         "button_2": "",
         "button_2_link": "",
@@ -218,6 +218,21 @@
             "overlay_background_opacity": 0
           }
         },
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
+          "type": "grid_item",
+          "settings": {
+            "grid_image": "shopify://shop_images/Helene_Birds_FEATURED_a8372321-60c0-4728-a780-d681388ba486.png",
+            "mobile_grid_image": "shopify://shop_images/Helene_Birds_FEATURED_a8372321-60c0-4728-a780-d681388ba486.png",
+            "link": "shopify://blogs/outdoors-amp-travel/in-2024-hurricane-helene-tore-forests-up-then-a-rare-bird-returned",
+            "heading": "HURRICANE HELENE TORE FORESTS UP.",
+            "text": "Then a rare bird returned.",
+            "button_label": "SEE MORE",
+            "button_style": "button--secondary",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_background": "#ffffff",
+            "overlay_background_opacity": 0
+          }
+        },
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2": {
           "type": "grid_item",
           "settings": {
@@ -247,28 +262,13 @@
             "overlay_background": "rgba(0,0,0,0)",
             "overlay_background_opacity": 0
           }
-        },
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1": {
-          "type": "grid_item",
-          "settings": {
-            "grid_image": "shopify://shop_images/Dolly_Angel_square.jpg",
-            "mobile_grid_image": "shopify://shop_images/Dolly_Angel_square.jpg",
-            "link": "shopify://blogs/history-amp-culture/8-times-dolly-parton-proved-she-s-the-patron-saint-of-appalachia",
-            "heading": "8 TIMES DOLLY PROVED",
-            "text": "she's the patron saint of Appalachia.",
-            "button_label": "SEE MORE",
-            "button_style": "button--secondary",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_background": "#ffffff",
-            "overlay_background_opacity": 0
-          }
         }
       },
       "block_order": [
         "ad969059-2d4f-422c-9ed6-8271b95831b7",
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1",
         "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-2",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3",
-        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-1"
+        "template--15559433158709__eec3b939-57a9-4622-940d-41d939720352-grid_item-3"
       ],
       "custom_css": [
         ".section--grid-section .grid-item__heading {font-size: 20px;}",
